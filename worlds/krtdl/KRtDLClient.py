@@ -300,7 +300,7 @@ class KRtDLContext(CommonContext):
     notification_manager: NotificationManager
     dolphin_bridge: DolphinBridge
     items_handling = 0b111
-    dolphin_sync_task = Optional[asyncio.Task[Any]] = None
+    dolphin_sync_task: Optional[asyncio.Task[Any]] = None
     connection_state = ConnectionState.DISCONNECTED
     slot_data: Dict[str, Utils.Any] = {}
     death_link_enabled = False
