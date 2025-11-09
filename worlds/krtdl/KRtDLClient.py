@@ -310,8 +310,8 @@ class KRtDLContext(CommonContext):
 
     def __init__(self, server_address: str, password: str, krtdl_file: Optional[str] = None):
         super().__init__(server_address, password)
-        self.game_interface = DolphinBridge(logger)
-        self.notification_manager = NotificationManager(HUD_MESSAGE_DURATION, self.game_interface.send_hud_message)
+        self.dolphin_bridge = DolphinBridge(logger)
+        self.notification_manager = NotificationManager(HUD_MESSAGE_DURATION, self.dolphin_bridge.send_hud_message)
         self.krtdl_file = krtdl_file
     
     async def server_auth(self, password_requested: bool = False):
@@ -386,7 +386,7 @@ async def dolphin_sync_task(ctx: KRtDLContext):
 
     while not ctx.exit_event.is_set():
         try:
-            connection_state = ctx.DolphinBridge.get_connection_state()
+            connection_state = ctx.dolphin_bridge.get_connection_state()
             update_connection_status(ctx, connection_state)
             if connection_state == ConnectionState.IN_MENU:
                 await handle_check_goal_complete(
