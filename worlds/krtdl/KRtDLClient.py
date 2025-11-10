@@ -596,7 +596,7 @@ def launch():
 
         await ctx.shutdown()
 
-        if ctx.dolphin_task:
+        if ctx.dolphin_sync_task:
             await asyncio.sleep(3)
             await ctx.dolphin_sync_task
 
