@@ -184,6 +184,10 @@ class FoodSanity(Toggle):
     """Turns all guaranteed Food items (ones not gained from Flowers and exluding Maxim Tomatoes) into checks."""
     display_name = "Foodsanity"
 
+class FlowerSanity(Toggle):
+    """Turns all flower pickups into checks."""
+    display_name = "Flowersanity"
+
 class OneUpSanity(Toggle):
     """Turns all 1-Ups into checks."""
     display_name = "1-Upsanity"
@@ -197,6 +201,9 @@ class ExtraSanity(Toggle):
     [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND COULD REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
     display_name = "Extrasanity"
+
+
+
 
 class TrapChance(Range):
     """The chance for any junk item in the pool to be replaced by a trap."""
@@ -267,6 +274,7 @@ class KRtDLOptions(PerGameCommonOptions):
     red_star_sanity: RedStarSanity
     blue_star_sanity: BlueStarSanity
     food_sanity: FoodSanity
+    flower_sanity: FlowerSanity
     one_up_sanity: OneUpSanity
     maxim_sanity: MaximSanity
     extra_sanity: ExtraSanity
@@ -321,6 +329,7 @@ krtdl_option_groups = [
          RedStarSanity, 
          BlueStarSanity, 
          FoodSanity, 
+         FlowerSanity,
          OneUpSanity, 
          MaximSanity,
          ExtraSanity],
