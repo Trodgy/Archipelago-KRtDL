@@ -25,15 +25,22 @@ item_table: dict[str, ItemData] = {
     ItemNames.gold_star.value: ItemData(ItemNames.gold_star.value, 0, ItemClassification.filler),
     ItemNames.red_star.value: ItemData(ItemNames.red_star.value, 1, ItemClassification.filler),
     ItemNames.blue_star.value: ItemData(ItemNames.blue_star.value, 2, ItemClassification.filler),
+    ItemNames.flower.value: ItemData(ItemNames.flower.value, 3, ItemClassification.filler),
 
     # useful items
-    ItemNames.one_up.value: ItemData(ItemNames.one_up.value, 3, ItemClassification.useful),
-    ItemNames.food_pickup.value: ItemData(ItemNames.food_pickup.value, 13, ItemClassification.useful),
-    ItemNames.m_tomato.value: ItemData(ItemNames.m_tomato.value, 14, ItemClassification.useful),
+    ItemNames.one_up.value: ItemData(ItemNames.one_up.value, 4, ItemClassification.useful),
+    ItemNames.food_pickup.value: ItemData(ItemNames.food_pickup.value, 5, ItemClassification.useful),
+    ItemNames.m_tomato.value: ItemData(ItemNames.m_tomato.value, 6, ItemClassification.useful),
 
     # progression items
-    ItemNames.energy_sphere.value: ItemData(ItemNames.energy_sphere.value, 24, ItemClassification.progression, 120),
-    ItemNames.energy_sphere_ex.value: ItemData(ItemNames.energy_sphere_ex.value, 25, ItemClassification.progression, 120),
+    ItemNames.energy_sphere.value: ItemData(ItemNames.energy_sphere.value, 7, ItemClassification.progression, 120),
+    ItemNames.energy_sphere_ex.value: ItemData(ItemNames.energy_sphere_ex.value, 8, ItemClassification.progression, 120),
+    
+    
+    
+    
+    
+    
     ItemNames.lor_oars.value: ItemData(ItemNames.lor_oars.value, 26, ItemClassification.progression, 1),
     ItemNames.lor_rwing.value: ItemData(ItemNames.lor_rwing.value, 27, ItemClassification.progression, 1),
     ItemNames.lor_lwing.value: ItemData(ItemNames.lor_lwing.value, 28, ItemClassification.progression, 1),
