@@ -7,7 +7,7 @@ BaseLocationID = 24102011 + 40
 class KRtDLLocations(Location):
     game: str = "Kirby's Return to Dream Land"
 
-StageNames = {
+StageNames = [
     "Cookie Country Stage 1 ",
     "Cookie Country Stage 2 ",
     "Cookie Country Stage 3 ",
@@ -49,15 +49,7 @@ StageNames = {
     "Another Dimension Part 2 ",
     "Another Dimension Boss ",
     "Another Dimension Final Boss "
-}
-
-PartNames = {
-    "Lor Starcutter Oars",
-    "Lor Starcutter Right Wing",
-    "Cookie Country Stage 3",
-    "Cookie Country Stage 4",
-    "Cookie Country Stage 5",
-}
+]
 
 locationincrement = 0
 stage_completion_table = {}
