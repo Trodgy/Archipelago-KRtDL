@@ -328,18 +328,18 @@ energy_sphere_table = {
 
 locationincrement = 310
 
-part_sphere_table = {
-    StageNames[4] + "- Part Sphere": BaseLocationID + locationincrement,
-    StageNames[9] + "- Part Sphere": BaseLocationID + locationincrement + 1,
-    StageNames[14] + "- Part Sphere": BaseLocationID + locationincrement + 2,
-    StageNames[20] + "- Part Sphere": BaseLocationID + locationincrement + 3,
-    StageNames[26] + "- Part Sphere": BaseLocationID + locationincrement + 4,
-    "EX " + StageNames[4] + "- Part Sphere": BaseLocationID + locationincrement + 5,
-    "EX " + StageNames[9] + "- Part Sphere": BaseLocationID + locationincrement + 6,
-    "EX " + StageNames[14] + "- Part Sphere": BaseLocationID + locationincrement + 7,
-    "EX " + StageNames[20] + "- Part Sphere": BaseLocationID + locationincrement + 8,
-    "EX " + StageNames[26] + "- Part Sphere": BaseLocationID + locationincrement + 9,
-}
+#this sucks fix it later lol
+part_sphere_table = {}
+part_sphere_table[StageNames[4] + "- Part Sphere"] = BaseLocationID + locationincrement
+part_sphere_table[StageNames[9] + "- Part Sphere"] = BaseLocationID + locationincrement + 1
+part_sphere_table[StageNames[14] + "- Part Sphere"] = BaseLocationID + locationincrement + 2
+part_sphere_table[StageNames[20] + "- Part Sphere"] = BaseLocationID + locationincrement + 3
+part_sphere_table[StageNames[26] + "- Part Sphere"] = BaseLocationID + locationincrement + 4
+part_sphere_table["EX " + StageNames[4] + "- Part Sphere"] = BaseLocationID + locationincrement + 5
+part_sphere_table["EX " + StageNames[9] + "- Part Sphere"] = BaseLocationID + locationincrement + 6
+part_sphere_table["EX " + StageNames[14] + "- Part Sphere"] = BaseLocationID + locationincrement + 7
+part_sphere_table["EX " + StageNames[20] + "- Part Sphere"] = BaseLocationID + locationincrement + 8
+part_sphere_table["EX " + StageNames[26] + "- Part Sphere"] = BaseLocationID + locationincrement + 9
 
 locationincrement += 10
 
