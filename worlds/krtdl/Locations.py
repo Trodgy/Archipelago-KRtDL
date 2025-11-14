@@ -431,6 +431,12 @@ for i in health_pickup_table.keys():
 for i in maxim_tomato_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in challenge_table.keys():
+    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in subgame_table.keys():
+    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 composite_location: dict[str, int] = {
     **stage_completion_table,
