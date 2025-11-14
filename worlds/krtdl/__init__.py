@@ -100,7 +100,7 @@ class KRtDLWorld(World):
 
     game = "Kirby's Return to Dream Land"
     web = KRtDLWeb()
-    required_client_version = (0, 6, 4)
+    required_client_version = (0, 0, 0)
     options_dataclass = KRtDLOptions
     options: KRtDLOptions
     topology_present = True
