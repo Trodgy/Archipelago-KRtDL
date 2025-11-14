@@ -33,12 +33,12 @@ class EnergySphereHuntRequirement(Range):
     range_end = 240
     default = 80
 
-class ShuffleEnergySpheres(Toggle):
+class ShuffleEnergySpheres(DefaultOnToggle):
     """Shuffles all energy spheres into other locations.
     [Total checks added: 120]"""
     display_name = "Shuffle Energy Spheres"
 
-class ShufflePartSpheres(Toggle):
+class ShufflePartSpheres(DefaultOnToggle):
     """Shuffles all Part Spheres into other locations.
     [May cause BKs related to the Lor Starcutter]
     [Total checks added: 5]"""
@@ -143,7 +143,6 @@ class StartInExtraGame(Toggle):
 
 
 
-
 class ShuffleStages(Choice):
     """Shuffles the game's stages around.
     
@@ -159,6 +158,16 @@ class ShuffleBossStages(Toggle):
     """Shuffles the game's boss stages around.
     [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]"""
     display_name = "Shuffle Boss Stages"
+
+class LockBossStages(Toggle):
+    """Makes Boss Stages require Energy Spheres to unlock instead of stage completions."""
+    display_name = "Boss Stage locks"   
+
+
+
+# add individual requirement ranges here
+
+
 
 class ShuffleCookieCountry(DefaultOnToggle):
     """If enabled, allows Cookie Country to be shuffled with other worlds."""
@@ -191,7 +200,7 @@ class ShuffleDangerousDinner(DefaultOnToggle):
 
 
 
-class ShuffleCopyAbilities(Toggle):
+class ShuffleCopyAbilities(DefaultOnToggle):
     """Requires individual Copy Abilities to be unlocked to be able to obtain them."""
     display_name = "Shuffle Copy Abilities"
 
