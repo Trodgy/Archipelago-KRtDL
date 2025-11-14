@@ -387,10 +387,27 @@ locationincrement += 1
 maxim_tomato_table[StageNames[10] + "- M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
 
-subgame_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
+challenge_table = {}
+for i in ChallengeNames:
+    challenge_table[i + "- Bronze"] = BaseLocationID + locationincrement
+    locationincrement += 1
+    challenge_table[i + "- Silver"] = BaseLocationID + locationincrement
+    locationincrement += 1
+    challenge_table[i + "- Gold"] = BaseLocationID + locationincrement
+    locationincrement += 1
+    challenge_table[i + "- Platinum"] = BaseLocationID + locationincrement
+    locationincrement += 1
+
+SubgameNames = ["Ninja Dojo ","Scope Shot "]
+subgame_table = {}
+for i in SubgameNames:
+    subgame_table[i + "- Level 1"] = BaseLocationID + locationincrement
+    locationincrement += 1
+    subgame_table[i + "- Level 2"] = BaseLocationID + locationincrement
+    locationincrement += 1
+    subgame_table[i + "- Level 3"] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 extra_sanity_table = {}
 for i in gold_star_table.keys():
