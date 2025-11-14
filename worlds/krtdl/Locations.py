@@ -394,33 +394,110 @@ for i in range(1,5): #Onion Ocean 1
     locationincrement += 1
 
 blue_star_table = {}
-blue_star_table[StageNames[1] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+blue_star_table[StageNames[1] + "- Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
-blue_star_table[StageNames[5] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+blue_star_table[StageNames[5] + "- Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 for i in range(1,2): #Onion Ocean 1
     red_star_table[StageNames[0] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-flower_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+flower_table = {}
+for i in range(1,16):
+    red_star_table[StageNames[0] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4):
+    red_star_table[StageNames[1] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4):
+    red_star_table[StageNames[2] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,33):
+    red_star_table[StageNames[3] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,9):
+    red_star_table[StageNames[5] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,13):
+    red_star_table[StageNames[6] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4):
+    red_star_table[StageNames[7] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,35):
+    red_star_table[StageNames[10] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
-one_up_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+one_up_table = {}
+one_up_table[StageNames[0] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[2] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[3] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[5] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[6] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2):
+    red_star_table[StageNames[7] + "- 1-up " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+one_up_table[StageNames[8] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,3):
+    red_star_table[StageNames[10] + "- 1-up " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
-health_pickup_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+health_pickup_table = {}
+for i in range(1,11):
+    red_star_table[StageNames[0] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,6):
+    red_star_table[StageNames[1] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5):
+    red_star_table[StageNames[2] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,9):
+    red_star_table[StageNames[3] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,9):
+    red_star_table[StageNames[5] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,6):
+    red_star_table[StageNames[6] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8):
+    red_star_table[StageNames[7] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,15):
+    red_star_table[StageNames[8] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,15):
+    red_star_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
-maxim_tomato_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+maxim_tomato_table = {}
+maxim_tomato_table[StageNames[0] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[1] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,3):
+    red_star_table[StageNames[3] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+maxim_tomato_table[StageNames[4] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2):
+    red_star_table[StageNames[6] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+maxim_tomato_table[StageNames[7] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[8] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[9] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[10] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 subgame_table = {
     # not entirely sure how to handle this yet.
