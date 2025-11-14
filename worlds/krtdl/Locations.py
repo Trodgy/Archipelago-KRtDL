@@ -49,7 +49,7 @@ StageNames = {
     "Another Dimension Part 2 ",
     "Another Dimension Boss ",
     "Another Dimension Final Boss "
-}:
+}
 
 PartNames = {
     "Lor Starcutter Oars",
@@ -57,7 +57,7 @@ PartNames = {
     "Cookie Country Stage 3",
     "Cookie Country Stage 4",
     "Cookie Country Stage 5",
-}:
+}
 
 locationincrement = 0
 stage_completion_table = {}
