@@ -443,6 +443,7 @@ composite_location: dict[str, int] = {
     **one_up_table,
     **health_pickup_table,
     **maxim_tomato_table,
+    **challenge_table,
     **subgame_table,
     **extra_sanity_table
 }
