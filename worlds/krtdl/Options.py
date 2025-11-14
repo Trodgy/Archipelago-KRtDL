@@ -44,6 +44,45 @@ class ShufflePartSpheres(Toggle):
     [Total checks added: 5]"""
     display_name = "Shuffle Part Spheres"
 
+class ShuffleChallenges(Choice):
+    """Turns challenge medals into checks. 
+    One for Bronze, Silver and Gold.
+    
+    Off - No checks from challenges.
+    On - Checks from challenges.
+    Platinum - Platinum ranks give checks."""    
+    display_name = "Shuffle Challenges"
+    default = 0
+    option_challenges_off = 0
+    option_challenges_on = 1
+    option_chalenges_platinum = 2
+    
+class ChallengeEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a challenge."""
+    display_name = "Challenge max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 120
+
+class ShuffleSubgames(Toggle):
+    """Turns Subgame level completions into checks. 
+    One for levels 1, 2 and 3."""  
+    display_name = "Shuffle Subgames"
+    
+class SubgameEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a Subgame."""
+    display_name = "Subgame max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 40
+
+class CopyAbilityRoomEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a Copy Ability room."""
+    display_name = "Copy Ability room max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 40
+
 class ShuffleEnemies(Choice):
     """Shuffles the game's enemies around excluding Another Dimension.
     
@@ -90,8 +129,13 @@ class StartWithAllWorlds(Toggle):
     display_name = "Start with all Worlds"
 
 class StartWithAllStages(Toggle):
-    """Unlocks all of the non-boss stages from the start. Beating all of a level's stages unlocks the boss stage slot."""
+    """Unlocks all of the non-boss stages from the start. 
+    Beating all of a level's stages unlocks the boss stage slot."""
     display_name = "Start with all Stages"
+
+class StartWithLor(Toggle):
+    """Unlocks the Lor Starcutter from the start (all 5 parts), allowing you to travel between Popstar and Halcandra immediately."""
+    display_name = "Start with Lor Starcutter" 
 
 class StartInExtraGame(Toggle):
     """Choose whether or not the run starts in Extra Mode"""
