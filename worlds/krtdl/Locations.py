@@ -63,9 +63,9 @@ locationincrement = 0
 stage_completion_table = {}
 for i in StageNames:
     if i != "Another Dimension Part 1" and i != "Another Dimension Part 2":
-        stage_completion_table.append(i + " - Complete": BaseLocationID + locationincrement)
+        stage_completion_table[i + " - Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
-        stage_completion_table.append("EX " + i + " - Complete": BaseLocationID + locationincrement)
+        stage_completion_table["EX " + i + " - Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
 #should end at ID 68
 
