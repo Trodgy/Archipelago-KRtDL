@@ -329,43 +329,47 @@ energy_sphere_table = {
 locationincrement = 310
 
 part_sphere_table = {
-    LocationNames.stage1_5.value + "- Part Sphere": BaseLocationID + locationincrement,
-    LocationNames.stage2_5.value + "- Part Sphere": BaseLocationID + locationincrement + 1,
-    LocationNames.stage3_5.value + "- Part Sphere": BaseLocationID + locationincrement + 2,
-    LocationNames.stage4_6.value + "- Part Sphere": BaseLocationID + locationincrement + 3,
-    LocationNames.stage5_6.value + "- Part Sphere": BaseLocationID + locationincrement + 4,
-    "EX " + LocationNames.stage1_5.value + "- Part Sphere": BaseLocationID + locationincrement + 5,
-    "EX " + LocationNames.stage2_5.value + "- Part Sphere": BaseLocationID + locationincrement + 6,
-    "EX " + LocationNames.stage3_5.value + "- Part Sphere": BaseLocationID + locationincrement + 7,
-    "EX " + LocationNames.stage4_6.value + "- Part Sphere": BaseLocationID + locationincrement + 8,
-    "EX " + LocationNames.stage5_6.value + "- Part Sphere": BaseLocationID + locationincrement + 9,
+    StageNames[4] + "- Part Sphere": BaseLocationID + locationincrement,
+    StageNames[9] + "- Part Sphere": BaseLocationID + locationincrement + 1,
+    StageNames[14] + "- Part Sphere": BaseLocationID + locationincrement + 2,
+    StageNames[20] + "- Part Sphere": BaseLocationID + locationincrement + 3,
+    StageNames[26] + "- Part Sphere": BaseLocationID + locationincrement + 4,
+    "EX " + StageNames[4] + "- Part Sphere": BaseLocationID + locationincrement + 5,
+    "EX " + StageNames[9] + "- Part Sphere": BaseLocationID + locationincrement + 6,
+    "EX " + StageNames[14] + "- Part Sphere": BaseLocationID + locationincrement + 7,
+    "EX " + StageNames[20] + "- Part Sphere": BaseLocationID + locationincrement + 8,
+    "EX " + StageNames[26] + "- Part Sphere": BaseLocationID + locationincrement + 9,
 }
+
 locationincrement += 10
 
 gold_star_table = {}
-for i in range(0,56):
-    gold_star_table[LocationNames.stage1_1.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+for i in range(0,56): #Cookie Country 1
+    gold_star_table[StageNames[0] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,31):
-    gold_star_table[LocationNames.stage1_2.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[1] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,48):
-    gold_star_table[LocationNames.stage1_3.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[2] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,81):
-    gold_star_table[LocationNames.stage1_4.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[3] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(0,46):
-    gold_star_table[LocationNames.stage2_1.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+for i in range(0,46): #Raisin Ruins 1
+    gold_star_table[StageNames[5] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,132):
-    gold_star_table[LocationNames.stage2_2.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[6] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,65):
-    gold_star_table[LocationNames.stage2_3.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[7] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,96):
-    gold_star_table[LocationNames.stage2_4.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[8] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(0,116): #Onion Ocean 1
+    gold_star_table[StageNames[10] + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 red_star_table = {
