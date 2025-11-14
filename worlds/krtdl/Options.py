@@ -34,7 +34,7 @@ class EnergySphereHuntRequirement(Range):
     default = 80
 
 class ShuffleEnergySpheres(DefaultOnToggle):
-    """Shuffles all energy spheres into other locations.
+    """Shuffles all Energy Spheres into other locations.
     [Total checks added: 120]"""
     display_name = "Shuffle Energy Spheres"
 
@@ -107,7 +107,7 @@ class StartInExtraGame(Toggle):
 
 class ShuffleChallenges(Choice):
     """Turns challenge medals into checks. 
-    One for Bronze, Silver and Gold.
+    One for Bronze, Silver and Gold. Bonus checks also available for Platinums.
     
     Off - No checks from challenges.
     On - Checks from challenges.
@@ -119,7 +119,7 @@ class ShuffleChallenges(Choice):
     option_challenges_platinum = 2
     
 class ChallengeEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a challenge."""
+    """Determines the maximum Energy Spheres needed for a challenge."""
     display_name = "Challenge max Energy Sphere requirement"
     range_start = 1
     range_end = 120
@@ -131,14 +131,14 @@ class ShuffleSubgames(Toggle):
     display_name = "Shuffle Subgames"
     
 class SubgameEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a Subgame."""
+    """Determines the maximum Energy Spheres needed for a Subgame."""
     display_name = "Subgame max Energy Sphere requirement"
     range_start = 1
     range_end = 120
     default = 30
 
 class CopyAbilityRoomEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a Copy Ability room."""
+    """Determines the maximum Energy Spheres needed for a Copy Ability room."""
     display_name = "Copy Ability room max Energy Sphere requirement"
     range_start = 1
     range_end = 120
@@ -405,30 +405,48 @@ krtdl_option_groups = [
          StartingWorld, 
          StartWithAllWorlds,
          StartWithAllStages,
+         StartWithLor,
          StartInExtraGame],
     ),
-
+    
     OptionGroup(
         "Stage Options",
-        [ShuffleStages, 
-         ShuffleBossStages, 
-         ShuffleCookieCountry, 
+        [ShuffleCookieCountry, 
          ShuffleRaisinRuins, 
          ShuffleOnionOcean, 
          ShuffleWhiteWafers, 
          ShuffleNuttyNoon, 
          ShuffleEggEngines, 
-         ShuffleDangerousDinner],
+         ShuffleDangerousDinner,
+         ShuffleStages, 
+         ShuffleBossStages,
+         LockBossStages,
+         BossOneEnergySphereRequirement,
+         BossTwoEnergySphereRequirement,
+         BossThreeEnergySphereRequirement,
+         BossFourEnergySphereRequirement,
+         BossFiveEnergySphereRequirement,
+         BossSixEnergySphereRequirement,
+         BossSevenEnergySphereRequirement],
     ),
 
     OptionGroup(
         "Item Options", 
         [ShuffleCopyAbilities, 
-         ShuffleLandia, 
          ShuffleMoves, 
+         ShuffleLandia, 
          ShuffleLevelItems],
     ),
 
+    OptionGroup(
+        "Side Content Options",
+        [ShuffleChallenges, 
+         ChallengeEnergySphereRange, 
+         ShuffleSubgames, 
+         SubgameEnergySphereRange, 
+         CopyAbilityRoomEnergySphereRange],
+    ),
+    
     OptionGroup(
         "Sanity Options", 
         [StarSanity, 
