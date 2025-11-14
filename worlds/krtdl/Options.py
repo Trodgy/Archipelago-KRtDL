@@ -44,45 +44,6 @@ class ShufflePartSpheres(DefaultOnToggle):
     [Total checks added: 5]"""
     display_name = "Shuffle Part Spheres"
 
-class ShuffleChallenges(Choice):
-    """Turns challenge medals into checks. 
-    One for Bronze, Silver and Gold.
-    
-    Off - No checks from challenges.
-    On - Checks from challenges.
-    Platinum - Platinum ranks give checks."""    
-    display_name = "Shuffle Challenges"
-    default = 0
-    option_challenges_off = 0
-    option_challenges_on = 1
-    option_chalenges_platinum = 2
-    
-class ChallengeEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a challenge."""
-    display_name = "Challenge max Energy Sphere requirement"
-    range_start = 1
-    range_end = 120
-    default = 120
-
-class ShuffleSubgames(Toggle):
-    """Turns Subgame level completions into checks. 
-    One for levels 1, 2 and 3."""  
-    display_name = "Shuffle Subgames"
-    
-class SubgameEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a Subgame."""
-    display_name = "Subgame max Energy Sphere requirement"
-    range_start = 1
-    range_end = 120
-    default = 40
-
-class CopyAbilityRoomEnergySphereRange(Range):
-    """Determines the maximum energy spheres needed for a Copy Ability room."""
-    display_name = "Copy Ability room max Energy Sphere requirement"
-    range_start = 1
-    range_end = 120
-    default = 40
-
 class ShuffleEnemies(Choice):
     """Shuffles the game's enemies around excluding Another Dimension.
     
@@ -143,29 +104,46 @@ class StartInExtraGame(Toggle):
 
 
 
-class ShuffleStages(Choice):
-    """Shuffles the game's stages around.
+
+class ShuffleChallenges(Choice):
+    """Turns challenge medals into checks. 
+    One for Bronze, Silver and Gold.
     
-    Light - Shuffles stages within a given world.
-    Intense - Shuffles all of the game's stages with eachother."""
-    display_name = "Shuffle Stages"
+    Off - No checks from challenges.
+    On - Checks from challenges.
+    Platinum - Platinum ranks give checks."""    
+    display_name = "Shuffle Challenges"
     default = 0
-    option_off = 0
-    option_light = 1
-    option_intense = 2
+    option_challenges_off = 0
+    option_challenges_on = 1
+    option_challenges_platinum = 2
+    
+class ChallengeEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a challenge."""
+    display_name = "Challenge max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 120
 
-class ShuffleBossStages(Toggle):
-    """Shuffles the game's boss stages around.
-    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]"""
-    display_name = "Shuffle Boss Stages"
+class ShuffleSubgames(Toggle):
+    """Turns Subgame level completions into checks. 
+    One for levels 1, 2 and 3."""  
+    display_name = "Shuffle Subgames"
+    
+class SubgameEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a Subgame."""
+    display_name = "Subgame max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 30
 
-class LockBossStages(Toggle):
-    """Makes Boss Stages require Energy Spheres to unlock instead of stage completions."""
-    display_name = "Boss Stage locks"   
+class CopyAbilityRoomEnergySphereRange(Range):
+    """Determines the maximum energy spheres needed for a Copy Ability room."""
+    display_name = "Copy Ability room max Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 80
 
-
-
-# add individual requirement ranges here
 
 
 
@@ -196,6 +174,75 @@ class ShuffleEggEngines(DefaultOnToggle):
 class ShuffleDangerousDinner(DefaultOnToggle):
     """If enabled, allows Dangerous Dinner to be shuffled with other worlds."""
     display_name = "Shuffle Dangerous Dinner"
+
+class ShuffleStages(Choice):
+    """Shuffles the game's stages around.
+    
+    Light - Shuffles stages within a given world.
+    Intense - Shuffles all of the game's stages with eachother."""
+    display_name = "Shuffle Stages"
+    default = 0
+    option_off = 0
+    option_light = 1
+    option_intense = 2
+
+class ShuffleBossStages(Toggle):
+    """Shuffles the game's boss stages around.
+    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]"""
+    display_name = "Shuffle Boss Stages"
+
+class LockBossStages(Toggle):
+    """Makes Boss Stages require Energy Spheres to unlock instead of stage completions."""
+    display_name = "Boss Stage locks"   
+
+class BossOneEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 1."""
+    display_name = "Boss 1 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 5
+
+class BossTwoEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 2."""
+    display_name = "Boss 2 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 12
+
+class BossThreeEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 3."""
+    display_name = "Boss 3 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 20
+
+class BossFourEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 4."""
+    display_name = "Boss 4 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 30
+
+class BossFiveEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 5."""
+    display_name = "Boss 5 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 45
+
+class BossSixEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 6."""
+    display_name = "Boss 6 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 60
+
+class BossSevenEnergySphereRequirement(Range):
+    """Determines the number of Energy Spheres needed for Boss 7."""
+    display_name = "Boss 7 Energy Sphere requirement"
+    range_start = 1
+    range_end = 120
+    default = 80
 
 
 
