@@ -7,77 +7,67 @@ BaseLocationID = 24102011 + 40
 class KRtDLLocations(Location):
     game: str = "Kirby's Return to Dream Land"
 
-stage_completion_table = {
-    LocationNames.stage1_1_complete.value: BaseLocationID,
-    LocationNames.stage1_2_complete.value: BaseLocationID + 1,
-    LocationNames.stage1_3_complete.value: BaseLocationID + 2,
-    LocationNames.stage1_4_complete.value: BaseLocationID + 3,
-    LocationNames.stage2_1_complete.value: BaseLocationID + 5,
-    LocationNames.stage2_2_complete.value: BaseLocationID + 6,
-    LocationNames.stage2_3_complete.value: BaseLocationID + 7,
-    LocationNames.stage2_4_complete.value: BaseLocationID + 8,
-    LocationNames.stage3_1_complete.value: BaseLocationID + 9,
-    LocationNames.stage3_2_complete.value: BaseLocationID + 10,
-    LocationNames.stage3_3_complete.value: BaseLocationID + 11,
-    LocationNames.stage3_4_complete.value: BaseLocationID + 12,
-    LocationNames.stage4_1_complete.value: BaseLocationID + 13,
-    LocationNames.stage4_2_complete.value: BaseLocationID + 14,
-    LocationNames.stage4_3_complete.value: BaseLocationID + 15,
-    LocationNames.stage4_4_complete.value: BaseLocationID + 16,
-    LocationNames.stage4_5_complete.value: BaseLocationID + 17,
-    LocationNames.stage5_1_complete.value: BaseLocationID + 18,
-    LocationNames.stage5_2_complete.value: BaseLocationID + 19,
-    LocationNames.stage5_3_complete.value: BaseLocationID + 20,
-    LocationNames.stage5_4_complete.value: BaseLocationID + 21,
-    LocationNames.stage5_5_complete.value: BaseLocationID + 22,
-    LocationNames.stage6_1_complete.value: BaseLocationID + 23,
-    LocationNames.stage6_2_complete.value: BaseLocationID + 24,
-    LocationNames.stage6_3_complete.value: BaseLocationID + 25,
-    LocationNames.stage6_4_complete.value: BaseLocationID + 26,
-    LocationNames.stage6_5_complete.value: BaseLocationID + 27,
-    LocationNames.stage6_6_complete.value: BaseLocationID + 28,
-    LocationNames.stage7_1_complete.value: BaseLocationID + 29,
-    LocationNames.stage7_2_complete.value: BaseLocationID + 30,
-    LocationNames.stage7_3_complete.value: BaseLocationID + 31,
-    LocationNames.stage7_4_complete.value: BaseLocationID + 32,
-    LocationNames.stage8_3_complete.value: BaseLocationID + 33,
-    LocationNames.stage8_4_complete.value: BaseLocationID + 34,
-    
-    LocationNames.extra_stage1_1_complete.value: BaseLocationID + 35,
-    LocationNames.extra_stage1_2_complete.value: BaseLocationID + 36,
-    LocationNames.extra_stage1_3_complete.value: BaseLocationID + 37,
-    LocationNames.extra_stage1_4_complete.value: BaseLocationID + 38,
-    LocationNames.extra_stage2_1_complete.value: BaseLocationID + 39,
-    LocationNames.extra_stage2_2_complete.value: BaseLocationID + 40,
-    LocationNames.extra_stage2_3_complete.value: BaseLocationID + 41,
-    LocationNames.extra_stage2_4_complete.value: BaseLocationID + 42,
-    LocationNames.extra_stage3_1_complete.value: BaseLocationID + 43,
-    LocationNames.extra_stage3_2_complete.value: BaseLocationID + 44,
-    LocationNames.extra_stage3_3_complete.value: BaseLocationID + 45,
-    LocationNames.extra_stage3_4_complete.value: BaseLocationID + 46,
-    LocationNames.extra_stage4_1_complete.value: BaseLocationID + 47,
-    LocationNames.extra_stage4_2_complete.value: BaseLocationID + 48,
-    LocationNames.extra_stage4_3_complete.value: BaseLocationID + 49,
-    LocationNames.extra_stage4_4_complete.value: BaseLocationID + 50,
-    LocationNames.extra_stage4_5_complete.value: BaseLocationID + 51,
-    LocationNames.extra_stage5_1_complete.value: BaseLocationID + 52,
-    LocationNames.extra_stage5_2_complete.value: BaseLocationID + 53,
-    LocationNames.extra_stage5_3_complete.value: BaseLocationID + 54,
-    LocationNames.extra_stage5_4_complete.value: BaseLocationID + 55,
-    LocationNames.extra_stage5_5_complete.value: BaseLocationID + 56,
-    LocationNames.extra_stage6_1_complete.value: BaseLocationID + 57,
-    LocationNames.extra_stage6_2_complete.value: BaseLocationID + 58,
-    LocationNames.extra_stage6_3_complete.value: BaseLocationID + 59,
-    LocationNames.extra_stage6_4_complete.value: BaseLocationID + 60,
-    LocationNames.extra_stage6_5_complete.value: BaseLocationID + 61,
-    LocationNames.extra_stage6_6_complete.value: BaseLocationID + 62,
-    LocationNames.extra_stage7_1_complete.value: BaseLocationID + 63,
-    LocationNames.extra_stage7_2_complete.value: BaseLocationID + 64,
-    LocationNames.extra_stage7_3_complete.value: BaseLocationID + 65,
-    LocationNames.extra_stage7_4_complete.value: BaseLocationID + 66,
-    LocationNames.extra_stage8_3_complete.value: BaseLocationID + 67,
-    LocationNames.extra_stage8_4_complete.value: BaseLocationID + 68
-}
+StageNames = {
+    "Cookie Country Stage 1 ",
+    "Cookie Country Stage 2 ",
+    "Cookie Country Stage 3 ",
+    "Cookie Country Stage 4 ",
+    "Cookie Country Stage 5 ",
+    "Raisin Ruins Stage 1 ",
+    "Raisin Ruins Stage 2 ",
+    "Raisin Ruins Stage 3 ",
+    "Raisin Ruins Stage 4 ",
+    "Raisin Ruins Stage 5 ",
+    "Onion Ocean Stage 1 ",
+    "Onion Ocean Stage 2 ",
+    "Onion Ocean Stage 3 ",
+    "Onion Ocean Stage 4 ",
+    "Onion Ocean Stage 5 ",
+    "White Wafers Stage 1 ",
+    "White Wafers Stage 2 ",
+    "White Wafers Stage 3 ",
+    "White Wafers Stage 4 ",
+    "White Wafers Stage 5 ",
+    "White Wafers Stage 6 ",
+    "Nutty Noon Stage 1 ",
+    "Nutty Noon Stage 2 ",
+    "Nutty Noon Stage 3 ",
+    "Nutty Noon Stage 4 ",
+    "Nutty Noon Stage 5 ",
+    "Nutty Noon Stage 6 ",
+    "Egg Engines Stage 1 ",
+    "Egg Engines Stage 2 ",
+    "Egg Engines Stage 3 ",
+    "Egg Engines Stage 4 ",
+    "Egg Engines Stage 5 ",
+    "Egg Engines Stage 6 ",
+    "Dangerous Dinner Stage 1 ",
+    "Dangerous Dinner Stage 2 ",
+    "Dangerous Dinner Stage 3 ",
+    "Dangerous Dinner Stage 4 ",
+    "Another Dimension Part 1 ",
+    "Another Dimension Part 2 ",
+    "Another Dimension Boss ",
+    "Another Dimension Final Boss "
+}:
+
+PartNames = {
+    "Lor Starcutter Oars",
+    "Lor Starcutter Right Wing",
+    "Cookie Country Stage 3",
+    "Cookie Country Stage 4",
+    "Cookie Country Stage 5",
+}:
+
+locationincrement = 0
+stage_completion_table = {}
+for i in StageNames:
+    if i != "Another Dimension Part 1" and i != "Another Dimension Part 2":
+        stage_completion_table.append(i + " - Complete": BaseLocationID + locationincrement)
+        locationincrement += 1
+        stage_completion_table.append("EX " + i + " - Complete": BaseLocationID + locationincrement)
+        locationincrement += 1
+#should end at ID 68
 
 energy_sphere_table = {
     LocationNames.stage1_1_esphere_1.value: BaseLocationID + 69,
@@ -336,30 +326,47 @@ energy_sphere_table = {
     LocationNames.extra_stage7_3_esphere_5.value: BaseLocationID + 309
 }
 
+locationincrement = 310
+
 part_sphere_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-    LocationNames.stage1_5_part.value: BaseLocationID + 310,
-    LocationNames.stage2_5_part.value: BaseLocationID + 311,
-    LocationNames.stage3_5_part.value: BaseLocationID + 312,
-    LocationNames.stage4_6_part.value: BaseLocationID + 313,
-    LocationNames.stage5_6_part.value: BaseLocationID + 314,
-    LocationNames.extra_stage1_5_part.value: BaseLocationID + 315,
-    LocationNames.extra_stage2_5_part.value: BaseLocationID + 316,
-    LocationNames.extra_stage3_5_part.value: BaseLocationID + 317,
-    LocationNames.extra_stage4_6_part.value: BaseLocationID + 318,
-    LocationNames.extra_stage5_6_part.value: BaseLocationID + 319
+    LocationNames.stage1_5.value + "- Part Sphere": BaseLocationID + locationincrement,
+    LocationNames.stage2_5.value + "- Part Sphere": BaseLocationID + locationincrement + 1,
+    LocationNames.stage3_5.value + "- Part Sphere": BaseLocationID + locationincrement + 2,
+    LocationNames.stage4_6.value + "- Part Sphere": BaseLocationID + locationincrement + 3,
+    LocationNames.stage5_6.value + "- Part Sphere": BaseLocationID + locationincrement + 4,
+    "EX " + LocationNames.stage1_5.value + "- Part Sphere": BaseLocationID + locationincrement + 5,
+    "EX " + LocationNames.stage2_5.value + "- Part Sphere": BaseLocationID + locationincrement + 6,
+    "EX " + LocationNames.stage3_5.value + "- Part Sphere": BaseLocationID + locationincrement + 7,
+    "EX " + LocationNames.stage4_6.value + "- Part Sphere": BaseLocationID + locationincrement + 8,
+    "EX " + LocationNames.stage5_6.value + "- Part Sphere": BaseLocationID + locationincrement + 9,
 }
+locationincrement += 10
 
-flower_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
-
-gold_star_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+gold_star_table = {}
+for i in range(0,56):
+    gold_star_table.append(LocationNames.stage1_1.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,31):
+    gold_star_table.append(LocationNames.stage1_2.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,48):
+    gold_star_table.append(LocationNames.stage1_3.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,81):
+    gold_star_table.append(LocationNames.stage1_4.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,46):
+    gold_star_table.append(LocationNames.stage2_1.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,132):
+    gold_star_table.append(LocationNames.stage2_2.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,65):
+    gold_star_table.append(LocationNames.stage2_3.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
+for i in range(0,96):
+    gold_star_table.append(LocationNames.stage2_4.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    locationincrement += 1
 
 red_star_table = {
     # not entirely sure how to handle this yet.
@@ -367,6 +374,11 @@ red_star_table = {
 }
 
 blue_star_table = {
+    # not entirely sure how to handle this yet.
+    # LocationNames.stage1_1_complete.value: BaseID + 1
+}
+
+flower_table = {
     # not entirely sure how to handle this yet.
     # LocationNames.stage1_1_complete.value: BaseID + 1
 }
@@ -391,16 +403,22 @@ subgame_table = {
     # LocationNames.stage1_1_complete.value: BaseID + 1
 }
 
+extra_sanity_table = {
+    # not entirely sure how to handle this yet.
+    # LocationNames.stage1_1_complete.value: BaseID + 1
+}
+
 composite_location: dict[str, int] = {
     **stage_completion_table,
     **energy_sphere_table,
     **part_sphere_table,
-    **flower_table,
     **gold_star_table,
     **red_star_table,
     **blue_star_table,
+    **flower_table,
     **one_up_table,
     **health_pickup_table,
     **maxim_tomato_table,
-    **subgame_table
+    **subgame_table,
+    **extra_sanity_table
 }
