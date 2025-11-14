@@ -53,6 +53,7 @@ class ItemNames(Enum):
     t_crystal = "Transparency Crystals" 
     s_boot = "Stomper Boots"
     b_bomb = "Balloon Bombs"
+    landia = "Landia"
     lor_oars = "Lor Starcutter Oars"
     lor_rwing = "Lor Starcutter Right Wing"
     lor_lwing = "Lor Starcutter Left Wing"
