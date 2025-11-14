@@ -168,37 +168,43 @@ class ShuffleLevelItems(DefaultOnToggle):
 
 class StarSanity(Toggle):
     """Turns all guaranteed Gold Stars (ones not gained from Flowers) into checks.
-    [WARNING: ADDS A GIGANTIC NUMBER OF CHECKS AND CREATES SOME VERY HARD SEEDS]
+    [WARNING: ADDS [total number] CHECKS AND CREATES SOME VERY HARD SEEDS]
     [MAY RESULT IN FRIENDS YELLING AT YOU FROM PICKING UP HUNDREDS OF VERY UNHELPFUL STARS IN THEIR WORLD]"""
     display_name = "Starsanity"
 
 class RedStarSanity(Toggle):
-    """Turns all Red Stars into checks."""
+    """Turns all Red Stars into checks.
+    [Total checks added: x]"""
     display_name = "Red Starsanity"
 
 class BlueStarSanity(Toggle):
-    """Turns all Blue Stars into checks."""
+    """Turns all Blue Stars into checks.
+    [Total checks added: x]"""
     display_name = "Blue Starsanity"
 
 class FoodSanity(Toggle):
-    """Turns all guaranteed Food items (ones not gained from Flowers and exluding Maxim Tomatoes) into checks."""
+    """Turns all guaranteed Food items (ones not gained from Flowers and exluding Maxim Tomatoes) into checks.
+    [Total checks added: x]"""
     display_name = "Foodsanity"
 
 class FlowerSanity(Toggle):
-    """Turns all flower pickups into checks."""
+    """Turns all flower pickups into checks.
+    [Total checks added: x]"""
     display_name = "Flowersanity"
 
 class OneUpSanity(Toggle):
-    """Turns all 1-Ups into checks."""
+    """Turns all 1-Ups into checks.
+    [Total checks added: x]"""
     display_name = "1-Upsanity"
 
 class MaximSanity(Toggle):
-    """Turns all Maxim Tomatoes into checks."""
+    """Turns all Maxim Tomatoes into checks.
+    [Total checks added: x]"""
     display_name = "Maximsanity"
 
 class ExtraSanity(Toggle):
-    """Effectively doubles the number of checks by replicating all of Main mode's checks to Extra Mode uniquely.
-    [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND COULD REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
+    """Basically doubles the number of checks by making all pickups in Extra Mode have unique checks to Normal Mode.
+    [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
     display_name = "Extrasanity"
 
