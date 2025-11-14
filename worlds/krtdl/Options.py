@@ -35,6 +35,11 @@ class EnergySphereHuntRequirement(Range):
     range_end = 240
     default = 80
 
+class EnergySphereHuntManualEnd(DefaultOnToggle):
+    """If enabled, talking to Magolor after hitting the requirement in Energy Sphere Hunt will complete the goal.
+    If disabled, goal pops as soon as you hit the required Energy Sphere count."""
+    display_name = "Energy Sphere Hunt manual end"
+
 class ShuffleEnergySpheres(DefaultOnToggle):
     """Shuffles all Energy Spheres into other locations.
     [Total checks added: 120]"""
@@ -353,6 +358,7 @@ class KRtDLOptions(PerGameCommonOptions):
     
     goal: Goal
     energy_sphere_hunt_requirement: EnergySphereHuntRequirement
+    energy_sphere_hunt_manual_end: EnergySphereHuntManualEnd
     shuffle_energy_spheres: ShuffleEnergySpheres
     shuffle_part_spheres: ShufflePartSpheres
     shuffle_enemies: ShuffleEnemies
@@ -414,6 +420,7 @@ krtdl_option_groups = [
         "Basic Options", 
         [Goal, 
          EnergySphereHuntRequirement, 
+         EnergySphereHuntManualEnd,
          ShuffleEnergySpheres,
          ShufflePartSpheres,
          ShuffleEnemies,
