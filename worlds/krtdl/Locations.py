@@ -364,15 +364,43 @@ for i in range(1,117): #Onion Ocean 1
     gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-red_star_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+red_star_table = {}
+for i in range(1,4): #Cookie Country 1
+    red_star_table[StageNames[0] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2):
+    red_star_table[StageNames[1] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4):
+    red_star_table[StageNames[2] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8):
+    red_star_table[StageNames[3] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2): #Raisin Ruins 1
+    red_star_table[StageNames[5] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7):
+    red_star_table[StageNames[6] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8):
+    red_star_table[StageNames[7] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7):
+    red_star_table[StageNames[8] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5): #Onion Ocean 1
+    red_star_table[StageNames[10] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
-blue_star_table = {
-    # not entirely sure how to handle this yet.
-    # LocationNames.stage1_1_complete.value: BaseID + 1
-}
+blue_star_table = {}
+blue_star_table[StageNames[1] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[5] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2): #Onion Ocean 1
+    red_star_table[StageNames[0] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 flower_table = {
     # not entirely sure how to handle this yet.
