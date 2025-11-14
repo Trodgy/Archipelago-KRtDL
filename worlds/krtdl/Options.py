@@ -361,6 +361,7 @@ class KRtDLOptions(PerGameCommonOptions):
     starting_world: StartingWorld
     start_with_all_worlds: StartWithAllWorlds
     start_with_all_stages: StartWithAllStages
+    start_with_lor: StartWithLor
     start_in_extra_game: StartInExtraGame
 
     shuffle_stages: ShuffleStages
@@ -372,12 +373,26 @@ class KRtDLOptions(PerGameCommonOptions):
     shuffle_nutty_noon: ShuffleNuttyNoon
     shuffle_egg_engines: ShuffleEggEngines
     shuffle_dangerous_dinner: ShuffleDangerousDinner
+    lock_boss_stages: LockBossStages
+    boss_one_energy_sphere_requirement: BossOneEnergySphereRequirement
+    boss_two_energy_sphere_requirement: BossTwoEnergySphereRequirement
+    boss_three_energy_sphere_requirement: BossThreeEnergySphereRequirement
+    boss_four_energy_sphere_requirement: BossFourEnergySphereRequirement
+    boss_five_energy_sphere_requirement: BossFiveEnergySphereRequirement
+    boss_six_energy_sphere_requirement: BossSixEnergySphereRequirement
+    boss_seven_energy_sphere_requirement: BossSevenEnergySphereRequirement
     
     shuffle_copy_abilities: ShuffleCopyAbilities
     shuffle_landia: ShuffleLandia
     shuffle_moves: ShuffleMoves
     shuffle_level_items: ShuffleLevelItems
 
+    shuffle_challenges: ShuffleChallenges
+    challenge_energy_sphere_range: ChallengeEnergySphereRange
+    shuffle_subgames: ShuffleSubgames
+    subgame_energy_sphere_range: SubgameEnergySphereRange
+    copy_ability_room_energy_sphere_range: CopyAbilityRoomEnergySphereRange
+    
     star_sanity: StarSanity
     red_star_sanity: RedStarSanity
     blue_star_sanity: BlueStarSanity
