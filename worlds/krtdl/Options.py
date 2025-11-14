@@ -170,43 +170,43 @@ class StarSanity(Toggle):
     """Turns all guaranteed Gold Stars (ones not gained from Flowers) into checks.
     [WARNING: ADDS [total number] CHECKS AND CREATES SOME VERY HARD SEEDS]
     [MAY RESULT IN FRIENDS YELLING AT YOU FROM PICKING UP HUNDREDS OF VERY UNHELPFUL STARS IN THEIR WORLD]"""
-    display_name = "Starsanity"
+    display_name = "Star Sanity"
 
 class RedStarSanity(Toggle):
     """Turns all Red Stars into checks.
     [Total checks added: x]"""
-    display_name = "Red Starsanity"
+    display_name = "Red Star Sanity"
 
 class BlueStarSanity(Toggle):
     """Turns all Blue Stars into checks.
     [Total checks added: x]"""
-    display_name = "Blue Starsanity"
+    display_name = "Blue Star Sanity"
 
 class FoodSanity(Toggle):
     """Turns all guaranteed Food items (ones not gained from Flowers and exluding Maxim Tomatoes) into checks.
     [Total checks added: x]"""
-    display_name = "Foodsanity"
+    display_name = "Food Sanity"
 
 class FlowerSanity(Toggle):
     """Turns all flower pickups into checks.
     [Total checks added: x]"""
-    display_name = "Flowersanity"
+    display_name = "Flower Sanity"
 
 class OneUpSanity(Toggle):
     """Turns all 1-Ups into checks.
     [Total checks added: x]"""
-    display_name = "1-Upsanity"
+    display_name = "1-Up Sanity"
 
 class MaximSanity(Toggle):
     """Turns all Maxim Tomatoes into checks.
     [Total checks added: x]"""
-    display_name = "Maximsanity"
+    display_name = "Maxim Sanity"
 
 class ExtraSanity(Toggle):
     """Basically doubles the number of checks by making all pickups in Extra Mode have unique checks to Normal Mode.
     [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
-    display_name = "Extrasanity"
+    display_name = "EX-tra Sanity"
 
 
 
