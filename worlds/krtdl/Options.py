@@ -4,9 +4,10 @@ from Options import Choice, Range, Toggle, DeathLink, DefaultOnToggle, OptionSet
 
 class Goal(Choice):
     """Determines the goal for your run.
-    
-    Main Complete - Complete the Main mode by defeating the final boss.
-    Extra Complete - Complete the Extra mode by defeating the EX final boss.
+
+    Magolor - Reach and defeat Magolor in Another Dimension.
+    Landia - Reach and defeat Landia in 7-4.
+    Grand Doomer - Reach and defeat Grand Doomer in 5-6.
 
     The Arena - Complete The Arena.
     The True Arena - Complete The True Arena.
@@ -15,14 +16,15 @@ class Goal(Choice):
     
     Perfectionist - Obtain every possible check. [Adapts to Sanity options]
     [REALLY LONG, SEEDS MAY BE IMPOSSIBLE WITHOUT CONSOLE USAGE]"""
-    display_name = "Goal"
+    display_name = "Goal Condition"
     default = 0
-    option_main_complete = 0
-    option_extra_complete = 1
-    option_the_arena = 2
-    option_the_true_arena = 3
-    option_energy_sphere_hunt = 4
-    option_perfectionist = 5
+    option_magolor = 0
+    option_landia = 1
+    option_grand_doomer = 2
+    option_the_arena = 3
+    option_the_true_arena = 4
+    option_energy_sphere_hunt = 5
+    option_perfectionist = 6
 
 class EnergySphereHuntRequirement(Range):
     """Determines how many Energy Spheres are necessary to achieve the Energy Sphere Hunt goal.
