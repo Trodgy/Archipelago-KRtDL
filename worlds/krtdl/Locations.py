@@ -344,28 +344,28 @@ locationincrement += 10
 
 gold_star_table = {}
 for i in range(0,56):
-    gold_star_table.append(LocationNames.stage1_1.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage1_1.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,31):
-    gold_star_table.append(LocationNames.stage1_2.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage1_2.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,48):
-    gold_star_table.append(LocationNames.stage1_3.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage1_3.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,81):
-    gold_star_table.append(LocationNames.stage1_4.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage1_4.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,46):
-    gold_star_table.append(LocationNames.stage2_1.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage2_1.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,132):
-    gold_star_table.append(LocationNames.stage2_2.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage2_2.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,65):
-    gold_star_table.append(LocationNames.stage2_3.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage2_3.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(0,96):
-    gold_star_table.append(LocationNames.stage2_4.value + "- Gold Star " + "#" + i: BaseLocationID + locationincrement)
+    gold_star_table[LocationNames.stage2_4.value + "- Gold Star " + "#" + (i + 1)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 red_star_table = {
