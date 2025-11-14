@@ -69,57 +69,64 @@ class ItemNames(Enum):
     mouthful_trap = "Mouthful Trap"
 
 class StageNames(Enum):
-    stage1_1 = "Cookie Country Stage 1"
-    stage1_2 = "Cookie Country Stage 2"
-    stage1_3 = "Cookie Country Stage 3"
-    stage1_4 = "Cookie Country Stage 4"
-    stage1_5 = "Cookie Country Stage 5"
-    stage2_1 = "Raisin Ruins Stage 1"
-    stage2_2 = "Raisin Ruins Stage 2"
-    stage2_3 = "Raisin Ruins Stage 3"
-    stage2_4 = "Raisin Ruins Stage 4"
-    stage2_5 = "Raisin Ruins Stage 5"
-    stage3_1 = "Onion Ocean Stage 1"
-    stage3_2 = "Onion Ocean Stage 2"
-    stage3_3 = "Onion Ocean Stage 3"
-    stage3_4 = "Onion Ocean Stage 4"
-    stage3_5 = "Onion Ocean Stage 5"
-    stage4_1 = "White Wafers Stage 1"
-    stage4_2 = "White Wafers Stage 2"
-    stage4_3 = "White Wafers Stage 3"
-    stage4_4 = "White Wafers Stage 4"
-    stage4_5 = "White Wafers Stage 5"
-    stage4_6 = "White Wafers Stage 6"
-    stage5_1 = "Nutty Noon Stage 1"
-    stage5_2 = "Nutty Noon Stage 2"
-    stage5_3 = "Nutty Noon Stage 3"
-    stage5_4 = "Nutty Noon Stage 4"
-    stage5_5 = "Nutty Noon Stage 5"
-    stage5_6 = "Nutty Noon Stage 6"
-    stage6_1 = "Egg Engines Stage 1"
-    stage6_2 = "Egg Engines Stage 2"
-    stage6_3 = "Egg Engines Stage 3"
-    stage6_4 = "Egg Engines Stage 4"
-    stage6_5 = "Egg Engines Stage 5"
-    stage6_6 = "Egg Engines Stage 6"
-    stage7_1 = "Dangerous Dinner Stage 1"
-    stage7_2 = "Dangerous Dinner Stage 2"
-    stage7_3 = "Dangerous Dinner Stage 3"
-    stage7_4 = "Dangerous Dinner Stage 4"
-    stage8_1 = "Another Dimension Part 1"
-    stage8_2 = "Another Dimension Part 2"
-    stage8_3 = "Another Dimension Boss"
-    stage8_4 = "Another Dimension Final Boss"
+    stage1_1 = "Cookie Country Stage 1 "
+    stage1_2 = "Cookie Country Stage 2 "
+    stage1_3 = "Cookie Country Stage 3 "
+    stage1_4 = "Cookie Country Stage 4 "
+    stage1_5 = "Cookie Country Stage 5 "
+    stage2_1 = "Raisin Ruins Stage 1 "
+    stage2_2 = "Raisin Ruins Stage 2 "
+    stage2_3 = "Raisin Ruins Stage 3 "
+    stage2_4 = "Raisin Ruins Stage 4 "
+    stage2_5 = "Raisin Ruins Stage 5 "
+    stage3_1 = "Onion Ocean Stage 1 "
+    stage3_2 = "Onion Ocean Stage 2 "
+    stage3_3 = "Onion Ocean Stage 3 "
+    stage3_4 = "Onion Ocean Stage 4 "
+    stage3_5 = "Onion Ocean Stage 5 "
+    stage4_1 = "White Wafers Stage 1 "
+    stage4_2 = "White Wafers Stage 2 "
+    stage4_3 = "White Wafers Stage 3 "
+    stage4_4 = "White Wafers Stage 4 "
+    stage4_5 = "White Wafers Stage 5 "
+    stage4_6 = "White Wafers Stage 6 "
+    stage5_1 = "Nutty Noon Stage 1 "
+    stage5_2 = "Nutty Noon Stage 2 "
+    stage5_3 = "Nutty Noon Stage 3 "
+    stage5_4 = "Nutty Noon Stage 4 "
+    stage5_5 = "Nutty Noon Stage 5 "
+    stage5_6 = "Nutty Noon Stage 6 "
+    stage6_1 = "Egg Engines Stage 1 "
+    stage6_2 = "Egg Engines Stage 2 "
+    stage6_3 = "Egg Engines Stage 3 "
+    stage6_4 = "Egg Engines Stage 4 "
+    stage6_5 = "Egg Engines Stage 5 "
+    stage6_6 = "Egg Engines Stage 6 "
+    stage7_1 = "Dangerous Dinner Stage 1 "
+    stage7_2 = "Dangerous Dinner Stage 2 "
+    stage7_3 = "Dangerous Dinner Stage 3 "
+    stage7_4 = "Dangerous Dinner Stage 4 "
+    stage8_1 = "Another Dimension Part 1 "
+    stage8_2 = "Another Dimension Part 2 "
+    stage8_3 = "Another Dimension Boss "
+    stage8_4 = "Another Dimension Final Boss "
 
-class LocationNames(Enum):
+class StageCompleteLocationNames(Enum):
+    stage1_1_complete = (StageNames.stage1_1.value + " - Complete")
+    extra_stage1_1_complete = ("EX " + StageNames.stage1_1.value + " - Complete")
+    stage1_2_complete = (StageNames.stage1_2.value + " - Complete")
+    extra_stage1_2_complete = ("EX " + StageNames.stage1_2.value + " - Complete")
+    stage1_3_complete = (StageNames.stage1_3.value + " - Complete")
+    extra_stage1_3_complete = ("EX " + StageNames.stage1_3.value + " - Complete")
+    
+
+class EnergySphereLocationNames(Enum):
     stage1_1_esphere_1 = (StageNames.stage1_1.value + " - Energy Sphere 1")
     stage1_1_esphere_2 = (StageNames.stage1_1.value + " - Energy Sphere 2")
     stage1_1_esphere_3 = (StageNames.stage1_1.value + " - Energy Sphere 3")
-    stage1_1_complete = (StageNames.stage1_1.value + " - Complete")
     extra_stage1_1_esphere_1 = ("EX " + StageNames.stage1_1.value + " - Energy Sphere 1")
     extra_stage1_1_esphere_2 = ("EX " + StageNames.stage1_1.value + " - Energy Sphere 2")
     extra_stage1_1_esphere_3 = ("EX " + StageNames.stage1_1.value + " - Energy Sphere 3")
-    extra_stage1_1_complete = ("EX " + StageNames.stage1_1.value + " - Complete")
 
     stage1_2_esphere_1 = (StageNames.stage1_2.value + " - Energy Sphere 1")
     stage1_2_esphere_2 = (StageNames.stage1_2.value + " - Energy Sphere 2")
@@ -128,17 +135,16 @@ class LocationNames(Enum):
     extra_stage1_2_esphere_1 = ("EX " + StageNames.stage1_2.value + " - Energy Sphere 1")
     extra_stage1_2_esphere_2 = ("EX " + StageNames.stage1_2.value + " - Energy Sphere 2")
     extra_stage1_2_esphere_3 = ("EX " + StageNames.stage1_2.value + " - Energy Sphere 3")
-    extra_stage1_2_complete = ("EX " + StageNames.stage1_2.value + " - Complete")
 
     stage1_3_esphere_1 = (StageNames.stage1_3.value + " - Energy Sphere 1")
     stage1_3_esphere_2 = (StageNames.stage1_3.value + " - Energy Sphere 2")
     stage1_3_esphere_3 = (StageNames.stage1_3.value + " - Energy Sphere 3")
-    stage1_3_complete = (StageNames.stage1_3.value + " - Complete")
     extra_stage1_3_esphere_1 = ("EX " + StageNames.stage1_3.value + " - Energy Sphere 1")
     extra_stage1_3_esphere_2 = ("EX " + StageNames.stage1_3.value + " - Energy Sphere 2")
     extra_stage1_3_esphere_3 = ("EX " + StageNames.stage1_3.value + " - Energy Sphere 3")
-    extra_stage1_3_complete = ("EX " + StageNames.stage1_3.value + " - Complete")
+    
 
+class LocationNames(Enum):
     stage1_4_esphere_1 = (StageNames.stage1_4.value + " - Energy Sphere 1")
     stage1_4_esphere_2 = (StageNames.stage1_4.value + " - Energy Sphere 2")
     stage1_4_esphere_3 = (StageNames.stage1_4.value + " - Energy Sphere 3")
@@ -476,3 +482,9 @@ class LocationNames(Enum):
     
     stage8_4_complete = (StageNames.stage8_4.value + " - Complete")
     extra_stage8_4_complete = ("EX " + StageNames.stage8_4.value + " - Complete")
+
+class PartSphereLocationNames(Enum):
+
+class GoldStarLocationNames(Enum):
+
+class RedStarLocationNames(Enum):
