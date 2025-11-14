@@ -14,7 +14,7 @@ class Goal(Choice):
     Energy Sphere Hunt - Collect a set number of Energy Spheres.
     
     Perfectionist - Obtain every possible check. [Adapts to Sanity options]
-    [REALLY LONG, EXPECT IMPOSSIBLE SEEDS WITHOUT CONSOLE USAGE]"""
+    [REALLY LONG, SEEDS MAY BE IMPOSSIBLE WITHOUT CONSOLE USAGE]"""
     display_name = "Goal"
     default = 0
     option_main_complete = 0
