@@ -251,6 +251,12 @@ for i in range(1,97):
 for i in range(1,117): #Onion Ocean 1
     gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,107): #Onion Ocean 2
+    gold_star_table[StageNames[11] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,200): #Onion Ocean 3
+    gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 red_star_table = {}
 for i in range(1,4): #Cookie Country 1
@@ -280,6 +286,12 @@ for i in range(1,7):
 for i in range(1,5): #Onion Ocean 1
     red_star_table[StageNames[10] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,2): #Onion Ocean 2
+    red_star_table[StageNames[11] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,15): #Onion Ocean 3
+    red_star_table[StageNames[12] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 blue_star_table = {}
 blue_star_table[StageNames[1] + "- Blue Star"] = BaseLocationID + locationincrement
@@ -287,8 +299,10 @@ locationincrement += 1
 blue_star_table[StageNames[5] + "- Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 for i in range(1,2): #Onion Ocean 1
-    blue_star_table[StageNames[0] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    blue_star_table[StageNames[10] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+blue_star_table[StageNames[12] + "- Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 flower_table = {}
 for i in range(1,16):
@@ -315,6 +329,12 @@ for i in range(1,4):
 for i in range(1,35):
     flower_table[StageNames[10] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,32):
+    flower_table[StageNames[11] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,27):
+    flower_table[StageNames[12] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 one_up_table = {}
 one_up_table[StageNames[0] + "- 1-up"] = BaseLocationID + locationincrement
@@ -335,6 +355,10 @@ locationincrement += 1
 for i in range(1,3):
     one_up_table[StageNames[10] + "- 1-up " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+one_up_table[StageNames[11] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[12] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 health_pickup_table = {}
 for i in range(1,11):
@@ -364,6 +388,12 @@ for i in range(1,15):
 for i in range(1,15):
     health_pickup_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,12):
+    health_pickup_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,21):
+    health_pickup_table[StageNames[12] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 maxim_tomato_table = {}
 maxim_tomato_table[StageNames[0] + "- M-Tomato"] = BaseLocationID + locationincrement
@@ -386,6 +416,9 @@ maxim_tomato_table[StageNames[9] + "- M-Tomato"] = BaseLocationID + locationincr
 locationincrement += 1
 maxim_tomato_table[StageNames[10] + "- M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
+for i in range(1,3):
+    maxim_tomato_table[StageNames[12] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
 challenge_table = {}
