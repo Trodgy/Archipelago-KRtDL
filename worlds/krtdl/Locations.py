@@ -257,6 +257,9 @@ for i in range(1,107): #Onion Ocean 2
 for i in range(1,200): #Onion Ocean 3
     gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,96): #Onion Ocean 4
+    gold_star_table[StageNames[13] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 red_star_table = {}
 for i in range(1,4): #Cookie Country 1
@@ -291,6 +294,9 @@ for i in range(1,2): #Onion Ocean 2
     locationincrement += 1
 for i in range(1,15): #Onion Ocean 3
     red_star_table[StageNames[12] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,9): #Onion Ocean 4
+    red_star_table[StageNames[13] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 blue_star_table = {}
@@ -335,6 +341,9 @@ for i in range(1,32):
 for i in range(1,27):
     flower_table[StageNames[12] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,3):
+    flower_table[StageNames[13] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 one_up_table = {}
 one_up_table[StageNames[0] + "- 1-up"] = BaseLocationID + locationincrement
@@ -359,9 +368,11 @@ one_up_table[StageNames[11] + "- 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
 one_up_table[StageNames[12] + "- 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
+one_up_table[StageNames[13] + "- 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 health_pickup_table = {}
-for i in range(1,11):
+for i in range(1,11): #Cookie Country 1
     health_pickup_table[StageNames[0] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,6):
@@ -373,7 +384,7 @@ for i in range(1,5):
 for i in range(1,9):
     health_pickup_table[StageNames[3] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,9):
+for i in range(1,9): #Raisin Ruins 1
     health_pickup_table[StageNames[5] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,6):
@@ -385,14 +396,17 @@ for i in range(1,8):
 for i in range(1,15):
     health_pickup_table[StageNames[8] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,15):
+for i in range(1,15): #Onion Ocean 1
     health_pickup_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,12):
-    health_pickup_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    health_pickup_table[StageNames[11] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,21):
     health_pickup_table[StageNames[12] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,19):
+    health_pickup_table[StageNames[13] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 maxim_tomato_table = {}
@@ -419,6 +433,10 @@ locationincrement += 1
 for i in range(1,3):
     maxim_tomato_table[StageNames[12] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+maxim_tomato_table[StageNames[13] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[14] + "- M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
 challenge_table = {}
