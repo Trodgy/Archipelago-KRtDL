@@ -3,7 +3,7 @@ from BaseClasses import Item, ItemClassification
 
 BaseID = 24102011
 
-class KRtDLItems(Item):
+class KRtDLItem(Item):
     game: str = "Kirby's Return to Dream Land"
 
 class ItemData:
