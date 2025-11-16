@@ -158,12 +158,8 @@ class KRtDLWorld(World):
         #    *[item for item in self.options.start_inventory_from_pool.value.keys()],
         #]
 
-        for item in [
-            item for item in starting_items if item not in option_filled_items
-        ]:
-            self.multiworld.push_precollected(
-                self.create_item(item, ItemClassification.progression)
-            )
+        #for item in [item for item in starting_items if item not in option_filled_items]:
+            #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
     
     def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
         createdthing = item_table[name]
