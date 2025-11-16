@@ -106,10 +106,98 @@ class KRtDLWorld(World):
     topology_present = True
     item_name_to_id = {name: data.code for name, data in item_table.items()}
     location_name_to_id = composite_location
+    prefilled_item_map: Dict[str, str] = {}  # Dict of location name to item name
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
 
+    def generate_early(self) -> None:
+        if hasattr(self.multiworld, "re_gen_passthrough"):
+            self.init_tracker_data()
+
+        # Select Start Room
+       # init_starting_room_data(self)
+
+        # Randomize Door Colors
+        #if (
+        #    self.options.door_color_randomization != DoorColorRandomization.option_none
+        #    and not self.door_color_mapping
+        #):
+        #    self.door_color_mapping = get_world_door_mapping(self)
+
+        #init_starting_beam(self)
+
+        # Reconcile starting beam with door color mapping, if applicable
+        #remap_doors_to_power_beam_if_necessary(self)
+
+        # Set starting loadout
+        #init_starting_loadout(self)
+
+        # Randomize Blast Shields
+        #if (
+        #    self.options.blast_shield_randomization.value
+        #    != BlastShieldRandomization.option_none
+        #    or self.options.locked_door_count > 0
+        #) and not self.blast_shield_mapping:
+        #    self.blast_shield_mapping = get_world_blast_shield_mapping(self)
+
+        #if self.blast_shield_mapping:
+        #    apply_blast_shield_mapping(self)
+
+        # Randomize Elevators
+        #if self.options.elevator_randomization:
+        #    if not len(self.elevator_mapping):
+        #       self.elevator_mapping = get_random_elevator_mapping(self)
+        #else:
+        #    self.elevator_mapping = default_elevator_mappings
+
+        # Init starting inventory
+        #starting_items = generate_base_start_inventory(self)
+        #option_filled_items = [
+        #    *[item for item in self.options.start_inventory.value.keys()],
+        #    *[item for item in self.options.start_inventory_from_pool.value.keys()],
+        #]
+
+        for item in [
+            item for item in starting_items if item not in option_filled_items
+        ]:
+            self.multiworld.push_precollected(
+                self.create_item(item, ItemClassification.progression)
+            )
+    
+    def create_item(
+        self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
+        createdthing = item_table[name]
+
+        if hasattr(self.multiworld, "generation_is_fake"):
+            # All items should be progression for the Universal Tracker
+            override = ItemClassification.progression
+        if override:
+            return KRtDLItem(name, override, createdthing.code, self.player)
+        return KRtDLItem(name, createdthing.classification, createdthing.code, self.player)
+
+    def create_items(self) -> None:
+        precollected_item_names = [
+            item.name for item in self.multiworld.precollected_items[self.player]
+        ]
+        new_map: Dict[str, str] = {}
+
+        for location, item in self.prefilled_item_map.items():
+            if item not in precollected_item_names:
+                # Prefilled items affect what goes into the item pool. If we already have collected something, we won't need to prefill it
+                new_map[location] = item
+
+        self.prefilled_item_map = new_map
+
+        item_pool = generate_item_pool(self)
+        self.multiworld.itempool += item_pool
+
+    def pre_fill(self) -> None:
+        for location_name, item_name in self.prefilled_item_map.items():
+            location = self.get_location(location_name)
+            item = self.create_item(item_name, ItemClassification.progression)
+            location.place_locked_item(item)
+    
     def generate_output(self, output_directory: str) -> None:
         # if self.options.randomize_suit_colors:
             # options: List[VariaSuitColorOverride] = [self.options.power_suit_color, self.options.varia_suit_color, self.options.gravity_suit_color, self.options.phazon_suit_color]
