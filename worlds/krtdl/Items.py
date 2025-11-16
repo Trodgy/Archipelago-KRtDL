@@ -1,3 +1,4 @@
+from typing import List
 from .GameNames import ItemNames
 from BaseClasses import Item, ItemClassification
 
