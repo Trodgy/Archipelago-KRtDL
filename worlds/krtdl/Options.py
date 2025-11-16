@@ -28,8 +28,8 @@ class Goal(Choice):
 
 class EnergySphereHuntRequirement(Range):
     """Determines how many Energy Spheres are necessary to achieve the Energy Sphere Hunt goal.
-    [Note that setting the goal over 120 will require playing through Extra mode]
-    [Will force Energy Spheres in Extra mode to become checks if over 120 regardless of Extrasanity status if this is the case]"""
+    [Note that setting the goal over 120 will require playing through Extra Mode]
+    [Will force Energy Spheres in Extra Mode to become checks if over 120 regardless of Extrasanity status if this is the case]"""
     display_name = "Energy Sphere Hunt Requirement"
     range_start = 1
     range_end = 240
@@ -195,7 +195,8 @@ class ShuffleStages(Choice):
 
 class ShuffleBossStages(Toggle):
     """Shuffles the game's boss stages around.
-    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]"""
+    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]
+    [If a world has no boss, clearing all stages will unlock the next world]"""
     display_name = "Shuffle Boss Stages"
 
 class LockBossStages(Toggle):
@@ -263,7 +264,8 @@ class ShuffleLandia(Toggle):
     display_name = "Shuffle Landia"
 
 class ShuffleMoves(Toggle):
-    """If enabled, requires some of Kirby's basic moves to be unlocked to be able to use them."""
+    """If enabled, requires most of Kirby's basic moves to be unlocked to be able to use them.
+    This includes: Hover, Inhaling, Super Inhaling, Sliding, Swimming"""
     display_name = "Shuffle Moves"
 
 class ShuffleLevelItems(DefaultOnToggle):
