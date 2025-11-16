@@ -89,3 +89,72 @@ item_table: dict[str, ItemData] = {
     ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 58, ItemClassification.trap),
     ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 59, ItemClassification.trap),
 }
+
+def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
+    # These are items that are only added if certain options are set
+    items: List[KRtDLItem] = []
+
+    if world.options.shuffle_energy_spheres:
+        #this one generates all 240 spheres
+        if world.options.extra_sanity or (world.options.goal == 5 and world.options.energy_sphere_hunt_requirement > 120):
+            for i in range(1,120):
+                items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
+            for i in range(1,120):
+                items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
+        #this one generates just extra game spheres
+        elif world.options.start_in_extra_game:
+            for i in range(1,120):
+                items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
+        #this one generates just normal game spheres
+        else:
+            for i in range(1,120):
+                items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
+
+    if world.options.shuffle_part_spheres:
+        if world.options.extra_sanity:
+            items.append(world.create_item(ItemNames.lor_oars.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_rwing.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_lwing.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_emblem.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_oars_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_rwing_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_lwing_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_emblem_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_mast_ex.value, ItemClassification.progression))
+        elif world.options.start_in_extra_game:
+            items.append(world.create_item(ItemNames.lor_oars_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_rwing_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_lwing_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_emblem_ex.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_mast_ex.value, ItemClassification.progression))
+        else:
+            items.append(world.create_item(ItemNames.lor_oars.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_rwing.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_lwing.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_emblem.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
+
+
+    #assert world.starting_room_data.selected_loadout
+
+    #items_to_remove = [
+    #    *world.prefilled_item_map.values(),
+    #    *generate_base_start_inventory(world),
+    #]
+
+    #for item in items_to_remove:
+    #    for i in range(len(items)):
+    #        if items[i].name == item:
+    #            items.pop(i)
+    #            break
+
+    # Fill Missiles for rest
+    #for _ in range(len(items), 100 - len(world.prefilled_item_map.values())):
+    #    items.append(
+    #        world.create_item(
+    #            SuitUpgrade.Missile_Expansion.value, ItemClassification.filler
+    #        )
+    #    )
+
+    return items
