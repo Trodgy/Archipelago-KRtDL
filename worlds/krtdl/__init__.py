@@ -165,8 +165,7 @@ class KRtDLWorld(World):
                 self.create_item(item, ItemClassification.progression)
             )
     
-    def create_item(
-        self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
+    def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
         createdthing = item_table[name]
 
         if hasattr(self.multiworld, "generation_is_fake"):
