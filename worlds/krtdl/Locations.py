@@ -90,152 +90,152 @@ for i in StageNames:
 #should end at ID 68
     
 energy_sphere_table = {}
-for i in range(1,3): #Cookie Country 1
+for i in range(1,3+1): #Cookie Country 1
     energy_sphere_table[StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,3): #Cookie Country 2
+for i in range(1,3+1): #Cookie Country 2
     energy_sphere_table[StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,3): #Cookie Country 3
+for i in range(1,3+1): #Cookie Country 3
     energy_sphere_table[StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,4): #Cookie Country 4
+for i in range(1,4+1): #Cookie Country 4
     energy_sphere_table[StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,3): #Raisin Ruins 1
+for i in range(1,3+1): #Raisin Ruins 1
     energy_sphere_table[StageNames[5] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[5] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Raisin Ruins 2
+for i in range(1,4+1): #Raisin Ruins 2
     energy_sphere_table[StageNames[6] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[6] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Raisin Ruins 3
+for i in range(1,4+1): #Raisin Ruins 3
     energy_sphere_table[StageNames[7] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[7] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,5): #Raisin Ruins 4
+for i in range(1,5+1): #Raisin Ruins 4
     energy_sphere_table[StageNames[8] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[8] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,3): #Onion Ocean 1
+for i in range(1,3+1): #Onion Ocean 1
     energy_sphere_table[StageNames[10] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[10] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Onion Ocean 2
+for i in range(1,4+1): #Onion Ocean 2
     energy_sphere_table[StageNames[11] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[11] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Onion Ocean 3
+for i in range(1,4+1): #Onion Ocean 3
     energy_sphere_table[StageNames[12] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[12] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,5): #Onion Ocean 4
+for i in range(1,5+1): #Onion Ocean 4
     energy_sphere_table[StageNames[13] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[13] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,3): #White Wafers 1
+for i in range(1,3+1): #White Wafers 1
     energy_sphere_table[StageNames[15] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[15] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #White Wafers 2
+for i in range(1,4+1): #White Wafers 2
     energy_sphere_table[StageNames[16] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[16] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #White Wafers 3
+for i in range(1,4+1): #White Wafers 3
     energy_sphere_table[StageNames[17] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[17] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #White Wafers 4
+for i in range(1,4+1): #White Wafers 4
     energy_sphere_table[StageNames[18] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[18] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #White Wafers 5
+for i in range(1,4+1): #White Wafers 5
     energy_sphere_table[StageNames[19] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[19] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Nutty Noon 1
+for i in range(1,4+1): #Nutty Noon 1
     energy_sphere_table[StageNames[21] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[21] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Nutty Noon 2
+for i in range(1,4+1): #Nutty Noon 2
     energy_sphere_table[StageNames[22] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[22] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Nutty Noon 3
+for i in range(1,4+1): #Nutty Noon 3
     energy_sphere_table[StageNames[23] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[23] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1   
-for i in range(1,4): #Nutty Noon 4
+for i in range(1,4+1): #Nutty Noon 4
     energy_sphere_table[StageNames[24] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[24] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,4): #Nutty Noon 5
+for i in range(1,4+1): #Nutty Noon 5
     energy_sphere_table[StageNames[25] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[25] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
-for i in range(1,3): #Egg Engines 1
+for i in range(1,3+1): #Egg Engines 1
     energy_sphere_table[StageNames[27] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[27] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Egg Engines 2
+for i in range(1,4+1): #Egg Engines 2
     energy_sphere_table[StageNames[28] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[28] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4): #Egg Engines 3
+for i in range(1,4+1): #Egg Engines 3
     energy_sphere_table[StageNames[29] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[29] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1    
-for i in range(1,5): #Egg Engines 4
+for i in range(1,5+1): #Egg Engines 4
     energy_sphere_table[StageNames[30] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[30] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,5): #Egg Engines 5
+for i in range(1,5+1): #Egg Engines 5
     energy_sphere_table[StageNames[31] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[31] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,5): #Dangerous Dinner 1
+for i in range(1,5+1): #Dangerous Dinner 1
     energy_sphere_table[StageNames[33] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[33] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,5): #Dangerous Dinner 2
+for i in range(1,5+1): #Dangerous Dinner 2
     energy_sphere_table[StageNames[34] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[34] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,5): #Dangerous Dinner 3
+for i in range(1,5+1): #Dangerous Dinner 3
     energy_sphere_table[StageNames[35] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     energy_sphere_table["EX " + StageNames[35] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
