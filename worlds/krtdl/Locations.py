@@ -517,7 +517,7 @@ def generate_regions(world: "KRtDLWorld", composite_location):
     multiworld: MultiWorld = world.multiworld
     player: int = world.player
 
-    newregion = Region("test", player, multiworld, null, null, gold_star_table)
+    newregion = Region("test", player, multiworld, {}, {}, gold_star_table)
     multiworld.regions += newregion
     #for i in range(1,5):
         #newregion = Region(name, player, multiworld)
