@@ -165,7 +165,7 @@ class KRtDLWorld(World):
     def create_regions(self) -> None:
         print("test")
         create_all_regions(self)
-        create_all_locations(self)
+        create_regular_locations(self)
     
     def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
         createdthing = item_table[name]
