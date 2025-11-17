@@ -87,6 +87,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                                      
     if world.options.star_sanity:
         for i in range(0,13):
+            print(staridlookupbase + i)
             OneOneRoomOne.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)
         for i in range(13,20):
             OneOneRoomTwo.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)
