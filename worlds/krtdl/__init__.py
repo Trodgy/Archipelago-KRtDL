@@ -5,6 +5,7 @@ import settings
 import struct
 import zipfile
 import typing
+import json
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
 from logging import info
 from collections.abc import Mapping
@@ -201,15 +202,22 @@ class KRtDLWorld(World):
             location.place_locked_item(item)
     
     def generate_output(self, output_directory: str) -> None:
-        # if self.options.randomize_suit_colors:
-            # options: List[VariaSuitColorOverride] = [self.options.power_suit_color, self.options.varia_suit_color, self.options.gravity_suit_color, self.options.phazon_suit_color]
-            # for option in options:
-                # if option.value == 0:
-                    # option.value = self.random.randint(1, 35) * 10
-
-        import json
         configjson = make_config(self)
         configjsons = json.dumps(configjson, indent=4)
+
+        data = {
+            "seed": self.multiworld.seed_name,  # to verify the server's multiworld
+            "slot": self.multiworld.player_name[self.player],  # to connect to server
+            "items": {location.name: location.item.name 
+                  if location.item.player == self.player else "Remote"
+                  for location in self.multiworld.get_filled_locations(self.player)},
+            # store start_inventory from player's .yaml
+            # make sure to mark as not remote_start_inventory when connecting if stored in rom/mod
+            "starter_items": [item.name for item in self.multiworld.precollected_items[self.player]],
+        }
+
+        logging.info(msg = data)
+        
         # Check if the environment variable 'DEBUG' is set to 'True'
         if os.environ.get('DEBUG') == 'True':
             with open("test_config.json", "w") as f:
@@ -227,7 +235,7 @@ class KRtDLWorld(World):
         krtdl.write()
 
     def fill_slot_data(self) -> Mapping[str, Any]:
-        print("test")
+        #print("test")
         # If you need access to the player's chosen options on the client side, there is a helper for that.
         #return self.options.as_dict(
         #    "hard_mode", "hammer", "extra_starting_chest", "confetti_explosiveness", "player_sprite"
