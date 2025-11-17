@@ -105,11 +105,13 @@ class KRtDLWorld(World):
     options: KRtDLOptions
     topology_present = True
     item_name_to_id = {name: data.code for name, data in item_table.items()}
-    location_name_to_id = generate_locations(self)
+    location_name_to_id = {}
     prefilled_item_map: Dict[str, str] = {}  # Dict of location name to item name
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
+
+        location_name_to_id = generate_locations(self)
 
     def generate_early(self) -> None:
         if hasattr(self.multiworld, "re_gen_passthrough"):
