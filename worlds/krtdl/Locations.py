@@ -11,7 +11,7 @@ class KRtDLLocation(Location):
     game: str = "Kirby's Return to Dream Land"
 
 def get_location_names_with_ids(location_names: list[str]) -> dict[str, int | None]:
-    return {location_name: LOCATION_NAME_TO_ID[location_name] for location_name in location_names}
+    return {location_name: composite_location[location_name] for location_name in location_names}
 
 StageNames = [
     "Cookie Country Stage 1 ",
