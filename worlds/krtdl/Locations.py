@@ -535,18 +535,3 @@ composite_location: dict[str, int] = {
     **subgame_table,
     **extra_sanity_table
 }
-
-
-def generate_regions(world: World, composite_location):
-    multiworld: MultiWorld = world.multiworld
-    player: int = world.player
-
-    newregion = Region("test", player, multiworld)
-    newregion.locations = gold_star_table
-    multiworld.regions += newregion
-    #for i in range(1,5):
-        #newregion = Region(name, player, multiworld)
-        
-        #multiworld.regions += newregion
-    #for i in range(1,5):
-        #multiworld.regions += Region(name, player, multiworld) StageNames[0[
