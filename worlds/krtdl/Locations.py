@@ -86,14 +86,14 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         
                                      
     if world.options.star_sanity:
-        for i in range(1,13+1):
-            OneOneRoomOne.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
-        for i in range(14,20+1):
-            OneOneRoomTwo.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
-        for i in range(21,45+1):
-            OneOneRoomThree.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
-        for i in range(46,57+1):
-            OneOneRoomFour.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)                            
+        for i in range(0,13):
+            OneOneRoomOne.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)
+        for i in range(13,20):
+            OneOneRoomTwo.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)
+        for i in range(20,45):
+            OneOneRoomThree.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)
+        for i in range(45,57):
+            OneOneRoomFour.add_locations(get_location_names_with_ids(staridlookupbase + i), KRtDLLocation)                            
 
     #if world.options.red_star_sanity:
                                     
@@ -303,7 +303,8 @@ for i in SimplificationArray:
     locationincrement += 1
     part_sphere_table["EX " + StageNames[i] + "- Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
-    
+
+staridlookupbase = BaseLocationID + locationincrement
 gold_star_table = {}
 for i in range(1,57+1): #Cookie Country 1
     gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
