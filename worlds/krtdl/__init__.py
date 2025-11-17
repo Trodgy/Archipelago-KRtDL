@@ -8,7 +8,7 @@ import typing
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
 from logging import info
 from .Items import KRtDLItem, item_table, generate_item_pool
-from .Locations import KRtDLLocations
+from .Locations import KRtDLLocations, generate_locations, generate_regions
 from .Options import KRtDLOptions, krtdl_option_groups
 from .Config import make_config
 from worlds.AutoWorld import World, WebWorld
