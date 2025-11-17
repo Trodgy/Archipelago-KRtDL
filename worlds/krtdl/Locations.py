@@ -57,6 +57,7 @@ StageNames = [
 ]
 
 def create_all_regions(world: "KRtDLWorld") -> None:
+    regions = []
     
     for i in range(0,5):
         regions.append(Region(StageNames[0] + "Room " + str(i), world.player, world.multiworld))
@@ -67,8 +68,6 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     
 
 def create_regular_locations(world: "KRtDLWorld") -> None:
-    testregion = world.get_region("test")
-
     OneOneRoomOne = world.get_region("Cookie Country Stage 1 Room 1")
     OneOneRoomTwo = world.get_region("Cookie Country Stage 1 Room 2")
     OneOneRoomThree = world.get_region("Cookie Country Stage 1 Room 3")
