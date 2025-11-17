@@ -140,6 +140,30 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         for i in range(0,1083):
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
+    if world.options.red_star_sanity:
+        for i in range(0,73):
+            items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+
+    if world.options.blue_star_sanity:
+        for i in range(0,5):
+            items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
+
+    if world.options.food_sanity:
+        for i in range(0,121):
+            items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.filler))
+
+    if world.options.flower_sanity:
+        for i in range(0,180):
+            items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
+
+    if world.options.one_up_sanity:
+        for i in range(0,14):
+            items.append(world.create_item(ItemNames.one_up.value, ItemClassification.filler))
+
+    if world.options.maxim_sanity:
+        for i in range(0,17):
+            items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.filler))
+    
     #assert world.starting_room_data.selected_loadout
 
     #items_to_remove = [
