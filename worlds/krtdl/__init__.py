@@ -108,6 +108,7 @@ class KRtDLWorld(World):
     item_name_to_id = {name: data.code for name, data in item_table.items()}
     location_name_to_id = composite_location
     prefilled_item_map: Dict[str, str] = {}  # Dict of location name to item name
+    origin_region_name = "test"
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
