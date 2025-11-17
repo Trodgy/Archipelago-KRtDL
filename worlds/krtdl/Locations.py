@@ -58,9 +58,9 @@ StageNames = [
 ]
 
 def create_all_regions(world: "KRtDLWorld") -> None:
-    regions = [
-        Region("test", world.player, world.multiworld)
-    ]
+    
+    for i in range(0,5):
+        regions.append(Region(StageNames[0] + "Room " + str(i), world.player, world.multiworld))
     
     world.multiworld.regions += regions
 
@@ -70,7 +70,17 @@ def create_all_regions(world: "KRtDLWorld") -> None:
 def create_regular_locations(world: "KRtDLWorld") -> None:
     testregion = world.get_region("test")
 
-    testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
+    OneOneRoomOne = world.get_region("Cookie Country Stage 1 Room 1")
+    OneOneRoomTwo = world.get_region("Cookie Country Stage 1 Room 2")
+    OneOneRoomThree = world.get_region("Cookie Country Stage 1 Room 3")
+    OneOneRoomFour = world.get_region("Cookie Country Stage 1 Room 4")
+    OneOneRoomFive = world.get_region("Cookie Country Stage 1 Room 5")
+    
+    if world.options.star_sanity:
+        for i in range(0,13):
+            OneOneRoomOne.add_locations(get_location_names_with_ids("Cookie Country Stage 1 Gold Star #" + str(i), KRtDLLocation)
+    
+    
     #for i in range(1,13):
         #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
         #get_location_names_with_ids
