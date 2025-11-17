@@ -60,6 +60,7 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     regions = []
     
     for i in range(1,5+1):
+        print(StageNames[0] + "Room " + str(i))
         regions.append(Region(StageNames[0] + "Room " + str(i), world.player, world.multiworld))
     
     world.multiworld.regions += regions
