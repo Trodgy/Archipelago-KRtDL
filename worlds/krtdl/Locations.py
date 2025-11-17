@@ -79,7 +79,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     if world.options.star_sanity:
         for i in range(0,13):
             OneOneRoomOne.add_locations(get_location_names_with_ids("Cookie Country Stage 1 Gold Star #" + str(i), KRtDLLocation)
-    
+        for i in range(0,7):
+            OneOneRoomTwo.add_locations(get_location_names_with_ids("Cookie Country Stage 2 Gold Star #" + str(i), KRtDLLocation)
     
     #for i in range(1,13):
         #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
