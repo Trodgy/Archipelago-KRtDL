@@ -81,7 +81,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         OneOneRoomFive.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #2"), KRtDLLocation)
         OneOneRoomFive.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #3"), KRtDLLocation)                        
 
-    if world.options.shuffle_part_spheres:
+    #if world.options.shuffle_part_spheres:
         
                                      
     if world.options.star_sanity:
