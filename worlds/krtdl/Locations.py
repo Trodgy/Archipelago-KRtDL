@@ -523,7 +523,7 @@ def generate_locations(world: "KRtDLWorld"):
 
     return composite_location
 
-def generate_regions(world: World, composite_location):
+def generate_regions(world: "KRtDLWorld", composite_location):
     multiworld: MultiWorld = world.multiworld
     player: int = world.player
 
