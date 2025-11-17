@@ -1,6 +1,5 @@
 import typing
 from BaseClasses import Location, Region, CollectionState
-from .GameNames import LocationNames
 
 if typing.TYPE_CHECKING:
     from . import KRtDLWorld
