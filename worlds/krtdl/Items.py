@@ -137,7 +137,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
 
     if world.options.star_sanity:
-        for i in range(0,57):
+        for i in range(0,1083):
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
     #assert world.starting_room_data.selected_loadout
