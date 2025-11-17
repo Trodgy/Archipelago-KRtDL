@@ -72,10 +72,15 @@ def create_all_regions(world: "KRtDLWorld") -> None:
 
 def create_regular_locations(world: "KRtDLWorld") -> None:
     OneOneRoomOne = world.get_region("Cookie Country Stage 1 Room 1")
+    print(OneOneRoomOne)
     OneOneRoomTwo = world.get_region("Cookie Country Stage 1 Room 2")
+    print(OneOneRoomTwo)
     OneOneRoomThree = world.get_region("Cookie Country Stage 1 Room 3")
+    print(OneOneRoomThree)
     OneOneRoomFour = world.get_region("Cookie Country Stage 1 Room 4")
+    print(OneOneRoomFour)
     OneOneRoomFive = world.get_region("Cookie Country Stage 1 Room 5")
+    print(OneOneRoomFive)
 
     if world.options.shuffle_energy_spheres:
         OneOneRoomTwo.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #1"), KRtDLLocation)
