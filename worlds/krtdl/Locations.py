@@ -63,27 +63,26 @@ def generate_locations(world: "KRtDLWorld"):
     #should end at ID 68
     
     energy_sphere_table = {}
-    if world.options.shuffle_energy_spheres:
-        for i in range(1,3): #Cookie Country 1
-            energy_sphere_table[StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-            energy_sphere_table["EX " + StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,3): #Cookie Country 2
-            energy_sphere_table[StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-            energy_sphere_table["EX " + StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,3): #Cookie Country 3
-            energy_sphere_table[StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-            energy_sphere_table["EX " + StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1  
-        for i in range(1,4): #Cookie Country 4
-            energy_sphere_table[StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-            energy_sphere_table["EX " + StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1  
+    for i in range(1,3): #Cookie Country 1
+         energy_sphere_table[StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+        energy_sphere_table["EX " + StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+    for i in range(1,3): #Cookie Country 2
+        energy_sphere_table[StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+        energy_sphere_table["EX " + StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+     for i in range(1,3): #Cookie Country 3
+         energy_sphere_table[StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+         locationincrement += 1
+         energy_sphere_table["EX " + StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+         locationincrement += 1  
+     for i in range(1,4): #Cookie Country 4
+         energy_sphere_table[StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+         locationincrement += 1
+         energy_sphere_table["EX " + StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+         locationincrement += 1  
         for i in range(1,3): #Raisin Ruins 1
             energy_sphere_table[StageNames[5] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
             locationincrement += 1
@@ -227,64 +226,62 @@ def generate_locations(world: "KRtDLWorld"):
             locationincrement += 1
     
     gold_star_table = {}
-    if world.options.star_sanity:
-        for i in range(1,13): #Cookie Country 1
-            gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        #for i in range(1,57): #Cookie Country 1
-         #   gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-          #  locationincrement += 1
-        #for i in range(1,32):
-        #    gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,49):
-        #    gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,82):
-        #    gold_star_table[StageNames[3] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,47): #Raisin Ruins 1
-        #    gold_star_table[StageNames[5] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,133):
-        #    gold_star_table[StageNames[6] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,66):
-        #    gold_star_table[StageNames[7] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,97):
-        #    gold_star_table[StageNames[8] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,117): #Onion Ocean 1
-        #    gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,107): #Onion Ocean 2
-        #    gold_star_table[StageNames[11] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,200): #Onion Ocean 3
-        #    gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
-        #for i in range(1,96): #Onion Ocean 4
-        #    gold_star_table[StageNames[13] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-        #    locationincrement += 1
+    for i in range(1,13): #Cookie Country 1
+        gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+    #for i in range(1,57): #Cookie Country 1
+        #gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,32):
+        #gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,49):
+        #gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,82):
+        #gold_star_table[StageNames[3] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,47): #Raisin Ruins 1
+        #gold_star_table[StageNames[5] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,133):
+        #gold_star_table[StageNames[6] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,66):
+        #gold_star_table[StageNames[7] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,97):
+        #gold_star_table[StageNames[8] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,117): #Onion Ocean 1
+        #gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,107): #Onion Ocean 2
+        #gold_star_table[StageNames[11] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,200): #Onion Ocean 3
+        #gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
+    #for i in range(1,96): #Onion Ocean 4
+        #gold_star_table[StageNames[13] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        #locationincrement += 1
     
     red_star_table = {}
-    if world.options.red_star_sanity:
-        for i in range(1,4): #Cookie Country 1
-            red_star_table[StageNames[0] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,2):
-            red_star_table[StageNames[1] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,4):
-            red_star_table[StageNames[2] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,8):
-            red_star_table[StageNames[3] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
-        for i in range(1,2): #Raisin Ruins 1
-            red_star_table[StageNames[5] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-            locationincrement += 1
+    for i in range(1,4): #Cookie Country 1
+        red_star_table[StageNames[0] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+    for i in range(1,2):
+        red_star_table[StageNames[1] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+    for i in range(1,4):
+        red_star_table[StageNames[2] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+    for i in range(1,8):
+        red_star_table[StageNames[3] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
+     for i in range(1,2): #Raisin Ruins 1
+        red_star_table[StageNames[5] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+        locationincrement += 1
         for i in range(1,7):
             red_star_table[StageNames[6] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
             locationincrement += 1
