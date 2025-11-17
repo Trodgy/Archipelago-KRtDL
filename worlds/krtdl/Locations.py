@@ -3,6 +3,9 @@ from BaseClasses import Location, Region, CollectionState
 from .GameNames import LocationNames
 from worlds.AutoWorld import World
 
+if typing.TYPE_CHECKING:
+    from . import KRtDLWorld
+
 BaseLocationID = 24102011 + 40
 
 class KRtDLLocations(Location):
@@ -510,7 +513,7 @@ composite_location: dict[str, int] = {
 }
 
 
-def generate_regions(world: World, composite_location):
+def generate_regions(world: "KRtDLWorld", composite_location):
     multiworld: MultiWorld = world.multiworld
     player: int = world.player
 
