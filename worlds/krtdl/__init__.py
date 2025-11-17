@@ -9,7 +9,7 @@ from typing import TYPE_CHECKING, Any, Dict, List, Optional
 from logging import info
 from collections.abc import Mapping
 from .Items import KRtDLItem, item_table, generate_item_pool
-from .Locations import KRtDLLocation, composite_location, create_all_regions, create_regular_locations
+from .Locations import KRtDLLocation, composite_location, create_all_regions, create_regular_locations, gold_star_table
 from .Options import KRtDLOptions, krtdl_option_groups
 from .Config import make_config
 from worlds.AutoWorld import World, WebWorld
