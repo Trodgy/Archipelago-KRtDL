@@ -1,6 +1,7 @@
 import typing
 from BaseClasses import Location, Region, CollectionState
 from .GameNames import LocationNames
+from worlds.AutoWorld import World
 
 BaseLocationID = 24102011 + 40
 
