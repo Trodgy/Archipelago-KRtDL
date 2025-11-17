@@ -94,10 +94,10 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(0,12):
             OneOneRoomFour.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Gold Star #" + str(i)), KRtDLLocation)                            
 
-    if world.options.red_star_sanity:
+    #if world.options.red_star_sanity:
                                     
 
-    if world.options.blue_star_sanity:
+    #if world.options.blue_star_sanity:
                                    
                                          
     if world.options.flower_sanity:
@@ -106,22 +106,22 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(0,10):
             OneOneRoomThree.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Flower #" + str(i)), KRtDLLocation)                             
 
-    if world.options.one_up_sanity:
+    #if world.options.one_up_sanity:
 
                                           
-    if world.options.food_sanity:
+    #if world.options.food_sanity:
 
 
-    if world.options.maxim_sanity:
+    #if world.options.maxim_sanity:
 
 
-    if world.options.shuffle_challenges != 0:
+    #if world.options.shuffle_challenges != 0:
 
 
-    if world.options.shuffle_challenges == 2:
+    #if world.options.shuffle_challenges == 2:
         
 
-    if world.options.shuffle_subgames:
+    #if world.options.shuffle_subgames:
                                           
                                           
     #for i in range(1,13):
