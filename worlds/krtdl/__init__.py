@@ -162,6 +162,7 @@ class KRtDLWorld(World):
             #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
 
     def create_regions(self) -> None:
+        print("test")
         create_all_regions(self)
         create_all_locations(self)
     
@@ -222,3 +223,9 @@ class KRtDLWorld(World):
         outfile_name = self.multiworld.get_out_file_name_base(self.player)
         krtdl = KRtDLContainer(configjsons, options_json, outfile_name, output_directory, player=self.player, player_name=self.player_name)
         krtdl.write()
+
+    def fill_slot_data(self) -> Mapping[str, Any]:
+        # If you need access to the player's chosen options on the client side, there is a helper for that.
+        return self.options.as_dict(
+            "hard_mode", "hammer", "extra_starting_chest", "confetti_explosiveness", "player_sprite"
+        )
