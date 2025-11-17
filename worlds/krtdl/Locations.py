@@ -58,6 +58,8 @@ StageNames = [
 
 def create_all_regions(world: "KRtDLWorld") -> None:
     regions = []
+
+    regions.append(Region("Menu", world.player, world.multiworld))
     
     for i in range(1,5+1):
         print(StageNames[0] + "Room " + str(i))
