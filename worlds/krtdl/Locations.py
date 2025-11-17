@@ -1,15 +1,17 @@
 import typing
 from BaseClasses import Location, Region, CollectionState
 from .GameNames import LocationNames
-from worlds.AutoWorld import World
 
 if typing.TYPE_CHECKING:
     from . import KRtDLWorld
 
 BaseLocationID = 24102011 + 40
 
-class KRtDLLocations(Location):
+class KRtDLLocation(Location):
     game: str = "Kirby's Return to Dream Land"
+
+def get_location_names_with_ids(location_names: list[str]) -> dict[str, int | None]:
+    return {location_name: LOCATION_NAME_TO_ID[location_name] for location_name in location_names}
 
 StageNames = [
     "Cookie Country Stage 1 ",
@@ -54,6 +56,28 @@ StageNames = [
     "Another Dimension Boss ",
     "Another Dimension Final Boss "
 ]
+
+def create_all_regions(world: KRtDLWorld) -> None:
+    regions = [
+        Region("test", world.player, world.multiworld)
+    ]
+    
+    world.multiworld.regions += regions
+
+#def connect_regions(world: KRtDLWorld) -> None:
+    
+
+def create_regular_locations(world: KRtDLWorld) -> None:
+    testregion = world.get_region("test")
+
+    testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
+    #for i in range(1,13):
+        #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
+        #get_location_names_with_ids
+        #testregion.locations.append(KRtDLLocation(world.player, ("GoldStarTest " + str(i)), world.location_name_to_id["Bottom Left Chest"], overworld))
+
+#def create_events(world: KRtDLWorld) -> None:
+    
 
 locationincrement = 0
 stage_completion_table = {}
@@ -229,7 +253,7 @@ for i in SimplificationArray:
     
 gold_star_table = {}
 for i in range(1,13): #Cookie Country 1
-    gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    gold_star_table["GoldStarTest " + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #for i in range(1,57): #Cookie Country 1
     #gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
