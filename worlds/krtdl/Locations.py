@@ -57,20 +57,20 @@ StageNames = [
     "Another Dimension Final Boss "
 ]
 
-def create_all_regions(world: KRtDLWorld) -> None:
-    regions = [
-        Region("test", world.player, world.multiworld)
-    ]
+#def create_all_regions(world: KRtDLWorld) -> None:
+    #regions = [
+    #    Region("test", world.player, world.multiworld)
+    #]
     
-    world.multiworld.regions += regions
+    #world.multiworld.regions += regions
 
 #def connect_regions(world: KRtDLWorld) -> None:
     
 
-def create_regular_locations(world: KRtDLWorld) -> None:
-    testregion = world.get_region("test")
+#def create_regular_locations(world: KRtDLWorld) -> None:
+    #testregion = world.get_region("test")
 
-    testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
+    #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
     #for i in range(1,13):
         #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
         #get_location_names_with_ids
