@@ -308,37 +308,37 @@ gold_star_table = {}
 for i in range(1,57+1): #Cookie Country 1
     gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-#for i in range(1,32):
+#for i in range(1,32+1):
     #gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,49):
+#for i in range(1,49+1):
     #gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,82):
+#for i in range(1,82+1):
     #gold_star_table[StageNames[3] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,47): #Raisin Ruins 1
+#for i in range(1,47+1): #Raisin Ruins 1
     #gold_star_table[StageNames[5] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,133):
+#for i in range(1,133+1):
     #gold_star_table[StageNames[6] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,66):
+#for i in range(1,66+1):
     #gold_star_table[StageNames[7] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,97):
+#for i in range(1,97+1):
     #gold_star_table[StageNames[8] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,117): #Onion Ocean 1
+#for i in range(1,117+1): #Onion Ocean 1
     #gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,107): #Onion Ocean 2
+#for i in range(1,107+1): #Onion Ocean 2
     #gold_star_table[StageNames[11] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,200): #Onion Ocean 3
+#for i in range(1,200+1): #Onion Ocean 3
     #gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
-#for i in range(1,96): #Onion Ocean 4
+#for i in range(1,96+1): #Onion Ocean 4
     #gold_star_table[StageNames[13] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
     
