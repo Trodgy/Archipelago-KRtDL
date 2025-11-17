@@ -8,7 +8,7 @@ import typing
 from typing import TYPE_CHECKING, Any, Dict, List, Optional
 from logging import info
 from .Items import KRtDLItem, item_table, generate_item_pool
-from .Locations import KRtDLLocations, composite_location
+from .Locations import KRtDLLocations
 from .Options import KRtDLOptions, krtdl_option_groups
 from .Config import make_config
 from worlds.AutoWorld import World, WebWorld
@@ -105,7 +105,7 @@ class KRtDLWorld(World):
     options: KRtDLOptions
     topology_present = True
     item_name_to_id = {name: data.code for name, data in item_table.items()}
-    location_name_to_id = composite_location
+    location_name_to_id = generate_locations(self)
     prefilled_item_map: Dict[str, str] = {}  # Dict of location name to item name
 
     def __init__(self, multiworld: MultiWorld, player: int):
@@ -162,7 +162,7 @@ class KRtDLWorld(World):
             #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
 
     def create_regions(self) -> None:
-        generate_regions(self, composite_location)
+        generate_regions(self, location_name_to_id)
     
     def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
         createdthing = item_table[name]
