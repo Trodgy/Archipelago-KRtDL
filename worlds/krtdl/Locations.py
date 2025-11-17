@@ -75,18 +75,59 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     OneOneRoomThree = world.get_region("Cookie Country Stage 1 Room 3")
     OneOneRoomFour = world.get_region("Cookie Country Stage 1 Room 4")
     OneOneRoomFive = world.get_region("Cookie Country Stage 1 Room 5")
-    
+
+    if world.options.shuffle_energy_spheres:
+        OneOneRoomTwo.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #1", KRtDLLocation)
+        OneOneRoomFive.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #2", KRtDLLocation)
+        OneOneRoomFive.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Energy Sphere #3", KRtDLLocation)                        
+
+    if world.options.shuffle_part_spheres:
+        
+                                     
     if world.options.star_sanity:
         for i in range(0,13):
-            OneOneRoomOne.add_locations(get_location_names_with_ids("Cookie Country Stage 1 Gold Star #" + str(i), KRtDLLocation)
+            OneOneRoomOne.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
         for i in range(0,7):
-            OneOneRoomTwo.add_locations(get_location_names_with_ids("Cookie Country Stage 2 Gold Star #" + str(i), KRtDLLocation)
-    
+            OneOneRoomTwo.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
+        for i in range(0,25):
+            OneOneRoomThree.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
+        for i in range(0,12):
+            OneOneRoomFour.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)                            
+
+    if world.options.red_star_sanity:
+                                    
+
+    if world.options.blue_star_sanity:
+                                   
+                                         
+    if world.options.flower_sanity:
+        for i in range(0,6):
+            OneOneRoomOne.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Flower #" + str(i), KRtDLLocation)
+        for i in range(0,10):
+            OneOneRoomThree.add_locations(get_location_names_with_ids("Cookie Country Stage 1 - Flower #" + str(i), KRtDLLocation)                             
+
+    if world.options.one_up_sanity:
+
+                                          
+    if world.options.food_sanity:
+
+
+    if world.options.maxim_sanity:
+
+
+    if world.options.shuffle_challenges != 0:
+
+
+    if world.options.shuffle_challenges == 2:
+        
+
+    if world.options.shuffle_subgames:
+                                          
+                                          
     #for i in range(1,13):
         #testregion.add_locations(get_location_names_with_ids(gold_star_table.keys()), KRtDLLocation)
         #get_location_names_with_ids
-        #testregion.locations.append(KRtDLLocation(world.player, ("GoldStarTest " + str(i)), world.location_name_to_id["Bottom Left Chest"], overworld))
-
+        #testregion.locations.append(KRtDLLocation(world.player, ("GoldStarTest " + str(i)), world.location_name_to_id["Bottom Left Chest"], overworld)
 #def create_events(world: KRtDLWorld) -> None:
     
 
@@ -263,12 +304,9 @@ for i in SimplificationArray:
     locationincrement += 1
     
 gold_star_table = {}
-for i in range(1,13): #Cookie Country 1
-    gold_star_table["GoldStarTest " + str(i)] = BaseLocationID + locationincrement
+for i in range(1,57+1): #Cookie Country 1
+    gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-#for i in range(1,57): #Cookie Country 1
-    #gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
-    #locationincrement += 1
 #for i in range(1,32):
     #gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     #locationincrement += 1
