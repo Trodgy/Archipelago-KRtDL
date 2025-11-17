@@ -78,22 +78,22 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     OneOneRoomFive = world.get_region("Cookie Country Stage 1 Room 5")
 
     if world.options.shuffle_energy_spheres:
-        OneOneRoomTwo.add_locations("Cookie Country Stage 1 - Energy Sphere #1", KRtDLLocation)
-        OneOneRoomFive.add_locations("Cookie Country Stage 1 - Energy Sphere #2", KRtDLLocation)
-        OneOneRoomFive.add_locations("Cookie Country Stage 1 - Energy Sphere #3", KRtDLLocation)                        
+        OneOneRoomTwo.add_locations(get_location_names_with_ids(energy_sphere_table[0]), KRtDLLocation)
+        OneOneRoomFive.add_locations(get_location_names_with_ids(energy_sphere_table[1]), KRtDLLocation)
+        OneOneRoomFive.add_locations(get_location_names_with_ids(energy_sphere_table[2]), KRtDLLocation)                        
 
     #if world.options.shuffle_part_spheres:
         
                                      
     if world.options.star_sanity:
         for i in range(1,13+1):
-            OneOneRoomOne.add_locations("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
+            OneOneRoomOne.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
         for i in range(14,20+1):
-            OneOneRoomTwo.add_locations("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
+            OneOneRoomTwo.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
         for i in range(21,45+1):
-            OneOneRoomThree.add_locations("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)
+            OneOneRoomThree.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)
         for i in range(46,57+1):
-            OneOneRoomFour.add_locations("Cookie Country Stage 1 - Gold Star #" + str(i), KRtDLLocation)                            
+            OneOneRoomFour.add_locations(get_location_names_with_ids(gold_star_table[i]), KRtDLLocation)                            
 
     #if world.options.red_star_sanity:
                                     
@@ -103,9 +103,9 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                                          
     if world.options.flower_sanity:
         for i in range(1,6+1):
-            OneOneRoomOne.add_locations("Cookie Country Stage 1 - Flower #" + str(i), KRtDLLocation)
+            OneOneRoomOne.add_locations(get_location_names_with_ids(flower_table[i]), KRtDLLocation)
         for i in range(7,16+1):
-            OneOneRoomThree.add_locations("Cookie Country Stage 1 - Flower #" + str(i), KRtDLLocation)                             
+            OneOneRoomThree.add_locations(get_location_names_with_ids(flower_table[i]), KRtDLLocation)                             
 
     #if world.options.one_up_sanity:
 
