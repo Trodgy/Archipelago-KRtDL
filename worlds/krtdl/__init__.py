@@ -162,7 +162,7 @@ class KRtDLWorld(World):
             #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
 
     def create_regions(self) -> None:
-        generate_regions(self, location_name_to_id)
+        generate_regions(self, self.location_name_to_id)
     
     def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
         createdthing = item_table[name]
