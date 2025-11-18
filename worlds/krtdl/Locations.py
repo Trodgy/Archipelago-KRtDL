@@ -265,7 +265,6 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(29,40+1):
             OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
         for i in range(41,49+1):
-            print(i)
             OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
@@ -616,7 +615,6 @@ for i in range(1,32+1):
     gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,49+1):
-    print(i)
     gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,82+1):
