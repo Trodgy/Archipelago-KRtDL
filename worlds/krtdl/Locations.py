@@ -68,8 +68,8 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     regions.append(Region("Onion Ocean Hub", world.player, world.multiworld))
     regions.append(Region("White Wafers Hub", world.player, world.multiworld))
     regions.append(Region("Nutty Noon Hub", world.player, world.multiworld))
-    regions.append(Region("White Wafers Hub", world.player, world.multiworld))
-    regions.append(Region("Nutty Noon Hub", world.player, world.multiworld))
+    regions.append(Region("Egg Engines Hub", world.player, world.multiworld))
+    regions.append(Region("Dangerous Dinner Hub", world.player, world.multiworld))
     
     for i in range(1,5+1):
         regions.append(Region(StageNames[0] + "Room " + str(i), world.player, world.multiworld))
