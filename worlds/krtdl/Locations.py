@@ -52,6 +52,7 @@ StageNames = [
     "Dangerous Dinner Stage 4 ",
     "Another Dimension Part 1 ",
     "Another Dimension Part 2 ",
+    "Another Dimension Part 3 ",
     "Another Dimension Boss ",
     "Another Dimension Final Boss "
 ]
@@ -60,6 +61,19 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     regions = []
 
     regions.append(Region("Menu", world.player, world.multiworld))
+
+    regions.append(Region("Popstar Map", world.player, world.multiworld))
+    regions.append(Region("Halcandra Map", world.player, world.multiworld))
+
+    regions.append(Region("Lor Starcutter", world.player, world.multiworld))
+
+    regions.append(Region("Cookie Country Hub", world.player, world.multiworld))
+    regions.append(Region("Raisin Ruins Hub", world.player, world.multiworld))
+    regions.append(Region("Onion Ocean Hub", world.player, world.multiworld))
+    regions.append(Region("White Wafers Hub", world.player, world.multiworld))
+    regions.append(Region("Nutty Noon Hub", world.player, world.multiworld))
+    regions.append(Region("White Wafers Hub", world.player, world.multiworld))
+    regions.append(Region("Nutty Noon Hub", world.player, world.multiworld))
     
     for i in range(1,5+1):
         regions.append(Region(StageNames[0] + "Room " + str(i), world.player, world.multiworld))
@@ -491,7 +505,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 locationincrement = 0
 stage_completion_table = {}
 for i in StageNames:
-    if i != "Another Dimension Part 1" and i != "Another Dimension Part 2":
+    if i != "Another Dimension Part 1 " and i != "Another Dimension Part 2 " and i != "Another Dimension Part 3 ":
         stage_completion_table[i + " - Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
         stage_completion_table["EX " + i + " - Complete"] = BaseLocationID + locationincrement
