@@ -50,11 +50,7 @@ StageNames = [
     "Dangerous Dinner Stage 2 ",
     "Dangerous Dinner Stage 3 ",
     "Dangerous Dinner Stage 4 ",
-    "Another Dimension Part 1 ",
-    "Another Dimension Part 2 ",
-    "Another Dimension Part 3 ",
-    "Another Dimension Boss ",
-    "Another Dimension Final Boss "
+    "Another Dimension ",
 ]
 
 def create_all_regions(world: "KRtDLWorld") -> None:
@@ -505,10 +501,10 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 locationincrement = 0
 stage_completion_table = {}
 for i in StageNames:
-    if i != "Another Dimension Part 1 " and i != "Another Dimension Part 2 " and i != "Another Dimension Part 3 ":
-        stage_completion_table[i + " - Complete"] = BaseLocationID + locationincrement
+    if i != "Another Dimension ":
+        stage_completion_table[i + "- Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
-        stage_completion_table["EX " + i + " - Complete"] = BaseLocationID + locationincrement
+        stage_completion_table["EX " + i + "- Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
 #should end at ID 68
     
