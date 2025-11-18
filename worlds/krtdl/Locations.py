@@ -269,15 +269,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
         for i in range(10,13+1):
-            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
         for i in range(14,22+1):
-            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
         for i in range(23,77+1):
-            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
         for i in range(78,82+1):
-            OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,12+1):
