@@ -233,6 +233,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     #if world.options.shuffle_part_spheres:
         #OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 - Part Sphere"]), KRtDLLocation)
+        #TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 - Part Sphere"]), KRtDLLocation)
+        #ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 - Part Sphere"]), KRtDLLocation)
                                      
     if world.options.star_sanity:
         for i in range(1,13+1):
@@ -362,6 +364,31 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         for i in range(1,4+1):
             ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(5,23+1):
+            ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(24,37+1):
+            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(38,53+1):
+            ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(54,122+1):
+            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(123,177+1):
+            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(178,200+1):
+            ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,12+1):
+            ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(13,23+1):
+            ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(24,33+1):
+            ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(34,54+1):
+            ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(55,69+1):
+            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(70,96+1):
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
     #if world.options.red_star_sanity:
                                     
 
