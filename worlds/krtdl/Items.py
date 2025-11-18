@@ -110,6 +110,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         else:
             #for i in range(1,120):
                 #items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
+            print("does it make it to this logic?")
             for i in range(1,45):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
 
