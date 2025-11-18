@@ -214,6 +214,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Raisin Ruins Stage 1 Room 7"),
                   world.get_region("Raisin Ruins Stage 1 Room 8")]
 
+    RaisinRuinsHub.connect(TwoOneRooms[0], "Raisin Ruins Hub To Raisin Ruins Stage 1 Room 1")
+    TwoOneRooms[0].connect(TwoOneRooms[1], "Raisin Ruins Stage 1 Room 1-2")
+    TwoOneRooms[0].connect(TwoOneRooms[2], "Raisin Ruins Stage 1 Room 1-3")
+    TwoOneRooms[2].connect(TwoOneRooms[3], "Raisin Ruins Stage 1 Room 3-4")
+    TwoOneRooms[2].connect(TwoOneRooms[4], "Raisin Ruins Stage 1 Room 3-5")
+    TwoOneRooms[4].connect(TwoOneRooms[5], "Raisin Ruins Stage 1 Room 5-6")
+    TwoOneRooms[5].connect(TwoOneRooms[6], "Raisin Ruins Stage 1 Room 6-7")
+    TwoOneRooms[6].connect(TwoOneRooms[7], "Raisin Ruins Stage 1 Room 7-8")
+    
     TwoTwoRooms = [world.get_region("Raisin Ruins Stage 2 Room 1"),
                    world.get_region("Raisin Ruins Stage 2 Room 2"),
                    world.get_region("Raisin Ruins Stage 2 Room 3"),
@@ -225,6 +234,17 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Raisin Ruins Stage 2 Room 9"),
                   world.get_region("Raisin Ruins Stage 2 Room 10")]
 
+    RaisinRuinsHub.connect(TwoTwoRooms[0], "Raisin Ruins Hub To Raisin Ruins Stage 2 Room 1")
+    TwoTwoRooms[0].connect(TwoTwoRooms[1], "Raisin Ruins Stage 2 Room 1-2")
+    TwoTwoRooms[1].connect(TwoTwoRooms[2], "Raisin Ruins Stage 2 Room 2-3")
+    TwoTwoRooms[1].connect(TwoTwoRooms[3], "Raisin Ruins Stage 2 Room 2-4")
+    TwoTwoRooms[3].connect(TwoTwoRooms[4], "Raisin Ruins Stage 2 Room 4-5")
+    TwoTwoRooms[3].connect(TwoTwoRooms[5], "Raisin Ruins Stage 2 Room 4-6")
+    TwoTwoRooms[3].connect(TwoTwoRooms[6], "Raisin Ruins Stage 2 Room 4-7")
+    TwoTwoRooms[6].connect(TwoTwoRooms[7], "Raisin Ruins Stage 2 Room 7-8")
+    TwoTwoRooms[7].connect(TwoTwoRooms[8], "Raisin Ruins Stage 2 Room 8-9")
+    TwoTwoRooms[8].connect(TwoTwoRooms[9], "Raisin Ruins Stage 2 Room 9-10")
+
     TwoThreeRooms = [world.get_region("Raisin Ruins Stage 3 Room 1"),
                    world.get_region("Raisin Ruins Stage 3 Room 2"),
                    world.get_region("Raisin Ruins Stage 3 Room 3"),
@@ -232,6 +252,13 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Raisin Ruins Stage 3 Room 5"),
                    world.get_region("Raisin Ruins Stage 3 Room 6")]
 
+    RaisinRuinsHub.connect(TwoThreeRooms[0], "Raisin Ruins Hub To Raisin Ruins Stage 3 Room 1")
+    TwoThreeRooms[0].connect(TwoThreeRooms[1], "Raisin Ruins Stage 3 Room 1-2")
+    TwoThreeRooms[1].connect(TwoThreeRooms[2], "Raisin Ruins Stage 3 Room 2-3")
+    TwoThreeRooms[2].connect(TwoThreeRooms[3], "Raisin Ruins Stage 3 Room 3-4")
+    TwoThreeRooms[3].connect(TwoThreeRooms[4], "Raisin Ruins Stage 3 Room 4-5")
+    TwoThreeRooms[4].connect(TwoThreeRooms[5], "Raisin Ruins Stage 3 Room 5-6")
+    
     TwoFourRooms = [world.get_region("Raisin Ruins Stage 4 Room 1"),
                    world.get_region("Raisin Ruins Stage 4 Room 2"),
                    world.get_region("Raisin Ruins Stage 4 Room 3"),
@@ -243,8 +270,22 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Raisin Ruins Stage 4 Room 9"),
                   world.get_region("Raisin Ruins Stage 4 Room 10")]
 
+    RaisinRuinsHub.connect(TwoFourRooms[0], "Raisin Ruins Hub To Raisin Ruins Stage 4 Room 1")
+    TwoFourRooms[0].connect(TwoFourRooms[1], "Raisin Ruins Stage 4 Room 1-2")
+    TwoFourRooms[1].connect(TwoFourRooms[2], "Raisin Ruins Stage 4 Room 2-3")
+    TwoFourRooms[1].connect(TwoFourRooms[3], "Raisin Ruins Stage 4 Room 2-4")
+    TwoFourRooms[3].connect(TwoFourRooms[4], "Raisin Ruins Stage 4 Room 4-5")
+    TwoFourRooms[4].connect(TwoFourRooms[5], "Raisin Ruins Stage 4 Room 5-6")
+    TwoFourRooms[5].connect(TwoFourRooms[6], "Raisin Ruins Stage 4 Room 6-7")
+    TwoFourRooms[5].connect(TwoFourRooms[7], "Raisin Ruins Stage 4 Room 6-8")
+    TwoFourRooms[7].connect(TwoFourRooms[8], "Raisin Ruins Stage 4 Room 8-9")
+    TwoFourRooms[8].connect(TwoFourRooms[9], "Raisin Ruins Stage 4 Room 9-10")
+    
     TwoFiveRooms = [world.get_region("Raisin Ruins Stage 5 Room 1"),
                    world.get_region("Raisin Ruins Stage 5 Room 2")]
+
+    RaisinRuinsHub.connect(TwoFiveRooms[0], "Raisin Ruins Hub To Raisin Ruins Stage 5 Room 1")
+    TwoFiveRooms[0].connect(TwoFiveRooms[1], "Raisin Ruins Stage 5 Room 1-2")
     
     ThreeOneRooms = [world.get_region("Onion Ocean Stage 1 Room 1"),
                    world.get_region("Onion Ocean Stage 1 Room 2"),
@@ -256,6 +297,16 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Onion Ocean Stage 1 Room 8"),
                    world.get_region("Onion Ocean Stage 1 Room 9")]
 
+    OnionOceanHub.connect(ThreeOneRooms[0], "Onion Ocean Hub To Raisin Ocean Stage 1 Room 1")
+    ThreeOneRooms[0].connect(ThreeOneRooms[1], "Onion Ocean Stage 1 Room 1-2")
+    ThreeOneRooms[1].connect(ThreeOneRooms[2], "Onion Ocean Stage 1 Room 2-3")
+    ThreeOneRooms[2].connect(ThreeOneRooms[3], "Onion Ocean Stage 1 Room 3-4")
+    ThreeOneRooms[3].connect(ThreeOneRooms[4], "Onion Ocean Stage 1 Room 4-5")
+    ThreeOneRooms[3].connect(ThreeOneRooms[5], "Onion Ocean Stage 1 Room 4-6")
+    ThreeOneRooms[5].connect(ThreeOneRooms[6], "Onion Ocean Stage 1 Room 6-7")
+    ThreeOneRooms[6].connect(ThreeOneRooms[7], "Onion Ocean Stage 1 Room 7-8")
+    ThreeOneRooms[7].connect(ThreeOneRooms[8], "Onion Ocean Stage 1 Room 8-9")
+    
     ThreeTwoRooms = [world.get_region("Onion Ocean Stage 2 Room 1"),
                    world.get_region("Onion Ocean Stage 2 Room 2"),
                    world.get_region("Onion Ocean Stage 2 Room 3"),
@@ -263,6 +314,12 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Onion Ocean Stage 2 Room 5"),
                    world.get_region("Onion Ocean Stage 2 Room 6")]
 
+    OnionOceanHub.connect(ThreeTwoRooms[0], "Onion Ocean Hub To Raisin Ocean Stage 2 Room 1")
+    ThreeTwoRooms[0].connect(ThreeTwoRooms[1], "Onion Ocean Stage 2 Room 1-2")
+    ThreeTwoRooms[1].connect(ThreeTwoRooms[2], "Onion Ocean Stage 2 Room 2-3")
+    ThreeTwoRooms[2].connect(ThreeTwoRooms[3], "Onion Ocean Stage 2 Room 3-4")
+    ThreeTwoRooms[2].connect(ThreeTwoRooms[4], "Onion Ocean Stage 2 Room 3-5")
+    ThreeTwoRooms[4].connect(ThreeTwoRooms[5], "Onion Ocean Stage 2 Room 5-6")
 
     ThreeThreeRooms = [world.get_region("Onion Ocean Stage 3 Room 1"),
                    world.get_region("Onion Ocean Stage 3 Room 2"),
@@ -275,6 +332,17 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Onion Ocean Stage 3 Room 9"),
                    world.get_region("Onion Ocean Stage 3 Room 10")]
 
+    OnionOceanHub.connect(ThreeThreeRooms[0], "Onion Ocean Hub To Raisin Ocean Stage 3 Room 1")
+    ThreeThreeRooms[0].connect(ThreeThreeRooms[1], "Onion Ocean Stage 3 Room 1-2")
+    ThreeThreeRooms[1].connect(ThreeThreeRooms[2], "Onion Ocean Stage 3 Room 2-3")
+    ThreeThreeRooms[1].connect(ThreeThreeRooms[3], "Onion Ocean Stage 3 Room 2-4")
+    ThreeThreeRooms[3].connect(ThreeThreeRooms[4], "Onion Ocean Stage 3 Room 4-5")
+    ThreeThreeRooms[4].connect(ThreeThreeRooms[5], "Onion Ocean Stage 3 Room 5-6")
+    ThreeThreeRooms[5].connect(ThreeThreeRooms[6], "Onion Ocean Stage 3 Room 6-7")
+    ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 7-8")
+    ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 8-9")
+    ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 9-10")
+    
     ThreeFourRooms = [world.get_region("Onion Ocean Stage 4 Room 1"),
                    world.get_region("Onion Ocean Stage 4 Room 2"),
                    world.get_region("Onion Ocean Stage 4 Room 3"),
@@ -284,8 +352,20 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Onion Ocean Stage 4 Room 7"),
                    world.get_region("Onion Ocean Stage 4 Room 8")]
 
+    OnionOceanHub.connect(ThreeFourRooms[0], "Onion Ocean Hub To Raisin Ocean Stage 4 Room 1")
+    ThreeFourRooms[0].connect(ThreeFourRooms[1], "Onion Ocean Stage 4 Room 1-2")
+    ThreeFourRooms[1].connect(ThreeFourRooms[2], "Onion Ocean Stage 4 Room 2-3")
+    ThreeFourRooms[1].connect(ThreeFourRooms[3], "Onion Ocean Stage 4 Room 2-4")
+    ThreeFourRooms[3].connect(ThreeFourRooms[4], "Onion Ocean Stage 4 Room 4-5")
+    ThreeFourRooms[3].connect(ThreeFourRooms[5], "Onion Ocean Stage 4 Room 4-6")
+    ThreeFourRooms[5].connect(ThreeFourRooms[6], "Onion Ocean Stage 4 Room 6-7")
+    ThreeFourRooms[6].connect(ThreeFourRooms[7], "Onion Ocean Stage 4 Room 7-8")
+
     ThreeFiveRooms = [world.get_region("Onion Ocean Stage 5 Room 1"),
                    world.get_region("Onion Ocean Stage 5 Room 2")]
+
+    OnionOceanHub.connect(ThreeFiveRooms[0], "Onion Ocean Hub To Raisin Ocean Stage 5 Room 1")
+    ThreeFiveRooms[0].connect(ThreeFiveRooms[1], "Onion Ocean Stage 5 Room 1-2")
     
     #NinjaDojoRegion = world.get_region("Ninja Dojo")
     #ScopeShotRegion = world.get_region("Scope Shot")
