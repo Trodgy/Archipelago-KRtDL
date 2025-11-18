@@ -91,19 +91,19 @@ def create_all_regions(world: "KRtDLWorld") -> None:
         regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
 
     for i in range(1,9+1):
-        regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
+        regions.append(Region(StageNames[10] + "Room " + str(i), world.player, world.multiworld))
 
     for i in range(1,6+1):
-        regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
+        regions.append(Region(StageNames[11] + "Room " + str(i), world.player, world.multiworld))
 
     for i in range(1,10+1):
-        regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
+        regions.append(Region(StageNames[12] + "Room " + str(i), world.player, world.multiworld))
 
     for i in range(1,8+1):
-        regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
+        regions.append(Region(StageNames[13] + "Room " + str(i), world.player, world.multiworld))
 
     for i in range(1,2+1):
-        regions.append(Region(StageNames[9] + "Room " + str(i), world.player, world.multiworld))
+        regions.append(Region(StageNames[14] + "Room " + str(i), world.player, world.multiworld))
     world.multiworld.regions += regions
 
 #def connect_regions(world: KRtDLWorld) -> None:
