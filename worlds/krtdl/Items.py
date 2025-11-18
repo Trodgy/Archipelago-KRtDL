@@ -108,7 +108,9 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
                 items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
         #this one generates just normal game spheres
         else:
-            for i in range(1,120):
+            #for i in range(1,120):
+                #items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
+            for i in range(1,45):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
 
     if world.options.shuffle_part_spheres:
