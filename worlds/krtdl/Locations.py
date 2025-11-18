@@ -615,6 +615,7 @@ for i in range(1,32+1):
     gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,49+1):
+    print(i)
     gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,82+1):
