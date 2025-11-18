@@ -217,7 +217,7 @@ class KRtDLWorld(World):
             "starter_items": [item.name for item in self.multiworld.precollected_items[self.player]],
         }
 
-        logging.info(msg = data)
+        #logging.info(msg = data)
         
         # Check if the environment variable 'DEBUG' is set to 'True'
         if os.environ.get('DEBUG') == 'True':
