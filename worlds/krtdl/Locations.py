@@ -120,11 +120,43 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     
 
 def create_regular_locations(world: "KRtDLWorld") -> None:
+    MenuRegion = world.get_region("Menu")
+    PopstarMapRegion = world.get_region("Popstar Map")
+    HalcandraMapRegion = world.get_region("Halcandra Map")
+
+    CookieCountryHub = world.get_region("Cookie Country Hub")
+    RaisinRuinsHub = world.get_region("Raisin Ruins Hub")
+    OnionOceanHub = world.get_region("Onion Ocean Hub")
+    WhiteWafersHub = world.get_region("White Wafers Hub")
+    NuttyNoonHub = world.get_region("Nutty Noon Hub")
+    EggEnginesHub = world.get_region("Egg Engines Hub")
+    DangerousDinnerHub = world.get_region("Dangerous Dinner Hub")
+    
+    MenuRegion.connect(PopstarMapRegion, "Menu To Popstar Map")
+    MenuRegion.connect(HalcandraMapRegion, "Menu To Halcandra Map")
+    PopstarMapRegion.connect(HalcandraMapRegion, "Popstar Map To Halcandra Map")
+    HalcandraMapRegion.connect(PopstarMapRegion, "Halcandra Map To Popstar Map")
+
+    PopstarMapRegion.connect(CookieCountryHub, "Popstar Map To Cookie Country Hub")
+    PopstarMapRegion.connect(RaisinRuinsHub, "Popstar Map To Raisin Ruins Hub")
+    PopstarMapRegion.connect(OnionOceanHub, "Popstar Map To Onion Ocean Hub")
+    PopstarMapRegion.connect(WhiteWafersHub, "Popstar Map To White Wafers Hub")
+    PopstarMapRegion.connect(NuttyNoonHub, "Popstar Map To Nutty Noon Hub")
+
+    HalcandraMapRegion.connect(EggEnginesHub, "Halcandra Map To Egg Engines Hub")
+    HalcandraMapRegion.connect(DangerousDinnerHub, "Halcandra Map To Dangerous Dinner Hub")
+    
     OneOneRooms = [world.get_region("Cookie Country Stage 1 Room 1"),
                    world.get_region("Cookie Country Stage 1 Room 2"),
                    world.get_region("Cookie Country Stage 1 Room 3"),
                    world.get_region("Cookie Country Stage 1 Room 4"),
                   world.get_region("Cookie Country Stage 1 Room 5")]
+
+    CookieCountryHub.connect(OneOneRooms[0], "Cookie Country Hub To Cookie Country Stage 1 Room 1")
+    OneOneRooms[0].connect(OneOneRooms[1], "Cookie Country Stage 1 Room 1-2")
+    OneOneRooms[1].connect(OneOneRooms[2], "Cookie Country Stage 1 Room 2-3")
+    OneOneRooms[2].connect(OneOneRooms[3], "Cookie Country Stage 1 Room 3-4")
+    OneOneRooms[3].connect(OneOneRooms[4], "Cookie Country Stage 1 Room 4-5")
 
     OneTwoRooms = [world.get_region("Cookie Country Stage 2 Room 1"),
                    world.get_region("Cookie Country Stage 2 Room 2"),
@@ -133,12 +165,25 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Cookie Country Stage 2 Room 5"),
                   world.get_region("Cookie Country Stage 2 Room 6")]
 
+    CookieCountryHub.connect(OneTwoRooms[0], "Cookie Country Hub To Cookie Country Stage 2 Room 1")
+    OneTwoRooms[0].connect(OneTwoRooms[1], "Cookie Country Stage 2 Room 1-2")
+    OneTwoRooms[1].connect(OneTwoRooms[2], "Cookie Country Stage 2 Room 2-3")
+    OneTwoRooms[2].connect(OneTwoRooms[3], "Cookie Country Stage 2 Room 3-4")
+    OneTwoRooms[3].connect(OneTwoRooms[4], "Cookie Country Stage 2 Room 4-5")
+    OneTwoRooms[4].connect(OneTwoRooms[4], "Cookie Country Stage 2 Room 4-6")
+    
     OneThreeRooms = [world.get_region("Cookie Country Stage 3 Room 1"),
                    world.get_region("Cookie Country Stage 3 Room 2"),
                    world.get_region("Cookie Country Stage 3 Room 3"),
                    world.get_region("Cookie Country Stage 3 Room 4"),
                   world.get_region("Cookie Country Stage 3 Room 5")]
 
+    CookieCountryHub.connect(OneThreeRooms[0], "Cookie Country Hub To Cookie Country Stage 3 Room 1")
+    OneThreeRooms[0].connect(OneThreeRooms[1], "Cookie Country Stage 3 Room 1-2")
+    OneThreeRooms[1].connect(OneThreeRooms[2], "Cookie Country Stage 3 Room 2-3")
+    OneThreeRooms[2].connect(OneThreeRooms[3], "Cookie Country Stage 3 Room 3-4")
+    OneThreeRooms[3].connect(OneThreeRooms[4], "Cookie Country Stage 3 Room 4-5")
+    
     OneFourRooms = [world.get_region("Cookie Country Stage 4 Room 1"),
                    world.get_region("Cookie Country Stage 4 Room 2"),
                    world.get_region("Cookie Country Stage 4 Room 3"),
@@ -147,8 +192,19 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Cookie Country Stage 4 Room 6"),
                    world.get_region("Cookie Country Stage 4 Room 7")]
 
+    CookieCountryHub.connect(OneFourRooms[0], "Cookie Country Hub To Cookie Country Stage 4 Room 1")
+    OneFourRooms[0].connect(OneFourRooms[1], "Cookie Country Stage 4 Room 1-2")
+    OneFourRooms[0].connect(OneFourRooms[2], "Cookie Country Stage 4 Room 1-3")
+    OneFourRooms[1].connect(OneFourRooms[2], "Cookie Country Stage 4 Room 2-3")
+    OneFourRooms[2].connect(OneFourRooms[3], "Cookie Country Stage 4 Room 3-4")
+    OneFourRooms[3].connect(OneFourRooms[4], "Cookie Country Stage 4 Room 4-5")
+    OneFourRooms[4].connect(OneFourRooms[5], "Cookie Country Stage 4 Room 5-6")
+    OneFourRooms[5].connect(OneFourRooms[6], "Cookie Country Stage 4 Room 6-7")
+    
     OneFiveRegion = world.get_region("Cookie Country Stage 5 Region")
 
+    CookieCountryHub.connect(OneFiveRegion, "Cookie Country Hub To Cookie Country Stage 5")
+    
     TwoOneRooms = [world.get_region("Raisin Ruins Stage 1 Room 1"),
                    world.get_region("Raisin Ruins Stage 1 Room 2"),
                    world.get_region("Raisin Ruins Stage 1 Room 3"),
