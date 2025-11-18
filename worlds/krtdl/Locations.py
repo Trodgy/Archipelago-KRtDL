@@ -170,7 +170,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     OneTwoRooms[1].connect(OneTwoRooms[2], "Cookie Country Stage 2 Room 2-3")
     OneTwoRooms[2].connect(OneTwoRooms[3], "Cookie Country Stage 2 Room 3-4")
     OneTwoRooms[3].connect(OneTwoRooms[4], "Cookie Country Stage 2 Room 4-5")
-    OneTwoRooms[4].connect(OneTwoRooms[4], "Cookie Country Stage 2 Room 4-6")
+    OneTwoRooms[3].connect(OneTwoRooms[5], "Cookie Country Stage 2 Room 4-6")
     
     OneThreeRooms = [world.get_region("Cookie Country Stage 3 Room 1"),
                    world.get_region("Cookie Country Stage 3 Room 2"),
@@ -340,8 +340,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     ThreeThreeRooms[4].connect(ThreeThreeRooms[5], "Onion Ocean Stage 3 Room 5-6")
     ThreeThreeRooms[5].connect(ThreeThreeRooms[6], "Onion Ocean Stage 3 Room 6-7")
     ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 7-8")
-    ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 8-9")
-    ThreeThreeRooms[6].connect(ThreeThreeRooms[7], "Onion Ocean Stage 3 Room 9-10")
+    ThreeThreeRooms[7].connect(ThreeThreeRooms[8], "Onion Ocean Stage 3 Room 8-9")
+    ThreeThreeRooms[8].connect(ThreeThreeRooms[9], "Onion Ocean Stage 3 Room 9-10")
     
     ThreeFourRooms = [world.get_region("Onion Ocean Stage 4 Room 1"),
                    world.get_region("Onion Ocean Stage 4 Room 2"),
