@@ -819,8 +819,9 @@ for i in SimplificationArray:
     part_sphere_table[StageNames[i] + "Room 2 - Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
 
-#Room 2 
-
+#
+#    still need to convert these to the new format!!!
+#
 gold_star_table = {}
 for i in range(1,57+1): #Cookie Country 1
     gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
