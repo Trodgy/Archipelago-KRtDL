@@ -201,7 +201,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     OneFourRooms[4].connect(OneFourRooms[5], "Cookie Country Stage 4 Room 5-6")
     OneFourRooms[5].connect(OneFourRooms[6], "Cookie Country Stage 4 Room 6-7")
     
-    OneFiveRegion = world.get_region("Cookie Country Stage 5 Region")
+    OneFiveRegion = world.get_region("Cookie Country Stage 5 Room 1")
 
     CookieCountryHub.connect(OneFiveRegion, "Cookie Country Hub To Cookie Country Stage 5")
     
@@ -371,223 +371,221 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     #ScopeShotRegion = world.get_region("Scope Shot")
     
     if world.options.shuffle_energy_spheres:
-        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Energy Sphere #1"]), KRtDLLocation)
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Energy Sphere #2"]), KRtDLLocation)
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Energy Sphere #3"]), KRtDLLocation) 
+        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere #1"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
 
-        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Energy Sphere #1"]), KRtDLLocation)
-        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Energy Sphere #2"]), KRtDLLocation)
-        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Energy Sphere #3"]), KRtDLLocation) 
+        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Energy Sphere #1"]), KRtDLLocation)
+        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
 
-        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Energy Sphere #1"]), KRtDLLocation)
-        OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Energy Sphere #2"]), KRtDLLocation)
-        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Energy Sphere #3"]), KRtDLLocation) 
+        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Energy Sphere #1"]), KRtDLLocation)
+        OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
 
-        OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Energy Sphere #1"]), KRtDLLocation)
-        OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Energy Sphere #2"]), KRtDLLocation)
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Energy Sphere #3"]), KRtDLLocation) 
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Energy Sphere #4"]), KRtDLLocation) 
-
-
-        TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Energy Sphere #1"]), KRtDLLocation)
-        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Energy Sphere #2"]), KRtDLLocation)
-        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Energy Sphere #3"]), KRtDLLocation) 
-
-        TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Energy Sphere #1"]), KRtDLLocation)
-        TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Energy Sphere #2"]), KRtDLLocation)
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Energy Sphere #4"]), KRtDLLocation) 
-
-        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Energy Sphere #1"]), KRtDLLocation)
-        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Energy Sphere #2"]), KRtDLLocation)
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Energy Sphere #4"]), KRtDLLocation) 
-
-        TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Energy Sphere #1"]), KRtDLLocation)
-        TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Energy Sphere #2"]), KRtDLLocation)
-        TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Energy Sphere #4"]), KRtDLLocation) 
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Energy Sphere #5"]), KRtDLLocation) 
+        OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Energy Sphere #1"]), KRtDLLocation)
+        OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #3"]), KRtDLLocation) 
+        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #4"]), KRtDLLocation) 
 
 
-        ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Energy Sphere #3"]), KRtDLLocation) 
+        TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 4 - Energy Sphere #1"]), KRtDLLocation)
+        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation)
+        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Energy Sphere #3"]), KRtDLLocation) 
 
-        ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Energy Sphere #4"]), KRtDLLocation) 
+        TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 3 - Energy Sphere #1"]), KRtDLLocation)
+        TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation)
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #3"]), KRtDLLocation) 
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
 
-        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Energy Sphere #4"]), KRtDLLocation) 
+        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Energy Sphere #1"]), KRtDLLocation)
+        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
+        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Energy Sphere #4"]), KRtDLLocation) 
 
-        ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Energy Sphere #4"]), KRtDLLocation) 
-        ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Energy Sphere #5"]), KRtDLLocation) 
+        TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Energy Sphere #1"]), KRtDLLocation)
+        TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Energy Sphere #3"]), KRtDLLocation) 
+        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
+        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #5"]), KRtDLLocation) 
+
+
+        ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #3"]), KRtDLLocation) 
+
+        ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Energy Sphere #1"]), KRtDLLocation)
+        ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 4 - Energy Sphere #2"]), KRtDLLocation)
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #4"]), KRtDLLocation) 
+
+        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Energy Sphere #1"]), KRtDLLocation)
+        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Energy Sphere #2"]), KRtDLLocation)
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #3"]), KRtDLLocation) 
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
+
+        ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Energy Sphere #1"]), KRtDLLocation)
+        ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 5 - Energy Sphere #2"]), KRtDLLocation)
+        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
+        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Energy Sphere #4"]), KRtDLLocation) 
+        ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Energy Sphere #5"]), KRtDLLocation) 
 
     #if world.options.shuffle_part_spheres:
-        #OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 - Part Sphere"]), KRtDLLocation)
-        #TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 - Part Sphere"]), KRtDLLocation)
-        #ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 - Part Sphere"]), KRtDLLocation)
+        #OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
+        #TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
+        #ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 3 - Part Sphere"]), KRtDLLocation)
                                      
     if world.options.star_sanity:
         for i in range(1,13+1):
-            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(14,20+1):
-            OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(21,45+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(46,57+1):
-            OneOneRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)    
+            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,7+1):
+            OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,25+1):
+            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,12+1):
+            OneOneRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)    
 
         for i in range(1,3+1):
-            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(4,13+1):
-            OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(14,24+1):
-            OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(25,31+1):
-            OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Gold Star #32"]), KRtDLLocation)
+            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,10+1):
+            OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,11+1):
+            OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,7+1):
+            OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Gold Star"]), KRtDLLocation)
 
         for i in range(1,3+1):
-            OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(4,11+1):
-            OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(12,28+1):
-            OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(29,40+1):
-            OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(41,49+1):
-            OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,8+1):
+            OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,17+1):
+            OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,12+1):
+            OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,9+1):
+            OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(10,13+1):
-            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(14,22+1):
-            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(23,77+1):
-            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(78,82+1):
-            OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,4+1):
+            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,9+1):
+            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,55+1):
+            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,5+1):
+            OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,12+1):
-            TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(13,21+1):
-            TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(22,31+1):
-            TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(32,36+1):
-            TwoOneRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(37,38+1):
-            TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(39,47+1):
-            TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,9+1):
+            TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,10+1):
+            TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,5+1):
+            TwoOneRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,9+1):
+            TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,20+1):
-            TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(21,39+1):
-            TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(40,55+1):
-            TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(56,57+1):
-            TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(58,98+1):
-            TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(99,133+1):
-            TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,19+1):
+            TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,16+1):
+            TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,41+1):
+            TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,35+1):
+            TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(10,12+1):
-            TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(13,27+1):
-            TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(28,45+1):
-            TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(46,63+1):
-            TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(64,66+1):
-            TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,3+1):
+            TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,15+1):
+            TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,18+1):
+            TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,18+1):
+            TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,3+1):
+            TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        for i in range(1,8+1):
-            TwoFourRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(9,14+1):
-            TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(15,23+1):
-            TwoFourRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(24,32+1):
-            TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(33,36+1):
-            TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(37,48+1):
-            TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(49,76+1):
-            TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(77,97+1):
-            TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,17+1):
+            TwoFourRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,6+1):
+            TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,9+1):
+            TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,4+1):
+            TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,12+1):
+            TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,28+1):
+            TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,21+1):
+            TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,18+1):
-            ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(19,45+1):
-            ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(46,48+1):
-            ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(49,63+1):
-            ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(64,84+1):
-            ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(85,96+1):
-            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(97,115+1):
-            ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,27+1):
+            ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,3+1):
+            ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,15+1):
+            ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,21+1):
+            ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,12+1):
+            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,19+1):
+            ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(13,19+1):
-            ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(20,34+1):
-            ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(35,62+1):
-            ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(63,107+1):
-            ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,7+1):
+            ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,15+1):
+            ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,28+1):
+            ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,45+1):
+            ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(5,23+1):
-            ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(24,37+1):
-            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(38,53+1):
-            ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(54,122+1):
-            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(123,177+1):
-            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(178,200+1):
-            ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,19+1):
+            ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,14+1):
+            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,16+1):
+            ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,69+1):
+            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,55+1):
+            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,23+1):
+            ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(13,23+1):
-            ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(24,33+1):
-            ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(34,54+1):
-            ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(55,69+1):
-            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
-        for i in range(70,96+1):
-            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,11+1):
+            ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,10+1):
+            ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,21+1):
+            ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,15+1):
+            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,27+1):
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
     #if world.options.red_star_sanity:
                                     
 
@@ -596,17 +594,17 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                                          
     if world.options.flower_sanity:
         for i in range(1,6+1):
-            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Flower #" + str(i)]), KRtDLLocation)
-        for i in range(7,16+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - Flower #" + str(i)]), KRtDLLocation)           
+            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+        for i in range(1,10+1):
+            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)           
 
         for i in range(1,4+1):
-            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 - Flower #" + str(i)]), KRtDLLocation)  
+            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation)  
 
         
 
     if world.options.one_up_sanity:
-        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - 1-up"]), KRtDLLocation)
+        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - 1-up"]), KRtDLLocation)
 
         
                                           
@@ -614,7 +612,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
 
     if world.options.maxim_sanity:
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 - 1-up"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - 1-up"]), KRtDLLocation)
 
         
 
@@ -640,171 +638,188 @@ for i in StageNames:
     if i != "Another Dimension ":
         stage_completion_table[i + "- Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
-        stage_completion_table["EX " + i + "- Complete"] = BaseLocationID + locationincrement
-        locationincrement += 1
 #should end at ID 68
     
 energy_sphere_table = {}
-for i in range(1,3+1): #Cookie Country 1
-    energy_sphere_table[StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 1
+energy_sphere_table[StageNames[0] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[0] + "Room 5 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[0] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 2
+energy_sphere_table[StageNames[1] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[1] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[1] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Cookie Country 3
+energy_sphere_table[StageNames[2] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[2] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[2] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Cookie Country 4
+energy_sphere_table[StageNames[3] + "Room 1 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[3] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[3] + "Room 7 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,3+1): #Cookie Country 2
-    energy_sphere_table[StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Raisin Ruins 1
+energy_sphere_table[StageNames[5] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[5] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[5] + "Room 8 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Raisin Ruins 2
+energy_sphere_table[StageNames[6] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[6] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[6] + "Room 10 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[1] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Raisin Ruins 3
+energy_sphere_table[StageNames[7] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[7] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[7] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[7] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Raisin Ruins 4
+energy_sphere_table[StageNames[8] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[8] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[8] + "Room 7 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[8] + "Room 10 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,3+1): #Cookie Country 3
-    energy_sphere_table[StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Onion Ocean 1
+energy_sphere_table[StageNames[10] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[10] + "Room 9 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[2] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
-for i in range(1,4+1): #Cookie Country 4
-    energy_sphere_table[StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Onion Ocean 2
+energy_sphere_table[StageNames[11] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[11] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[11] + "Room 6 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[3] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
-for i in range(1,3+1): #Raisin Ruins 1
-    energy_sphere_table[StageNames[5] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+#Onion Ocean 3
+energy_sphere_table[StageNames[12] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[12] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[12] + "Room 10 - Energy Sphere #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[5] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,4+1): #Raisin Ruins 2
-    energy_sphere_table[StageNames[6] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[6] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,4+1): #Raisin Ruins 3
-    energy_sphere_table[StageNames[7] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[7] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
-for i in range(1,5+1): #Raisin Ruins 4
-    energy_sphere_table[StageNames[8] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[8] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
-for i in range(1,3+1): #Onion Ocean 1
-    energy_sphere_table[StageNames[10] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[10] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,4+1): #Onion Ocean 2
-    energy_sphere_table[StageNames[11] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[11] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,4+1): #Onion Ocean 3
-    energy_sphere_table[StageNames[12] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[12] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
-for i in range(1,5+1): #Onion Ocean 4
-    energy_sphere_table[StageNames[13] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[13] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
+#Onion Ocean 4
+energy_sphere_table[StageNames[13] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[13] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[13] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[13] + "Room 7 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[13] + "Room 8 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+#White Wafers 1
 for i in range(1,3+1): #White Wafers 1
-    energy_sphere_table[StageNames[15] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[15] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[15] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#White Wafers 2
 for i in range(1,4+1): #White Wafers 2
-    energy_sphere_table[StageNames[16] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[16] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[16] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#White Wafers 3
 for i in range(1,4+1): #White Wafers 3
-    energy_sphere_table[StageNames[17] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[17] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[17] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#White Wafers 4
 for i in range(1,4+1): #White Wafers 4
-    energy_sphere_table[StageNames[18] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[18] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[18] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#White Wafers 5
 for i in range(1,4+1): #White Wafers 5
-    energy_sphere_table[StageNames[19] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[19] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[19] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Nutty Noon 1
 for i in range(1,4+1): #Nutty Noon 1
-    energy_sphere_table[StageNames[21] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[21] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[21] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Nutty Noon 2
 for i in range(1,4+1): #Nutty Noon 2
-    energy_sphere_table[StageNames[22] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[22] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[22] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Nutty Noon 3
 for i in range(1,4+1): #Nutty Noon 3
-    energy_sphere_table[StageNames[23] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[23] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[23] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1   
+#Nutty Noon 4
 for i in range(1,4+1): #Nutty Noon 4
-    energy_sphere_table[StageNames[24] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[24] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[24] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
+#Nutty Noon 5
 for i in range(1,4+1): #Nutty Noon 5
-    energy_sphere_table[StageNames[25] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[25] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1  
+    energy_sphere_table[StageNames[25] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Egg Engines 1
 for i in range(1,3+1): #Egg Engines 1
-    energy_sphere_table[StageNames[27] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[27] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[27] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Egg Engines 2
 for i in range(1,4+1): #Egg Engines 2
-    energy_sphere_table[StageNames[28] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[28] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[28] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Egg Engines 3
 for i in range(1,4+1): #Egg Engines 3
-    energy_sphere_table[StageNames[29] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[29] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1    
+    energy_sphere_table[StageNames[29] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1  
+#Egg Engines 4
 for i in range(1,5+1): #Egg Engines 4
-    energy_sphere_table[StageNames[30] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[30] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[30] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Egg Engines 5
 for i in range(1,5+1): #Egg Engines 5
-    energy_sphere_table[StageNames[31] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[31] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[31] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Dangerous Dinner 1
 for i in range(1,5+1): #Dangerous Dinner 1
-    energy_sphere_table[StageNames[33] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[33] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[33] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Dangerous Dinner 2
 for i in range(1,5+1): #Dangerous Dinner 2
-    energy_sphere_table[StageNames[34] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[34] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    energy_sphere_table["EX " + StageNames[34] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Dangerous Dinner 3
 for i in range(1,5+1): #Dangerous Dinner 3
-    energy_sphere_table[StageNames[35] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    energy_sphere_table["EX " + StageNames[35] + "- Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+    energy_sphere_table[StageNames[35] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     
 #should end at ID 309
     
-SimplificationArray = [4,9,14,20,26]
+SimplificationArray = [9,14,20,26]
 part_sphere_table = {}
+part_sphere_table[StageNames[4] + "Room 1 - Part Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
 for i in SimplificationArray:
-    part_sphere_table[StageNames[i] + "- Part Sphere"] = BaseLocationID + locationincrement
+    part_sphere_table[StageNames[i] + "Room 2 - Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
-    part_sphere_table["EX " + StageNames[i] + "- Part Sphere"] = BaseLocationID + locationincrement
-    locationincrement += 1
+
+#Room 2 
 
 gold_star_table = {}
 for i in range(1,57+1): #Cookie Country 1
@@ -845,182 +860,482 @@ for i in range(1,96+1): #Onion Ocean 4
     locationincrement += 1
     
 red_star_table = {}
-for i in range(1,4+1): #Cookie Country 1
-    red_star_table[StageNames[0] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 1
+red_star_table[StageNames[0] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,3+1):
+    red_star_table[StageNames[0] + "Room 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 2
+red_star_table[StageNames[1] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[1] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Cookie Country 3
+red_star_table[StageNames[2] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[2] + "Room 4 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[2] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Cookie Country 4
+for i in range(1,5+1):
+    red_star_table[StageNames[3] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,2+1):
-    red_star_table[StageNames[1] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    red_star_table[StageNames[3] + "Room 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+red_star_table[StageNames[3] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Raisin Ruins 1
+red_star_table[StageNames[5] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[5] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Raisin Ruins 2
+red_star_table[StageNames[6] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,6+1):
+    red_star_table[StageNames[6] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 3
+for i in range(1,3+1):
+    red_star_table[StageNames[7] + "Room 1 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[7] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[7] + "Room 4 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[7] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[7] + "Room 6 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 4
+red_star_table[StageNames[8] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
 for i in range(1,4+1):
-    red_star_table[StageNames[2] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+    red_star_table[StageNames[8] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,8+1):
-    red_star_table[StageNames[3] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,2+1):
+    red_star_table[StageNames[8] + "Room 9 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,2+1): #Raisin Ruins 1
-    red_star_table[StageNames[5] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+#Onion Ocean 1
+red_star_table[StageNames[10] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[10] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[10] + "Room 4 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[10] + "Room 6 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[10] + "Room 8 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Onion Ocean 2
+red_star_table[StageNames[11] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[11] + "Room 6 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Onion Ocean 3
+for i in range(1,2+1):
+    red_star_table[StageNames[12] + "Room 1 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,7+1):
-    red_star_table[StageNames[6] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+red_star_table[StageNames[12] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[12] + "Room 4 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,8+1):
-    red_star_table[StageNames[7] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,2+1):
+    red_star_table[StageNames[12] + "Room 5 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,7+1):
-    red_star_table[StageNames[8] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+red_star_table[StageNames[12] + "Room 7 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[12] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,5+1): #Onion Ocean 1
-    red_star_table[StageNames[10] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,5+1):
+    red_star_table[StageNames[12] + "Room 9 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,2+1): #Onion Ocean 2
-    red_star_table[StageNames[11] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+#Onion Ocean 4
+red_star_table[StageNames[13] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[13] + "Room 4 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[13] + "Room 6 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    red_star_table[StageNames[13] + "Room 7 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,15+1): #Onion Ocean 3
-    red_star_table[StageNames[12] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,9+1): #Onion Ocean 4
-    red_star_table[StageNames[13] + "- Red Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,2+1):
+    red_star_table[StageNames[13] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     
 blue_star_table = {}
-blue_star_table[StageNames[1] + "- Blue Star"] = BaseLocationID + locationincrement
+blue_star_table[StageNames[1] + "Room 2 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
-blue_star_table[StageNames[5] + "- Blue Star"] = BaseLocationID + locationincrement
+blue_star_table[StageNames[5] + "Room 8 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
-blue_star_table[StageNames[6] + "- Blue Star"] = BaseLocationID + locationincrement
+blue_star_table[StageNames[6] + "Room 8 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
-for i in range(1,2+1): #Onion Ocean 1
-    blue_star_table[StageNames[10] + "- Blue Star " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-blue_star_table[StageNames[12] + "- Blue Star"] = BaseLocationID + locationincrement
+blue_star_table[StageNames[10] + "Room 2 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[10] + "Room 7 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[12] + "Room 7 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
     
 flower_table = {}
-for i in range(1,16+1):
-    flower_table[StageNames[0] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 1
+for i in range(1,6+1):
+    flower_table[StageNames[0] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,10+1):
+    flower_table[StageNames[0] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 2
+for i in range(1,4+1):
+    flower_table[StageNames[1] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 3
+for i in range(1,2+1):
+    flower_table[StageNames[2] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[2] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 4
+for i in range(1,8+1):
+    flower_table[StageNames[3] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,15+1):
+    flower_table[StageNames[3] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[3] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    flower_table[StageNames[3] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 1
+for i in range(1,2+1):
+    flower_table[StageNames[5] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[5] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+flower_table[StageNames[5] + "Room 5 - Flower"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[5] + "Room 7 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[5] + "Room 8 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 2
+for i in range(1,7+1):
+    flower_table[StageNames[6] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[6] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,4+1):
-    flower_table[StageNames[1] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    flower_table[StageNames[6] + "Room 4 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,4+1):
-    flower_table[StageNames[2] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+#Raisin Ruins 3
+for i in range(1,2+1):
+    flower_table[StageNames[7] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,33+1):
-    flower_table[StageNames[3] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,2+1):
+    flower_table[StageNames[7] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Onion Ocean 1
+for i in range(1,8+1):
+    flower_table[StageNames[10] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[10] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5+1):
+    flower_table[StageNames[10] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,9+1):
-    flower_table[StageNames[5] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    flower_table[StageNames[10] + "Room 4 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    flower_table[StageNames[10] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[10] + "Room 7 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Onion Ocean 2
+for i in range(1,2+1):
+    flower_table[StageNames[11] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[11] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    flower_table[StageNames[11] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,13+1):
-    flower_table[StageNames[6] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    flower_table[StageNames[11] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8+1):
+    flower_table[StageNames[11] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Onion Ocean 3
+for i in range(1,8+1):
+    flower_table[StageNames[12] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[12] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+flower_table[StageNames[12] + "Room 4 - Flower"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,9+1):
+    flower_table[StageNames[12] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[12] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,4+1):
-    flower_table[StageNames[7] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    flower_table[StageNames[12] + "Room 7 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,35+1):
-    flower_table[StageNames[10] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,32+1):
-    flower_table[StageNames[11] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,27+1):
-    flower_table[StageNames[12] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+#Onion Ocean 4
 for i in range(1,3+1):
     flower_table[StageNames[13] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     
 one_up_table = {}
-one_up_table[StageNames[0] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[0] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[2] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[2] + "Room 3 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[3] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[3] + "Room 6 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[5] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[5] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[6] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[6] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-for i in range(1,2+1):
-    one_up_table[StageNames[7] + "- 1-up " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-one_up_table[StageNames[8] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[7] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-for i in range(1,3+1):
-    one_up_table[StageNames[10] + "- 1-up " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-one_up_table[StageNames[11] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[7] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[12] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[8] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[13] + "- 1-up"] = BaseLocationID + locationincrement
+one_up_table[StageNames[10] + "Room 1 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[10] + "Room 7 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[10] + "Room 8 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[11] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[12] + "Room 3 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[13] + "Room 7 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
     
 health_pickup_table = {}
-for i in range(1,11+1): #Cookie Country 1
-    health_pickup_table[StageNames[0] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,6+1):
-    health_pickup_table[StageNames[1] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 1
+for i in range(1,5+1):
+    health_pickup_table[StageNames[0] + "Room 2 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,5+1):
-    health_pickup_table[StageNames[2] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
+    health_pickup_table[StageNames[0] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,9+1):
-    health_pickup_table[StageNames[3] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,9+1): #Raisin Ruins 1
-    health_pickup_table[StageNames[5] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,6+1):
-    health_pickup_table[StageNames[6] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,8+1):
-    health_pickup_table[StageNames[7] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,15+1):
-    health_pickup_table[StageNames[8] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,13+1): #Onion Ocean 1
-    health_pickup_table[StageNames[10] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,12+1):
-    health_pickup_table[StageNames[11] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,21+1):
-    health_pickup_table[StageNames[12] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in range(1,19+1):
-    health_pickup_table[StageNames[13] + "- Food " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-    
-maxim_tomato_table = {}
-maxim_tomato_table[StageNames[0] + "- M-Tomato"] = BaseLocationID + locationincrement
+health_pickup_table[StageNames[0] + "Room 5 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-maxim_tomato_table[StageNames[1] + "- M-Tomato"] = BaseLocationID + locationincrement
-locationincrement += 1
-for i in range(1,3+1):
-    maxim_tomato_table[StageNames[3] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
-maxim_tomato_table[StageNames[4] + "- M-Tomato"] = BaseLocationID + locationincrement
+#Cookie Country 2
+health_pickup_table[StageNames[1] + "Room 1 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
 for i in range(1,2+1):
-    maxim_tomato_table[StageNames[6] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
+    health_pickup_table[StageNames[1] + "Room 2 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-maxim_tomato_table[StageNames[7] + "- M-Tomato"] = BaseLocationID + locationincrement
+health_pickup_table[StageNames[1] + "Room 4 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-maxim_tomato_table[StageNames[8] + "- M-Tomato"] = BaseLocationID + locationincrement
+for i in range(1,2+1):
+    health_pickup_table[StageNames[1] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 3
+for i in range(1,5+1):
+    health_pickup_table[StageNames[2] + "Room " + str(i) + " - Food"] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 4
+for i in range(1,3+1):
+    health_pickup_table[StageNames[3] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5+1):
+    health_pickup_table[StageNames[3] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[3] + "Room 7 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-maxim_tomato_table[StageNames[9] + "- M-Tomato"] = BaseLocationID + locationincrement
+#Raisin Ruins 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[5] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[5] + "Room 3 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-maxim_tomato_table[StageNames[10] + "- M-Tomato"] = BaseLocationID + locationincrement
+health_pickup_table[StageNames[5] + "Room 5 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[5] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[5] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 2
+for i in range(1,2+1):
+    health_pickup_table[StageNames[6] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[6] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[6] + "Room 4 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[6] + "Room 8 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[6] + "Room 9 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Raisin Ruins 3
+health_pickup_table[StageNames[7] + "Room 1 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[7] + "Room 2 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
 for i in range(1,3+1):
-    maxim_tomato_table[StageNames[12] + "- M-Tomato " + "#" + str(i)] = BaseLocationID + locationincrement
+    health_pickup_table[StageNames[7] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-maxim_tomato_table[StageNames[13] + "- M-Tomato"] = BaseLocationID + locationincrement
+for i in range(4,6+1):
+    health_pickup_table[StageNames[7] + "Room " + str(i) + " - Food"] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Raisin Ruins 4
+for i in range(1,2+1):
+    health_pickup_table[StageNames[8] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[8] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[8] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[8] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[8] + "Room 9 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[8] + "Room 10 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-maxim_tomato_table[StageNames[14] + "- M-Tomato"] = BaseLocationID + locationincrement
+#Onion Ocean 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[10] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[10] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[10] + "Room 3 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[10] + "Room 4 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[10] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[10] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[10] + "Room 8 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[10] + "Room 9 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Onion Ocean 2
+for i in range(1,2+1):
+    health_pickup_table[StageNames[11] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[11] + "Room 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[11] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[11] + "Room 5 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[11] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Onion Ocean 3
+for i in range(1,2+1):
+    health_pickup_table[StageNames[12] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[12] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[12] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[12] + "Room 5 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[12] + "Room 6 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[12] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,9+1):
+    health_pickup_table[StageNames[12] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[12] + "Room 10 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Onion Ocean 4
+for i in range(1,2+1):
+    health_pickup_table[StageNames[13] + "Room 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[13] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[13] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[13] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[13] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5+1):
+    health_pickup_table[StageNames[13] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+
+maxim_tomato_table = {}
+maxim_tomato_table[StageNames[0] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement 
+locationincrement += 1
+maxim_tomato_table[StageNames[1] + "Room 4 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[3] + "Room 2 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[3] + "Room 3 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[3] + "Room 7 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[4] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[6] + "Room 8 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[6] + "Room 10 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[7] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[8] + "Room 10 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[9] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[10] + "Room 9 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[12] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[12] + "Room 7 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[12] + "Room 10 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[13] + "Room 7 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[14] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
     
 ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
@@ -1046,6 +1361,12 @@ for i in SubgameNames:
     locationincrement += 1
     
 extra_sanity_table = {}
+for i in energy_sphere_table.keys():
+    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in part_sphere_table.keys():
+    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    locationincrement += 1
 for i in gold_star_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
