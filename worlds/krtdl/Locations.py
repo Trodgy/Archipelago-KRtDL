@@ -83,7 +83,7 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     for i in range(1,7+1):
         regions.append(Region(StageNames[3] + "Room " + str(i), world.player, world.multiworld))
 
-    regions.append(Region(StageNames[4] + "Region", world.player, world.multiworld))
+    regions.append(Region(StageNames[4] + "Room 1", world.player, world.multiworld))
 
     for i in range(1,8+1):
         regions.append(Region(StageNames[5] + "Room " + str(i), world.player, world.multiworld))
