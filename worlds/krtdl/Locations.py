@@ -1825,6 +1825,10 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Food"]), KRtDLLocation)
         for i in range(1,3+1):
             ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+        ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Food"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
             ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
