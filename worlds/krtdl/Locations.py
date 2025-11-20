@@ -1772,7 +1772,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            OneThreeRooms[i-1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room " + str(i) + " - Food" + str(i)]), KRtDLLocation)
+            OneThreeRooms[i-1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room " + str(i) + " - Food"]), KRtDLLocation)
 
         for i in range(1,3+1):
             OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
