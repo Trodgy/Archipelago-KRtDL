@@ -148,11 +148,11 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
 
     if world.options.blue_star_sanity:
-        for i in range(0,5):
+        for i in range(0,6):
             items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
 
     if world.options.food_sanity:
-        for i in range(0,121):
+        for i in range(0,134):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     if world.options.flower_sanity:
