@@ -1,3 +1,5 @@
+#note: those remaining three locations are to do with the regions' implementation, the item counts and raw locations match counts
+
 import typing
 from BaseClasses import Location, Region, CollectionState
 
