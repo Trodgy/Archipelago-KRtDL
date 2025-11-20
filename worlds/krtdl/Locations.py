@@ -245,7 +245,7 @@ for i in SimplificationArray:
     part_sphere_table[StageNames[i] + "Room 2 - Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(len(part_sphere_table))
+#print(len(part_sphere_table))
 
 gold_star_table = {}
 #Cookie Country 1
