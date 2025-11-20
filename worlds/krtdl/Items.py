@@ -136,8 +136,8 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.lor_oars.value, ItemClassification.progression))
             items.append(world.create_item(ItemNames.lor_rwing.value, ItemClassification.progression))
             items.append(world.create_item(ItemNames.lor_lwing.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_emblem.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
+            #items.append(world.create_item(ItemNames.lor_emblem.value, ItemClassification.progression))
+            #items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
 
     if world.options.star_sanity:
         for i in range(0,1081):
