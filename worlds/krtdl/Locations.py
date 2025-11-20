@@ -1139,46 +1139,225 @@ for i in SimplificationArray:
     part_sphere_table[StageNames[i] + "Room 2 - Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
 
-#
-#    still need to convert these to the new format!!!
-#
 gold_star_table = {}
-for i in range(1,57+1): #Cookie Country 1
-    gold_star_table[StageNames[0] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 1
+for i in range(1,13+1):
+    gold_star_table[StageNames[0] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,32+1):
-    gold_star_table[StageNames[1] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,7+1):
+    gold_star_table[StageNames[0] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,49+1):
-    gold_star_table[StageNames[2] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,25+1):
+    gold_star_table[StageNames[0] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,82+1):
-    gold_star_table[StageNames[3] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,12+1):
+    gold_star_table[StageNames[0] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,47+1): #Raisin Ruins 1
-    gold_star_table[StageNames[5] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+#Cookie Country 2
+for i in range(1,3+1):
+    gold_star_table[StageNames[1] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,133+1):
-    gold_star_table[StageNames[6] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,10+1):
+    gold_star_table[StageNames[1] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,66+1):
-    gold_star_table[StageNames[7] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,11+1):
+    gold_star_table[StageNames[1] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,97+1):
-    gold_star_table[StageNames[8] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,7+1):
+    gold_star_table[StageNames[1] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,115+1): #Onion Ocean 1
-    gold_star_table[StageNames[10] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+gold_star_table[StageNames[1] + "Room 6 - Gold Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Cookie Country 3
+for i in range(1,3+1):
+    gold_star_table[StageNames[2] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,107+1): #Onion Ocean 2
-    gold_star_table[StageNames[11] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,8+1):
+    gold_star_table[StageNames[2] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,200+1): #Onion Ocean 3
-    gold_star_table[StageNames[12] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,17+1):
+    gold_star_table[StageNames[2] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in range(1,96+1): #Onion Ocean 4
-    gold_star_table[StageNames[13] + "- Gold Star " + "#" + str(i)] = BaseLocationID + locationincrement
+for i in range(1,12+1):
+    gold_star_table[StageNames[2] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+for i in range(1,9+1):
+    gold_star_table[StageNames[2] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Cookie Country 4
+for i in range(1,9+1):
+    gold_star_table[StageNames[3] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    gold_star_table[StageNames[3] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,9+1):
+    gold_star_table[StageNames[3] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,55+1):
+    gold_star_table[StageNames[3] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,5+1):
+    gold_star_table[StageNames[3] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Raisin Ruins 1
+for i in range(1,12+1):
+    gold_star_table[StageNames[5] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,9+1):
+    gold_star_table[StageNames[5] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,10+1):
+    gold_star_table[StageNames[5] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,5+1):
+    gold_star_table[StageNames[5] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,2+1):
+    gold_star_table[StageNames[5] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,9+1):
+    gold_star_table[StageNames[5] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Raisin Ruins 2
+for i in range(1,20+1):
+    gold_star_table[StageNames[6] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,19+1):
+    gold_star_table[StageNames[6] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,16+1):
+    gold_star_table[StageNames[6] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,2+1):
+    gold_star_table[StageNames[6] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,41+1):
+    gold_star_table[StageNames[6] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,35+1):
+    gold_star_table[StageNames[6] + "Room 9 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Raisin Ruins 3
+for i in range(1,9+1):
+    gold_star_table[StageNames[7] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,3+1):
+    gold_star_table[StageNames[7] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,15+1):
+    gold_star_table[StageNames[7] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,18+1):
+    gold_star_table[StageNames[7] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,18+1):
+    gold_star_table[StageNames[7] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,3+1):
+     gold_star_table[StageNames[7] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1    
+#Raisin Ruins 4
+for i in range(1,17+1):
+    gold_star_table[StageNames[8] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,6+1):
+    gold_star_table[StageNames[8] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,9+1):
+    gold_star_table[StageNames[8] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,4+1):
+    gold_star_table[StageNames[8] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,12+1):
+    gold_star_table[StageNames[8] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,28+1):
+    gold_star_table[StageNames[8] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,21+1):
+    gold_star_table[StageNames[8] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Onion Ocean 1
+for i in range(1,18+1):
+    gold_star_table[StageNames[10] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,27+1):
+    gold_star_table[StageNames[10] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,3+1):
+    gold_star_table[StageNames[10] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,15+1):
+    gold_star_table[StageNames[10] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,21+1):
+    gold_star_table[StageNames[10] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,12+1):
+    gold_star_table[StageNames[10] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,19+1):
+    gold_star_table[StageNames[10] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1   
+#Onion Ocean 2
+for i in range(1,12+1):
+    gold_star_table[StageNames[11] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,7+1):
+    gold_star_table[StageNames[11] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,15+1):
+    gold_star_table[StageNames[11] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,28+1):
+    gold_star_table[StageNames[11] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,45+1):
+    gold_star_table[StageNames[11] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1   
+#Onion Ocean 3
+for i in range(1,4+1):
+    gold_star_table[StageNames[12] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,19+1):
+    gold_star_table[StageNames[12] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,14+1):
+    gold_star_table[StageNames[12] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,16+1):
+    gold_star_table[StageNames[12] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,69+1):
+    gold_star_table[StageNames[12] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,55+1):
+    gold_star_table[StageNames[12] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,23+1):
+    gold_star_table[StageNames[12] + "Room 9 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1  
+#Onion Ocean 4
+for i in range(1,12+1):
+    gold_star_table[StageNames[13] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,11+1):
+    gold_star_table[StageNames[13] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,10+1):
+    gold_star_table[StageNames[13] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,21+1):
+    gold_star_table[StageNames[13] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,15+1):
+    gold_star_table[StageNames[13] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,27+1):
+    gold_star_table[StageNames[13] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1    
     
 red_star_table = {}
 #Cookie Country 1
