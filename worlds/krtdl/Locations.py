@@ -740,7 +740,9 @@ locationincrement += 1
     
 health_pickup_table = {}
 #Cookie Country 1
-for i in range(1,5+1):
+health_pickup_table[StageNames[0] + "Room 1 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
     health_pickup_table[StageNames[0] + "Room 2 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,5+1):
