@@ -371,64 +371,64 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     #ScopeShotRegion = world.get_region("Scope Shot")
     
     if world.options.shuffle_energy_spheres:
-        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere #1"]), KRtDLLocation)
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation)
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
+        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation) 
 
-        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Energy Sphere #1"]), KRtDLLocation)
-        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
+        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation) 
 
-        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Energy Sphere #1"]), KRtDLLocation)
-        OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
+        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+        OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
 
-        OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Energy Sphere #1"]), KRtDLLocation)
-        OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #3"]), KRtDLLocation) 
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #4"]), KRtDLLocation) 
-
-
-        TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 4 - Energy Sphere #1"]), KRtDLLocation)
-        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation)
-        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Energy Sphere #3"]), KRtDLLocation) 
-
-        TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 3 - Energy Sphere #1"]), KRtDLLocation)
-        TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation)
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
-
-        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Energy Sphere #1"]), KRtDLLocation)
-        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Energy Sphere #4"]), KRtDLLocation) 
-
-        TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Energy Sphere #1"]), KRtDLLocation)
-        TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Energy Sphere #3"]), KRtDLLocation) 
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #5"]), KRtDLLocation) 
+        OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
+        OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
+        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
 
 
-        ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #3"]), KRtDLLocation) 
+        TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
+        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation) 
 
-        ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 4 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #4"]), KRtDLLocation) 
+        TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
 
-        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #4"]), KRtDLLocation) 
+        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
+        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
 
-        ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Energy Sphere #1"]), KRtDLLocation)
-        ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 5 - Energy Sphere #2"]), KRtDLLocation)
-        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Energy Sphere #3"]), KRtDLLocation) 
-        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Energy Sphere #4"]), KRtDLLocation) 
-        ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Energy Sphere #5"]), KRtDLLocation) 
+        TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+
+
+        ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
+
+        ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
+        ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #1"]), KRtDLLocation) 
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation) 
+
+        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+
+        ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+        ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Energy Sphere"]), KRtDLLocation) 
 
     
     #if world.options.shuffle_part_spheres:
