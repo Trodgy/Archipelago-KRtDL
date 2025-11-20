@@ -357,7 +357,7 @@ for i in range(1,18+1):
     gold_star_table[StageNames[7] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1 
 for i in range(1,3+1):
-     gold_star_table[StageNames[7] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[7] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1    
 #Raisin Ruins 4
 for i in range(1,17+1):
