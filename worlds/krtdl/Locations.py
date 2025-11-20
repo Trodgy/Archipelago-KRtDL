@@ -243,7 +243,6 @@ for i in SimplificationArray:
 gold_star_table = {}
 #Cookie Country 1
 for i in range(1,13+1):
-    print(StageNames[0] + "Room 1 - Gold Star #" + str(i))
     gold_star_table[StageNames[0] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,7+1):
