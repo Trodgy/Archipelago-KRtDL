@@ -1416,7 +1416,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     if world.options.shuffle_part_spheres:
         OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
         TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
-        ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 3 - Part Sphere"]), KRtDLLocation)
+        ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
 
     
     if world.options.star_sanity:
