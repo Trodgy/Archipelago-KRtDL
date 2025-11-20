@@ -1889,6 +1889,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         TwoFiveRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
 
 
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
+        
         ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
         ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - M-Tomato"]), KRtDLLocation)
         ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - M-Tomato"]), KRtDLLocation)
