@@ -706,7 +706,7 @@ for i in range(1,4+1):
     locationincrement += 1
 #Onion Ocean 4
 for i in range(1,3+1):
-    flower_table[StageNames[13] + "- Flower " + "#" + str(i)] = BaseLocationID + locationincrement
+    flower_table[StageNames[13] + "Room 8 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     
 one_up_table = {}
