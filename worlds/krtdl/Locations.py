@@ -230,7 +230,7 @@ for i in range(1,5+1): #Dangerous Dinner 3
     energy_sphere_table[StageNames[35] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(energy_sphere_table.len())
+print(len(energy_sphere_table))
     
 #should end at ID 309
     
@@ -242,7 +242,7 @@ for i in SimplificationArray:
     part_sphere_table[StageNames[i] + "Room 2 - Part Sphere"] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(part_sphere_table.len())
+print(len(part_sphere_table))
 
 gold_star_table = {}
 #Cookie Country 1
@@ -464,7 +464,7 @@ for i in range(1,27+1):
     gold_star_table[StageNames[13] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1    
 
-print(gold_star_table.len())
+print(len(gold_star_table))
 
 red_star_table = {}
 #Cookie Country 1
@@ -578,7 +578,7 @@ for i in range(1,2+1):
     red_star_table[StageNames[13] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(red_star_table.len())
+print(len(red_star_table))
 
 blue_star_table = {}
 blue_star_table[StageNames[1] + "Room 2 - Blue Star"] = BaseLocationID + locationincrement
@@ -594,7 +594,7 @@ locationincrement += 1
 blue_star_table[StageNames[12] + "Room 7 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 
-print(blue_star_table.len())
+print(len(blue_star_table))
     
 flower_table = {}
 #Cookie Country 1
@@ -718,7 +718,7 @@ for i in range(1,3+1):
     flower_table[StageNames[13] + "Room 8 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(flower_table.len())
+print(len(flower_table))
     
 one_up_table = {}
 one_up_table[StageNames[0] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
@@ -750,7 +750,7 @@ locationincrement += 1
 one_up_table[StageNames[13] + "Room 7 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
 
-print(one_up_table.len())
+print(len(one_up_table))
     
 health_pickup_table = {}
 #Cookie Country 1
@@ -919,7 +919,7 @@ for i in range(1,5+1):
     health_pickup_table[StageNames[13] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(health_pickup_table.len())
+print(len(health_pickup_table))
 
 maxim_tomato_table = {}
 maxim_tomato_table[StageNames[0] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement 
@@ -957,7 +957,7 @@ locationincrement += 1
 maxim_tomato_table[StageNames[14] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
 
-print(maxim_tomato_table.len())
+print(len(maxim_tomato_table))
     
 ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
 challenge_table = {}
