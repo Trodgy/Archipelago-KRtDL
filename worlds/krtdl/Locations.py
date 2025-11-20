@@ -1,5 +1,5 @@
 #note: those remaining three locations are to do with the regions' implementation, the item counts and raw locations match counts
-#it's gotta either be red stars, flowers or health pickups
+#it's gotta either be flowers or health pickups
 
 import typing
 from BaseClasses import Location, Region, CollectionState
