@@ -98,13 +98,13 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     if world.options.shuffle_energy_spheres:
         #this one generates all 240 spheres
         if world.options.extra_sanity or (world.options.goal == 5 and world.options.energy_sphere_hunt_requirement > 120):
-            for i in range(1,120):
+            for i in range(0,120):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
-            for i in range(1,120):
+            for i in range(0,120):
                 items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
         #this one generates just extra game spheres
         elif world.options.start_in_extra_game:
-            for i in range(1,120):
+            for i in range(0,120):
                 items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
         #this one generates just normal game spheres
         else:
