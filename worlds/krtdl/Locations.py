@@ -1351,576 +1351,888 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     
     #NinjaDojoRegion = world.get_region("Ninja Dojo")
     #ScopeShotRegion = world.get_region("Scope Shot")
+
+    debugcounter = 0
     
     if world.options.shuffle_energy_spheres:
         OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
+        debugcounter += 1
         OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
         OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
 
         OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
 
         OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
+        debugcounter += 1
         OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
 
         TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
 
         TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        debugcounter += 1
         TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
         TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
         TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
 
         TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
         TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        debugcounter += 1
         TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
 
         ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
         ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #1"]), KRtDLLocation) 
+        debugcounter += 1
         ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
         ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        debugcounter += 1
         ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        debugcounter += 1
 
         ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
         ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
         ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Energy Sphere"]), KRtDLLocation) 
+        debugcounter += 1
 
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.shuffle_part_spheres:
         OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
+        debugcounter += 1
         TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
+        debugcounter += 1
         ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
+        debugcounter += 1
 
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.star_sanity:
         for i in range(1,13+1):
             OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,7+1):
             OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,25+1):
             OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,12+1):
             OneOneRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)    
+            debugcounter += 1
 
         for i in range(1,3+1):
             OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,10+1):
             OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,11+1):
             OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,7+1):
             OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Gold Star"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,3+1):
             OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,8+1):
             OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,17+1):
             OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,12+1):
             OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,9+1):
             OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,4+1):
             OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,55+1):
             OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,5+1):
             OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
 
         for i in range(1,12+1):
             TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,10+1):
             TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,5+1):
             TwoOneRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,20+1):
             TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,19+1):
             TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,16+1):
             TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,41+1):
             TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,35+1):
             TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,9+1):
             TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,15+1):
             TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,18+1):
             TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,18+1):
             TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,17+1):
             TwoFourRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,6+1):
             TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,4+1):
             TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,12+1):
             TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,28+1):
             TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,21+1):
             TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
 
         for i in range(1,18+1):
             ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,27+1):
             ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,15+1):
             ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,21+1):
             ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,12+1):
             ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,19+1):
             ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,12+1):
             ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,7+1):
             ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,15+1):
             ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,28+1):
             ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,45+1):
             ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,4+1):
             ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,19+1):
             ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,14+1):
             ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,16+1):
             ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,69+1):
             ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,55+1):
             ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,23+1):
             ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,12+1):
             ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,11+1):
             ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,10+1):
             ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,21+1):
             ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,15+1):
             ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,27+1):
             ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
     
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.red_star_sanity:
-        OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Red Star"]), KRtDLLocation)  
+        OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,3+1):
             OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Red Star"]), KRtDLLocation)  
+        debugcounter += 1
         OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Red Star"]), KRtDLLocation)  
+        debugcounter += 1
 
         OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Red Star"]), KRtDLLocation) 
+        debugcounter += 1
         for i in range(1,2+1):
             OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,5+1):
             OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
 
         
         TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,6+1):
             TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,3+1):
             TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,4+1):
             TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         
         ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,2+1):
             ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,5+1):
             ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 1 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Red Star"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,4+1):
             ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
+    print(debugcounter)
+    debugcounter = 0
 
     if world.options.blue_star_sanity:
         OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Blue Star"]), KRtDLLocation)
+        debugcounter += 1
 
 
         TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Blue Star"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Blue Star"]), KRtDLLocation)
+        debugcounter += 1
 
 
 
         ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Blue Star"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Blue Star"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Blue Star"]), KRtDLLocation)
-                                         
+        debugcounter += 1
+
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.flower_sanity:
         for i in range(1,6+1):
             OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,10+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)           
+            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,4+1):
-            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation)  
+            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,2+1):
             OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation)  
+            debugcounter += 1
         for i in range(1,2+1):
             OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation)  
+            debugcounter += 1
 
         for i in range(1,8+1):
             OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,15+1):
             OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,3+1):
             OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,7+1):
             OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
 
         for i in range(1,2+1):
             TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Flower"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,7+1):
             TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,4+1):
             TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,2+1):
             TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
 
         for i in range(1,8+1):
             ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,5+1):
             ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,9+1):
             ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,7+1):
             ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,2+1):
             ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,7+1):
             ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,13+1):
             ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,8+1):
             ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,8+1):
             ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Flower"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,9+1):
             ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,4+1):
             ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
         for i in range(1,3+1):
             ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
 
+    print(debugcounter)
+    debugcounter = 0
 
     if world.options.one_up_sanity:
         OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 3 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 6 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
 
         TwoOneRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoTwoRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 5 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
 
         ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeThreeRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 3 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - 1-up"]), KRtDLLocation)
+        debugcounter += 1
 
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.food_sanity:
         OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,4+1):
             OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Food #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         for i in range(1,5+1):
             OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
         OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation) 
+            debugcounter += 1
         OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,5+1):
             OneThreeRooms[i-1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room " + str(i) + " - Food"]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,3+1):
             OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,5+1):
             OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
 
         for i in range(1,2+1):
             TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,2+1):
             TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 9 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,3+1):
             TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Food"]), KRtDLLocation)
+        debugcounter += 1
         TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,2+1):
             TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,4+1):
             TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,4+1):
             TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 9 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
 
         for i in range(1,3+1):
             ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Food"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Food"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,3+1):
             ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Food"]), KRtDLLocation)
+        debugcounter += 1
         ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,2+1):
             ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,4+1):
             ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
 
         for i in range(1,2+1):
             ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,2+1):
             ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Food"]), KRtDLLocation)
+        debugcounter += 1
         ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Food"]), KRtDLLocation)
+        debugcounter += 1
         for i in range(1,4+1):
             ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,9+1):
             ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Food"]), KRtDLLocation)
+        debugcounter += 1
 
         for i in range(1,2+1):
             ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,2+1):
             ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,4+1):
             ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,3+1):
             ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            debugcounter += 1
         for i in range(1,5+1):
             ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
-    
+            debugcounter += 1
+
+    print(debugcounter)
+    debugcounter = 0
     
     if world.options.maxim_sanity:
         OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
 
         TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         TwoFiveRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
 
         ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         
         ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
         ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
         
         ThreeFiveRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        debugcounter += 1
 
-        
+    print(debugcounter)
+    debugcounter = 0
 
     #if world.options.shuffle_challenges != 0:
 
