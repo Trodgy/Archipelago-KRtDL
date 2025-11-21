@@ -721,7 +721,7 @@ for i in range(1,3+1):
     flower_table[StageNames[13] + "Room 8 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
-print(len(flower_table))
+#print(len(flower_table))
     
 one_up_table = {}
 one_up_table[StageNames[0] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
