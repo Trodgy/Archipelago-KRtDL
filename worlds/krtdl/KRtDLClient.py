@@ -429,10 +429,7 @@ async def dolphin_sync_task(ctx: KRtDLContext):
         try:
             connection_state = ctx.dolphin_bridge.get_connection_state()
             update_connection_status(ctx, connection_state)
-            if connection_state == ConnectionState.IN_MENU:
-                await handle_check_goal_complete(
-                    ctx
-                )  # It will say the player is in menu sometimes
+            await handle_check_goal_complete(ctx)
             if connection_state == ConnectionState.IN_GAME:
                 await _handle_game_ready(ctx)
             else:
@@ -500,6 +497,8 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
+    await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+    
     # if ctx.game_interface.current_game is not None:
         # need to find the memory locations in RAM for states I can work with for this
 
@@ -530,7 +529,6 @@ async def _handle_game_ready(ctx: KRtDLContext):
         await handle_receive_items(ctx, current_inventory)
         ctx.notification_manager.handle_notifications()
         await handle_checked_location(ctx, current_inventory)
-        await handle_check_goal_complete(ctx)
 
         if ctx.death_link_enabled:
             await handle_check_deathlink(ctx)
