@@ -445,9 +445,9 @@ async def dolphin_sync_task(ctx: KRtDLContext):
 
 def inventory_item_by_network_id(network_id: int, current_inventory: dict[str, InventoryItemData]) -> InventoryItemData:
 
-    for item in current_inventory.values():
-        if item.code == network_id:
-            return item
+    #for item in current_inventory.values():
+        #if item.code == network_id:
+            #return item
 
     # Handle custom items like missile launcher and main power bomb
     # for key, value in custom_suit_upgrade_table.items():
