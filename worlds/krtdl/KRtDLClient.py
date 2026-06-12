@@ -336,6 +336,7 @@ class KRtDLContext(CommonContext):
     game = "Kirby's Return to Dream Land"
     command_processor = KRtDLCommandProcessor
     notification_manager: NotificationManager
+    items_handling = 0b111
     dolphin_bridge: DolphinBridge 
     dolphin_sync_task: Optional[asyncio.Task[Any]] = None
     connection_state = ConnectionState.DISCONNECTED
