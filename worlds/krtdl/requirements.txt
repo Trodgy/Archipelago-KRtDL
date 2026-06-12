@@ -1,0 +1,2 @@
+ppc-asm==1.5.0
+pythonnet==3.0.5
