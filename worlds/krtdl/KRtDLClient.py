@@ -468,13 +468,13 @@ async def handle_receive_items(ctx: 'KRtDLContext', current_items: dict[str, Inv
             # continue
 
         # Handle Single Item Upgrades
-        if item_data.max_capacity == 1 and item_data.current_amount == 0:
-            ctx.dolphin_bridge.give_item_to_player(item_data.id, 1, 1)
-            if network_item.player != ctx.slot:
-                receipt_message = "online" # receipt_message = "online" if not item_data.name.startswith("Artifact") else "received"
-                ctx.notification_manager.queue_notification(f"{item_data.name} {receipt_message} ({ctx.player_names[network_item.player]})")
-        elif item_data.max_capacity > 1:
-            continue
+        #if item_data.max_capacity == 1 and item_data.current_amount == 0:
+            #ctx.dolphin_bridge.give_item_to_player(item_data.id, 1, 1)
+            #if network_item.player != ctx.slot:
+                #receipt_message = "online" # receipt_message = "online" if not item_data.name.startswith("Artifact") else "received"
+                #ctx.notification_manager.queue_notification(f"{item_data.name} {receipt_message} ({ctx.player_names[network_item.player]})")
+        #elif item_data.max_capacity > 1:
+            #continue
 
     # Handle repeat pickups
 
