@@ -431,7 +431,7 @@ async def dolphin_sync_task(ctx: KRtDLContext):
         try:
             connection_state = ctx.dolphin_bridge.get_connection_state()
             update_connection_status(ctx, connection_state)
-            await handle_check_goal_complete(world, ctx)
+            await handle_check_goal_complete(ctx)
             if connection_state == ConnectionState.IN_GAME:
                 await _handle_game_ready(ctx)
             else:
