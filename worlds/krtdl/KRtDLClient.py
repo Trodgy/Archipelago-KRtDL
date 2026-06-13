@@ -580,7 +580,7 @@ def launch():
         ctx.run_cli()
 
         logger.info("Running game...")
-        ctx.dolphin_sync_task = asyncio.create_task(dolphin_sync_task(ctx), name="Dolphin Sync")
+        ctx.dolphin_sync_task = asyncio.create_task(dolphin_sync_task(KRtDLWorld,ctx), name="Dolphin Sync")
 
         await ctx.exit_event.wait()
         ctx.server_address = None
