@@ -347,6 +347,7 @@ class KRtDLContext(CommonContext):
     slot_name: Optional[str] = None
     last_error_message: Optional[str] = None
     krtdl_file: Optional[str] = None
+    world_instance_link = None
 
     def __init__(self, server_address: str, password: str, krtdl_file: Optional[str] = None):
         super().__init__(server_address, password)
@@ -356,6 +357,7 @@ class KRtDLContext(CommonContext):
             KRtDLWorld.settings.dolphin_tool_path = Utils.open_filename("DolphinTool", ((".exe", (".exe",)),))
         if not KRtDLWorld.settings.game_path:
             KRtDLWorld.settings.game_path = Utils.open_filename("Kirby's Return to Dream Land (USA) (En,Fr,Es)", (("Wii Disc", (".iso", ".rvz", ".wbfs")),))
+        world_instance_link = KRtDLWorld
     
     async def server_auth(self, password_requested: bool = False):
         if password_requested and not self.password:
