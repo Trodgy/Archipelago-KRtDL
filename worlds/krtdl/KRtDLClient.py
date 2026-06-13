@@ -371,9 +371,6 @@ class KRtDLContext(CommonContext):
     
     def on_package(self, cmd: str, args: Dict[str, Any]) -> None:
         if cmd == "Connected":
-            
-            logger.info(args["slot_data"])
-            
             self.slot_data = args["slot_data"]
             if "death_link" in args["slot_data"]:
                 self.death_link_enabled = bool(args["slot_data"]["death_link"])
@@ -503,6 +500,9 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
+
+    #need to figure out how to get the options via context only, seems pretty difficult given the limitations
+    
     if ctx.goal_type == 1: #and state.has("Another Dimension Final Boss - Complete", world.player):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
