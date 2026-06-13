@@ -417,7 +417,7 @@ def get_num_dolphin_instances() -> int:
     except:
         return 0
 
-async def dolphin_sync_task(world: KRtDLWorld, ctx: KRtDLContext):
+async def dolphin_sync_task(ctx: KRtDLContext):
     try:
         # This will not work if the client is running from source
         version = get_apworld_version()
@@ -501,9 +501,9 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # await ctx.send_msgs([{"cmd": "LocationChecks", "locations": [checked_location_id]}])
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
-async def handle_check_goal_complete(world: KRtDLWorld, ctx: KRtDLContext):
+async def handle_check_goal_complete(ctx: KRtDLContext):
     
-    if world.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
+    if KRtDLWorld.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
