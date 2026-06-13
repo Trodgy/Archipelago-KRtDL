@@ -344,10 +344,10 @@ class KRtDLContext(CommonContext):
     connection_state = ConnectionState.DISCONNECTED
     slot_data: Dict[str, Utils.Any] = {}
     death_link_enabled = False
+    goal_type = 0
     slot_name: Optional[str] = None
     last_error_message: Optional[str] = None
     krtdl_file: Optional[str] = None
-    world_instance_link = None
 
     def __init__(self, server_address: str, password: str, krtdl_file: Optional[str] = None):
         super().__init__(server_address, password)
@@ -357,7 +357,6 @@ class KRtDLContext(CommonContext):
             KRtDLWorld.settings.dolphin_tool_path = Utils.open_filename("DolphinTool", ((".exe", (".exe",)),))
         if not KRtDLWorld.settings.game_path:
             KRtDLWorld.settings.game_path = Utils.open_filename("Kirby's Return to Dream Land (USA) (En,Fr,Es)", (("Wii Disc", (".iso", ".rvz", ".wbfs")),))
-        world_instance_link = KRtDLWorld
     
     async def server_auth(self, password_requested: bool = False):
         if password_requested and not self.password:
@@ -372,6 +371,9 @@ class KRtDLContext(CommonContext):
     
     def on_package(self, cmd: str, args: Dict[str, Any]) -> None:
         if cmd == "Connected":
+            
+            logger.info(args["slot_data"])
+            
             self.slot_data = args["slot_data"]
             if "death_link" in args["slot_data"]:
                 self.death_link_enabled = bool(args["slot_data"]["death_link"])
@@ -501,14 +503,11 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
-    
-    if ctx.world_instance_link.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
+    if goal_type == 0 and state.has("Another Dimension Final Boss - Complete", world.player):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
         # need to find the memory locations in RAM for states I can work with for this
-
-    logger.info(f"yippee cool you win I haven't actually made this do anything yet")
     
         # current_level = ctx.game_interface.get_current_level()
         # if current_level == MetroidPrimeLevel.End_of_Game:
