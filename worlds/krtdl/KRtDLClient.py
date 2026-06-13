@@ -431,7 +431,7 @@ async def dolphin_sync_task(world: KRtDLWorld, ctx: KRtDLContext):
         try:
             connection_state = ctx.dolphin_bridge.get_connection_state()
             update_connection_status(ctx, connection_state)
-            await handle_check_goal_complete(ctx)
+            await handle_check_goal_complete(world, ctx)
             if connection_state == ConnectionState.IN_GAME:
                 await _handle_game_ready(ctx)
             else:
@@ -500,7 +500,7 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
 
 async def handle_check_goal_complete(world: KRtDLWorld, ctx: KRtDLContext):
     
-    if and state.has("Another Dimension Final Boss - Complete", world.player):
+    if world.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
