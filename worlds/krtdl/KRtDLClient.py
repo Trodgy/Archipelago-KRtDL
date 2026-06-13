@@ -23,6 +23,7 @@ import json
 import struct
 import settings
 
+from BaseClasses import CollectionState
 from settings import get_settings, GeneralOptions, FolderPath
 from ArchipelagoStepPatcher import StepPatcher 
 from enum import Enum
@@ -30,6 +31,7 @@ from typing import Any, Dict, List, Optional, cast
 from CommonClient import ClientCommandProcessor, CommonContext, get_base_parser, logger, server_loop, gui_enabled
 from NetUtils import ClientStatus, NetworkItem
 from .Items import ItemData, item_table
+from .Options import Goal
 from . import KRtDLWorld
 
 HEADER_ID_ADDRESS = 0x80000000
@@ -412,7 +414,7 @@ def get_num_dolphin_instances() -> int:
     except:
         return 0
 
-async def dolphin_sync_task(ctx: KRtDLContext):
+async def dolphin_sync_task(world: KRtDLWorld, ctx: KRtDLContext):
     try:
         # This will not work if the client is running from source
         version = get_apworld_version()
@@ -496,8 +498,10 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # await ctx.send_msgs([{"cmd": "LocationChecks", "locations": [checked_location_id]}])
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
-async def handle_check_goal_complete(ctx: KRtDLContext):
-    await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+async def handle_check_goal_complete(world: KRtDLWorld, ctx: KRtDLContext):
+    
+    if and state.has("Another Dimension Final Boss - Complete", world.player):
+        await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
         # need to find the memory locations in RAM for states I can work with for this
@@ -512,6 +516,7 @@ async def handle_check_deathlink(ctx: KRtDLContext):
     # need to find the memory locations in RAM for states I can work with for this
 
     logger.info(f"are you dead yet")
+    # await ctx.send_death(ctx.player_names[ctx.slot] + " is hit.")
     
     # health = ctx.game_interface.get_current_health()
     # if health <= 0 and ctx.is_pending_death_link_reset == False:
