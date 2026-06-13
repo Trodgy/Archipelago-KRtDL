@@ -502,7 +502,7 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
     
-    if KRtDLWorld.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
+    if ctx.world_instance_link.options.goal == Goal.option_magolor and state.has("Another Dimension Final Boss - Complete", world.player):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
