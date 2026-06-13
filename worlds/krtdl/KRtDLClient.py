@@ -1,5 +1,4 @@
 from logging import Logger
-from typing import TYPE_CHECKING
 
 import os
 from pythonnet import load
@@ -33,9 +32,7 @@ from CommonClient import ClientCommandProcessor, CommonContext, get_base_parser,
 from NetUtils import ClientStatus, NetworkItem
 from .Items import ItemData, item_table
 from .Options import Goal
-
-if TYPE_CHECKING:
-    from . import KRtDLWorld
+from . import KRtDLWorld
 
 HEADER_ID_ADDRESS = 0x80000000
 HUD_MESSAGE_DURATION = 10.0
