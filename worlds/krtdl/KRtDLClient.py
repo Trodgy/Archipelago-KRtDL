@@ -1,4 +1,5 @@
 from logging import Logger
+from typing import TYPE_CHECKING
 
 import os
 from pythonnet import load
@@ -32,7 +33,9 @@ from CommonClient import ClientCommandProcessor, CommonContext, get_base_parser,
 from NetUtils import ClientStatus, NetworkItem
 from .Items import ItemData, item_table
 from .Options import Goal
-from . import KRtDLWorld
+
+if TYPE_CHECKING:
+    from . import KRtDLWorld
 
 HEADER_ID_ADDRESS = 0x80000000
 HUD_MESSAGE_DURATION = 10.0
@@ -580,7 +583,7 @@ def launch():
         ctx.run_cli()
 
         logger.info("Running game...")
-        ctx.dolphin_sync_task = asyncio.create_task(dolphin_sync_task(KRtDLWorld,ctx), name="Dolphin Sync")
+        ctx.dolphin_sync_task = asyncio.create_task(dolphin_sync_task(ctx), name="Dolphin Sync")
 
         await ctx.exit_event.wait()
         ctx.server_address = None
