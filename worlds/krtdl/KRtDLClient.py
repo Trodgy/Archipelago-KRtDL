@@ -346,6 +346,7 @@ class KRtDLContext(CommonContext):
     death_link_enabled = False
     goal_type = 0
     slot_name: Optional[str] = None
+    received_items: List[Any] = []
     last_error_message: Optional[str] = None
     krtdl_file: Optional[str] = None
 
