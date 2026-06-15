@@ -4,7 +4,7 @@ from BaseClasses import Location, Region, CollectionState
 if TYPE_CHECKING:
     from . import KRtDLWorld
 
-BaseLocationID = 24102011 + 40
+BaseLocationID = 24102011 + 98
 
 class KRtDLLocation(Location):
     game: str = "Kirby's Return to Dream Land"
