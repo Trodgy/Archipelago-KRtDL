@@ -373,6 +373,7 @@ class KRtDLContext(CommonContext):
     def on_package(self, cmd: str, args: Dict[str, Any]) -> None:
         if cmd == "Connected":
             self.slot_data = args["slot_data"]
+            self.received_items = args["items"]
             if "death_link" in args["slot_data"]:
                 self.death_link_enabled = bool(args["slot_data"]["death_link"])
                 Utils.async_start(self.update_death_link(bool(args["slot_data"]["death_link"])))
