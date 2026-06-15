@@ -214,7 +214,7 @@ class KRtDLWorld(World):
         NewLocation = self.get_location(ItemNames.stage1_1.value)
         NewItem = self.create_item(ItemNames.stage1_1.value, ItemClassification.progression)
         NewLocation.place_locked_item(NewItem)
-        new_map[NewLocation] = NewItem
+        new_map[ItemNames.stage1_1.value] = ItemNames.stage1_1.value
         
         #self.get_location(ItemNames.stage1_2.value).place_locked_item(self.create_item(ItemNames.stage1_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage1_3.value).place_locked_item(self.create_item(ItemNames.stage1_3.value, ItemClassification.progression))
@@ -256,7 +256,7 @@ class KRtDLWorld(World):
         NewLocation = self.get_location(ItemNames.stage8_4.value)
         NewItem = self.create_item(ItemNames.stage8_4.value, ItemClassification.progression)
         NewLocation.place_locked_item(NewItem)
-        new_map[NewLocation] = NewItem
+        new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
         
         self.prefilled_item_map = new_map
 
