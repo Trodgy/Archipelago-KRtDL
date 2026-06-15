@@ -345,6 +345,7 @@ class KRtDLContext(CommonContext):
     slot_data: Dict[str, Utils.Any] = {}
     death_link_enabled = False
     goal_type = 0
+    energy_sphere_goal_req = 80
     slot_name: Optional[str] = None
     last_error_message: Optional[str] = None
     krtdl_file: Optional[str] = None
@@ -503,10 +504,22 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
     hasmagolorgoal = False
     haslandiagoal = False
     hasdoomergoal = False
+
+    #unimplemented
+    hasarenagoal = False
+    hastruearenagoal = False
+    
+    #sphere to be triggered by "Magolor's Gratitude" for funsies
+    #ctx.energy_sphere_goal_req might be needed for this to be given properly
+    hasspheregoal = False
+    
     for item in ctx.items_received:
         if item.item == 24102105:
             hasmagolorgoal = True
-        logger.info(item)
+        elif item.item == 24102104:
+            haslandiagoal = True
+        elif item.item == 24102094:
+            hasdoomergoal = True
         
     #need to figure out how to get the options via context only, seems pretty difficult given the limitations
     if ctx.goal_type == 0 and hasmagolorgoal == True:
@@ -515,6 +528,13 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     elif ctx.goal_type == 2 and hasdoomergoal == True:
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+    elif ctx.goal_type == 3 and hasarenagoal == True:
+        await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+    elif ctx.goal_type == 4 and hastruearenagoal == True:
+        await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+    elif ctx.goal_type == 5 and hasspheregoal == True:
+        await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+        
     
     # if ctx.game_interface.current_game is not None:
         # need to find the memory locations in RAM for states I can work with for this
