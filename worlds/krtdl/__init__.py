@@ -210,9 +210,9 @@ class KRtDLWorld(World):
                 new_map[location] = item
         
         #temp code for now, make a prettier solution later
+        self.get_region("Cookie Country Stage 1 Room 5").add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
         NewLocation = self.get_location(ItemNames.stage1_1.value)
         NewItem = self.create_item(ItemNames.stage1_1.value, ItemClassification.progression)
-        self.get_region("Cookie Country Stage 1 Room 5").add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
         NewLocation.place_locked_item(NewItem)
         new_map[NewLocation] = NewItem
         
@@ -252,9 +252,9 @@ class KRtDLWorld(World):
         #self.get_location(ItemNames.stage7_2.value).place_locked_item(self.create_item(ItemNames.stage7_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_3.value).place_locked_item(self.create_item(ItemNames.stage7_3.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_4.value).place_locked_item(self.create_item(ItemNames.stage7_4.value, ItemClassification.progression))
+        self.get_region("Another Dimension").add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
         NewLocation = self.get_location(ItemNames.stage8_4.value)
         NewItem = self.create_item(ItemNames.stage8_4.value, ItemClassification.progression)
-        self.get_region("Another Dimension").add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
         NewLocation.place_locked_item(NewItem)
         new_map[NewLocation] = NewItem
         
