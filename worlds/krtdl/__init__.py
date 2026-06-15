@@ -215,31 +215,65 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage1_1.value] = ItemNames.stage1_1.value
         
         #self.get_location(ItemNames.stage1_2.value).place_locked_item(self.create_item(ItemNames.stage1_2.value, ItemClassification.progression))
+        #new_map[ItemNames.stage1_2.value] = ItemNames.stage1_2.value
         #self.get_location(ItemNames.stage1_3.value).place_locked_item(self.create_item(ItemNames.stage1_3.value, ItemClassification.progression))
+        #new_map[ItemNames.stage1_3.value] = ItemNames.stage1_3.value
         #self.get_location(ItemNames.stage1_4.value).place_locked_item(self.create_item(ItemNames.stage1_4.value, ItemClassification.progression))
+        #new_map[ItemNames.stage1_4.value] = ItemNames.stage1_4.value
         #self.get_location(ItemNames.stage1_5.value).place_locked_item(self.create_item(ItemNames.stage1_5.value, ItemClassification.progression))
+        #new_map[ItemNames.stage1_5.value] = ItemNames.stage1_5.value
         #self.get_location(ItemNames.stage2_1.value).place_locked_item(self.create_item(ItemNames.stage2_1.value, ItemClassification.progression))
+        #new_map[ItemNames.stage2_1.value] = ItemNames.stage2_1.value
         #self.get_location(ItemNames.stage2_2.value).place_locked_item(self.create_item(ItemNames.stage2_2.value, ItemClassification.progression))
+        #new_map[ItemNames.stage2_2.value] = ItemNames.stage2_2.value
         #self.get_location(ItemNames.stage2_3.value).place_locked_item(self.create_item(ItemNames.stage2_3.value, ItemClassification.progression))
+        #new_map[ItemNames.stage2_3.value] = ItemNames.stage2_3.value
         #self.get_location(ItemNames.stage2_4.value).place_locked_item(self.create_item(ItemNames.stage2_4.value, ItemClassification.progression))
+        #new_map[ItemNames.stage2_4.value] = ItemNames.stage2_4.value
         #self.get_location(ItemNames.stage2_5.value).place_locked_item(self.create_item(ItemNames.stage2_5.value, ItemClassification.progression))
+        #new_map[ItemNames.stage2_5.value] = ItemNames.stage2_5.value
         #self.get_location(ItemNames.stage3_1.value).place_locked_item(self.create_item(ItemNames.stage3_1.value, ItemClassification.progression))
+        #new_map[ItemNames.stage3_1.value] = ItemNames.stage3_1.value
         #self.get_location(ItemNames.stage3_2.value).place_locked_item(self.create_item(ItemNames.stage3_2.value, ItemClassification.progression))
+        #new_map[ItemNames.stage3_2.value] = ItemNames.stage3_2.value
         #self.get_location(ItemNames.stage3_3.value).place_locked_item(self.create_item(ItemNames.stage3_3.value, ItemClassification.progression))
+        #new_map[ItemNames.stage3_3.value] = ItemNames.stage3_3.value
         #self.get_location(ItemNames.stage3_4.value).place_locked_item(self.create_item(ItemNames.stage3_4.value, ItemClassification.progression))
+        #new_map[ItemNames.stage3_4.value] = ItemNames.stage3_4.value
         #self.get_location(ItemNames.stage3_5.value).place_locked_item(self.create_item(ItemNames.stage3_5.value, ItemClassification.progression))
+        #new_map[ItemNames.stage3_5.value] = ItemNames.stage3_5.value
         #self.get_location(ItemNames.stage4_1.value).place_locked_item(self.create_item(ItemNames.stage4_1.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_1.value] = ItemNames.stage4_1.value
         #self.get_location(ItemNames.stage4_2.value).place_locked_item(self.create_item(ItemNames.stage4_2.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_2.value] = ItemNames.stage4_2.value
         #self.get_location(ItemNames.stage4_3.value).place_locked_item(self.create_item(ItemNames.stage4_3.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_3.value] = ItemNames.stage4_3.value
         #self.get_location(ItemNames.stage4_4.value).place_locked_item(self.create_item(ItemNames.stage4_4.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_4.value] = ItemNames.stage4_4.value
         #self.get_location(ItemNames.stage4_5.value).place_locked_item(self.create_item(ItemNames.stage4_5.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_5.value] = ItemNames.stage4_5.value
         #self.get_location(ItemNames.stage4_6.value).place_locked_item(self.create_item(ItemNames.stage4_6.value, ItemClassification.progression))
+        #new_map[ItemNames.stage4_6.value] = ItemNames.stage4_6.value
         #self.get_location(ItemNames.stage5_1.value).place_locked_item(self.create_item(ItemNames.stage5_1.value, ItemClassification.progression))
+        #new_map[ItemNames.stage5_1.value] = ItemNames.stage5_1.value
         #self.get_location(ItemNames.stage5_2.value).place_locked_item(self.create_item(ItemNames.stage5_2.value, ItemClassification.progression))
+        #new_map[ItemNames.stage5_2.value] = ItemNames.stage5_2.value
         #self.get_location(ItemNames.stage5_3.value).place_locked_item(self.create_item(ItemNames.stage5_3.value, ItemClassification.progression))
+        #new_map[ItemNames.stage5_3.value] = ItemNames.stage5_3.value
         #self.get_location(ItemNames.stage5_4.value).place_locked_item(self.create_item(ItemNames.stage5_4.value, ItemClassification.progression))
+        #new_map[ItemNames.stage5_4.value] = ItemNames.stage5_4.value
+
+
+        #special case needed for this one
+        
         #self.get_location(ItemNames.stage5_5.value).place_locked_item(self.create_item(ItemNames.stage5_5.value, ItemClassification.progression))
+        #new_map[ItemNames.stage5_5.value] = ItemNames.stage5_5.value
+
+        self.get_region("Nutty Noon Stage 6 Room 2").add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
         #self.get_location(ItemNames.stage5_6.value).place_locked_item(self.create_item(ItemNames.stage5_6.value, ItemClassification.progression))
+        new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
+
+        #these ones currently don't have level regions
         #self.get_location(ItemNames.stage6_1.value).place_locked_item(self.create_item(ItemNames.stage6_1.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage6_2.value).place_locked_item(self.create_item(ItemNames.stage6_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage6_3.value).place_locked_item(self.create_item(ItemNames.stage6_3.value, ItemClassification.progression))
@@ -250,6 +284,7 @@ class KRtDLWorld(World):
         #self.get_location(ItemNames.stage7_2.value).place_locked_item(self.create_item(ItemNames.stage7_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_3.value).place_locked_item(self.create_item(ItemNames.stage7_3.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_4.value).place_locked_item(self.create_item(ItemNames.stage7_4.value, ItemClassification.progression))
+        
         self.get_region("Another Dimension").add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
         #self.get_location(ItemNames.stage8_4.value).place_locked_item(self.create_item(ItemNames.stage8_4.value, ItemClassification.progression))
         new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
