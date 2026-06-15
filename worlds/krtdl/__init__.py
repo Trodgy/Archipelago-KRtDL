@@ -208,15 +208,13 @@ class KRtDLWorld(World):
             if item not in precollected_item_names:
                 # Prefilled items affect what goes into the item pool. If we already have collected something, we won't need to prefill it
                 new_map[location] = item
-
+        
         #temp code for now, make a prettier solution later
-
-
-
-        #THIS DOES NOT WORK BECAUSE THE LOCATIONS HAVE NOT BEEN DECLARED IN REGIONS, NEED TO FIGURE OUT HOW TO ADD THEM WITHOUT THEM BECOMING NORMALLY FILLABLE    
-
+        NewLocation = self.get_location(ItemNames.stage1_1.value)
+        NewItem = self.create_item(ItemNames.stage1_1.value, ItemClassification.progression)
         self.get_region("Cookie Country Stage 1 Room 5").add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
-        self.get_location(ItemNames.stage1_1.value).place_locked_item(self.create_item(ItemNames.stage1_1.value, ItemClassification.progression))
+        NewLocation.place_locked_item(NewItem)
+        new_map[NewLocation] = NewItem
         
         #self.get_location(ItemNames.stage1_2.value).place_locked_item(self.create_item(ItemNames.stage1_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage1_3.value).place_locked_item(self.create_item(ItemNames.stage1_3.value, ItemClassification.progression))
@@ -254,8 +252,11 @@ class KRtDLWorld(World):
         #self.get_location(ItemNames.stage7_2.value).place_locked_item(self.create_item(ItemNames.stage7_2.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_3.value).place_locked_item(self.create_item(ItemNames.stage7_3.value, ItemClassification.progression))
         #self.get_location(ItemNames.stage7_4.value).place_locked_item(self.create_item(ItemNames.stage7_4.value, ItemClassification.progression))
+        NewLocation = self.get_location(ItemNames.stage8_4.value)
+        NewItem = self.create_item(ItemNames.stage8_4.value, ItemClassification.progression)
         self.get_region("Another Dimension").add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
-        self.get_location(ItemNames.stage8_4.value).place_locked_item(self.create_item(ItemNames.stage8_4.value, ItemClassification.progression))
+        NewLocation.place_locked_item(NewItem)
+        new_map[NewLocation] = NewItem
         
         self.prefilled_item_map = new_map
 
