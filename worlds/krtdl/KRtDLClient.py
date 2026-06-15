@@ -500,11 +500,11 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
-
+    logger.info(ctx.received_items)
     #need to figure out how to get the options via context only, seems pretty difficult given the limitations
     
-    if ctx.goal_type == 1: #and state.has("Another Dimension Final Boss - Complete", world.player):
-        await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
+    #if ctx.goal_type == 0 and state.has("Another Dimension Final Boss - Complete", world.player):
+       # await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
         # need to find the memory locations in RAM for states I can work with for this
