@@ -504,6 +504,8 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
     haslandiagoal = false
     hasdoomergoal = false
     for item in ctx.items_received:
+        if item.item == 24102105:
+            hasmagolorgoal = true
         logger.info(item)
         
     #need to figure out how to get the options via context only, seems pretty difficult given the limitations
