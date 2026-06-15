@@ -500,9 +500,9 @@ async def handle_checked_location(ctx: KRtDLContext, current_inventory: dict[str
     # ctx.dolphin_bridge.give_item_to_player(unknown_item1.id, 0, 0)
 
 async def handle_check_goal_complete(ctx: KRtDLContext):
-    hasmagolorgoal: bool = false
-    haslandiagoal: bool = false
-    hasdoomergoal: bool = false
+    hasmagolorgoal = False
+    haslandiagoal = False
+    hasdoomergoal = False
     for item in ctx.items_received:
         if item.item == 24102105:
             hasmagolorgoal = true
