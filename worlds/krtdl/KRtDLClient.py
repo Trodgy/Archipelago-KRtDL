@@ -509,11 +509,11 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
         logger.info(item)
         
     #need to figure out how to get the options via context only, seems pretty difficult given the limitations
-    if ctx.goal_type == 0 and hasmagolorgoal == true:
+    if ctx.goal_type == 0 and hasmagolorgoal == True:
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
-    elif ctx.goal_type == 1 and haslandiagoal == true:
+    elif ctx.goal_type == 1 and haslandiagoal == True:
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
-    elif ctx.goal_type == 2 and hasdoomergoal == true:
+    elif ctx.goal_type == 2 and hasdoomergoal == True:
         await ctx.send_msgs([{"cmd": "StatusUpdate", "status": ClientStatus.CLIENT_GOAL}])
     
     # if ctx.game_interface.current_game is not None:
