@@ -2296,6 +2296,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     FiveFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 4 - Complete"]), KRtDLLocation)
     FiveFiveGoalRegion.add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 5 - Complete"]), KRtDLLocation)
     FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
+    SixOneRooms[8].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 1 - Complete"]), KRtDLLocation)
     AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
     
     
