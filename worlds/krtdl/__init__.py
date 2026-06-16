@@ -212,7 +212,7 @@ class KRtDLWorld(World):
         #temp code for now, make a prettier solution later
         self.get_region("Cookie Country Stage 1 Room 5").add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
         #self.get_location(ItemNames.stage1_1.value).place_locked_item(self.create_item(ItemNames.stage1_1.value, ItemClassification.progression))
-        new_map[ItemNames.stage1_1.value] = ItemNames.stage1_1.value
+        new_map[get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"])] = ItemNames.stage1_1.value
         
         #self.get_location(ItemNames.stage1_2.value).place_locked_item(self.create_item(ItemNames.stage1_2.value, ItemClassification.progression))
         #new_map[ItemNames.stage1_2.value] = ItemNames.stage1_2.value
@@ -271,7 +271,7 @@ class KRtDLWorld(World):
 
         self.get_region("Nutty Noon Stage 6 Room 2").add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
         #self.get_location(ItemNames.stage5_6.value).place_locked_item(self.create_item(ItemNames.stage5_6.value, ItemClassification.progression))
-        new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
+        new_map[get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"])] = ItemNames.stage5_6.value
 
         #these ones currently don't have level regions
         #self.get_location(ItemNames.stage6_1.value).place_locked_item(self.create_item(ItemNames.stage6_1.value, ItemClassification.progression))
@@ -287,7 +287,7 @@ class KRtDLWorld(World):
         
         self.get_region("Another Dimension").add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
         #self.get_location(ItemNames.stage8_4.value).place_locked_item(self.create_item(ItemNames.stage8_4.value, ItemClassification.progression))
-        new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
+        new_map[get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"])] = ItemNames.stage8_4.value
         
         self.prefilled_item_map = new_map
 
