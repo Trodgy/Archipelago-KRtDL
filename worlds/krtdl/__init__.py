@@ -296,9 +296,7 @@ class KRtDLWorld(World):
 
     def pre_fill(self) -> None:
         for location_name, item_name in self.prefilled_item_map.items():
-            location = self.get_location(location_name)
-            item = self.create_item(item_name, ItemClassification.progression)
-            location.place_locked_item(item)
+            self.multiworld.get_location(location_name, self.player).place_locked_item(self.create_item(item_name))
     
     def generate_output(self, output_directory: str) -> None:
         config: Dict[str, Union[int, str]] = {
