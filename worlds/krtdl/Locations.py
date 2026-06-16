@@ -2261,6 +2261,12 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     NuttyNoonHub.connect(FiveSixRooms[0], "Nutty Noon Hub To Nutty Noon Stage 6 Room 1")
     FiveSixRooms[0].connect(FiveSixRooms[1], "Nutty Noon Stage 6 Room 1-2")
+
+    
+    OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
+    FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
+    AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
+    
     
     if world.options.shuffle_energy_spheres:
         OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
