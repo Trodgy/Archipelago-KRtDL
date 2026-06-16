@@ -247,8 +247,10 @@ locationincrement += 1
 energy_sphere_table[StageNames[25] + "Room 13/26 - Energy Sphere"] = BaseLocationID + locationincrement
 locationincrement += 1
 #Egg Engines 1
-for i in range(1,3+1): #Egg Engines 1
-    energy_sphere_table[StageNames[27] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+energy_sphere_table[StageNames[27] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[27] + "Room 11 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Egg Engines 2
 for i in range(1,4+1): #Egg Engines 2
@@ -688,6 +690,8 @@ for i in range(1,3+1):
 for i in range(1,3+1):
     gold_star_table[StageNames[25] + "Room 27 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+#Egg Engines 1
+
 
 #print(len(gold_star_table))
 
