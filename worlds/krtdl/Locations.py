@@ -1751,6 +1751,8 @@ def create_all_regions(world: "KRtDLWorld") -> None:
 
     for i in range(1,4+1):
         regions.append(Region(StageNames[25] + "Energy Sphere Region #" + str(i), world.player, world.multiworld))
+
+    regions.append(Region(StageNames[25] + "Goal Region", world.player, world.multiworld))
     
     for i in range(1,2+1):
         regions.append(Region(StageNames[26] + "Room " + str(i), world.player, world.multiworld))
@@ -2219,6 +2221,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Nutty Noon Stage 5 Room 26"),
                    world.get_region("Nutty Noon Stage 5 Room 27"),
                    world.get_region("Nutty Noon Stage 5 Room 28")]
+    FiveFiveGoalRegion = world.get_region("Nutty Noon Stage 5 Goal Region")
 
     NuttyNoonHub.connect(FiveFiveRooms[0], "Nutty Noon Hub To Nutty Noon Stage 5 Room 1")
     FiveFiveRooms[0].connect(FiveFiveRooms[1], "Nutty Noon Stage 5 Room 1-2")
@@ -2248,6 +2251,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     FiveFiveRooms[23].connect(FiveFiveRooms[24], "Nutty Noon Stage 5 Room 24-25")
     FiveFiveRooms[24].connect(FiveFiveRooms[25], "Nutty Noon Stage 5 Room 25-26")
     FiveFiveRooms[25].connect(FiveFiveRooms[27], "Nutty Noon Stage 5 Room 26-28")
+    FiveFiveRooms[26].connect(FiveFiveGoalRegion, "Nutty Noon Stage 5 Room 27 Goal")
+    FiveFiveRooms[27].connect(FiveFiveGoalRegion, "Nutty Noon Stage 5 Room 28 Goal")
     FiveFiveRooms[3].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 4 Energy Sphere")
     FiveFiveRooms[15].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 16 Energy Sphere")
     FiveFiveRooms[6].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 7 Energy Sphere")
@@ -2274,6 +2279,22 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     TwoThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 3 - Complete"]), KRtDLLocation)
     TwoFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 4 - Complete"]), KRtDLLocation)
     TwoFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 5 - Complete"]), KRtDLLocation)
+    ThreeOneRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 1 - Complete"]), KRtDLLocation)
+    ThreeTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 2 - Complete"]), KRtDLLocation)
+    ThreeThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 3 - Complete"]), KRtDLLocation)
+    ThreeFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 4 - Complete"]), KRtDLLocation)
+    ThreeFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 5 - Complete"]), KRtDLLocation)
+    FourOneRooms[4].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 1 - Complete"]), KRtDLLocation)
+    FourTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 2 - Complete"]), KRtDLLocation)
+    FourThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 3 - Complete"]), KRtDLLocation)
+    FourFourRooms[4].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 4 - Complete"]), KRtDLLocation)
+    FourFiveRooms[9].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 5 - Complete"]), KRtDLLocation)
+    FourSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 6 - Complete"]), KRtDLLocation)
+    FiveOneRooms[8].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 1 - Complete"]), KRtDLLocation)
+    FiveTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 2 - Complete"]), KRtDLLocation)
+    FiveThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 3 - Complete"]), KRtDLLocation)
+    FiveFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 4 - Complete"]), KRtDLLocation)
+    FiveFiveGoalRegion.add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 5 - Complete"]), KRtDLLocation)
     FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
     AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
     
