@@ -1638,6 +1638,7 @@ for i in subgame_table.keys():
     locationincrement += 1
     
 composite_location: dict[str, int] = {
+    **stage_completion_table,
     **energy_sphere_table,
     **part_sphere_table,
     **gold_star_table,
