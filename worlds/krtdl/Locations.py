@@ -2525,6 +2525,11 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4").add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 13/26 - Energy Sphere"]), KRtDLLocation)
         
 
+        SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+
+        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Energy Sphere #1"]), KRtDLLocation)
+
+        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Energy Sphere #2"]), KRtDLLocation)
 
     
     
