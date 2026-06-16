@@ -2265,6 +2265,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     
     OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
+    OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 2 - Complete"]), KRtDLLocation)
+    OneThreeRooms[4].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 3 - Complete"]), KRtDLLocation)
+    OneFourRooms[4].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 4 - Complete"]), KRtDLLocation)
+    OneFiveRegion.add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 5 - Complete"]), KRtDLLocation)
+    TwoOneRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 1 - Complete"]), KRtDLLocation)
+    TwoTwoRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 2 - Complete"]), KRtDLLocation)
+    TwoThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 3 - Complete"]), KRtDLLocation)
+    TwoFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 4 - Complete"]), KRtDLLocation)
+    TwoFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 5 - Complete"]), KRtDLLocation)
     FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
     AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
     
