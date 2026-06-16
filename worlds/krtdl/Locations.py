@@ -1756,6 +1756,9 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     
     for i in range(1,2+1):
         regions.append(Region(StageNames[26] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,11+1):
+        regions.append(Region(StageNames[27] + "Room " + str(i), world.player, world.multiworld))
     
     regions.append(Region("Ninja Dojo", world.player, world.multiworld))
     regions.append(Region("Scope Shot", world.player, world.multiworld))
@@ -2268,6 +2271,29 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     NuttyNoonHub.connect(FiveSixRooms[0], "Nutty Noon Hub To Nutty Noon Stage 6 Room 1")
     FiveSixRooms[0].connect(FiveSixRooms[1], "Nutty Noon Stage 6 Room 1-2")
 
+    SixOneRooms = [world.get_region("Egg Engines Stage 1 Room 1"),
+                   world.get_region("Egg Engines Stage 1 Room 2"),
+                   world.get_region("Egg Engines Stage 1 Room 3"),
+                   world.get_region("Egg Engines Stage 1 Room 4"),
+                   world.get_region("Egg Engines Stage 1 Room 5"),
+                   world.get_region("Egg Engines Stage 1 Room 6"),
+                   world.get_region("Egg Engines Stage 1 Room 7"),
+                   world.get_region("Egg Engines Stage 1 Room 8"),
+                   world.get_region("Egg Engines Stage 1 Room 9"),
+                   world.get_region("Egg Engines Stage 1 Room 10"),
+                   world.get_region("Egg Engines Stage 1 Room 11")]
+
+    SixOneRooms[0].connect(SixOneRooms[1], "Egg Engines Stage 1 Room 1-2")
+    SixOneRooms[0].connect(SixOneRooms[2], "Egg Engines Stage 1 Room 1-3")
+    SixOneRooms[2].connect(SixOneRooms[3], "Egg Engines Stage 1 Room 3-4")
+    SixOneRooms[3].connect(SixOneRooms[4], "Egg Engines Stage 1 Room 4-5")
+    SixOneRooms[3].connect(SixOneRooms[5], "Egg Engines Stage 1 Room 4-6")
+    SixOneRooms[5].connect(SixOneRooms[6], "Egg Engines Stage 1 Room 6-7")
+    SixOneRooms[6].connect(SixOneRooms[7], "Egg Engines Stage 1 Room 7-8")
+    SixOneRooms[6].connect(SixOneRooms[8], "Egg Engines Stage 1 Room 7-9")
+    SixOneRooms[8].connect(SixOneRooms[9], "Egg Engines Stage 1 Room 9-10")
+    SixOneRooms[9].connect(SixOneRooms[10], "Egg Engines Stage 1 Room 10-11")
+    
     
     OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
     OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 2 - Complete"]), KRtDLLocation)
