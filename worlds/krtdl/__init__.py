@@ -240,7 +240,6 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage6_1.value] = ItemNames.stage6_1.value
 
         #these ones currently don't have level regions
-        #new_map[ItemNames.stage6_1.value] = ItemNames.stage6_1.value
         #new_map[ItemNames.stage6_2.value] = ItemNames.stage6_2.value
         #new_map[ItemNames.stage6_3.value] = ItemNames.stage6_3.value
         #new_map[ItemNames.stage6_4.value] = ItemNames.stage6_4.value
