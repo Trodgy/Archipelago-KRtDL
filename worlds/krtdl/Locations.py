@@ -691,7 +691,36 @@ for i in range(1,3+1):
     gold_star_table[StageNames[25] + "Room 27 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Egg Engines 1
-
+for i in range(1,20+1):
+    gold_star_table[StageNames[27] + "Room 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    gold_star_table[StageNames[27] + "Room 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,12+1):
+    gold_star_table[StageNames[27] + "Room 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    gold_star_table[StageNames[27] + "Room 4 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,15+1):
+    gold_star_table[StageNames[27] + "Room 5 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,13+1):
+    gold_star_table[StageNames[27] + "Room 6 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,16+1):
+    gold_star_table[StageNames[27] + "Room 7 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    gold_star_table[StageNames[27] + "Room 8 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,69+1):
+    gold_star_table[StageNames[27] + "Room 9 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,34+1):
+    gold_star_table[StageNames[27] + "Room 10 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 #print(len(gold_star_table))
 
@@ -885,6 +914,19 @@ locationincrement += 1
 for i in range(1,3+1):
     red_star_table[StageNames[25] + "Room 28 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+#Egg Engines 1
+red_star_table[StageNames[27] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[27] + "Room 4 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[27] + "Room 6 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[27] + "Room 9 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[27] + "Room 10 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 #print(len(red_star_table))
 
@@ -930,6 +972,11 @@ locationincrement += 1
 blue_star_table[StageNames[24] + "Room 1 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 blue_star_table[StageNames[24] + "Room 4 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 1
+blue_star_table[StageNames[27] + "Room 3 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[27] + "Room 6 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 
 #print(len(blue_star_table))
@@ -1116,6 +1163,18 @@ for i in range(1,3+1):
 for i in range(1,8+1):
     flower_table[StageNames[24] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+#Egg Engines 1
+for i in range(1,2+1):
+    flower_table[StageNames[27] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[27] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+flower_table[StageNames[27] + "Room 4 - Flower"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,5+1):
+    flower_table[StageNames[27] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 #print(len(flower_table))
     
@@ -1180,6 +1239,13 @@ locationincrement += 1
 for i in range(1,4+1):
     one_up_table[StageNames[25] + "Room 26 - 1-up #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+#Egg Engines 1
+one_up_table[StageNames[27] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[27] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[27] + "Room 8 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 #print(len(one_up_table))
     
@@ -1503,6 +1569,24 @@ health_pickup_table[StageNames[25] + "Room 20 - Food"] = BaseLocationID + locati
 locationincrement += 1
 health_pickup_table[StageNames[25] + "Room 23 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
+#Egg Engines 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[27] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[27] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[27] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8+1):
+    health_pickup_table[StageNames[27] + "Room 9 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[27] + "Room 10 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[27] + "Room 11 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 #health_pickup_table[StageNames[16] + "Room 2 - Food"] = BaseLocationID + locationincrement
 #locationincrement += 1
@@ -1580,6 +1664,11 @@ maxim_tomato_table[StageNames[25] + "Room 28 - M-Tomato"] = BaseLocationID + loc
 locationincrement += 1
 #Nutty Noon 6
 maxim_tomato_table[StageNames[26] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 1
+maxim_tomato_table[StageNames[27] + "Room 7 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[27] + "Room 11 - M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
 
 #print(len(maxim_tomato_table))
