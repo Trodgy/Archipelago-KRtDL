@@ -2376,6 +2376,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Egg Engines Stage 1 Room 10"),
                    world.get_region("Egg Engines Stage 1 Room 11")]
 
+    EggEnginesHub.connect(SixOneRooms[0], "Egg Engines Hub To Egg Engines Stage 1 Room 1")
     SixOneRooms[0].connect(SixOneRooms[1], "Egg Engines Stage 1 Room 1-2")
     SixOneRooms[0].connect(SixOneRooms[2], "Egg Engines Stage 1 Room 1-3")
     SixOneRooms[2].connect(SixOneRooms[3], "Egg Engines Stage 1 Room 3-4")
