@@ -3035,10 +3035,41 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(1,3+1):
             FiveFiveRooms[26].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 27 - Gold Star #" + str(i)]), KRtDLLocation)
 
+
+        for i in range(1,20+1):
+            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,12+1):
+            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,15+1):
+            SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,13+1):
+            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,16+1):
+            SixOneRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixOneRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,69+1):
+            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,34+1):
+            SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
     
     
     
-       
+
+    
     if world.options.red_star_sanity:
         OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Red Star"]), KRtDLLocation)
          
@@ -3231,6 +3262,20 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         
         for i in range(1,3+1):
             FiveFiveRooms[27].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 28 - Red Star #" + str(i)]), KRtDLLocation) 
+
+
+
+        SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - Red Star"]), KRtDLLocation)
+        
+        for i in range(1,2+1):
+            SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Red Star"]), KRtDLLocation)
     
     
 
@@ -3287,9 +3332,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - Blue Star"]), KRtDLLocation)
 
+
+
+        SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Blue Star"]), KRtDLLocation)
+
+        SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Blue Star"]), KRtDLLocation)
+
     
    
-    
+
     
     if world.options.flower_sanity:
         for i in range(1,6+1):
@@ -3475,11 +3526,23 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         for i in range(1,8+1):
             FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation)
-        #FiveOneRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 1 - Flower"]), KRtDLLocation)
     
+
+
+        for i in range(1,2+1):
+            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+        
+        SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Flower"]), KRtDLLocation)
+
+        for i in range(1,5+1):
+            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation)
     
-    
-    
+
+
+
     
     if world.options.one_up_sanity:
         OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - 1-up"]), KRtDLLocation)
@@ -3555,10 +3618,18 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         for i in range(1,4+1):
             FiveFiveRooms[25].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 26 - 1-up #" + str(i)]), KRtDLLocation)
+
+
+
+        SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+
+        SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - 1-up"]), KRtDLLocation)
+
+        SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - 1-up"]), KRtDLLocation)
+
             
         
    
-    
     
     if world.options.food_sanity:
         OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Food"]), KRtDLLocation)
@@ -3885,6 +3956,25 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         FiveFiveRooms[19].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 20 - Food"]), KRtDLLocation)
 
         FiveFiveRooms[22].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 23 - Food"]), KRtDLLocation)
+
+
+
+        for i in range(1,3+1):
+            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,8+1):
+            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Food #" + str(i)]), KRtDLLocation)
+            
+        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Food"]), KRtDLLocation)
         
 
    
@@ -3978,6 +4068,12 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         FiveSixRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
 
     
+
+        SixOneRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 7 - M-Tomato"]), KRtDLLocation)
+        
+        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - M-Tomato"]), KRtDLLocation)
+
+    
     
 
     
@@ -3990,9 +4086,9 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
 
     if world.options.shuffle_subgames:
-        for i in range(1,4):
+        for i in range(1,3+1):
             NinjaDojoRegion.add_locations(get_location_names_with_ids(["Ninja Dojo - Level " + str(i)]), KRtDLLocation)
-        for i in range(1,4):
+        for i in range(1,3+1):
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
                                           
 
