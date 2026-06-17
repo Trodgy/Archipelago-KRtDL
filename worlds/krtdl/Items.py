@@ -150,8 +150,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         else:
             #for i in range(1,120):
                 #items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
-            print("does it make it to this logic?")
-            for i in range(0,84):
+            for i in range(0,87):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
 
     if world.options.shuffle_part_spheres:
@@ -180,32 +179,32 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
 
     if world.options.star_sanity:
-        for i in range(0,1796):
+        for i in range(0,1986):
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
     if world.options.red_star_sanity:
-        for i in range(0,140):
+        for i in range(0,147):
             items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
 
     if world.options.blue_star_sanity:
-        for i in range(0,23):
+        for i in range(0,25):
             items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
 
     if world.options.food_sanity:
-        for i in range(0,257):
+        for i in range(0,276):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
     if world.options.flower_sanity:
-        for i in range(0,248):
+        for i in range(0,258):
             items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
 
     if world.options.one_up_sanity:
-        for i in range(0,28):
+        for i in range(0,31):
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
     if world.options.maxim_sanity:
-        for i in range(0,31):
+        for i in range(0,33):
             items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
 
     #assuming all the rewards are red stars, need to verify
