@@ -12,7 +12,7 @@ class Goal(Choice):
     The Arena - Complete The Arena.
     The True Arena - Complete The True Arena.
     
-    Energy Sphere Hunt - Collect a set number of Energy Spheres.
+    Energy Sphere Hunt - Collect a set number of Energy Spheres, then speak to Magolor.
     
     Perfectionist - Obtain every possible check. [Adapts to Sanity options]
     [REALLY LONG, SEEDS MAY BE IMPOSSIBLE WITHOUT CONSOLE USAGE]"""
@@ -108,6 +108,14 @@ class StartWithLor(Toggle):
 class StartInExtraGame(Toggle):
     """Choose whether or not the run starts in Extra Mode"""
     display_name = "Start in Extra Mode"
+
+class HardLogic(Toggle):
+    """Adds extra logic to Shuffle Moves and Shuffle Copy Abilities that allow for additional, way harder solutions to some blockades they cause.
+    These solutions require more advanced knowledge of the game's movement mechanics. They do not make use of glitches.
+    
+    [WARNING: CAN LEAD TO SOME VERY HARD SITUATIONS, ONLY ENABLE IF YOU ARE UP FOR THE CHALLENGE!]
+    [Also adds an extra check if Red Star Sanity is on because of one red star in 7-2 being too hard for regular generation]"""
+    display_name = "Hard Logic"
 
 
 
@@ -371,6 +379,7 @@ class KRtDLOptions(PerGameCommonOptions):
     start_with_all_stages: StartWithAllStages
     start_with_lor: StartWithLor
     start_in_extra_game: StartInExtraGame
+    hard_logic: HardLogic
 
     shuffle_stages: ShuffleStages
     shuffle_boss_stages: ShuffleBossStages
@@ -432,7 +441,8 @@ krtdl_option_groups = [
          StartWithAllWorlds,
          StartWithAllStages,
          StartWithLor,
-         StartInExtraGame],
+         StartInExtraGame,
+         HardLogic],
     ),
     
     OptionGroup(
