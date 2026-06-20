@@ -56,6 +56,11 @@ StageNames = [
     "Another Dimension ",
 ]
 
+NonStageNames = [
+    "The Arena ",
+    "The True Arena "
+]
+
 locationincrement = 0
 stage_completion_table = {}
 for i in StageNames:
@@ -1312,6 +1317,38 @@ one_up_table[StageNames[27] + "Room 5 - 1-up"] = BaseLocationID + locationincrem
 locationincrement += 1
 one_up_table[StageNames[27] + "Room 8 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
+#Egg Engines 2
+one_up_table[StageNames[28] + "Room 12 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 5
+one_up_table[StageNames[31] + "Room 1 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    one_up_table[StageNames[31] + "Room 5 - 1-up #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+one_up_table[StageNames[31] + "Room 8 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 1
+one_up_table[StageNames[33] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[33] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[33] + "Room 6 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 2
+one_up_table[StageNames[34] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[34] + "Room 7 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[34] + "Room 8 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 3
+one_up_table[StageNames[35] + "Room 2 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[35] + "Room 5 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
+one_up_table[StageNames[35] + "Room 14 - 1-up"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 #print(len(one_up_table))
     
@@ -1736,6 +1773,59 @@ maxim_tomato_table[StageNames[27] + "Room 7 - M-Tomato"] = BaseLocationID + loca
 locationincrement += 1
 maxim_tomato_table[StageNames[27] + "Room 11 - M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
+#Egg Engines 2
+maxim_tomato_table[StageNames[28] + "Room 7 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[28] + "Room 12 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 3
+maxim_tomato_table[StageNames[29] + "Room 3 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[29] + "Room 6 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[29] + "Room 8 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 5
+maxim_tomato_table[StageNames[31] + "Room 2 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[31] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 6
+maxim_tomato_table[StageNames[32] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 1
+maxim_tomato_table[StageNames[33] + "Room 2 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[33] + "Room 4 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[33] + "Room 9 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 2
+maxim_tomato_table[StageNames[34] + "Room 5 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[34] + "Room 9 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 3
+maxim_tomato_table[StageNames[35] + "Room 2 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[35] + "Room 4 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[35] + "Room 11 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+maxim_tomato_table[StageNames[35] + "Room 14 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 4
+maxim_tomato_table[StageNames[36] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
+locationincrement += 1
+#The Arena
+for i in range(1,5+1):
+    maxim_tomato_table[NonStageNames[0] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#The True Arena
+for i in range(1,3+1):
+    maxim_tomato_table[NonStageNames[1] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+
 
 #print(len(maxim_tomato_table))
     
@@ -1950,6 +2040,9 @@ def create_all_regions(world: "KRtDLWorld") -> None:
     
     regions.append(Region("Ninja Dojo", world.player, world.multiworld))
     regions.append(Region("Scope Shot", world.player, world.multiworld))
+
+    regions.append(Region("The Arena", world.player, world.multiworld))
+    regions.append(Region("The True Arena", world.player, world.multiworld))
                               
     world.multiworld.regions += regions
 
@@ -1964,6 +2057,9 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     NinjaDojoRegion = world.get_region("Ninja Dojo")
     ScopeShotRegion = world.get_region("Scope Shot")
+
+    TheArenaRegion = world.get_region("The Arena")
+    TheTrueArenaRegion = world.get_region("The True Arena")
     
     #put challenges here
     
@@ -1978,6 +2074,9 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     
     MenuRegion.connect(PopstarMapRegion, "Menu To Popstar Map")
     MenuRegion.connect(HalcandraMapRegion, "Menu To Halcandra Map")
+    MenuRegion.connect(TheArenaRegion, "Menu To The Arena")
+    MenuRegion.connect(TheTrueArenaRegion, "Menu To The True Arena")
+    
     PopstarMapRegion.connect(HalcandraMapRegion, "Popstar Map To Halcandra Map")
     PopstarMapRegion.connect(LorStarcutterRegion, "Popstar Map To Lor Starcutter")
     HalcandraMapRegion.connect(PopstarMapRegion, "Halcandra Map To Popstar Map")
@@ -4436,8 +4535,63 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         
         SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - M-Tomato"]), KRtDLLocation)
 
-    
-    
+
+        SixTwoRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 7 - M-Tomato"]), KRtDLLocation)
+        
+        SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - M-Tomato"]), KRtDLLocation)
+
+
+        SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - M-Tomato"]), KRtDLLocation)
+        
+        SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - M-Tomato"]), KRtDLLocation)
+
+        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - M-Tomato"]), KRtDLLocation)
+
+
+        SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - M-Tomato"]), KRtDLLocation)
+        
+        SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - M-Tomato"]), KRtDLLocation)
+
+
+        SixSixRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
+
+
+        SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - M-Tomato"]), KRtDLLocation)
+
+        SevenOneRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 4 - M-Tomato"]), KRtDLLocation)
+
+        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
+
+
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - M-Tomato"]), KRtDLLocation)
+
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - M-Tomato"]), KRtDLLocation)
+
+        
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - M-Tomato"]), KRtDLLocation)
+
+        SevenThreeRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 4 - M-Tomato"]), KRtDLLocation)
+
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - M-Tomato"]), KRtDLLocation)
+
+        SevenThreeRooms[13].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 14 - M-Tomato"]), KRtDLLocation)
+
+
+        SevenFourRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 4 Room 1 - M-Tomato"]), KRtDLLocation)
+        
+        
+        if world.options.extra_sanity:
+            for i in range(1,5+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+            for i in range(1,3+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+        elif world.options.start_in_extra_game:
+            for i in range(1,3+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+        else:
+            for i in range(1,5+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+
 
     
     #if world.options.shuffle_challenges != 0:
