@@ -148,9 +148,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
                 items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
         #this one generates just normal game spheres
         else:
-            #for i in range(1,120):
-                #items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
-            for i in range(0,87):
+            for i in range(1,120):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
 
     if world.options.shuffle_part_spheres:
@@ -179,32 +177,78 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.lor_mast.value, ItemClassification.progression))
 
     if world.options.star_sanity:
-        for i in range(0,1986):
+        if world.options.extra_sanity: #Another Dimension variance in Gold Stars between Normal and EX
+            for i in range(0,119):
+                items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
+        else:
+            if world.options.start_in_extra_game:
+                for i in range(0,54):
+                    items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
+            else:
+                for i in range(0,65):
+                    items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
+        for i in range(0,2885):
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
     if world.options.red_star_sanity:
-        for i in range(0,147):
+        if world.options.hard_logic: #Red Star #12 in 7-2 oooooooh I hate Red Star #12 in 7-2
+            items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+        if world.options.extra_sanity: #combined normal and EX red stars in Another Dimension
+            for i in range(0,4):
+                items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+        else:
+            if world.options.start_in_extra_game: #the three red stars in Another Dimension in EX
+                for i in range(0,3):
+                    items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+            else: #the one red star in Another Dimension in normal
+                items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+        for i in range(0,240):
             items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
 
     if world.options.blue_star_sanity:
-        for i in range(0,25):
+        for i in range(0,36):
             items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
 
     if world.options.food_sanity:
-        for i in range(0,276):
+        if world.options.extra_sanity:
+            for i in range(0,34):
+                items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+        else:
+            if world.options.start_in_extra_game:
+                for i in range(0,17):
+                    items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+            else:
+                for i in range(0,17):
+                    items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+        for i in range(0,382):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
     if world.options.flower_sanity:
-        for i in range(0,258):
+        for i in range(0,306):
             items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
 
     if world.options.one_up_sanity:
-        for i in range(0,31):
+        if world.options.extra_sanity:
+            for i in range(0,2):
+                items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+        else:
+            items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+        for i in range(0,44):
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
     if world.options.maxim_sanity:
-        for i in range(0,33):
+        if world.options.extra_sanity:
+            for i in range(0,8):
+                items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+        else:
+            if world.options.start_in_extra_game:
+                for i in range(0,3):
+                    items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+            else:
+                for i in range(0,5):
+                    items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+        for i in range(0,51):
             items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
 
     #assuming all the rewards are red stars, need to verify
