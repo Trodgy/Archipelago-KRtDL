@@ -234,7 +234,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
                 items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
         else:
             items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
-        for i in range(0,44):
+        for i in range(0,45):
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
     if world.options.maxim_sanity:
