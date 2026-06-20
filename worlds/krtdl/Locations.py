@@ -1019,6 +1019,31 @@ blue_star_table[StageNames[27] + "Room 3 - Blue Star"] = BaseLocationID + locati
 locationincrement += 1
 blue_star_table[StageNames[27] + "Room 6 - Blue Star"] = BaseLocationID + locationincrement
 locationincrement += 1
+#Egg Engines 3
+blue_star_table[StageNames[29] + "Room 1 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    blue_star_table[StageNames[29] + "Room 5 - Blue Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+blue_star_table[StageNames[29] + "Room 6 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 5
+blue_star_table[StageNames[31] + "Room 7 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 2
+blue_star_table[StageNames[34] + "Room 1 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[34] + "Room 7 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 3
+blue_star_table[StageNames[35] + "Room 5 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[35] + "Room 8 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[35] + "Room 10 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+blue_star_table[StageNames[35] + "Room 14 - Blue Star"] = BaseLocationID + locationincrement
+locationincrement += 1
 
 #print(len(blue_star_table))
     
@@ -3651,8 +3676,33 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Blue Star"]), KRtDLLocation)
 
+
+        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Blue Star"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Blue Star #" + str(i)]), KRtDLLocation)
+
+        SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - Blue Star"]), KRtDLLocation)
+
+
+        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Blue Star"]), KRtDLLocation)
+
+
+        SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Blue Star"]), KRtDLLocation)
+
+        SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Blue Star"]), KRtDLLocation)
+
+
+        SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[13].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 14 - Blue Star"]), KRtDLLocation)
     
    
+
 
     
     if world.options.flower_sanity:
