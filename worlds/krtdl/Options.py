@@ -106,8 +106,9 @@ class StartWithLor(Toggle):
     display_name = "Start with Lor Starcutter" 
 
 class StartInExtraGame(Toggle):
-    """Choose whether or not the run starts in Extra Mode"""
-    display_name = "Start in Extra Mode"
+    """Choose whether or not the run will be in Extra Mode.
+    Impacts most sanity options a bit due to some checks being unique/missing in EX."""
+    display_name = "Extra Mode"
 
 class HardLogic(Toggle):
     """Adds extra logic to Shuffle Moves and Shuffle Copy Abilities that allow for additional, way harder solutions to some blockades they cause.
@@ -285,42 +286,43 @@ class ShuffleLevelItems(DefaultOnToggle):
 
 class StarSanity(Toggle):
     """Turns all guaranteed Gold Stars (ones not gained from Flowers) into checks.
-    [WARNING: ADDS [total number] CHECKS AND CREATES SOME VERY HARD SEEDS]
+    [WARNING: ADDS APPROX. 3000 CHECKS AND CREATES SOME VERY HARD SEEDS]
     [MAY RESULT IN FRIENDS YELLING AT YOU FROM PICKING UP HUNDREDS OF VERY UNHELPFUL STARS IN THEIR WORLD]"""
     display_name = "Star Sanity"
 
 class RedStarSanity(Toggle):
     """Turns all Red Stars into checks.
-    [Total checks added: x]"""
+    [Adds around 240 checks]"""
     display_name = "Red Star Sanity"
 
 class BlueStarSanity(Toggle):
     """Turns all Blue Stars into checks.
-    [Total checks added: x]"""
+    [Adds 36 checks]"""
     display_name = "Blue Star Sanity"
 
 class FoodSanity(Toggle):
     """Turns all guaranteed Food items (ones not gained from Flowers and exluding Maxim Tomatoes) into checks.
-    [Total checks added: x]"""
+    [Adds around 399 checks]"""
     display_name = "Food Sanity"
 
 class FlowerSanity(Toggle):
     """Turns all flower pickups into checks.
-    [Total checks added: x]"""
+    [Adds 306 checks]"""
     display_name = "Flower Sanity"
 
 class OneUpSanity(Toggle):
     """Turns all 1-Ups into checks.
-    [Total checks added: x]"""
+    [Adds around 45 checks]"""
     display_name = "1-Up Sanity"
 
 class MaximSanity(Toggle):
     """Turns all Maxim Tomatoes into checks.
-    [Total checks added: x]"""
+    [Adds around 54 checks]"""
     display_name = "Maxim Sanity"
 
 class ExtraSanity(Toggle):
-    """Basically doubles the number of checks by making all pickups in Extra Mode have unique checks to Normal Mode.
+    """Effectively doubles the number of checks by making all pickups in Extra Mode have unique checks to Normal Mode.
+    Also causes checks that are only in Normal or EX to be added to the whole pool.
     [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
     display_name = "EX-tra Sanity"
