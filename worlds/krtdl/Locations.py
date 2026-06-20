@@ -1852,6 +1852,35 @@ def create_all_regions(world: "KRtDLWorld") -> None:
 
     for i in range(1,11+1):
         regions.append(Region(StageNames[27] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,13+1):
+        regions.append(Region(StageNames[28] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,8+1):
+        regions.append(Region(StageNames[29] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,7+1):
+        regions.append(Region(StageNames[30] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,8+1):
+        regions.append(Region(StageNames[31] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,2+1):
+        regions.append(Region(StageNames[32] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,9+1):
+        regions.append(Region(StageNames[33] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,10+1):
+        regions.append(Region(StageNames[34] + "Room " + str(i), world.player, world.multiworld))
+
+    for i in range(1,13+1):
+        regions.append(Region(StageNames[35] + "Room " + str(i), world.player, world.multiworld))
+    #NOTE DANGEROUS DINNER 7-3 ROOM 12 IS 13, ROOM 13 IS 14 ON THE SPREADSHEET
+    #NUMBERING GOT CONFUSING THANKS TO THAT USELESS WARP STAR TRANSITION ROOM
+
+    for i in range(1,2+1):
+        regions.append(Region(StageNames[36] + "Room " + str(i), world.player, world.multiworld))
     
     regions.append(Region("Ninja Dojo", world.player, world.multiworld))
     regions.append(Region("Scope Shot", world.player, world.multiworld))
@@ -2387,7 +2416,105 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     SixOneRooms[6].connect(SixOneRooms[8], "Egg Engines Stage 1 Room 7-9")
     SixOneRooms[8].connect(SixOneRooms[9], "Egg Engines Stage 1 Room 9-10")
     SixOneRooms[9].connect(SixOneRooms[10], "Egg Engines Stage 1 Room 10-11")
+
+    SixTwoRooms = [world.get_region("Egg Engines Stage 2 Room 1"),
+                   world.get_region("Egg Engines Stage 2 Room 2"),
+                   world.get_region("Egg Engines Stage 2 Room 3"),
+                   world.get_region("Egg Engines Stage 2 Room 4"),
+                   world.get_region("Egg Engines Stage 2 Room 5"),
+                   world.get_region("Egg Engines Stage 2 Room 6"),
+                   world.get_region("Egg Engines Stage 2 Room 7"),
+                   world.get_region("Egg Engines Stage 2 Room 8"),
+                   world.get_region("Egg Engines Stage 2 Room 9"),
+                   world.get_region("Egg Engines Stage 2 Room 10"),
+                   world.get_region("Egg Engines Stage 2 Room 11"),
+                   world.get_region("Egg Engines Stage 2 Room 12"),
+                   world.get_region("Egg Engines Stage 2 Room 13")]
+
     
+
+    SixThreeRooms = [world.get_region("Egg Engines Stage 3 Room 1"),
+                   world.get_region("Egg Engines Stage 3 Room 2"),
+                   world.get_region("Egg Engines Stage 3 Room 3"),
+                   world.get_region("Egg Engines Stage 3 Room 4"),
+                   world.get_region("Egg Engines Stage 3 Room 5"),
+                   world.get_region("Egg Engines Stage 3 Room 6"),
+                   world.get_region("Egg Engines Stage 3 Room 7"),
+                   world.get_region("Egg Engines Stage 3 Room 8")]
+
+    
+
+    SixFourRooms = [world.get_region("Egg Engines Stage 4 Room 1"),
+                   world.get_region("Egg Engines Stage 4 Room 2"),
+                   world.get_region("Egg Engines Stage 4 Room 3"),
+                   world.get_region("Egg Engines Stage 4 Room 4"),
+                   world.get_region("Egg Engines Stage 4 Room 5"),
+                   world.get_region("Egg Engines Stage 4 Room 6"),
+                   world.get_region("Egg Engines Stage 4 Room 7")]
+
+    
+
+    SixFiveRooms = [world.get_region("Egg Engines Stage 5 Room 1"),
+                   world.get_region("Egg Engines Stage 5 Room 2"),
+                   world.get_region("Egg Engines Stage 5 Room 3"),
+                   world.get_region("Egg Engines Stage 5 Room 4"),
+                   world.get_region("Egg Engines Stage 5 Room 5"),
+                   world.get_region("Egg Engines Stage 5 Room 6"),
+                   world.get_region("Egg Engines Stage 5 Room 7"),
+                   world.get_region("Egg Engines Stage 5 Room 8")]
+
+    
+
+    SixSixRooms = [world.get_region("Egg Engines Stage 6 Room 1"),
+                   world.get_region("Egg Engines Stage 6 Room 2")]
+
+    SixSixRooms[0].connect(SixSixRooms[1], "Egg Engines Stage 6 Room 1-2")
+    
+    SevenOneRooms = [world.get_region("Dangerous Dinner Stage 1 Room 1"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 2"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 3"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 4"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 5"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 6"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 7"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 8"),
+                   world.get_region("Dangerous Dinner Stage 1 Room 9")]
+
+    
+
+    SevenTwoRooms = [world.get_region("Dangerous Dinner Stage 2 Room 1"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 2"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 3"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 4"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 5"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 6"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 7"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 8"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 9"),
+                   world.get_region("Dangerous Dinner Stage 2 Room 10")]
+
+    
+
+    SevenThreeRooms = [world.get_region("Dangerous Dinner Stage 3 Room 1"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 2"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 3"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 4"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 5"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 6"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 7"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 8"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 9"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 10"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 11"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 12"),
+                   world.get_region("Dangerous Dinner Stage 3 Room 13")]
+
+    
+
+    SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
+                   world.get_region("Dangerous Dinner Stage 4 Room 2")]
+
+    SevenFourRooms[0].connect(SevenFourRooms[1], "Dangerous Dinner Stage 4 Room 1-2")
     
     OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
     OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 2 - Complete"]), KRtDLLocation)
