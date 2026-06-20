@@ -1246,6 +1246,55 @@ locationincrement += 1
 for i in range(1,5+1):
     flower_table[StageNames[27] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+#Egg Engines 3
+for i in range(1,2+1):
+    flower_table[StageNames[29] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[29] + "Room 4 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[29] + "Room 6 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Egg Engines 5
+for i in range(1,5+1):
+    flower_table[StageNames[31] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Dangerous Dinner 1
+for i in range(1,9+1):
+    flower_table[StageNames[33] + "Room 1 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[33] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    flower_table[StageNames[33] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5+1):
+    flower_table[StageNames[33] + "Room 5 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[33] + "Room 7 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Dangerous Dinner 2
+flower_table[StageNames[34] + "Room 10 - Flower"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 3
+for i in range(1,4+1):
+    flower_table[StageNames[35] + "Room 2 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[35] + "Room 3 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[35] + "Room 8 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[35] + "Room 9 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    flower_table[StageNames[35] + "Room 14 - Flower #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 #print(len(flower_table))
     
