@@ -253,32 +253,73 @@ for i in range(1,2+1):
     energy_sphere_table[StageNames[27] + "Room 11 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Egg Engines 2
-for i in range(1,4+1): #Egg Engines 2
-    energy_sphere_table[StageNames[28] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+energy_sphere_table[StageNames[28] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[28] + "Room 8 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[28] + "Room 12 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[28] + "Room 13 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
 #Egg Engines 3
-for i in range(1,4+1): #Egg Engines 3
-    energy_sphere_table[StageNames[29] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+energy_sphere_table[StageNames[29] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[29] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[29] + "Room 8 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1  
 #Egg Engines 4
-for i in range(1,5+1): #Egg Engines 4
-    energy_sphere_table[StageNames[30] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+energy_sphere_table[StageNames[30] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[30] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[30] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[30] + "Room 5 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[30] + "Room 7 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
 #Egg Engines 5
-for i in range(1,5+1): #Egg Engines 5
-    energy_sphere_table[StageNames[31] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
+energy_sphere_table[StageNames[31] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[31] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[31] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[31] + "Room 7 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[31] + "Room 8 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
 #Dangerous Dinner 1
-for i in range(1,5+1): #Dangerous Dinner 1
-    energy_sphere_table[StageNames[33] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+energy_sphere_table[StageNames[33] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[33] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[33] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[33] + "Room 9 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Dangerous Dinner 2
-for i in range(1,5+1): #Dangerous Dinner 2
-    energy_sphere_table[StageNames[34] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+energy_sphere_table[StageNames[34] + "Room 1 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[34] + "Room 2 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[34] + "Room 4 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[34] + "Room 9 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Dangerous Dinner 3
-for i in range(1,5+1): #Dangerous Dinner 3
-    energy_sphere_table[StageNames[35] + "Room 1 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
+energy_sphere_table[StageNames[35] + "Room 3 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[35] + "Room 6 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+energy_sphere_table[StageNames[35] + "Room 8 - Energy Sphere"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    energy_sphere_table[StageNames[35] + "Room 11 - Energy Sphere " + "#" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 #print(len(energy_sphere_table))
@@ -1928,7 +1969,6 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     HalcandraMapRegion.connect(EggEnginesHub, "Halcandra Map To Egg Engines Hub")
     HalcandraMapRegion.connect(DangerousDinnerHub, "Halcandra Map To Dangerous Dinner Hub")
-    DangerousDinnerHub.connect(AnotherDimension, "Dangerous Dinner Hub To Another Dimension")
     
     OneOneRooms = [world.get_region("Cookie Country Stage 1 Room 1"),
                    world.get_region("Cookie Country Stage 1 Room 2"),
@@ -2431,7 +2471,19 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Egg Engines Stage 2 Room 12"),
                    world.get_region("Egg Engines Stage 2 Room 13")]
 
-    
+    EggEnginesHub.connect(SixTwoRooms[0], "Egg Engines Hub To Egg Engines Stage 2 Room 1")
+    SixTwoRooms[0].connect(SixTwoRooms[1], "Egg Engines Stage 2 Room 1-2")
+    SixTwoRooms[1].connect(SixTwoRooms[2], "Egg Engines Stage 2 Room 2-3")
+    SixTwoRooms[2].connect(SixTwoRooms[3], "Egg Engines Stage 2 Room 3-4")
+    SixTwoRooms[3].connect(SixTwoRooms[4], "Egg Engines Stage 2 Room 4-5")
+    SixTwoRooms[4].connect(SixTwoRooms[5], "Egg Engines Stage 2 Room 5-6")
+    SixTwoRooms[5].connect(SixTwoRooms[6], "Egg Engines Stage 2 Room 6-7")
+    SixTwoRooms[6].connect(SixTwoRooms[7], "Egg Engines Stage 2 Room 7-8")
+    SixTwoRooms[7].connect(SixTwoRooms[8], "Egg Engines Stage 2 Room 8-9")
+    SixTwoRooms[8].connect(SixTwoRooms[9], "Egg Engines Stage 2 Room 9-10")
+    SixTwoRooms[9].connect(SixTwoRooms[10], "Egg Engines Stage 2 Room 10-11")
+    SixTwoRooms[10].connect(SixTwoRooms[11], "Egg Engines Stage 2 Room 11-12")
+    SixTwoRooms[11].connect(SixTwoRooms[12], "Egg Engines Stage 2 Room 12-13")
 
     SixThreeRooms = [world.get_region("Egg Engines Stage 3 Room 1"),
                    world.get_region("Egg Engines Stage 3 Room 2"),
@@ -2442,7 +2494,14 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Egg Engines Stage 3 Room 7"),
                    world.get_region("Egg Engines Stage 3 Room 8")]
 
-    
+    EggEnginesHub.connect(SixThreeRooms[0], "Egg Engines Hub To Egg Engines Stage 3 Room 1")
+    SixThreeRooms[0].connect(SixThreeRooms[1], "Egg Engines Stage 3 Room 1-2")
+    SixThreeRooms[1].connect(SixThreeRooms[2], "Egg Engines Stage 3 Room 2-3")
+    SixThreeRooms[2].connect(SixThreeRooms[3], "Egg Engines Stage 3 Room 3-4")
+    SixThreeRooms[3].connect(SixThreeRooms[4], "Egg Engines Stage 3 Room 4-5")
+    SixThreeRooms[4].connect(SixThreeRooms[5], "Egg Engines Stage 3 Room 5-6")
+    SixThreeRooms[5].connect(SixThreeRooms[6], "Egg Engines Stage 3 Room 6-7")
+    SixThreeRooms[6].connect(SixThreeRooms[7], "Egg Engines Stage 3 Room 7-8")
 
     SixFourRooms = [world.get_region("Egg Engines Stage 4 Room 1"),
                    world.get_region("Egg Engines Stage 4 Room 2"),
@@ -2452,7 +2511,13 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Egg Engines Stage 4 Room 6"),
                    world.get_region("Egg Engines Stage 4 Room 7")]
 
-    
+    EggEnginesHub.connect(SixFourRooms[0], "Egg Engines Hub To Egg Engines Stage 4 Room 1")
+    SixFourRooms[0].connect(SixFourRooms[1], "Egg Engines Stage 4 Room 1-2")
+    SixFourRooms[1].connect(SixFourRooms[2], "Egg Engines Stage 4 Room 2-3")
+    SixFourRooms[2].connect(SixFourRooms[3], "Egg Engines Stage 4 Room 3-4")
+    SixFourRooms[3].connect(SixFourRooms[4], "Egg Engines Stage 4 Room 4-5")
+    SixFourRooms[4].connect(SixFourRooms[5], "Egg Engines Stage 4 Room 5-6")
+    SixFourRooms[5].connect(SixFourRooms[6], "Egg Engines Stage 4 Room 6-7")
 
     SixFiveRooms = [world.get_region("Egg Engines Stage 5 Room 1"),
                    world.get_region("Egg Engines Stage 5 Room 2"),
@@ -2463,11 +2528,19 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Egg Engines Stage 5 Room 7"),
                    world.get_region("Egg Engines Stage 5 Room 8")]
 
-    
+    EggEnginesHub.connect(SixFiveRooms[0], "Egg Engines Hub To Egg Engines Stage 5 Room 1")
+    SixFiveRooms[0].connect(SixFiveRooms[1], "Egg Engines Stage 5 Room 1-2")
+    SixFiveRooms[1].connect(SixFiveRooms[2], "Egg Engines Stage 5 Room 2-3")
+    SixFiveRooms[2].connect(SixFiveRooms[3], "Egg Engines Stage 5 Room 3-4")
+    SixFiveRooms[3].connect(SixFiveRooms[4], "Egg Engines Stage 5 Room 4-5")
+    SixFiveRooms[4].connect(SixFiveRooms[5], "Egg Engines Stage 5 Room 5-6")
+    SixFiveRooms[5].connect(SixFiveRooms[6], "Egg Engines Stage 5 Room 6-7")
+    SixFiveRooms[6].connect(SixFiveRooms[7], "Egg Engines Stage 5 Room 7-8")
 
     SixSixRooms = [world.get_region("Egg Engines Stage 6 Room 1"),
                    world.get_region("Egg Engines Stage 6 Room 2")]
 
+    EggEnginesHub.connect(SixSixRooms[0], "Egg Engines Hub To Egg Engines Stage 6 Room 1")
     SixSixRooms[0].connect(SixSixRooms[1], "Egg Engines Stage 6 Room 1-2")
     
     SevenOneRooms = [world.get_region("Dangerous Dinner Stage 1 Room 1"),
@@ -2480,7 +2553,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Dangerous Dinner Stage 1 Room 8"),
                    world.get_region("Dangerous Dinner Stage 1 Room 9")]
 
-    
+    DangerousDinnerHub.connect(SevenOneRooms[0], "Dangerous Dinner Hub To Dangerous Dinner Stage 1 Room 1")
+    SevenOneRooms[0].connect(SevenOneRooms[1], "Dangerous Dinner Stage 1 Room 1-2")
+    SevenOneRooms[1].connect(SevenOneRooms[2], "Dangerous Dinner Stage 1 Room 2-3")
+    SevenOneRooms[2].connect(SevenOneRooms[3], "Dangerous Dinner Stage 1 Room 3-4")
+    SevenOneRooms[2].connect(SevenOneRooms[4], "Dangerous Dinner Stage 1 Room 3-5")
+    SevenOneRooms[4].connect(SevenOneRooms[5], "Dangerous Dinner Stage 1 Room 5-6")
+    SevenOneRooms[4].connect(SevenOneRooms[6], "Dangerous Dinner Stage 1 Room 5-7")
+    SevenOneRooms[6].connect(SevenOneRooms[7], "Dangerous Dinner Stage 1 Room 7-8")
+    SevenOneRooms[7].connect(SevenOneRooms[8], "Dangerous Dinner Stage 1 Room 8-9")
 
     SevenTwoRooms = [world.get_region("Dangerous Dinner Stage 2 Room 1"),
                    world.get_region("Dangerous Dinner Stage 2 Room 2"),
@@ -2493,7 +2574,16 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Dangerous Dinner Stage 2 Room 9"),
                    world.get_region("Dangerous Dinner Stage 2 Room 10")]
 
-    
+    DangerousDinnerHub.connect(SevenTwoRooms[0], "Dangerous Dinner Hub To Dangerous Dinner Stage 2 Room 1")
+    SevenTwoRooms[0].connect(SevenTwoRooms[1], "Dangerous Dinner Stage 2 Room 1-2")
+    SevenTwoRooms[1].connect(SevenTwoRooms[2], "Dangerous Dinner Stage 2 Room 2-3")
+    SevenTwoRooms[1].connect(SevenTwoRooms[3], "Dangerous Dinner Stage 2 Room 2-4")
+    SevenTwoRooms[3].connect(SevenTwoRooms[4], "Dangerous Dinner Stage 2 Room 4-5")
+    SevenTwoRooms[4].connect(SevenTwoRooms[5], "Dangerous Dinner Stage 2 Room 5-6")
+    SevenTwoRooms[5].connect(SevenTwoRooms[6], "Dangerous Dinner Stage 2 Room 6-7")
+    SevenTwoRooms[6].connect(SevenTwoRooms[7], "Dangerous Dinner Stage 2 Room 7-8")
+    SevenTwoRooms[6].connect(SevenTwoRooms[9], "Dangerous Dinner Stage 2 Room 7-10")
+    SevenTwoRooms[7].connect(SevenTwoRooms[8], "Dangerous Dinner Stage 2 Room 8-9")
 
     SevenThreeRooms = [world.get_region("Dangerous Dinner Stage 3 Room 1"),
                    world.get_region("Dangerous Dinner Stage 3 Room 2"),
@@ -2509,12 +2599,25 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                    world.get_region("Dangerous Dinner Stage 3 Room 12"),
                    world.get_region("Dangerous Dinner Stage 3 Room 13")]
 
-    
+    DangerousDinnerHub.connect(SevenThreeRooms[0], "Dangerous Dinner Hub To Dangerous Dinner Stage 3 Room 1")
+    SevenThreeRooms[0].connect(SevenThreeRooms[1], "Dangerous Dinner Stage 3 Room 1-2")
+    SevenThreeRooms[1].connect(SevenThreeRooms[2], "Dangerous Dinner Stage 3 Room 2-3")
+    SevenThreeRooms[2].connect(SevenThreeRooms[3], "Dangerous Dinner Stage 3 Room 3-4")
+    SevenThreeRooms[3].connect(SevenThreeRooms[4], "Dangerous Dinner Stage 3 Room 4-5")
+    SevenThreeRooms[4].connect(SevenThreeRooms[5], "Dangerous Dinner Stage 3 Room 5-6")
+    SevenThreeRooms[4].connect(SevenThreeRooms[6], "Dangerous Dinner Stage 3 Room 5-7")
+    SevenThreeRooms[6].connect(SevenThreeRooms[7], "Dangerous Dinner Stage 3 Room 7-8")
+    SevenThreeRooms[7].connect(SevenThreeRooms[8], "Dangerous Dinner Stage 3 Room 8-9")
+    SevenThreeRooms[8].connect(SevenThreeRooms[9], "Dangerous Dinner Stage 3 Room 9-10")
+    SevenThreeRooms[9].connect(SevenThreeRooms[10], "Dangerous Dinner Stage 3 Room 10-11")
+    SevenThreeRooms[8].connect(SevenThreeRooms[11], "Dangerous Dinner Stage 3 Room 9-12")
+    SevenThreeRooms[11].connect(SevenThreeRooms[12], "Dangerous Dinner Stage 3 Room 12-13")
 
     SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
                    world.get_region("Dangerous Dinner Stage 4 Room 2")]
 
     SevenFourRooms[0].connect(SevenFourRooms[1], "Dangerous Dinner Stage 4 Room 1-2")
+    SevenFourRooms[1].connect(AnotherDimension, "Dangerous Dinner Stage 4 To Another Dimension")
     
     OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
     OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 2 - Complete"]), KRtDLLocation)
@@ -2544,6 +2647,15 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     FiveFiveGoalRegion.add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 5 - Complete"]), KRtDLLocation)
     FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
     SixOneRooms[8].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 1 - Complete"]), KRtDLLocation)
+    SixTwoRooms[12].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 2 - Complete"]), KRtDLLocation)
+    SixThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 3 - Complete"]), KRtDLLocation)
+    SixFourRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 4 - Complete"]), KRtDLLocation)
+    SixFiveRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 5 - Complete"]), KRtDLLocation)
+    SixSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 6 - Complete"]), KRtDLLocation)
+    SevenOneRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 1 - Complete"]), KRtDLLocation)
+    SevenTwoRooms[9].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 2 - Complete"]), KRtDLLocation)
+    SevenThreeRooms[11].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 3 - Complete"]), KRtDLLocation)
+    SevenFourRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 4 - Complete"]), KRtDLLocation)
     AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
     
     
@@ -2748,7 +2860,80 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Energy Sphere #2"]), KRtDLLocation)
 
+
+        SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
+
+        SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Energy Sphere"]), KRtDLLocation)
+
+        SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - Energy Sphere"]), KRtDLLocation)
+
+        SixTwoRooms[12].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 13 - Energy Sphere"]), KRtDLLocation)
+
+
+        SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+
+        SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+
+        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Energy Sphere #1"]), KRtDLLocation)
+
+        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Energy Sphere #2"]), KRtDLLocation)
+
+
+        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+        
+        SixFourRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation)
+
+
+        SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - Energy Sphere"]), KRtDLLocation)
+
+        SixFiveRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 4 - Energy Sphere"]), KRtDLLocation)
+
+        SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Energy Sphere"]), KRtDLLocation)
+
+        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Energy Sphere"]), KRtDLLocation)
+        
+        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Energy Sphere"]), KRtDLLocation)
+
+
+        SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
+
+        SevenOneRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
+        
+        SevenOneRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 6 - Energy Sphere"]), KRtDLLocation)
+
+        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+
+        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation)
+
+
+        SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Energy Sphere"]), KRtDLLocation)
+
+        SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
+        
+        SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Energy Sphere #2"]), KRtDLLocation)
+
+
+        SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+
+        SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Energy Sphere"]), KRtDLLocation)
+
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Energy Sphere #1"]), KRtDLLocation)
+
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Energy Sphere #2"]), KRtDLLocation)
     
+        
     
     if world.options.shuffle_part_spheres:
         OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
