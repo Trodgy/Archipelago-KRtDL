@@ -312,7 +312,7 @@ class FlowerSanity(Toggle):
 
 class OneUpSanity(Toggle):
     """Turns all 1-Ups into checks.
-    [Adds around 45 checks]"""
+    [Adds around 46 checks]"""
     display_name = "1-Up Sanity"
 
 class MaximSanity(Toggle):
