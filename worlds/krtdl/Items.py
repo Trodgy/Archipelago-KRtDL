@@ -231,9 +231,9 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     if world.options.one_up_sanity:
         if world.options.extra_sanity:
             for i in range(0,2):
-                items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+                items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
         else:
-            items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+            items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
         for i in range(0,45):
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
