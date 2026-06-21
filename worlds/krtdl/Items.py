@@ -220,7 +220,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             else:
                 for i in range(0,10):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
-        for i in range(0,290):
+        for i in range(0,303):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
