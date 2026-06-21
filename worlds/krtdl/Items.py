@@ -211,16 +211,16 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     if world.options.food_sanity:
         if world.options.extra_sanity:
-            for i in range(0,34):
+            for i in range(0,20):
                 items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
         else:
             if world.options.start_in_extra_game:
-                for i in range(0,17):
+                for i in range(0,10):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
             else:
-                for i in range(0,17):
+                for i in range(0,10):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
-        for i in range(0,382):
+        for i in range(0,290):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
