@@ -1172,7 +1172,7 @@ for i in range(1,3+1):
     red_star_table[StageNames[29] + "Room 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 for i in range(1,2+1):
-    red_star_table[StageNames[29] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    red_star_table[StageNames[29] + "Room 5 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #Egg Engines 4
 red_star_table[StageNames[30] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
