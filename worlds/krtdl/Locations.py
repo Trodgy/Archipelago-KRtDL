@@ -4900,12 +4900,12 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - 1-up"]), KRtDLLocation)
 
 
-        SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - 1-up"]), KRtDLLocation)
+        SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - 1-up"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - 1-up #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - 1-up #" + str(i)]), KRtDLLocation)
 
-        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - 1-up"]), KRtDLLocation)
+        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - 1-up"]), KRtDLLocation)
 
 
         SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - 1-up"]), KRtDLLocation)
