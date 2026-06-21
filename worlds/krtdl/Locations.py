@@ -5256,20 +5256,20 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         SixTwoRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
 
 
-        #SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
+        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
 
-        #SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Food"]), KRtDLLocation)
+        SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Food"]), KRtDLLocation)
 
-        #for i in range(1,2+1):
-            #SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,2+1):
-            #SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,4+1):
-            #SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+        for i in range(1,4+1):
+            SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
-        #SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Food"]), KRtDLLocation)
+        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Food"]), KRtDLLocation)
 
 
         #SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Food"]), KRtDLLocation)
