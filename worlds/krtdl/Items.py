@@ -187,7 +187,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             else:
                 for i in range(0,26):
                     items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
-        for i in range(0,2215): #ACTUAL VALUE IS 2924
+        for i in range(0,2351): #ACTUAL VALUE IS 2924
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
     if world.options.red_star_sanity:
