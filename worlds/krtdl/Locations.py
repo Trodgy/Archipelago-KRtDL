@@ -4024,23 +4024,23 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
-        #for i in range(1,23+1):
-            #SixFourRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,23+1):
+            SixFourRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,11+1):
-            #SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,11+1):
+            SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,31+1):
-            #SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,31+1):
+            SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,7+1):
-            #SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,7+1):
+            SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,22+1):
-            #SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,22+1):
+            SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,42+1):
-            #SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,42+1):
+            SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         #for i in range(1,16+1):
