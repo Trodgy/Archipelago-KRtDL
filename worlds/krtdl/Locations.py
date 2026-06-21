@@ -973,6 +973,101 @@ for i in range(1,2+1):
     locationincrement += 1
 red_star_table[StageNames[27] + "Room 10 - Red Star"] = BaseLocationID + locationincrement
 locationincrement += 1
+#Egg Engines 2
+for i in range(1,3+1):
+    red_star_table[StageNames[28] + "Room 6 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[28] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    red_star_table[StageNames[28] + "Room 13 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Egg Engines 3
+red_star_table[StageNames[29] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    red_star_table[StageNames[29] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    red_star_table[StageNames[29] + "Room 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    red_star_table[StageNames[29] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Egg Engines 4
+red_star_table[StageNames[30] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[30] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[30] + "Room 6 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Egg Engines 5
+red_star_table[StageNames[31] + "Room 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    red_star_table[StageNames[31] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,10+1):
+    red_star_table[StageNames[31] + "Room 5 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,2+1):
+    red_star_table[StageNames[31] + "Room 6 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+red_star_table[StageNames[31] + "Room 8 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1  
+#Dangerous Dinner 1
+for i in range(1,3+1):
+    red_star_table[StageNames[33] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+red_star_table[StageNames[33] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    red_star_table[StageNames[33] + "Room 7 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+for i in range(1,2+1):
+    red_star_table[StageNames[33] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1 
+#Dangerous Dinner 2
+for i in range(1,2+1):
+    red_star_table[StageNames[34] + "Room 2 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,5+1):
+    red_star_table[StageNames[34] + "Room 4 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[34] + "Room 5 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    red_star_table[StageNames[34] + "Room 6 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[34] + "Room 7 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,5+1):
+    red_star_table[StageNames[34] + "Room 8 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Dangerous Dinner 3
+red_star_table[StageNames[35] + "Room 2 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[35] + "Room 3 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,5+1):
+    red_star_table[StageNames[35] + "Room 6 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[35] + "Room 8 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,17+1):
+    red_star_table[StageNames[35] + "Room 9 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+red_star_table[StageNames[35] + "Room 10 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+red_star_table[StageNames[35] + "Room 14 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Another Dimension
+red_star_table[StageNames[37] + "Section 1 - Red Star"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,3+1):
+    red_star_table[StageNames[37] + "Section 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
 
 #print(len(red_star_table))
 
@@ -3762,10 +3857,112 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
 
         SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Red Star"]), KRtDLLocation)
-    
-    
+
+
+        for i in range(1,3+1):
+            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixTwoRooms[12].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 13 - Red Star #" + str(i)]), KRtDLLocation)
+
+
+        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+
+
+        SixFourRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 1 - Red Star"]), KRtDLLocation)
+
+        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Red Star"]), KRtDLLocation)
+
+        SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Red Star"]), KRtDLLocation)
+
+
+        SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,10+1):
+            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Red Star"]), KRtDLLocation)
+
+
+        for i in range(1,3+1):
+            SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+
+
+        for i in range(1,2+1):
+            SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,5+1):
+            SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+        
+        if world.options.hard_logic:
+            SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Red Star #4"]), KRtDLLocation)
+
+        SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,5+1):
+            SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+
+
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Red Star"]), KRtDLLocation)
+
+        SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,5+1):
+            SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,17+1):
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Red Star"]), KRtDLLocation)
+
+        SevenThreeRooms[13].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 14 - Red Star"]), KRtDLLocation)
+
+
+        if world.options.extra_sanity:
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
+            for i in range(1,3+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+        elif world.options.start_in_extra_game:
+            for i in range(1,3+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+        else:
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
 
    
+
     
     if world.options.blue_star_sanity:
         OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Blue Star"]), KRtDLLocation)
