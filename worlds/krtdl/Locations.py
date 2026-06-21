@@ -4068,23 +4068,23 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
-        #for i in range(1,6+1):
-            #SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,6+1):
+            SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,16+1):
-            #SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,16+1):
+            SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,3+1):
-            #SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,3+1):
+            SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,7+1):
-            #SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,7+1):
+            SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,37+1):
-            #SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,37+1):
+            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        #for i in range(1,17+1):
-            #SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+        for i in range(1,17+1):
+            SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         #for i in range(1,5+1):
