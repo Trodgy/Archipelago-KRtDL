@@ -105,6 +105,8 @@ class ItemNames(Enum):
     stage7_3 = "Dangerous Dinner Stage 3 - Complete"
     stage7_4 = "Dangerous Dinner Stage 4 - Complete"
     stage8_4 = "Another Dimension Final Boss - Complete"
+    arena_completion = "The Arena - Complete"
+    true_arena_completion = "The True Arena - Complete"
 
 class StageNames(Enum):
     stage1_1 = "Cookie Country Stage 1 "
