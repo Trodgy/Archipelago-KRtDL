@@ -5263,7 +5263,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(1,2+1):
             SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
-        for i in range(1,2+1):
+        for i in range(1,4+1):
             SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
