@@ -4767,8 +4767,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation)
         
 
-        #for i in range(1,3+1):
-            #SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Flower #" + str(i)]), KRtDLLocation)
+        for i in range(1,5+1):
+            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Flower #" + str(i)]), KRtDLLocation)
 
 
         #for i in range(1,9+1):
