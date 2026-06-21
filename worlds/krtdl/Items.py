@@ -225,7 +225,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
     if world.options.flower_sanity:
-        for i in range(0,306):
+        for i in range(0,266):
             items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
 
     if world.options.one_up_sanity:
