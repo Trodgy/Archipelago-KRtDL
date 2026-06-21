@@ -4926,7 +4926,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - 1-up"]), KRtDLLocation)
 
-        SevenThreeRooms[13].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 14 - 1-up"]), KRtDLLocation)
+        SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - 1-up"]), KRtDLLocation)
         
 
         if world.options.extra_sanity:
