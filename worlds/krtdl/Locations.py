@@ -5242,18 +5242,18 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Food"]), KRtDLLocation)
         
         
-        #SixTwoRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 3 - Food"]), KRtDLLocation)
+        SixTwoRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 3 - Food"]), KRtDLLocation)
 
-        #SixTwoRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - Food"]), KRtDLLocation)
+        SixTwoRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - Food"]), KRtDLLocation)
 
-        #for i in range(1,2+1):
-            #SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+        for i in range(1,2+1):
+            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
 
-        #SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Food"]), KRtDLLocation)
+        SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Food"]), KRtDLLocation)
 
-        #SixTwoRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 10 - Food"]), KRtDLLocation)
+        SixTwoRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 10 - Food"]), KRtDLLocation)
 
-        #SixTwoRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
+        SixTwoRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
 
 
         #SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
