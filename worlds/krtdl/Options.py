@@ -145,6 +145,14 @@ class ShuffleSubgames(Toggle):
     """Turns Subgame level completions into checks. 
     One for levels 1, 2 and 3."""  
     display_name = "Shuffle Subgames"
+
+class ShuffleArena(Toggle):
+    """Turns each round completion in The Arena into a check.
+    If Extra Mode is on, this instead enables each round for The True Arena.
+    If EX-trasanity is on, this enables checks in both The Arena and The True Arena.
+    
+    Enables additional checks for Food Sanity and Maxim Sanity."""  
+    display_name = "Shuffle Subgames"
     
 class SubgameEnergySphereRange(Range):
     """Determines the maximum Energy Spheres needed for a Subgame."""
@@ -406,6 +414,7 @@ class KRtDLOptions(PerGameCommonOptions):
     shuffle_moves: ShuffleMoves
     shuffle_level_items: ShuffleLevelItems
 
+    shuffle_arena: ShuffleArena
     shuffle_challenges: ShuffleChallenges
     challenge_energy_sphere_range: ChallengeEnergySphereRange
     shuffle_subgames: ShuffleSubgames
@@ -478,7 +487,8 @@ krtdl_option_groups = [
 
     OptionGroup(
         "Side Content Options",
-        [ShuffleChallenges, 
+        [ShuffleArena,
+         ShuffleChallenges, 
          ChallengeEnergySphereRange, 
          ShuffleSubgames, 
          SubgameEnergySphereRange, 
