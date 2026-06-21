@@ -1834,7 +1834,149 @@ for i in range(1,3+1):
     locationincrement += 1
 health_pickup_table[StageNames[27] + "Room 11 - Food"] = BaseLocationID + locationincrement
 locationincrement += 1
-
+#Egg Engines 2
+health_pickup_table[StageNames[28] + "Room 3 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1  
+health_pickup_table[StageNames[28] + "Room 5 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1  
+for i in range(1,2+1):
+    health_pickup_table[StageNames[28] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[28] + "Room 8 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1  
+health_pickup_table[StageNames[28] + "Room 10 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1  
+health_pickup_table[StageNames[28] + "Room 11 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1  
+#Egg Engines 3
+health_pickup_table[StageNames[29] + "Room 1 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[29] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[29] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[29] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[29] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[29] + "Room 8 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1    
+#Egg Engines 4
+health_pickup_table[StageNames[30] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[30] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[30] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[30] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[30] + "Room 6 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Egg Engines 5
+for i in range(1,2+1):
+    health_pickup_table[StageNames[31] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[31] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[31] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[31] + "Room 6 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[31] + "Room 7 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[33] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[33] + "Room 3 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[33] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,8+1):
+    health_pickup_table[StageNames[33] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[33] + "Room 8 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[33] + "Room 9 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 2
+for i in range(1,2+1):
+    health_pickup_table[StageNames[34] + "Room 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[34] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[34] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[34] + "Room 5 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+health_pickup_table[StageNames[34] + "Room 6 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,14+1):
+    health_pickup_table[StageNames[34] + "Room 7 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[34] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[34] + "Room 9 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+#Dangerous Dinner 3
+health_pickup_table[StageNames[35] + "Room 2 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[35] + "Room 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[35] + "Room 4 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[35] + "Room 5 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[35] + "Room 6 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,2+1):
+    health_pickup_table[StageNames[35] + "Room 8 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    health_pickup_table[StageNames[35] + "Room 9 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,3+1):
+    health_pickup_table[StageNames[35] + "Room 10 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+health_pickup_table[StageNames[35] + "Room 11 - Food"] = BaseLocationID + locationincrement
+locationincrement += 1
+for i in range(1,4+1):
+    health_pickup_table[StageNames[35] + "Room 14 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#Another Dimension
+for i in range(1,5+1):
+    health_pickup_table[StageNames[37] + "Section 1 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    health_pickup_table[StageNames[37] + "Section 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    health_pickup_table[StageNames[37] + "Section 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#The Arena
+for i in range(1,5+1):
+    maxim_tomato_table[NonStageNames[0] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+#The True Arena
+for i in range(1,3+1):
+    maxim_tomato_table[NonStageNames[1] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+    
 #health_pickup_table[StageNames[16] + "Room 2 - Food"] = BaseLocationID + locationincrement
 #locationincrement += 1
 
@@ -4767,29 +4909,96 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+
+
+        for i in range(1,2+1):
+            SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixFiveRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 3 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,3+1):
+            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Food #" + str(i)]), KRtDLLocation)
+
+        SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Food"]), KRtDLLocation)
+
+        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Food"]), KRtDLLocation)
+
+
+        for i in range(1,2+1):
+            SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
         
+        SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,8+1):
+            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+
+        SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Food"]), KRtDLLocation)
+
+        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Food"]), KRtDLLocation)
 
 
+        for i in range(1,2+1):
+            SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+        
+        SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Food #" + str(i)]), KRtDLLocation)
+
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - Food"]), KRtDLLocation)
+
+        SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Food"]), KRtDLLocation)
+
+        for i in range(1,14+1):
+            SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - Food #" + str(i)]), KRtDLLocation)
+
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Food"]), KRtDLLocation)
 
 
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Food"]), KRtDLLocation)
 
+        for i in range(1,2+1):
+            SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
-        #THE LOCATION DECLARATIONS ABOVE HAVEN'T BEEN DONE YET, PLEASE DO THOSE TOO!!
+        for i in range(1,2+1):
+            SevenThreeRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
+        for i in range(1,3+1):
+            SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
+        SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Food"]), KRtDLLocation)
 
+        for i in range(1,2+1):
+            SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
+        for i in range(1,7+1):
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Food #" + str(i)]), KRtDLLocation)
 
+        for i in range(1,3+1):
+            SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Food #" + str(i)]), KRtDLLocation)
+
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Food"]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SevenThreeRooms[13].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 14 - Food #" + str(i)]), KRtDLLocation)
+        
         
         for i in range(1,7+1):
             AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 2 - Food #" + str(i)]), KRtDLLocation)
