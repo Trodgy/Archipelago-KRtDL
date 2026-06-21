@@ -178,14 +178,14 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     if world.options.star_sanity:
         if world.options.extra_sanity: #Another Dimension variance in Gold Stars between Normal and EX
-            for i in range(0,119):
+            for i in range(0,41):
                 items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
         else:
             if world.options.start_in_extra_game:
-                for i in range(0,54):
+                for i in range(0,15):
                     items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
             else:
-                for i in range(0,65):
+                for i in range(0,26):
                     items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
         for i in range(0,2924):
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
