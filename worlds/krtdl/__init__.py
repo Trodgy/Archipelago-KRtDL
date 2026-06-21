@@ -238,18 +238,15 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage5_5.value] = ItemNames.stage5_5.value
         new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
         new_map[ItemNames.stage6_1.value] = ItemNames.stage6_1.value
-
-        #these ones currently don't have level regions
-        #new_map[ItemNames.stage6_2.value] = ItemNames.stage6_2.value
-        #new_map[ItemNames.stage6_3.value] = ItemNames.stage6_3.value
-        #new_map[ItemNames.stage6_4.value] = ItemNames.stage6_4.value
-        #new_map[ItemNames.stage6_5.value] = ItemNames.stage6_5.value
-        #new_map[ItemNames.stage6_6.value] = ItemNames.stage6_6.value
-        #new_map[ItemNames.stage7_1.value] = ItemNames.stage7_1.value
-        #new_map[ItemNames.stage7_2.value] = ItemNames.stage7_2.value
-        #new_map[ItemNames.stage7_3.value] = ItemNames.stage7_3.value
-        #new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
-
+        new_map[ItemNames.stage6_2.value] = ItemNames.stage6_2.value
+        new_map[ItemNames.stage6_3.value] = ItemNames.stage6_3.value
+        new_map[ItemNames.stage6_4.value] = ItemNames.stage6_4.value
+        new_map[ItemNames.stage6_5.value] = ItemNames.stage6_5.value
+        new_map[ItemNames.stage6_6.value] = ItemNames.stage6_6.value
+        new_map[ItemNames.stage7_1.value] = ItemNames.stage7_1.value
+        new_map[ItemNames.stage7_2.value] = ItemNames.stage7_2.value
+        new_map[ItemNames.stage7_3.value] = ItemNames.stage7_3.value
+        new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
         new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
         
         self.prefilled_item_map = new_map
