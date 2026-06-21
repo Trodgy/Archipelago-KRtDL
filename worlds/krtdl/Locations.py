@@ -3205,6 +3205,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
                    world.get_region("Dangerous Dinner Stage 4 Room 2")]
 
+    DangerousDinnerHub.connect(SevenFourRooms[0], "Dangerous Dinner Hub To Dangerous Dinner Stage 4 Room 1")
     SevenFourRooms[0].connect(SevenFourRooms[1], "Dangerous Dinner Stage 4 Room 1-2")
     SevenFourRooms[1].connect(AnotherDimension, "Dangerous Dinner Stage 4 To Another Dimension")
     
