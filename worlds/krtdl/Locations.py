@@ -4733,6 +4733,88 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             
         SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Food"]), KRtDLLocation)
         
+        
+        SixTwoRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 3 - Food"]), KRtDLLocation)
+
+        SixTwoRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+
+        SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Food"]), KRtDLLocation)
+
+        SixTwoRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 10 - Food"]), KRtDLLocation)
+
+        SixTwoRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
+
+
+        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
+
+        SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+
+        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Food"]), KRtDLLocation)
+
+
+        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,4+1):
+            SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+        
+
+
+
+
+
+
+        #THE LOCATION DECLARATIONS ABOVE HAVEN'T BEEN DONE YET, PLEASE DO THOSE TOO!!
+
+
+
+
+
+        
+        for i in range(1,7+1):
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 2 - Food #" + str(i)]), KRtDLLocation)
+        
+        if world.options.extra_sanity:
+            for i in range(1,5+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+            for i in range(1,7+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+            for i in range(1,5+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+            for i in range(1,3+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+        elif world.options.start_in_extra_game:
+            for i in range(1,7+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+            for i in range(1,3+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+        else:
+            for i in range(1,5+1):
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+            for i in range(1,5+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+            
+    
 
    
     
