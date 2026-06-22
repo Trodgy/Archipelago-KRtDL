@@ -249,9 +249,9 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
         new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
 
-        if world.options.goal == 3 or (world.options.shuffle_arena and (world.options.extra_sanity or not world.options.start_in_extra_game)):
+        if self.options.goal == 3 or (self.options.shuffle_arena and (self.options.extra_sanity or not self.options.start_in_extra_game)):
             new_map[ItemNames.arena_completion.value] = ItemNames.arena_completion.value
-        if world.options.goal == 4 or (world.options.shuffle_arena and (world.options.extra_sanity or world.options.start_in_extra_game)):
+        if self.options.goal == 4 or (self.options.shuffle_arena and (self.options.extra_sanity or self.options.start_in_extra_game)):
             new_map[ItemNames.true_arena_completion.value] = ItemNames.true_arena_completion.value
         
         self.prefilled_item_map = new_map
