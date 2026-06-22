@@ -5651,3 +5651,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     if world.options.extra_sanity:
         AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world, "EX ")
     AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world, "")
+
+    #need to gather all of the unique checks and put them here instead of in that function since it's gonna be called twice
+    #should also really just make a separate function to declare the rooms so it doesn't do that twice too
+    #maybe also figure out a way to organise all of this more neatly so it doesn't require 10 bagillion little loops and individual calls for each location cuz god this would take an eternity-
+    #-to edit to be EX compatible properly
