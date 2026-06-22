@@ -124,11 +124,14 @@ item_table: dict[str, ItemData] = {
     ItemNames.stage7_3.value: ItemData(ItemNames.stage7_3.value, 92, ItemClassification.progression, 1),
     ItemNames.stage7_4.value: ItemData(ItemNames.stage7_4.value, 93, ItemClassification.progression, 1),
     ItemNames.stage8_4.value: ItemData(ItemNames.stage8_4.value, 94, ItemClassification.progression, 1),
+
+    ItemNames.arena_completion.value: ItemData(ItemNames.arena_completion.value, 95, ItemClassification.progression, 1),
+    ItemNames.true_arena_completion.value: ItemData(ItemNames.true_arena_completion.value, 96, ItemClassification.progression, 1),
     
     # trap items
-    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 95, ItemClassification.trap),
-    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 96, ItemClassification.trap),
-    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 97, ItemClassification.trap),
+    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 97, ItemClassification.trap),
+    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 98, ItemClassification.trap),
+    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 99, ItemClassification.trap),
 }
 
 def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
@@ -211,14 +214,23 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     if world.options.food_sanity:
         if world.options.extra_sanity:
-            for i in range(0,20):
+            if world.options.shuffle_arena:
+                for i in range(0,8):
+                    items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+            for i in range(0,12):
                 items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
         else:
             if world.options.start_in_extra_game:
-                for i in range(0,10):
+                if world.options.shuffle_arena:
+                    for i in range(0,3):
+                        items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+                for i in range(0,7):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
             else:
-                for i in range(0,10):
+                if world.options.shuffle_arena:
+                    for i in range(0,5):
+                        items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+                for i in range(0,5):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
         for i in range(0,389):
             items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
@@ -238,16 +250,17 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
     if world.options.maxim_sanity:
-        if world.options.extra_sanity:
-            for i in range(0,8):
-                items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
-        else:
-            if world.options.start_in_extra_game:
-                for i in range(0,3):
+        if world.options.shuffle_arena:
+            if world.options.extra_sanity:
+                for i in range(0,8):
                     items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
             else:
-                for i in range(0,5):
-                    items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+                if world.options.start_in_extra_game:
+                    for i in range(0,3):
+                        items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
+                else:
+                    for i in range(0,5):
+                        items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
         for i in range(0,51):
             items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
 
@@ -261,25 +274,15 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
         items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
     
-    #assert world.starting_room_data.selected_loadout
-
-    #items_to_remove = [
-    #    *world.prefilled_item_map.values(),
-    #    *generate_base_start_inventory(world),
-    #]
-
-    #for item in items_to_remove:
-    #    for i in range(len(items)):
-    #        if items[i].name == item:
-    #            items.pop(i)
-    #            break
-
-    # Fill Missiles for rest
-    #for _ in range(len(items), 100 - len(world.prefilled_item_map.values())):
-    #    items.append(
-    #        world.create_item(
-    #            SuitUpgrade.Missile_Expansion.value, ItemClassification.filler
-    #        )
-    #    )
+    if world.options.shuffle_arena:
+        if world.options.extra_sanity:
+            for i in range(0,26):
+                items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+        elif world.options.start_in_extra_game:
+            for i in range(0,14):
+                items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
+        else:
+            for i in range(0,12):
+                items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
 
     return items
