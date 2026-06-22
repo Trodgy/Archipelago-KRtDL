@@ -504,8 +504,6 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
     hasmagolorgoal = False
     haslandiagoal = False
     hasdoomergoal = False
-
-    #unimplemented
     hasarenagoal = False
     hastruearenagoal = False
     
@@ -520,6 +518,10 @@ async def handle_check_goal_complete(ctx: KRtDLContext):
             haslandiagoal = True
         elif item.item == 24102094:
             hasdoomergoal = True
+        elif item.item == 24102106:
+            hasarenagoal = True
+        elif item.item == 24102107:
+            hastruearenagoal = True
         
     #need to figure out how to get the options via context only, seems pretty difficult given the limitations
     if ctx.goal_type == 0 and hasmagolorgoal == True:
