@@ -152,7 +152,7 @@ class ShuffleArena(Toggle):
     If EX-trasanity is on, this enables checks in both The Arena and The True Arena.
     
     Enables additional checks for Food Sanity and Maxim Sanity."""  
-    display_name = "Shuffle Subgames"
+    display_name = "Shuffle Arena"
     
 class SubgameEnergySphereRange(Range):
     """Determines the maximum Energy Spheres needed for a Subgame."""
