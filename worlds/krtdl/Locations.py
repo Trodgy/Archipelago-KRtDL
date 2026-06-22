@@ -5623,11 +5623,27 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(1,3+1):
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
 
+    if world.options.shuffle_arena or world.options.goal == 3 or world.options.goal == 4:
+        if world.options.extra_sanity:
+            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation)
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation)
+        elif world.options.start_in_extra_game:
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation) 
+        else:
+            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation)
+    
     if world.options.shuffle_arena:
-        for i in range(1,12+1):
-            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
-        for i in range(1,14+1):
-            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)                                 
+        if world.options.extra_sanity:
+            for i in range(1,12+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+            for i in range(1,14+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+        elif world.options.start_in_extra_game:
+            for i in range(1,14+1):
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+        else:
+            for i in range(1,12+1):
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)                                
 
 #def create_events(world: KRtDLWorld) -> None:
     
