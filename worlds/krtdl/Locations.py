@@ -2387,7 +2387,7 @@ composite_location: dict[str, int] = {
     **extra_sanity_table
 }
 
-def create_all_regions(world: "KRtDLWorld") -> None:
+def AllRegionsWhichCanBeSplitForEXtraSanityMoreEasily(world: "KRtDLWorld", EXStatus: str) -> None:
     regions = []
 
     regions.append(Region("Menu", world.player, world.multiworld))
@@ -2531,31 +2531,33 @@ def create_all_regions(world: "KRtDLWorld") -> None:
                               
     world.multiworld.regions += regions
 
-#def connect_regions(world: KRtDLWorld) -> None:
-    
+def create_all_regions(world: "KRtDLWorld") -> None:
+    if world.options.extra_sanity:
+        AllRegionsWhichCanBeSplitForEXtraSanityMoreEasily(world, "EX ")
+    AllRegionsWhichCanBeSplitForEXtraSanityMoreEasily(world, "")
 
-def create_regular_locations(world: "KRtDLWorld") -> None:
+def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld", EXStatus: str) -> None:
     MenuRegion = world.get_region("Menu")
-    PopstarMapRegion = world.get_region("Popstar Map")
-    HalcandraMapRegion = world.get_region("Halcandra Map")
-    LorStarcutterRegion = world.get_region("Lor Starcutter")
+    PopstarMapRegion = world.get_region(EXStatus + "Popstar Map")
+    HalcandraMapRegion = world.get_region(EXStatus + "Halcandra Map")
+    LorStarcutterRegion = world.get_region(EXStatus + "Lor Starcutter")
 
-    NinjaDojoRegion = world.get_region("Ninja Dojo")
-    ScopeShotRegion = world.get_region("Scope Shot")
+    NinjaDojoRegion = world.get_region(EXStatus + "Ninja Dojo")
+    ScopeShotRegion = world.get_region(EXStatus + "Scope Shot")
 
-    TheArenaRegion = world.get_region("The Arena")
-    TheTrueArenaRegion = world.get_region("The True Arena")
+    TheArenaRegion = world.get_region(EXStatus + "The Arena")
+    TheTrueArenaRegion = world.get_region(EXStatus + "The True Arena")
     
     #put challenges here
     
-    CookieCountryHub = world.get_region("Cookie Country Hub")
-    RaisinRuinsHub = world.get_region("Raisin Ruins Hub")
-    OnionOceanHub = world.get_region("Onion Ocean Hub")
-    WhiteWafersHub = world.get_region("White Wafers Hub")
-    NuttyNoonHub = world.get_region("Nutty Noon Hub")
-    EggEnginesHub = world.get_region("Egg Engines Hub")
-    DangerousDinnerHub = world.get_region("Dangerous Dinner Hub")
-    AnotherDimension = world.get_region("Another Dimension")
+    CookieCountryHub = world.get_region(EXStatus + "Cookie Country Hub")
+    RaisinRuinsHub = world.get_region(EXStatus + "Raisin Ruins Hub")
+    OnionOceanHub = world.get_region(EXStatus + "Onion Ocean Hub")
+    WhiteWafersHub = world.get_region(EXStatus + "White Wafers Hub")
+    NuttyNoonHub = world.get_region(EXStatus + "Nutty Noon Hub")
+    EggEnginesHub = world.get_region(EXStatus + "Egg Engines Hub")
+    DangerousDinnerHub = world.get_region(EXStatus + "Dangerous Dinner Hub")
+    AnotherDimension = world.get_region(EXStatus + "Another Dimension")
     
     MenuRegion.connect(PopstarMapRegion, "Menu To Popstar Map")
     MenuRegion.connect(HalcandraMapRegion, "Menu To Halcandra Map")
@@ -5643,7 +5645,9 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                 TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
         else:
             for i in range(1,12+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)                                
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)  
 
-#def create_events(world: KRtDLWorld) -> None:
-    
+def create_regular_locations(world: "KRtDLWorld") -> None:
+    if world.options.extra_sanity:
+        AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world, "EX ")
+    AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world, "")
