@@ -5419,20 +5419,23 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
             for i in range(1,7+1):
                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
-            for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
-            for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+            if world.options.shuffle_arena:
+                for i in range(1,5+1):
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                for i in range(1,3+1):
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         elif world.options.start_in_extra_game:
             for i in range(1,7+1):
                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
-            for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+            if world.options.shuffle_arena:
+                for i in range(1,3+1):
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         else:
             for i in range(1,5+1):
                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
-            for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+            if world.options.shuffle_arena:
+                for i in range(1,5+1):
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
             
     
 
@@ -5576,18 +5579,18 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
         SevenFourRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 4 Room 1 - M-Tomato"]), KRtDLLocation)
         
-        
-        if world.options.extra_sanity:
-            for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
-            for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
-        elif world.options.start_in_extra_game:
-            for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
-        else:
-            for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+        if world.options.shuffle_arena:
+            if world.options.extra_sanity:
+                for i in range(1,5+1):
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                for i in range(1,3+1):
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+            elif world.options.start_in_extra_game:
+                for i in range(1,3+1):
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+            else:
+                for i in range(1,5+1):
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
 
 
     
@@ -5604,6 +5607,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             NinjaDojoRegion.add_locations(get_location_names_with_ids(["Ninja Dojo - Level " + str(i)]), KRtDLLocation)
         for i in range(1,3+1):
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
+
+    #if world.options.shuffle_arena:
                                           
 
 #def create_events(world: KRtDLWorld) -> None:
