@@ -69,6 +69,10 @@ for i in StageNames:
         locationincrement += 1
 stage_completion_table["Another Dimension Final Boss - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
+stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrement
+locationincrement += 1
+stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
+locationincrement += 1
 #should end at ID 68
     
 energy_sphere_table = {}
@@ -2320,7 +2324,17 @@ for i in SubgameNames:
     locationincrement += 1
     subgame_table[i + "- Level 3"] = BaseLocationID + locationincrement
     locationincrement += 1
-    
+
+
+arenas_table = {}
+for i in range(1,12+1):
+    arenas_table["The Arena - Round " + str(i) + " Clear"] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,14+1):
+    arenas_table["The True Arena - Round " + str(i) + " Clear"] = BaseLocationID + locationincrement
+    locationincrement += 1
+
+
 extra_sanity_table = {}
 for i in energy_sphere_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
@@ -2369,6 +2383,7 @@ composite_location: dict[str, int] = {
     **maxim_tomato_table,
     **challenge_table,
     **subgame_table,
+    **arenas_table,
     **extra_sanity_table
 }
 
@@ -5608,8 +5623,11 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(1,3+1):
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
 
-    #if world.options.shuffle_arena:
-                                          
+    if world.options.shuffle_arena:
+        for i in range(1,12+1):
+            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
+        for i in range(1,14+1):
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)                                 
 
 #def create_events(world: KRtDLWorld) -> None:
     
