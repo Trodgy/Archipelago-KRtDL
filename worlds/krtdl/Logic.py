@@ -14,3 +14,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.multiworld.completion_condition[world.player] = lambda state: state.has("Dangerous Dinner Stage 4 - Complete", world.player)
     elif world.options.goal == Goal.option_grand_doomer:
         world.multiworld.completion_condition[world.player] = lambda state: state.has("Nutty Noon Stage 6 - Complete", world.player)
+    elif world.options.goal == Goal.option_the_arena:
+        world.multiworld.completion_condition[world.player] = lambda state: state.has("The Arena - Complete", world.player)
+    elif world.options.goal == Goal.option_the_true_arena:
+        world.multiworld.completion_condition[world.player] = lambda state: state.has("The True Arena - Complete", world.player)
