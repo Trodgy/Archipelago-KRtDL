@@ -146,10 +146,6 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             for i in range(0,120):
                 items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
         #this one generates just extra game spheres
-        elif world.options.start_in_extra_game:
-            for i in range(0,120):
-                items.append(world.create_item(ItemNames.energy_sphere_ex.value, ItemClassification.progression))
-        #this one generates just normal game spheres
         else:
             for i in range(0,120):
                 items.append(world.create_item(ItemNames.energy_sphere.value, ItemClassification.progression))
@@ -166,12 +162,6 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.lor_lwing_ex.value, ItemClassification.progression))
             items.append(world.create_item(ItemNames.lor_emblem_ex.value, ItemClassification.progression))
             items.append(world.create_item(ItemNames.lor_mast_ex.value, ItemClassification.progression))
-        elif world.options.start_in_extra_game:
-            items.append(world.create_item(ItemNames.lor_oars_ex.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_rwing_ex.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_lwing_ex.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_emblem_ex.value, ItemClassification.progression))
-            items.append(world.create_item(ItemNames.lor_mast_ex.value, ItemClassification.progression))
         else:
             items.append(world.create_item(ItemNames.lor_oars.value, ItemClassification.progression))
             items.append(world.create_item(ItemNames.lor_rwing.value, ItemClassification.progression))
@@ -181,6 +171,8 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     if world.options.star_sanity:
         if world.options.extra_sanity: #Another Dimension variance in Gold Stars between Normal and EX
+            for i in range(0,2936):
+                items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
             for i in range(0,41):
                 items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
         else:
@@ -194,12 +186,17 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.gold_star.value, ItemClassification.filler))
 
     if world.options.red_star_sanity:
-        if world.options.hard_logic: #Red Star #12 in 7-2 oooooooh I hate Red Star #12 in 7-2
-            items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
         if world.options.extra_sanity: #combined normal and EX red stars in Another Dimension
+            for i in range(0,240):
+                items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+            if world.options.hard_logic: #Red Star #12 in 7-2 oooooooh I hate Red Star #12 in 7-2
+                for i in range(0,2):
+                    items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
             for i in range(0,4):
                 items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
         else:
+            if world.options.hard_logic: #Red Star #12 in 7-2 oooooooh I hate Red Star #12 in 7-2
+                items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
             if world.options.start_in_extra_game: #the three red stars in Another Dimension in EX
                 for i in range(0,3):
                     items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
@@ -209,11 +206,16 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
 
     if world.options.blue_star_sanity:
+        if world.options.extra_sanity:
+            for i in range(0,36):
+                items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
         for i in range(0,36):
             items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
 
     if world.options.food_sanity:
         if world.options.extra_sanity:
+            for i in range(0,389):
+                items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
             if world.options.shuffle_arena:
                 for i in range(0,8):
                     items.append(world.create_item(ItemNames.food_pickup.value, ItemClassification.useful))
@@ -237,11 +239,16 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
 
     #todo: make it generate Gold Stars or Food at a ratio of 8/2
     if world.options.flower_sanity:
+        if world.options.extra_sanity:
+            for i in range(0,306):
+                items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
         for i in range(0,306):
             items.append(world.create_item(ItemNames.flower.value, ItemClassification.filler))
 
     if world.options.one_up_sanity:
         if world.options.extra_sanity:
+            for i in range(0,45):
+                items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
             for i in range(0,2):
                 items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
         else:
@@ -250,6 +257,9 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
 
     if world.options.maxim_sanity:
+        if world.options.extra_sanity:
+            for i in range(0,51):
+                items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
         if world.options.shuffle_arena:
             if world.options.extra_sanity:
                 for i in range(0,8):
