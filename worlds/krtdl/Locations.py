@@ -2151,18 +2151,17 @@ locationincrement += 1
 for i in range(1,4+1):
     health_pickup_table[StageNames[35] + "Room 13 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-#Another Dimension
-for i in range(1,5+1):
-    health_pickup_table[StageNames[37] + "Section 1 - Food #" + str(i)] = BaseLocationID + locationincrement
-    locationincrement += 1
 
 extra_excluded_health_pickup_table = {}
-for i in range(1,7+1):
-    extra_excluded_health_pickup_table[StageNames[37] + "Section 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+#Another Dimension
+for i in range(1,5+1):
+    extra_excluded_health_pickup_table[StageNames[37] + "Section 1 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    
 for i in range(1,7+1):
-    health_pickup_table[StageNames[37] + "Section 3 - Food #" + str(i)] = BaseLocationID + locationincrement
+    health_pickup_table[StageNames[37] + "Section 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+    locationincrement += 1
+for i in range(1,7+1):
+    extra_excluded_health_pickup_table[StageNames[37] + "Section 3 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #The Arena
 for i in range(1,5+1):
