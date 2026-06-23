@@ -106,5 +106,5 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
     world.set_rule(SevenOneEntrance, Has("Dangerous Dinner Stage 4 - Complete"))
     
-    if world.options.extra_sanity:
+    #if world.options.extra_sanity:
         
