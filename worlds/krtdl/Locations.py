@@ -2547,323 +2547,323 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
     DangerousDinnerHub = world.get_region(EXStatus + "Dangerous Dinner Hub")
     AnotherDimension = world.get_region(EXStatus + "Another Dimension")
     
-    OneOneRooms = [world.get_region("Cookie Country Stage 1 Room 1"),
-                   world.get_region("Cookie Country Stage 1 Room 2"),
-                   world.get_region("Cookie Country Stage 1 Room 3"),
-                   world.get_region("Cookie Country Stage 1 Room 4"),
-                  world.get_region("Cookie Country Stage 1 Room 5")]
+    OneOneRooms = [world.get_region(EXStatus + "Cookie Country Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 4"),
+                  world.get_region(EXStatus + "Cookie Country Stage 1 Room 5")]
 
-    OneTwoRooms = [world.get_region("Cookie Country Stage 2 Room 1"),
-                   world.get_region("Cookie Country Stage 2 Room 2"),
-                   world.get_region("Cookie Country Stage 2 Room 3"),
-                   world.get_region("Cookie Country Stage 2 Room 4"),
-                   world.get_region("Cookie Country Stage 2 Room 5"),
-                  world.get_region("Cookie Country Stage 2 Room 6")]
+    OneTwoRooms = [world.get_region(EXStatus + "Cookie Country Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 5"),
+                  world.get_region(EXStatus + "Cookie Country Stage 2 Room 6")]
     
-    OneThreeRooms = [world.get_region("Cookie Country Stage 3 Room 1"),
-                   world.get_region("Cookie Country Stage 3 Room 2"),
-                   world.get_region("Cookie Country Stage 3 Room 3"),
-                   world.get_region("Cookie Country Stage 3 Room 4"),
-                  world.get_region("Cookie Country Stage 3 Room 5")]
+    OneThreeRooms = [world.get_region(EXStatus + "Cookie Country Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 4"),
+                  world.get_region(EXStatus + "Cookie Country Stage 3 Room 5")]
     
-    OneFourRooms = [world.get_region("Cookie Country Stage 4 Room 1"),
-                   world.get_region("Cookie Country Stage 4 Room 2"),
-                   world.get_region("Cookie Country Stage 4 Room 3"),
-                   world.get_region("Cookie Country Stage 4 Room 4"),
-                   world.get_region("Cookie Country Stage 4 Room 5"),
-                   world.get_region("Cookie Country Stage 4 Room 6"),
-                   world.get_region("Cookie Country Stage 4 Room 7")]
+    OneFourRooms = [world.get_region(EXStatus + "Cookie Country Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 7")]
     
-    OneFiveRegion = world.get_region("Cookie Country Stage 5 Room 1")
+    OneFiveRegion = world.get_region(EXStatus + "Cookie Country Stage 5 Room 1")
     
-    TwoOneRooms = [world.get_region("Raisin Ruins Stage 1 Room 1"),
-                   world.get_region("Raisin Ruins Stage 1 Room 2"),
-                   world.get_region("Raisin Ruins Stage 1 Room 3"),
-                   world.get_region("Raisin Ruins Stage 1 Room 4"),
-                   world.get_region("Raisin Ruins Stage 1 Room 5"),
-                   world.get_region("Raisin Ruins Stage 1 Room 6"),
-                   world.get_region("Raisin Ruins Stage 1 Room 7"),
-                  world.get_region("Raisin Ruins Stage 1 Room 8")]
+    TwoOneRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 7"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 8")]
     
-    TwoTwoRooms = [world.get_region("Raisin Ruins Stage 2 Room 1"),
-                   world.get_region("Raisin Ruins Stage 2 Room 2"),
-                   world.get_region("Raisin Ruins Stage 2 Room 3"),
-                   world.get_region("Raisin Ruins Stage 2 Room 4"),
-                   world.get_region("Raisin Ruins Stage 2 Room 5"),
-                   world.get_region("Raisin Ruins Stage 2 Room 6"),
-                   world.get_region("Raisin Ruins Stage 2 Room 7"),
-                   world.get_region("Raisin Ruins Stage 2 Room 8"),
-                   world.get_region("Raisin Ruins Stage 2 Room 9"),
-                  world.get_region("Raisin Ruins Stage 2 Room 10")]
+    TwoTwoRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 9"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 10")]
 
-    TwoThreeRooms = [world.get_region("Raisin Ruins Stage 3 Room 1"),
-                   world.get_region("Raisin Ruins Stage 3 Room 2"),
-                   world.get_region("Raisin Ruins Stage 3 Room 3"),
-                   world.get_region("Raisin Ruins Stage 3 Room 4"),
-                   world.get_region("Raisin Ruins Stage 3 Room 5"),
-                   world.get_region("Raisin Ruins Stage 3 Room 6")]
+    TwoThreeRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 6")]
     
-    TwoFourRooms = [world.get_region("Raisin Ruins Stage 4 Room 1"),
-                   world.get_region("Raisin Ruins Stage 4 Room 2"),
-                   world.get_region("Raisin Ruins Stage 4 Room 3"),
-                   world.get_region("Raisin Ruins Stage 4 Room 4"),
-                   world.get_region("Raisin Ruins Stage 4 Room 5"),
-                   world.get_region("Raisin Ruins Stage 4 Room 6"),
-                   world.get_region("Raisin Ruins Stage 4 Room 7"),
-                   world.get_region("Raisin Ruins Stage 4 Room 8"),
-                   world.get_region("Raisin Ruins Stage 4 Room 9"),
-                  world.get_region("Raisin Ruins Stage 4 Room 10")]
+    TwoFourRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 8"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 9"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 10")]
     
-    TwoFiveRooms = [world.get_region("Raisin Ruins Stage 5 Room 1"),
-                   world.get_region("Raisin Ruins Stage 5 Room 2")]
+    TwoFiveRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 5 Room 2")]
     
-    ThreeOneRooms = [world.get_region("Onion Ocean Stage 1 Room 1"),
-                   world.get_region("Onion Ocean Stage 1 Room 2"),
-                   world.get_region("Onion Ocean Stage 1 Room 3"),
-                   world.get_region("Onion Ocean Stage 1 Room 4"),
-                   world.get_region("Onion Ocean Stage 1 Room 5"),
-                   world.get_region("Onion Ocean Stage 1 Room 6"),
-                   world.get_region("Onion Ocean Stage 1 Room 7"),
-                   world.get_region("Onion Ocean Stage 1 Room 8"),
-                   world.get_region("Onion Ocean Stage 1 Room 9")]
+    ThreeOneRooms = [world.get_region(EXStatus + "Onion Ocean Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 9")]
     
-    ThreeTwoRooms = [world.get_region("Onion Ocean Stage 2 Room 1"),
-                   world.get_region("Onion Ocean Stage 2 Room 2"),
-                   world.get_region("Onion Ocean Stage 2 Room 3"),
-                   world.get_region("Onion Ocean Stage 2 Room 4"),
-                   world.get_region("Onion Ocean Stage 2 Room 5"),
-                   world.get_region("Onion Ocean Stage 2 Room 6")]
+    ThreeTwoRooms = [world.get_region(EXStatus + "Onion Ocean Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 6")]
 
-    ThreeThreeRooms = [world.get_region("Onion Ocean Stage 3 Room 1"),
-                   world.get_region("Onion Ocean Stage 3 Room 2"),
-                   world.get_region("Onion Ocean Stage 3 Room 3"),
-                   world.get_region("Onion Ocean Stage 3 Room 4"),
-                   world.get_region("Onion Ocean Stage 3 Room 5"),
-                   world.get_region("Onion Ocean Stage 3 Room 6"),
-                   world.get_region("Onion Ocean Stage 3 Room 7"),
-                   world.get_region("Onion Ocean Stage 3 Room 8"),
-                   world.get_region("Onion Ocean Stage 3 Room 9"),
-                   world.get_region("Onion Ocean Stage 3 Room 10")]
+    ThreeThreeRooms = [world.get_region(EXStatus + "Onion Ocean Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 8"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 9"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 10")]
     
-    ThreeFourRooms = [world.get_region("Onion Ocean Stage 4 Room 1"),
-                   world.get_region("Onion Ocean Stage 4 Room 2"),
-                   world.get_region("Onion Ocean Stage 4 Room 3"),
-                   world.get_region("Onion Ocean Stage 4 Room 4"),
-                   world.get_region("Onion Ocean Stage 4 Room 5"),
-                   world.get_region("Onion Ocean Stage 4 Room 6"),
-                   world.get_region("Onion Ocean Stage 4 Room 7"),
-                   world.get_region("Onion Ocean Stage 4 Room 8")]
+    ThreeFourRooms = [world.get_region(EXStatus + "Onion Ocean Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 8")]
 
-    ThreeFiveRooms = [world.get_region("Onion Ocean Stage 5 Room 1"),
-                   world.get_region("Onion Ocean Stage 5 Room 2")]
+    ThreeFiveRooms = [world.get_region(EXStatus + "Onion Ocean Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 5 Room 2")]
 
-    FourOneRooms = [world.get_region("White Wafers Stage 1 Room 1"),
-                   world.get_region("White Wafers Stage 1 Room 2"),
-                   world.get_region("White Wafers Stage 1 Room 3"),
-                   world.get_region("White Wafers Stage 1 Room 4"),
-                   world.get_region("White Wafers Stage 1 Room 5")]
+    FourOneRooms = [world.get_region(EXStatus + "White Wafers Stage 1 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 5")]
 
-    FourTwoRooms = [world.get_region("White Wafers Stage 2 Room 1"),
-                   world.get_region("White Wafers Stage 2 Room 2"),
-                   world.get_region("White Wafers Stage 2 Room 3"),
-                   world.get_region("White Wafers Stage 2 Room 4"),
-                   world.get_region("White Wafers Stage 2 Room 5"),
-                   world.get_region("White Wafers Stage 2 Room 6"),
-                   world.get_region("White Wafers Stage 2 Room 7"),
-                   world.get_region("White Wafers Stage 2 Room 8"),
-                   world.get_region("White Wafers Stage 2 Room 9")]
+    FourTwoRooms = [world.get_region(EXStatus + "White Wafers Stage 2 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 7"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 8"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 9")]
 
-    FourThreeRooms = [world.get_region("White Wafers Stage 3 Room 1"),
-                   world.get_region("White Wafers Stage 3 Room 2"),
-                   world.get_region("White Wafers Stage 3 Room 3"),
-                   world.get_region("White Wafers Stage 3 Room 4"),
-                   world.get_region("White Wafers Stage 3 Room 5"),
-                   world.get_region("White Wafers Stage 3 Room 6")]
+    FourThreeRooms = [world.get_region(EXStatus + "White Wafers Stage 3 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 6")]
 
-    FourFourRooms = [world.get_region("White Wafers Stage 4 Room 1"),
-                   world.get_region("White Wafers Stage 4 Room 2"),
-                   world.get_region("White Wafers Stage 4 Room 3"),
-                   world.get_region("White Wafers Stage 4 Room 4"),
-                   world.get_region("White Wafers Stage 4 Room 5"),
-                   world.get_region("White Wafers Stage 4 Room 6"),
-                   world.get_region("White Wafers Stage 4 Room 7")]
+    FourFourRooms = [world.get_region(EXStatus + "White Wafers Stage 4 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 7")]
 
-    FourFiveRooms = [world.get_region("White Wafers Stage 5 Room 1"),
-                   world.get_region("White Wafers Stage 5 Room 2"),
-                   world.get_region("White Wafers Stage 5 Room 3"),
-                   world.get_region("White Wafers Stage 5 Room 4"),
-                   world.get_region("White Wafers Stage 5 Room 5"),
-                   world.get_region("White Wafers Stage 5 Room 6"),
-                   world.get_region("White Wafers Stage 5 Room 7"),
-                   world.get_region("White Wafers Stage 5 Room 8"),
-                   world.get_region("White Wafers Stage 5 Room 9"),
-                   world.get_region("White Wafers Stage 5 Room 10")]
+    FourFiveRooms = [world.get_region(EXStatus + "White Wafers Stage 5 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 7"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 8"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 9"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 10")]
 
-    FourSixRooms = [world.get_region("White Wafers Stage 6 Room 1"),
-                   world.get_region("White Wafers Stage 6 Room 2")]
+    FourSixRooms = [world.get_region(EXStatus + "White Wafers Stage 6 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 6 Room 2")]
 
-    FiveOneRooms = [world.get_region("Nutty Noon Stage 1 Room 1"),
-                   world.get_region("Nutty Noon Stage 1 Room 2"),
-                   world.get_region("Nutty Noon Stage 1 Room 3"),
-                   world.get_region("Nutty Noon Stage 1 Room 4"),
-                   world.get_region("Nutty Noon Stage 1 Room 5"),
-                   world.get_region("Nutty Noon Stage 1 Room 6"),
-                   world.get_region("Nutty Noon Stage 1 Room 7"),
-                   world.get_region("Nutty Noon Stage 1 Room 8"),
-                   world.get_region("Nutty Noon Stage 1 Room 9")]
+    FiveOneRooms = [world.get_region(EXStatus + "Nutty Noon Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 9")]
 
-    FiveTwoRooms = [world.get_region("Nutty Noon Stage 2 Room 1"),
-                   world.get_region("Nutty Noon Stage 2 Room 2"),
-                   world.get_region("Nutty Noon Stage 2 Room 3"),
-                   world.get_region("Nutty Noon Stage 2 Room 4"),
-                   world.get_region("Nutty Noon Stage 2 Room 5"),
-                   world.get_region("Nutty Noon Stage 2 Room 6"),
-                   world.get_region("Nutty Noon Stage 2 Room 7"),
-                   world.get_region("Nutty Noon Stage 2 Room 8")]
+    FiveTwoRooms = [world.get_region(EXStatus + "Nutty Noon Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 8")]
 
-    FiveThreeRooms = [world.get_region("Nutty Noon Stage 3 Room 1"),
-                   world.get_region("Nutty Noon Stage 3 Room 2"),
-                   world.get_region("Nutty Noon Stage 3 Room 3"),
-                   world.get_region("Nutty Noon Stage 3 Room 4"),
-                   world.get_region("Nutty Noon Stage 3 Room 5"),
-                   world.get_region("Nutty Noon Stage 3 Room 6"),
-                   world.get_region("Nutty Noon Stage 3 Room 7"),
-                   world.get_region("Nutty Noon Stage 3 Room 8")]
+    FiveThreeRooms = [world.get_region(EXStatus + "Nutty Noon Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 8")]
 
-    FiveFourRooms = [world.get_region("Nutty Noon Stage 4 Room 1"),
-                   world.get_region("Nutty Noon Stage 4 Room 2"),
-                   world.get_region("Nutty Noon Stage 4 Room 3"),
-                   world.get_region("Nutty Noon Stage 4 Room 4"),
-                   world.get_region("Nutty Noon Stage 4 Room 5"),
-                   world.get_region("Nutty Noon Stage 4 Room 6"),
-                   world.get_region("Nutty Noon Stage 4 Room 7"),
-                   world.get_region("Nutty Noon Stage 4 Room 8")]
+    FiveFourRooms = [world.get_region(EXStatus + "Nutty Noon Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 8")]
 
-    FiveFiveRooms = [world.get_region("Nutty Noon Stage 5 Room 1"),
-                   world.get_region("Nutty Noon Stage 5 Room 2"),
-                   world.get_region("Nutty Noon Stage 5 Room 3"),
-                   world.get_region("Nutty Noon Stage 5 Room 4"),
-                   world.get_region("Nutty Noon Stage 5 Room 5"),
-                   world.get_region("Nutty Noon Stage 5 Room 6"),
-                   world.get_region("Nutty Noon Stage 5 Room 7"),
-                   world.get_region("Nutty Noon Stage 5 Room 8"),
-                   world.get_region("Nutty Noon Stage 5 Room 9"),
-                   world.get_region("Nutty Noon Stage 5 Room 10"),
-                   world.get_region("Nutty Noon Stage 5 Room 11"),
-                   world.get_region("Nutty Noon Stage 5 Room 12"),
-                   world.get_region("Nutty Noon Stage 5 Room 13"),
-                   world.get_region("Nutty Noon Stage 5 Room 14"),
-                   world.get_region("Nutty Noon Stage 5 Room 15"),
-                   world.get_region("Nutty Noon Stage 5 Room 16"),
-                   world.get_region("Nutty Noon Stage 5 Room 17"),
-                   world.get_region("Nutty Noon Stage 5 Room 18"),
-                   world.get_region("Nutty Noon Stage 5 Room 19"),
-                   world.get_region("Nutty Noon Stage 5 Room 20"),
-                   world.get_region("Nutty Noon Stage 5 Room 21"),
-                   world.get_region("Nutty Noon Stage 5 Room 22"),
-                   world.get_region("Nutty Noon Stage 5 Room 23"),
-                   world.get_region("Nutty Noon Stage 5 Room 24"),
-                   world.get_region("Nutty Noon Stage 5 Room 25"),
-                   world.get_region("Nutty Noon Stage 5 Room 26"),
-                   world.get_region("Nutty Noon Stage 5 Room 27"),
-                   world.get_region("Nutty Noon Stage 5 Room 28")]
-    FiveFiveGoalRegion = world.get_region("Nutty Noon Stage 5 Goal Region")
+    FiveFiveRooms = [world.get_region(EXStatus + "Nutty Noon Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 8"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 9"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 10"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 11"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 12"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 13"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 14"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 15"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 16"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 17"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 18"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 19"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 20"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 21"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 22"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 23"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 24"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 25"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 26"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 27"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 28")]
+    FiveFiveGoalRegion = world.get_region(EXStatus + "Nutty Noon Stage 5 Goal Region")
 
-    FiveSixRooms = [world.get_region("Nutty Noon Stage 6 Room 1"),
-                   world.get_region("Nutty Noon Stage 6 Room 2")]
+    FiveSixRooms = [world.get_region(EXStatus + "Nutty Noon Stage 6 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 6 Room 2")]
 
-    SixOneRooms = [world.get_region("Egg Engines Stage 1 Room 1"),
-                   world.get_region("Egg Engines Stage 1 Room 2"),
-                   world.get_region("Egg Engines Stage 1 Room 3"),
-                   world.get_region("Egg Engines Stage 1 Room 4"),
-                   world.get_region("Egg Engines Stage 1 Room 5"),
-                   world.get_region("Egg Engines Stage 1 Room 6"),
-                   world.get_region("Egg Engines Stage 1 Room 7"),
-                   world.get_region("Egg Engines Stage 1 Room 8"),
-                   world.get_region("Egg Engines Stage 1 Room 9"),
-                   world.get_region("Egg Engines Stage 1 Room 10"),
-                   world.get_region("Egg Engines Stage 1 Room 11")]
+    SixOneRooms = [world.get_region(EXStatus + "Egg Engines Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 9"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 10"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 11")]
 
-    SixTwoRooms = [world.get_region("Egg Engines Stage 2 Room 1"),
-                   world.get_region("Egg Engines Stage 2 Room 2"),
-                   world.get_region("Egg Engines Stage 2 Room 3"),
-                   world.get_region("Egg Engines Stage 2 Room 4"),
-                   world.get_region("Egg Engines Stage 2 Room 5"),
-                   world.get_region("Egg Engines Stage 2 Room 6"),
-                   world.get_region("Egg Engines Stage 2 Room 7"),
-                   world.get_region("Egg Engines Stage 2 Room 8"),
-                   world.get_region("Egg Engines Stage 2 Room 9"),
-                   world.get_region("Egg Engines Stage 2 Room 10"),
-                   world.get_region("Egg Engines Stage 2 Room 11"),
-                   world.get_region("Egg Engines Stage 2 Room 12"),
-                   world.get_region("Egg Engines Stage 2 Room 13")]
+    SixTwoRooms = [world.get_region(EXStatus + "Egg Engines Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 9"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 10"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 11"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 12"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 13")]
 
-    SixThreeRooms = [world.get_region("Egg Engines Stage 3 Room 1"),
-                   world.get_region("Egg Engines Stage 3 Room 2"),
-                   world.get_region("Egg Engines Stage 3 Room 3"),
-                   world.get_region("Egg Engines Stage 3 Room 4"),
-                   world.get_region("Egg Engines Stage 3 Room 5"),
-                   world.get_region("Egg Engines Stage 3 Room 6"),
-                   world.get_region("Egg Engines Stage 3 Room 7"),
-                   world.get_region("Egg Engines Stage 3 Room 8")]
+    SixThreeRooms = [world.get_region(EXStatus + "Egg Engines Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 8")]
 
-    SixFourRooms = [world.get_region("Egg Engines Stage 4 Room 1"),
-                   world.get_region("Egg Engines Stage 4 Room 2"),
-                   world.get_region("Egg Engines Stage 4 Room 3"),
-                   world.get_region("Egg Engines Stage 4 Room 4"),
-                   world.get_region("Egg Engines Stage 4 Room 5"),
-                   world.get_region("Egg Engines Stage 4 Room 6"),
-                   world.get_region("Egg Engines Stage 4 Room 7")]
+    SixFourRooms = [world.get_region(EXStatus + "Egg Engines Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 7")]
 
-    SixFiveRooms = [world.get_region("Egg Engines Stage 5 Room 1"),
-                   world.get_region("Egg Engines Stage 5 Room 2"),
-                   world.get_region("Egg Engines Stage 5 Room 3"),
-                   world.get_region("Egg Engines Stage 5 Room 4"),
-                   world.get_region("Egg Engines Stage 5 Room 5"),
-                   world.get_region("Egg Engines Stage 5 Room 6"),
-                   world.get_region("Egg Engines Stage 5 Room 7"),
-                   world.get_region("Egg Engines Stage 5 Room 8")]
+    SixFiveRooms = [world.get_region(EXStatus + "Egg Engines Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 8")]
 
-    SixSixRooms = [world.get_region("Egg Engines Stage 6 Room 1"),
-                   world.get_region("Egg Engines Stage 6 Room 2")]
+    SixSixRooms = [world.get_region(EXStatus + "Egg Engines Stage 6 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 6 Room 2")]
     
-    SevenOneRooms = [world.get_region("Dangerous Dinner Stage 1 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 9")]
+    SevenOneRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 9")]
 
-    SevenTwoRooms = [world.get_region("Dangerous Dinner Stage 2 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 9"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 10")]
+    SevenTwoRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 9"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 10")]
 
-    SevenThreeRooms = [world.get_region("Dangerous Dinner Stage 3 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 9"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 10"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 11"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 12"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 13")]
+    SevenThreeRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 9"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 10"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 11"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 12"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 13")]
 
-    SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 4 Room 2")]
+    SevenFourRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 4 Room 2")]
     
     OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 1 - Complete"]), KRtDLLocation)
     OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 2 - Complete"]), KRtDLLocation)
@@ -3091,13 +3091,13 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
         FiveFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation)
         
         
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 4/16 - Energy Sphere"]), KRtDLLocation)
+        world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 4/16 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7/20 - Energy Sphere"]), KRtDLLocation)
+        world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7/20 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #3").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 10/23 - Energy Sphere"]), KRtDLLocation)
+        world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 10/23 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 13/26 - Energy Sphere"]), KRtDLLocation)
+        world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 13/26 - Energy Sphere"]), KRtDLLocation)
         
 
         SixOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
@@ -5216,11 +5216,11 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     HalcandraMapRegion.connect(EggEnginesHub, "Halcandra Map To " + EXStatus + "Egg Engines Hub")
     HalcandraMapRegion.connect(DangerousDinnerHub, "Halcandra Map To " + EXStatus + "Dangerous Dinner Hub")
     
-    OneOneRooms = [world.get_region("Cookie Country Stage 1 Room 1"),
-                   world.get_region("Cookie Country Stage 1 Room 2"),
-                   world.get_region("Cookie Country Stage 1 Room 3"),
-                   world.get_region("Cookie Country Stage 1 Room 4"),
-                  world.get_region("Cookie Country Stage 1 Room 5")]
+    OneOneRooms = [world.get_region(EXStatus + "Cookie Country Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 1 Room 4"),
+                  world.get_region(EXStatus + "Cookie Country Stage 1 Room 5")]
 
     CookieCountryHub.connect(OneOneRooms[0], "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 1 Room 1")
     OneOneRooms[0].connect(OneOneRooms[1], "Cookie Country Stage 1 Room 1-2")
@@ -5228,12 +5228,12 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     OneOneRooms[2].connect(OneOneRooms[3], "Cookie Country Stage 1 Room 3-4")
     OneOneRooms[3].connect(OneOneRooms[4], "Cookie Country Stage 1 Room 4-5")
 
-    OneTwoRooms = [world.get_region("Cookie Country Stage 2 Room 1"),
-                   world.get_region("Cookie Country Stage 2 Room 2"),
-                   world.get_region("Cookie Country Stage 2 Room 3"),
-                   world.get_region("Cookie Country Stage 2 Room 4"),
-                   world.get_region("Cookie Country Stage 2 Room 5"),
-                  world.get_region("Cookie Country Stage 2 Room 6")]
+    OneTwoRooms = [world.get_region(EXStatus + "Cookie Country Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Cookie Country Stage 2 Room 5"),
+                  world.get_region(EXStatus + "Cookie Country Stage 2 Room 6")]
 
     CookieCountryHub.connect(OneTwoRooms[0], "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 2 Room 1")
     OneTwoRooms[0].connect(OneTwoRooms[1], "Cookie Country Stage 2 Room 1-2")
@@ -5242,11 +5242,11 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     OneTwoRooms[3].connect(OneTwoRooms[4], "Cookie Country Stage 2 Room 4-5")
     OneTwoRooms[3].connect(OneTwoRooms[5], "Cookie Country Stage 2 Room 4-6")
     
-    OneThreeRooms = [world.get_region("Cookie Country Stage 3 Room 1"),
-                   world.get_region("Cookie Country Stage 3 Room 2"),
-                   world.get_region("Cookie Country Stage 3 Room 3"),
-                   world.get_region("Cookie Country Stage 3 Room 4"),
-                  world.get_region("Cookie Country Stage 3 Room 5")]
+    OneThreeRooms = [world.get_region(EXStatus + "Cookie Country Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 3 Room 4"),
+                  world.get_region(EXStatus + "Cookie Country Stage 3 Room 5")]
 
     CookieCountryHub.connect(OneThreeRooms[0], "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 3 Room 1")
     OneThreeRooms[0].connect(OneThreeRooms[1], "Cookie Country Stage 3 Room 1-2")
@@ -5254,13 +5254,13 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     OneThreeRooms[2].connect(OneThreeRooms[3], "Cookie Country Stage 3 Room 3-4")
     OneThreeRooms[3].connect(OneThreeRooms[4], "Cookie Country Stage 3 Room 4-5")
     
-    OneFourRooms = [world.get_region("Cookie Country Stage 4 Room 1"),
-                   world.get_region("Cookie Country Stage 4 Room 2"),
-                   world.get_region("Cookie Country Stage 4 Room 3"),
-                   world.get_region("Cookie Country Stage 4 Room 4"),
-                   world.get_region("Cookie Country Stage 4 Room 5"),
-                   world.get_region("Cookie Country Stage 4 Room 6"),
-                   world.get_region("Cookie Country Stage 4 Room 7")]
+    OneFourRooms = [world.get_region(EXStatus + "Cookie Country Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Cookie Country Stage 4 Room 7")]
 
     CookieCountryHub.connect(OneFourRooms[0], "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 4 Room 1")
     OneFourRooms[0].connect(OneFourRooms[1], "Cookie Country Stage 4 Room 1-2")
@@ -5271,19 +5271,19 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     OneFourRooms[4].connect(OneFourRooms[5], "Cookie Country Stage 4 Room 5-6")
     OneFourRooms[5].connect(OneFourRooms[6], "Cookie Country Stage 4 Room 6-7")
     
-    OneFiveRegion = world.get_region("Cookie Country Stage 5 Room 1")
+    OneFiveRegion = world.get_region(EXStatus + "Cookie Country Stage 5 Room 1")
 
     CookieCountryHub.connect(OneFiveRegion, "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 5")
 
     
-    TwoOneRooms = [world.get_region("Raisin Ruins Stage 1 Room 1"),
-                   world.get_region("Raisin Ruins Stage 1 Room 2"),
-                   world.get_region("Raisin Ruins Stage 1 Room 3"),
-                   world.get_region("Raisin Ruins Stage 1 Room 4"),
-                   world.get_region("Raisin Ruins Stage 1 Room 5"),
-                   world.get_region("Raisin Ruins Stage 1 Room 6"),
-                   world.get_region("Raisin Ruins Stage 1 Room 7"),
-                  world.get_region("Raisin Ruins Stage 1 Room 8")]
+    TwoOneRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 7"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 8")]
 
     RaisinRuinsHub.connect(TwoOneRooms[0], "Raisin Ruins Hub To " + EXStatus + "Raisin Ruins Stage 1 Room 1")
     TwoOneRooms[0].connect(TwoOneRooms[1], "Raisin Ruins Stage 1 Room 1-2")
@@ -5294,16 +5294,16 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     TwoOneRooms[5].connect(TwoOneRooms[6], "Raisin Ruins Stage 1 Room 6-7")
     TwoOneRooms[6].connect(TwoOneRooms[7], "Raisin Ruins Stage 1 Room 7-8")
     
-    TwoTwoRooms = [world.get_region("Raisin Ruins Stage 2 Room 1"),
-                   world.get_region("Raisin Ruins Stage 2 Room 2"),
-                   world.get_region("Raisin Ruins Stage 2 Room 3"),
-                   world.get_region("Raisin Ruins Stage 2 Room 4"),
-                   world.get_region("Raisin Ruins Stage 2 Room 5"),
-                   world.get_region("Raisin Ruins Stage 2 Room 6"),
-                   world.get_region("Raisin Ruins Stage 2 Room 7"),
-                   world.get_region("Raisin Ruins Stage 2 Room 8"),
-                   world.get_region("Raisin Ruins Stage 2 Room 9"),
-                  world.get_region("Raisin Ruins Stage 2 Room 10")]
+    TwoTwoRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 9"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 2 Room 10")]
 
     RaisinRuinsHub.connect(TwoTwoRooms[0], "Raisin Ruins Hub To " + EXStatus + "Raisin Ruins Stage 2 Room 1")
     TwoTwoRooms[0].connect(TwoTwoRooms[1], "Raisin Ruins Stage 2 Room 1-2")
@@ -5316,12 +5316,12 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     TwoTwoRooms[7].connect(TwoTwoRooms[8], "Raisin Ruins Stage 2 Room 8-9")
     TwoTwoRooms[8].connect(TwoTwoRooms[9], "Raisin Ruins Stage 2 Room 9-10")
 
-    TwoThreeRooms = [world.get_region("Raisin Ruins Stage 3 Room 1"),
-                   world.get_region("Raisin Ruins Stage 3 Room 2"),
-                   world.get_region("Raisin Ruins Stage 3 Room 3"),
-                   world.get_region("Raisin Ruins Stage 3 Room 4"),
-                   world.get_region("Raisin Ruins Stage 3 Room 5"),
-                   world.get_region("Raisin Ruins Stage 3 Room 6")]
+    TwoThreeRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 3 Room 6")]
 
     RaisinRuinsHub.connect(TwoThreeRooms[0], "Raisin Ruins Hub To " + EXStatus + "Raisin Ruins Stage 3 Room 1")
     TwoThreeRooms[0].connect(TwoThreeRooms[1], "Raisin Ruins Stage 3 Room 1-2")
@@ -5330,16 +5330,16 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     TwoThreeRooms[3].connect(TwoThreeRooms[4], "Raisin Ruins Stage 3 Room 4-5")
     TwoThreeRooms[4].connect(TwoThreeRooms[5], "Raisin Ruins Stage 3 Room 5-6")
     
-    TwoFourRooms = [world.get_region("Raisin Ruins Stage 4 Room 1"),
-                   world.get_region("Raisin Ruins Stage 4 Room 2"),
-                   world.get_region("Raisin Ruins Stage 4 Room 3"),
-                   world.get_region("Raisin Ruins Stage 4 Room 4"),
-                   world.get_region("Raisin Ruins Stage 4 Room 5"),
-                   world.get_region("Raisin Ruins Stage 4 Room 6"),
-                   world.get_region("Raisin Ruins Stage 4 Room 7"),
-                   world.get_region("Raisin Ruins Stage 4 Room 8"),
-                   world.get_region("Raisin Ruins Stage 4 Room 9"),
-                  world.get_region("Raisin Ruins Stage 4 Room 10")]
+    TwoFourRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 8"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 9"),
+                  world.get_region(EXStatus + "Raisin Ruins Stage 4 Room 10")]
 
     RaisinRuinsHub.connect(TwoFourRooms[0], "Raisin Ruins Hub To " + EXStatus + "Raisin Ruins Stage 4 Room 1")
     TwoFourRooms[0].connect(TwoFourRooms[1], "Raisin Ruins Stage 4 Room 1-2")
@@ -5352,22 +5352,22 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     TwoFourRooms[7].connect(TwoFourRooms[8], "Raisin Ruins Stage 4 Room 8-9")
     TwoFourRooms[8].connect(TwoFourRooms[9], "Raisin Ruins Stage 4 Room 9-10")
     
-    TwoFiveRooms = [world.get_region("Raisin Ruins Stage 5 Room 1"),
-                   world.get_region("Raisin Ruins Stage 5 Room 2")]
+    TwoFiveRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Raisin Ruins Stage 5 Room 2")]
 
     RaisinRuinsHub.connect(TwoFiveRooms[0], "Raisin Ruins Hub To " + EXStatus + "Raisin Ruins Stage 5 Room 1")
     TwoFiveRooms[0].connect(TwoFiveRooms[1], "Raisin Ruins Stage 5 Room 1-2")
 
     
-    ThreeOneRooms = [world.get_region("Onion Ocean Stage 1 Room 1"),
-                   world.get_region("Onion Ocean Stage 1 Room 2"),
-                   world.get_region("Onion Ocean Stage 1 Room 3"),
-                   world.get_region("Onion Ocean Stage 1 Room 4"),
-                   world.get_region("Onion Ocean Stage 1 Room 5"),
-                   world.get_region("Onion Ocean Stage 1 Room 6"),
-                   world.get_region("Onion Ocean Stage 1 Room 7"),
-                   world.get_region("Onion Ocean Stage 1 Room 8"),
-                   world.get_region("Onion Ocean Stage 1 Room 9")]
+    ThreeOneRooms = [world.get_region(EXStatus + "Onion Ocean Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 1 Room 9")]
 
     OnionOceanHub.connect(ThreeOneRooms[0], "Onion Ocean Hub To " + EXStatus + "Onion Ocean Stage 1 Room 1")
     ThreeOneRooms[0].connect(ThreeOneRooms[1], "Onion Ocean Stage 1 Room 1-2")
@@ -5379,12 +5379,12 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     ThreeOneRooms[6].connect(ThreeOneRooms[7], "Onion Ocean Stage 1 Room 7-8")
     ThreeOneRooms[7].connect(ThreeOneRooms[8], "Onion Ocean Stage 1 Room 8-9")
     
-    ThreeTwoRooms = [world.get_region("Onion Ocean Stage 2 Room 1"),
-                   world.get_region("Onion Ocean Stage 2 Room 2"),
-                   world.get_region("Onion Ocean Stage 2 Room 3"),
-                   world.get_region("Onion Ocean Stage 2 Room 4"),
-                   world.get_region("Onion Ocean Stage 2 Room 5"),
-                   world.get_region("Onion Ocean Stage 2 Room 6")]
+    ThreeTwoRooms = [world.get_region(EXStatus + "Onion Ocean Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 2 Room 6")]
 
     OnionOceanHub.connect(ThreeTwoRooms[0], "Onion Ocean Hub To " + EXStatus + "Onion Ocean Stage 2 Room 1")
     ThreeTwoRooms[0].connect(ThreeTwoRooms[1], "Onion Ocean Stage 2 Room 1-2")
@@ -5393,16 +5393,16 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     ThreeTwoRooms[2].connect(ThreeTwoRooms[4], "Onion Ocean Stage 2 Room 3-5")
     ThreeTwoRooms[4].connect(ThreeTwoRooms[5], "Onion Ocean Stage 2 Room 5-6")
 
-    ThreeThreeRooms = [world.get_region("Onion Ocean Stage 3 Room 1"),
-                   world.get_region("Onion Ocean Stage 3 Room 2"),
-                   world.get_region("Onion Ocean Stage 3 Room 3"),
-                   world.get_region("Onion Ocean Stage 3 Room 4"),
-                   world.get_region("Onion Ocean Stage 3 Room 5"),
-                   world.get_region("Onion Ocean Stage 3 Room 6"),
-                   world.get_region("Onion Ocean Stage 3 Room 7"),
-                   world.get_region("Onion Ocean Stage 3 Room 8"),
-                   world.get_region("Onion Ocean Stage 3 Room 9"),
-                   world.get_region("Onion Ocean Stage 3 Room 10")]
+    ThreeThreeRooms = [world.get_region(EXStatus + "Onion Ocean Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 8"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 9"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 3 Room 10")]
 
     OnionOceanHub.connect(ThreeThreeRooms[0], "Onion Ocean Hub To " + EXStatus + "Onion Ocean Stage 3 Room 1")
     ThreeThreeRooms[0].connect(ThreeThreeRooms[1], "Onion Ocean Stage 3 Room 1-2")
@@ -5415,14 +5415,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     ThreeThreeRooms[7].connect(ThreeThreeRooms[8], "Onion Ocean Stage 3 Room 8-9")
     ThreeThreeRooms[8].connect(ThreeThreeRooms[9], "Onion Ocean Stage 3 Room 9-10")
     
-    ThreeFourRooms = [world.get_region("Onion Ocean Stage 4 Room 1"),
-                   world.get_region("Onion Ocean Stage 4 Room 2"),
-                   world.get_region("Onion Ocean Stage 4 Room 3"),
-                   world.get_region("Onion Ocean Stage 4 Room 4"),
-                   world.get_region("Onion Ocean Stage 4 Room 5"),
-                   world.get_region("Onion Ocean Stage 4 Room 6"),
-                   world.get_region("Onion Ocean Stage 4 Room 7"),
-                   world.get_region("Onion Ocean Stage 4 Room 8")]
+    ThreeFourRooms = [world.get_region(EXStatus + "Onion Ocean Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 4 Room 8")]
 
     OnionOceanHub.connect(ThreeFourRooms[0], "Onion Ocean Hub To " + EXStatus + "Onion Ocean Stage 4 Room 1")
     ThreeFourRooms[0].connect(ThreeFourRooms[1], "Onion Ocean Stage 4 Room 1-2")
@@ -5433,18 +5433,18 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     ThreeFourRooms[5].connect(ThreeFourRooms[6], "Onion Ocean Stage 4 Room 6-7")
     ThreeFourRooms[6].connect(ThreeFourRooms[7], "Onion Ocean Stage 4 Room 7-8")
 
-    ThreeFiveRooms = [world.get_region("Onion Ocean Stage 5 Room 1"),
-                   world.get_region("Onion Ocean Stage 5 Room 2")]
+    ThreeFiveRooms = [world.get_region(EXStatus + "Onion Ocean Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Onion Ocean Stage 5 Room 2")]
 
     OnionOceanHub.connect(ThreeFiveRooms[0], "Onion Ocean Hub To " + EXStatus + "Onion Ocean Stage 5 Room 1")
     ThreeFiveRooms[0].connect(ThreeFiveRooms[1], "Onion Ocean Stage 5 Room 1-2")
 
 
-    FourOneRooms = [world.get_region("White Wafers Stage 1 Room 1"),
-                   world.get_region("White Wafers Stage 1 Room 2"),
-                   world.get_region("White Wafers Stage 1 Room 3"),
-                   world.get_region("White Wafers Stage 1 Room 4"),
-                   world.get_region("White Wafers Stage 1 Room 5")]
+    FourOneRooms = [world.get_region(EXStatus + "White Wafers Stage 1 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 1 Room 5")]
 
     WhiteWafersHub.connect(FourOneRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 1 Room 1")
     FourOneRooms[0].connect(FourOneRooms[1], "White Wafers Stage 1 Room 1-2")
@@ -5452,15 +5452,15 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FourOneRooms[2].connect(FourOneRooms[3], "White Wafers Stage 1 Room 3-4")
     FourOneRooms[3].connect(FourOneRooms[4], "White Wafers Stage 1 Room 4-5")
 
-    FourTwoRooms = [world.get_region("White Wafers Stage 2 Room 1"),
-                   world.get_region("White Wafers Stage 2 Room 2"),
-                   world.get_region("White Wafers Stage 2 Room 3"),
-                   world.get_region("White Wafers Stage 2 Room 4"),
-                   world.get_region("White Wafers Stage 2 Room 5"),
-                   world.get_region("White Wafers Stage 2 Room 6"),
-                   world.get_region("White Wafers Stage 2 Room 7"),
-                   world.get_region("White Wafers Stage 2 Room 8"),
-                   world.get_region("White Wafers Stage 2 Room 9")]
+    FourTwoRooms = [world.get_region(EXStatus + "White Wafers Stage 2 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 7"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 8"),
+                   world.get_region(EXStatus + "White Wafers Stage 2 Room 9")]
 
     WhiteWafersHub.connect(FourTwoRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 2 Room 1")
     FourTwoRooms[0].connect(FourTwoRooms[1], "White Wafers Stage 2 Room 1-2")
@@ -5472,12 +5472,12 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FourTwoRooms[6].connect(FourTwoRooms[7], "White Wafers Stage 2 Room 7-8")
     FourTwoRooms[7].connect(FourTwoRooms[8], "White Wafers Stage 2 Room 8-9")
 
-    FourThreeRooms = [world.get_region("White Wafers Stage 3 Room 1"),
-                   world.get_region("White Wafers Stage 3 Room 2"),
-                   world.get_region("White Wafers Stage 3 Room 3"),
-                   world.get_region("White Wafers Stage 3 Room 4"),
-                   world.get_region("White Wafers Stage 3 Room 5"),
-                   world.get_region("White Wafers Stage 3 Room 6")]
+    FourThreeRooms = [world.get_region(EXStatus + "White Wafers Stage 3 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 3 Room 6")]
 
     WhiteWafersHub.connect(FourThreeRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 3 Room 1")
     FourThreeRooms[0].connect(FourThreeRooms[1], "White Wafers Stage 3 Room 1-2")
@@ -5486,13 +5486,13 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FourThreeRooms[3].connect(FourThreeRooms[4], "White Wafers Stage 3 Room 4-5")
     FourThreeRooms[3].connect(FourThreeRooms[5], "White Wafers Stage 3 Room 4-6")
 
-    FourFourRooms = [world.get_region("White Wafers Stage 4 Room 1"),
-                   world.get_region("White Wafers Stage 4 Room 2"),
-                   world.get_region("White Wafers Stage 4 Room 3"),
-                   world.get_region("White Wafers Stage 4 Room 4"),
-                   world.get_region("White Wafers Stage 4 Room 5"),
-                   world.get_region("White Wafers Stage 4 Room 6"),
-                   world.get_region("White Wafers Stage 4 Room 7")]
+    FourFourRooms = [world.get_region(EXStatus + "White Wafers Stage 4 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 4 Room 7")]
 
     WhiteWafersHub.connect(FourFourRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 4 Room 1")
     FourFourRooms[0].connect(FourFourRooms[1], "White Wafers Stage 4 Room 1-2")
@@ -5502,16 +5502,16 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FourFourRooms[4].connect(FourFourRooms[5], "White Wafers Stage 4 Room 5-6")
     FourFourRooms[5].connect(FourFourRooms[6], "White Wafers Stage 4 Room 6-7")
 
-    FourFiveRooms = [world.get_region("White Wafers Stage 5 Room 1"),
-                   world.get_region("White Wafers Stage 5 Room 2"),
-                   world.get_region("White Wafers Stage 5 Room 3"),
-                   world.get_region("White Wafers Stage 5 Room 4"),
-                   world.get_region("White Wafers Stage 5 Room 5"),
-                   world.get_region("White Wafers Stage 5 Room 6"),
-                   world.get_region("White Wafers Stage 5 Room 7"),
-                   world.get_region("White Wafers Stage 5 Room 8"),
-                   world.get_region("White Wafers Stage 5 Room 9"),
-                   world.get_region("White Wafers Stage 5 Room 10")]
+    FourFiveRooms = [world.get_region(EXStatus + "White Wafers Stage 5 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 2"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 3"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 4"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 5"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 6"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 7"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 8"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 9"),
+                   world.get_region(EXStatus + "White Wafers Stage 5 Room 10")]
 
     WhiteWafersHub.connect(FourFiveRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 5 Room 1")
     FourFiveRooms[0].connect(FourFiveRooms[1], "White Wafers Stage 5 Room 1-2")
@@ -5524,21 +5524,21 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FourFiveRooms[7].connect(FourFiveRooms[8], "White Wafers Stage 5 Room 8-9")
     FourFiveRooms[7].connect(FourFiveRooms[9], "White Wafers Stage 5 Room 8-10")
 
-    FourSixRooms = [world.get_region("White Wafers Stage 6 Room 1"),
-                   world.get_region("White Wafers Stage 6 Room 2")]
+    FourSixRooms = [world.get_region(EXStatus + "White Wafers Stage 6 Room 1"),
+                   world.get_region(EXStatus + "White Wafers Stage 6 Room 2")]
 
     WhiteWafersHub.connect(FourSixRooms[0], "White Wafers Hub To " + EXStatus + "White Wafers Stage 6 Room 1")
     FourSixRooms[0].connect(FourSixRooms[1], "White Wafers Stage 6 Room 1-2")
 
-    FiveOneRooms = [world.get_region("Nutty Noon Stage 1 Room 1"),
-                   world.get_region("Nutty Noon Stage 1 Room 2"),
-                   world.get_region("Nutty Noon Stage 1 Room 3"),
-                   world.get_region("Nutty Noon Stage 1 Room 4"),
-                   world.get_region("Nutty Noon Stage 1 Room 5"),
-                   world.get_region("Nutty Noon Stage 1 Room 6"),
-                   world.get_region("Nutty Noon Stage 1 Room 7"),
-                   world.get_region("Nutty Noon Stage 1 Room 8"),
-                   world.get_region("Nutty Noon Stage 1 Room 9")]
+    FiveOneRooms = [world.get_region(EXStatus + "Nutty Noon Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 1 Room 9")]
 
     NuttyNoonHub.connect(FiveOneRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 1 Room 1")
     FiveOneRooms[0].connect(FiveOneRooms[1], "Nutty Noon Stage 1 Room 1-2")
@@ -5550,14 +5550,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveOneRooms[5].connect(FiveOneRooms[7], "Nutty Noon Stage 1 Room 6-8")
     FiveOneRooms[7].connect(FiveOneRooms[8], "Nutty Noon Stage 1 Room 8-9")
 
-    FiveTwoRooms = [world.get_region("Nutty Noon Stage 2 Room 1"),
-                   world.get_region("Nutty Noon Stage 2 Room 2"),
-                   world.get_region("Nutty Noon Stage 2 Room 3"),
-                   world.get_region("Nutty Noon Stage 2 Room 4"),
-                   world.get_region("Nutty Noon Stage 2 Room 5"),
-                   world.get_region("Nutty Noon Stage 2 Room 6"),
-                   world.get_region("Nutty Noon Stage 2 Room 7"),
-                   world.get_region("Nutty Noon Stage 2 Room 8")]
+    FiveTwoRooms = [world.get_region(EXStatus + "Nutty Noon Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 2 Room 8")]
 
     NuttyNoonHub.connect(FiveTwoRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 2 Room 1")
     FiveTwoRooms[0].connect(FiveTwoRooms[1], "Nutty Noon Stage 2 Room 1-2")
@@ -5568,14 +5568,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveTwoRooms[5].connect(FiveTwoRooms[6], "Nutty Noon Stage 2 Room 6-7")
     FiveTwoRooms[6].connect(FiveTwoRooms[7], "Nutty Noon Stage 2 Room 7-8")
 
-    FiveThreeRooms = [world.get_region("Nutty Noon Stage 3 Room 1"),
-                   world.get_region("Nutty Noon Stage 3 Room 2"),
-                   world.get_region("Nutty Noon Stage 3 Room 3"),
-                   world.get_region("Nutty Noon Stage 3 Room 4"),
-                   world.get_region("Nutty Noon Stage 3 Room 5"),
-                   world.get_region("Nutty Noon Stage 3 Room 6"),
-                   world.get_region("Nutty Noon Stage 3 Room 7"),
-                   world.get_region("Nutty Noon Stage 3 Room 8")]
+    FiveThreeRooms = [world.get_region(EXStatus + "Nutty Noon Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 3 Room 8")]
 
     NuttyNoonHub.connect(FiveThreeRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 3 Room 1")
     FiveThreeRooms[0].connect(FiveThreeRooms[1], "Nutty Noon Stage 3 Room 1-2")
@@ -5586,14 +5586,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveThreeRooms[5].connect(FiveThreeRooms[6], "Nutty Noon Stage 3 Room 6-7")
     FiveThreeRooms[6].connect(FiveThreeRooms[7], "Nutty Noon Stage 3 Room 7-8")
 
-    FiveFourRooms = [world.get_region("Nutty Noon Stage 4 Room 1"),
-                   world.get_region("Nutty Noon Stage 4 Room 2"),
-                   world.get_region("Nutty Noon Stage 4 Room 3"),
-                   world.get_region("Nutty Noon Stage 4 Room 4"),
-                   world.get_region("Nutty Noon Stage 4 Room 5"),
-                   world.get_region("Nutty Noon Stage 4 Room 6"),
-                   world.get_region("Nutty Noon Stage 4 Room 7"),
-                   world.get_region("Nutty Noon Stage 4 Room 8")]
+    FiveFourRooms = [world.get_region(EXStatus + "Nutty Noon Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 4 Room 8")]
 
     NuttyNoonHub.connect(FiveFourRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 4 Room 1")
     FiveFourRooms[0].connect(FiveFourRooms[1], "Nutty Noon Stage 4 Room 1-2")
@@ -5604,35 +5604,35 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveFourRooms[4].connect(FiveFourRooms[6], "Nutty Noon Stage 4 Room 5-7")
     FiveFourRooms[3].connect(FiveFourRooms[7], "Nutty Noon Stage 4 Room 4-8")
 
-    FiveFiveRooms = [world.get_region("Nutty Noon Stage 5 Room 1"),
-                   world.get_region("Nutty Noon Stage 5 Room 2"),
-                   world.get_region("Nutty Noon Stage 5 Room 3"),
-                   world.get_region("Nutty Noon Stage 5 Room 4"),
-                   world.get_region("Nutty Noon Stage 5 Room 5"),
-                   world.get_region("Nutty Noon Stage 5 Room 6"),
-                   world.get_region("Nutty Noon Stage 5 Room 7"),
-                   world.get_region("Nutty Noon Stage 5 Room 8"),
-                   world.get_region("Nutty Noon Stage 5 Room 9"),
-                   world.get_region("Nutty Noon Stage 5 Room 10"),
-                   world.get_region("Nutty Noon Stage 5 Room 11"),
-                   world.get_region("Nutty Noon Stage 5 Room 12"),
-                   world.get_region("Nutty Noon Stage 5 Room 13"),
-                   world.get_region("Nutty Noon Stage 5 Room 14"),
-                   world.get_region("Nutty Noon Stage 5 Room 15"),
-                   world.get_region("Nutty Noon Stage 5 Room 16"),
-                   world.get_region("Nutty Noon Stage 5 Room 17"),
-                   world.get_region("Nutty Noon Stage 5 Room 18"),
-                   world.get_region("Nutty Noon Stage 5 Room 19"),
-                   world.get_region("Nutty Noon Stage 5 Room 20"),
-                   world.get_region("Nutty Noon Stage 5 Room 21"),
-                   world.get_region("Nutty Noon Stage 5 Room 22"),
-                   world.get_region("Nutty Noon Stage 5 Room 23"),
-                   world.get_region("Nutty Noon Stage 5 Room 24"),
-                   world.get_region("Nutty Noon Stage 5 Room 25"),
-                   world.get_region("Nutty Noon Stage 5 Room 26"),
-                   world.get_region("Nutty Noon Stage 5 Room 27"),
-                   world.get_region("Nutty Noon Stage 5 Room 28")]
-    FiveFiveGoalRegion = world.get_region("Nutty Noon Stage 5 Goal Region")
+    FiveFiveRooms = [world.get_region(EXStatus + "Nutty Noon Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 2"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 3"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 4"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 5"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 6"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 7"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 8"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 9"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 10"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 11"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 12"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 13"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 14"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 15"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 16"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 17"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 18"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 19"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 20"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 21"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 22"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 23"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 24"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 25"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 26"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 27"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 5 Room 28")]
+    FiveFiveGoalRegion = world.get_region(EXStatus + "Nutty Noon Stage 5 Goal Region")
 
     NuttyNoonHub.connect(FiveFiveRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 5 Room 1")
     FiveFiveRooms[0].connect(FiveFiveRooms[1], "Nutty Noon Stage 5 Room 1-2")
@@ -5664,32 +5664,32 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveFiveRooms[25].connect(FiveFiveRooms[27], "Nutty Noon Stage 5 Room 26-28")
     FiveFiveRooms[26].connect(FiveFiveGoalRegion, "Nutty Noon Stage 5 Room 27 Goal")
     FiveFiveRooms[27].connect(FiveFiveGoalRegion, "Nutty Noon Stage 5 Room 28 Goal")
-    FiveFiveRooms[3].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 4 Energy Sphere")
-    FiveFiveRooms[15].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 16 Energy Sphere")
-    FiveFiveRooms[6].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 7 Energy Sphere")
-    FiveFiveRooms[19].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 20 Energy Sphere")
-    FiveFiveRooms[9].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 10 Energy Sphere")
-    FiveFiveRooms[22].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 23 Energy Sphere")
-    FiveFiveRooms[12].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 13 Energy Sphere")
-    FiveFiveRooms[25].connect(world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 26 Energy Sphere")
+    FiveFiveRooms[3].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 4 Energy Sphere")
+    FiveFiveRooms[15].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 16 Energy Sphere")
+    FiveFiveRooms[6].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 7 Energy Sphere")
+    FiveFiveRooms[19].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 20 Energy Sphere")
+    FiveFiveRooms[9].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 10 Energy Sphere")
+    FiveFiveRooms[22].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 23 Energy Sphere")
+    FiveFiveRooms[12].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 13 Energy Sphere")
+    FiveFiveRooms[25].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 26 Energy Sphere")
 
-    FiveSixRooms = [world.get_region("Nutty Noon Stage 6 Room 1"),
-                   world.get_region("Nutty Noon Stage 6 Room 2")]
+    FiveSixRooms = [world.get_region(EXStatus + "Nutty Noon Stage 6 Room 1"),
+                   world.get_region(EXStatus + "Nutty Noon Stage 6 Room 2")]
 
     NuttyNoonHub.connect(FiveSixRooms[0], "Nutty Noon Hub To " + EXStatus + "Nutty Noon Stage 6 Room 1")
     FiveSixRooms[0].connect(FiveSixRooms[1], "Nutty Noon Stage 6 Room 1-2")
 
-    SixOneRooms = [world.get_region("Egg Engines Stage 1 Room 1"),
-                   world.get_region("Egg Engines Stage 1 Room 2"),
-                   world.get_region("Egg Engines Stage 1 Room 3"),
-                   world.get_region("Egg Engines Stage 1 Room 4"),
-                   world.get_region("Egg Engines Stage 1 Room 5"),
-                   world.get_region("Egg Engines Stage 1 Room 6"),
-                   world.get_region("Egg Engines Stage 1 Room 7"),
-                   world.get_region("Egg Engines Stage 1 Room 8"),
-                   world.get_region("Egg Engines Stage 1 Room 9"),
-                   world.get_region("Egg Engines Stage 1 Room 10"),
-                   world.get_region("Egg Engines Stage 1 Room 11")]
+    SixOneRooms = [world.get_region(EXStatus + "Egg Engines Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 9"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 10"),
+                   world.get_region(EXStatus + "Egg Engines Stage 1 Room 11")]
 
     EggEnginesHub.connect(SixOneRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 1 Room 1")
     SixOneRooms[0].connect(SixOneRooms[1], "Egg Engines Stage 1 Room 1-2")
@@ -5703,19 +5703,19 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SixOneRooms[8].connect(SixOneRooms[9], "Egg Engines Stage 1 Room 9-10")
     SixOneRooms[9].connect(SixOneRooms[10], "Egg Engines Stage 1 Room 10-11")
 
-    SixTwoRooms = [world.get_region("Egg Engines Stage 2 Room 1"),
-                   world.get_region("Egg Engines Stage 2 Room 2"),
-                   world.get_region("Egg Engines Stage 2 Room 3"),
-                   world.get_region("Egg Engines Stage 2 Room 4"),
-                   world.get_region("Egg Engines Stage 2 Room 5"),
-                   world.get_region("Egg Engines Stage 2 Room 6"),
-                   world.get_region("Egg Engines Stage 2 Room 7"),
-                   world.get_region("Egg Engines Stage 2 Room 8"),
-                   world.get_region("Egg Engines Stage 2 Room 9"),
-                   world.get_region("Egg Engines Stage 2 Room 10"),
-                   world.get_region("Egg Engines Stage 2 Room 11"),
-                   world.get_region("Egg Engines Stage 2 Room 12"),
-                   world.get_region("Egg Engines Stage 2 Room 13")]
+    SixTwoRooms = [world.get_region(EXStatus + "Egg Engines Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 9"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 10"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 11"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 12"),
+                   world.get_region(EXStatus + "Egg Engines Stage 2 Room 13")]
 
     EggEnginesHub.connect(SixTwoRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 2 Room 1")
     SixTwoRooms[0].connect(SixTwoRooms[1], "Egg Engines Stage 2 Room 1-2")
@@ -5731,14 +5731,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SixTwoRooms[10].connect(SixTwoRooms[11], "Egg Engines Stage 2 Room 11-12")
     SixTwoRooms[11].connect(SixTwoRooms[12], "Egg Engines Stage 2 Room 12-13")
 
-    SixThreeRooms = [world.get_region("Egg Engines Stage 3 Room 1"),
-                   world.get_region("Egg Engines Stage 3 Room 2"),
-                   world.get_region("Egg Engines Stage 3 Room 3"),
-                   world.get_region("Egg Engines Stage 3 Room 4"),
-                   world.get_region("Egg Engines Stage 3 Room 5"),
-                   world.get_region("Egg Engines Stage 3 Room 6"),
-                   world.get_region("Egg Engines Stage 3 Room 7"),
-                   world.get_region("Egg Engines Stage 3 Room 8")]
+    SixThreeRooms = [world.get_region(EXStatus + "Egg Engines Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 3 Room 8")]
 
     EggEnginesHub.connect(SixThreeRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 3 Room 1")
     SixThreeRooms[0].connect(SixThreeRooms[1], "Egg Engines Stage 3 Room 1-2")
@@ -5749,13 +5749,13 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SixThreeRooms[5].connect(SixThreeRooms[6], "Egg Engines Stage 3 Room 6-7")
     SixThreeRooms[6].connect(SixThreeRooms[7], "Egg Engines Stage 3 Room 7-8")
 
-    SixFourRooms = [world.get_region("Egg Engines Stage 4 Room 1"),
-                   world.get_region("Egg Engines Stage 4 Room 2"),
-                   world.get_region("Egg Engines Stage 4 Room 3"),
-                   world.get_region("Egg Engines Stage 4 Room 4"),
-                   world.get_region("Egg Engines Stage 4 Room 5"),
-                   world.get_region("Egg Engines Stage 4 Room 6"),
-                   world.get_region("Egg Engines Stage 4 Room 7")]
+    SixFourRooms = [world.get_region(EXStatus + "Egg Engines Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 4 Room 7")]
 
     EggEnginesHub.connect(SixFourRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 4 Room 1")
     SixFourRooms[0].connect(SixFourRooms[1], "Egg Engines Stage 4 Room 1-2")
@@ -5765,14 +5765,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SixFourRooms[4].connect(SixFourRooms[5], "Egg Engines Stage 4 Room 5-6")
     SixFourRooms[5].connect(SixFourRooms[6], "Egg Engines Stage 4 Room 6-7")
 
-    SixFiveRooms = [world.get_region("Egg Engines Stage 5 Room 1"),
-                   world.get_region("Egg Engines Stage 5 Room 2"),
-                   world.get_region("Egg Engines Stage 5 Room 3"),
-                   world.get_region("Egg Engines Stage 5 Room 4"),
-                   world.get_region("Egg Engines Stage 5 Room 5"),
-                   world.get_region("Egg Engines Stage 5 Room 6"),
-                   world.get_region("Egg Engines Stage 5 Room 7"),
-                   world.get_region("Egg Engines Stage 5 Room 8")]
+    SixFiveRooms = [world.get_region(EXStatus + "Egg Engines Stage 5 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 2"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 3"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 4"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 5"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 6"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 7"),
+                   world.get_region(EXStatus + "Egg Engines Stage 5 Room 8")]
 
     EggEnginesHub.connect(SixFiveRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 5 Room 1")
     SixFiveRooms[0].connect(SixFiveRooms[1], "Egg Engines Stage 5 Room 1-2")
@@ -5783,21 +5783,21 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SixFiveRooms[5].connect(SixFiveRooms[6], "Egg Engines Stage 5 Room 6-7")
     SixFiveRooms[6].connect(SixFiveRooms[7], "Egg Engines Stage 5 Room 7-8")
 
-    SixSixRooms = [world.get_region("Egg Engines Stage 6 Room 1"),
-                   world.get_region("Egg Engines Stage 6 Room 2")]
+    SixSixRooms = [world.get_region(EXStatus + "Egg Engines Stage 6 Room 1"),
+                   world.get_region(EXStatus + "Egg Engines Stage 6 Room 2")]
 
     EggEnginesHub.connect(SixSixRooms[0], "Egg Engines Hub To " + EXStatus + "Egg Engines Stage 6 Room 1")
     SixSixRooms[0].connect(SixSixRooms[1], "Egg Engines Stage 6 Room 1-2")
     
-    SevenOneRooms = [world.get_region("Dangerous Dinner Stage 1 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 1 Room 9")]
+    SevenOneRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 1 Room 9")]
 
     DangerousDinnerHub.connect(SevenOneRooms[0], "Dangerous Dinner Hub To " + EXStatus + "Dangerous Dinner Stage 1 Room 1")
     SevenOneRooms[0].connect(SevenOneRooms[1], "Dangerous Dinner Stage 1 Room 1-2")
@@ -5809,16 +5809,16 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SevenOneRooms[6].connect(SevenOneRooms[7], "Dangerous Dinner Stage 1 Room 7-8")
     SevenOneRooms[7].connect(SevenOneRooms[8], "Dangerous Dinner Stage 1 Room 8-9")
 
-    SevenTwoRooms = [world.get_region("Dangerous Dinner Stage 2 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 9"),
-                   world.get_region("Dangerous Dinner Stage 2 Room 10")]
+    SevenTwoRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 9"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 2 Room 10")]
 
     DangerousDinnerHub.connect(SevenTwoRooms[0], "Dangerous Dinner Hub To " + EXStatus + "Dangerous Dinner Stage 2 Room 1")
     SevenTwoRooms[0].connect(SevenTwoRooms[1], "Dangerous Dinner Stage 2 Room 1-2")
@@ -5831,19 +5831,19 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SevenTwoRooms[6].connect(SevenTwoRooms[9], "Dangerous Dinner Stage 2 Room 7-10")
     SevenTwoRooms[7].connect(SevenTwoRooms[8], "Dangerous Dinner Stage 2 Room 8-9")
 
-    SevenThreeRooms = [world.get_region("Dangerous Dinner Stage 3 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 2"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 3"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 4"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 5"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 6"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 7"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 8"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 9"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 10"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 11"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 12"),
-                   world.get_region("Dangerous Dinner Stage 3 Room 13")]
+    SevenThreeRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 2"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 3"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 4"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 5"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 6"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 7"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 8"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 9"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 10"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 11"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 12"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 3 Room 13")]
 
     DangerousDinnerHub.connect(SevenThreeRooms[0], "Dangerous Dinner Hub To " + EXStatus + "Dangerous Dinner Stage 3 Room 1")
     SevenThreeRooms[0].connect(SevenThreeRooms[1], "Dangerous Dinner Stage 3 Room 1-2")
@@ -5859,8 +5859,8 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     SevenThreeRooms[8].connect(SevenThreeRooms[11], "Dangerous Dinner Stage 3 Room 9-12")
     SevenThreeRooms[11].connect(SevenThreeRooms[12], "Dangerous Dinner Stage 3 Room 12-13")
 
-    SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
-                   world.get_region("Dangerous Dinner Stage 4 Room 2")]
+    SevenFourRooms = [world.get_region(EXStatus + "Dangerous Dinner Stage 4 Room 1"),
+                   world.get_region(EXStatus + "Dangerous Dinner Stage 4 Room 2")]
 
     DangerousDinnerHub.connect(SevenFourRooms[0], EXStatus + "Dangerous Dinner Hub To " + EXStatus + "Dangerous Dinner Stage 4 Room 1")
     SevenFourRooms[0].connect(SevenFourRooms[1], EXStatus + "Dangerous Dinner Stage 4 Room 1-2")
@@ -5913,8 +5913,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     SevenFourRoomTwo = world.get_region("Dangerous Dinner Stage 4 Room 2")
     SevenFourRoomTwo.connect(AnotherDimension, "Dangerous Dinner Stage 4 To Another Dimension")
     if world.options.extra_sanity:
-        EXAnotherDimension = world.get_region("EX Another Dimension")
-        EXSevenFourRoomTwo = world.get_region("EX Dangerous Dinner Stage 4 Room 2")
+        EXAnotherDimension = world.get_region(EXStatus + "EX Another Dimension")
+        EXSevenFourRoomTwo = world.get_region(EXStatus + "EX Dangerous Dinner Stage 4 Room 2")
         EXSevenFourRoomTwo.connect(AnotherDimension, "EX Dangerous Dinner Stage 4 To Another Dimension")
         EXSevenFourRoomTwo.connect(EXAnotherDimension, "EX Dangerous Dinner Stage 4 To EX Another Dimension")
 
