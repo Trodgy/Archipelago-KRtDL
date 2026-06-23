@@ -6,6 +6,7 @@ class ItemNames(Enum):
     blue_star = "Blue Star"
     flower = "Flower"
     one_up = "1-Up"
+    three_up = "Platinum 3-up"
     food_pickup = "Food Pickup"
     m_tomato = "Maxim Tomato"
     gold_star_ex = "EX Gold Star"
