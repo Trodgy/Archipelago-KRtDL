@@ -84,15 +84,15 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
     world.set_rule(SixOneEntrance, Has("Nutty Noon Stage 6 - Complete"))
     SixTwoEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 2 Room 1")
-    world.set_rule(SixOneEntrance, Has("Egg Engines Stage 1 - Complete"))
+    world.set_rule(SixTwoEntrance, Has("Egg Engines Stage 1 - Complete"))
     SixThreeEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 3 Room 1")
-    world.set_rule(SixOneEntrance, Has("Egg Engines Stage 2 - Complete"))
+    world.set_rule(SixThreeEntrance, Has("Egg Engines Stage 2 - Complete"))
     SixFourEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 4 Room 1")
-    world.set_rule(SixOneEntrance, Has("Egg Engines Stage 3 - Complete"))
+    world.set_rule(SixFourEntrance, Has("Egg Engines Stage 3 - Complete"))
     SixFiveEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 5 Room 1")
-    world.set_rule(SixOneEntrance, Has("Egg Engines Stage 4 - Complete"))
+    world.set_rule(SixFiveEntrance, Has("Egg Engines Stage 4 - Complete"))
     SixSixEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 6 Room 1")
-    world.set_rule(SixOneEntrance, Has("Egg Engines Stage 5 - Complete"))
+    world.set_rule(SixSixEntrance, Has("Egg Engines Stage 5 - Complete"))
     
     SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
     world.set_rule(SevenOneEntrance, Has("Egg Engines Stage 6 - Complete"))
@@ -104,7 +104,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     world.set_rule(SevenFourEntrance, Has("Dangerous Dinner Stage 3 - Complete"))
     
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(SevenOneEntrance, Has("Dangerous Dinner Stage 4 - Complete"))
+    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete"))
     
     #if world.options.extra_sanity:
         
