@@ -5933,8 +5933,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     SevenFourRoomTwo = world.get_region("Dangerous Dinner Stage 4 Room 2")
     SevenFourRoomTwo.connect(AnotherDimension, "Dangerous Dinner Stage 4 To Another Dimension")
     if world.options.extra_sanity:
-        EXAnotherDimension = world.get_region(EXStatus + "EX Another Dimension")
-        EXSevenFourRoomTwo = world.get_region(EXStatus + "EX Dangerous Dinner Stage 4 Room 2")
+        EXAnotherDimension = world.get_region("EX Another Dimension")
+        EXSevenFourRoomTwo = world.get_region("EX Dangerous Dinner Stage 4 Room 2")
         EXSevenFourRoomTwo.connect(AnotherDimension, "EX Dangerous Dinner Stage 4 To Another Dimension")
         EXSevenFourRoomTwo.connect(EXAnotherDimension, "EX Dangerous Dinner Stage 4 To EX Another Dimension")
 
