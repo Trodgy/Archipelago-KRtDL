@@ -67,8 +67,10 @@ compound_stage_completion_table = {}
 for i in StageNames:
     if i != "Another Dimension ":
         stage_completion_table[i + "- Complete"] = BaseLocationID + locationincrement
+        compound_stage_completion_table[i + "- Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
 stage_completion_table["Another Dimension Final Boss - Complete"] = BaseLocationID + locationincrement
+compound_stage_completion_table["Another Dimension Final Boss - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
 #should end at ID 68
     
@@ -2347,14 +2349,15 @@ for i in range(1,14+1):
 extra_sanity_table = {}
 for i in stage_completion_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    compound_stage_completion_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
 
 stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrement
+compound_stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
 stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
+compound_stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
-compound_stage_completion_table.append(stage_completion_table)
-compound_stage_completion_table.append(extra_sanity_table)
 
 for i in energy_sphere_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
