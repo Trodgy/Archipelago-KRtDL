@@ -6022,7 +6022,7 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
 
     if world.options.shuffle_challenges == 1 or world.options.shuffle_challenges == 2:
-        for i in range(1,7+1):
+        for i in ChallengeNames:
             LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Bronze Medal"]), KRtDLLocation)
             LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Silver Medal"]), KRtDLLocation)
             LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Gold Medal"]), KRtDLLocation)
