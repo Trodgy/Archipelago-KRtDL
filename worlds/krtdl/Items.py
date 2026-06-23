@@ -313,15 +313,9 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         for i in range(0,51):
             items.append(world.create_item(ItemNames.m_tomato.value, ItemClassification.useful))
 
-    #assuming all the rewards are red stars, need to verify
-    #ninja dojo 1 is definitely a red star every time
     if world.options.shuffle_subgames:
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
-        items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+        for i in range(0,6):
+            items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
     
     if world.options.shuffle_arena:
         if world.options.extra_sanity:
