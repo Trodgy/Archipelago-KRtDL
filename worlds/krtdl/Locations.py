@@ -5684,14 +5684,14 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     FiveFiveRooms[25].connect(FiveFiveRooms[27], EXStatus + "Nutty Noon Stage 5 Room 26-28")
     FiveFiveRooms[26].connect(FiveFiveGoalRegion, EXStatus + "Nutty Noon Stage 5 Room 27 Goal")
     FiveFiveRooms[27].connect(FiveFiveGoalRegion, EXStatus + "Nutty Noon Stage 5 Room 28 Goal")
-    FiveFiveRooms[3].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 4 Energy Sphere")
-    FiveFiveRooms[15].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), "Nutty Noon Stage 5 Room 16 Energy Sphere")
-    FiveFiveRooms[6].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 7 Energy Sphere")
-    FiveFiveRooms[19].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), "Nutty Noon Stage 5 Room 20 Energy Sphere")
-    FiveFiveRooms[9].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 10 Energy Sphere")
-    FiveFiveRooms[22].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), "Nutty Noon Stage 5 Room 23 Energy Sphere")
-    FiveFiveRooms[12].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 13 Energy Sphere")
-    FiveFiveRooms[25].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), "Nutty Noon Stage 5 Room 26 Energy Sphere")
+    FiveFiveRooms[3].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), EXStatus + "Nutty Noon Stage 5 Room 4 Energy Sphere")
+    FiveFiveRooms[15].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #1"), EXStatus + "Nutty Noon Stage 5 Room 16 Energy Sphere")
+    FiveFiveRooms[6].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), EXStatus + "Nutty Noon Stage 5 Room 7 Energy Sphere")
+    FiveFiveRooms[19].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #2"), EXStatus + "Nutty Noon Stage 5 Room 20 Energy Sphere")
+    FiveFiveRooms[9].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), EXStatus + "Nutty Noon Stage 5 Room 10 Energy Sphere")
+    FiveFiveRooms[22].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #3"), EXStatus + "Nutty Noon Stage 5 Room 23 Energy Sphere")
+    FiveFiveRooms[12].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), EXStatus + "Nutty Noon Stage 5 Room 13 Energy Sphere")
+    FiveFiveRooms[25].connect(world.get_region(EXStatus + "Nutty Noon Stage 5 Energy Sphere Region #4"), EXStatus + "Nutty Noon Stage 5 Room 26 Energy Sphere")
 
     FiveSixRooms = [world.get_region(EXStatus + "Nutty Noon Stage 6 Room 1"),
                    world.get_region(EXStatus + "Nutty Noon Stage 6 Room 2")]
