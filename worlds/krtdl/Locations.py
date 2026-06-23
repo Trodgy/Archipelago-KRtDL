@@ -13,7 +13,7 @@ def get_location_names_with_ids(location_names: list[str]) -> dict[str, int | No
     return {location_name: composite_location[location_name] for location_name in location_names}
 
 def get_stage_complete_location_names_with_ids(location_names: list[str]) -> dict[str, int | None]:
-    return {location_name: stage_completion_table[location_name] for location_name in location_names}
+    return {location_name: compound_stage_completion_table[location_name] for location_name in location_names}
 
 StageNames = [
     "Cookie Country Stage 1 ",
@@ -63,15 +63,12 @@ NonStageNames = [
 
 locationincrement = 0
 stage_completion_table = {}
+compound_stage_completion_table = {}
 for i in StageNames:
     if i != "Another Dimension ":
         stage_completion_table[i + "- Complete"] = BaseLocationID + locationincrement
         locationincrement += 1
 stage_completion_table["Another Dimension Final Boss - Complete"] = BaseLocationID + locationincrement
-locationincrement += 1
-stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrement
-locationincrement += 1
-stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
 #should end at ID 68
     
@@ -2351,6 +2348,14 @@ extra_sanity_table = {}
 for i in stage_completion_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
+
+stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrement
+locationincrement += 1
+stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
+locationincrement += 1
+compound_stage_completion_table += stage_completion_table
+compound_stage_completion_table += extra_sanity_table
+
 for i in energy_sphere_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
