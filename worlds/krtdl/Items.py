@@ -168,9 +168,9 @@ item_table: dict[str, ItemData] = {
     ItemNames.true_arena_completion.value: ItemData(ItemNames.true_arena_completion.value, 134, ItemClassification.progression, 1),
     
     # trap items
-    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 97, ItemClassification.trap),
-    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 98, ItemClassification.trap),
-    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 99, ItemClassification.trap),
+    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 135, ItemClassification.trap),
+    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 136, ItemClassification.trap),
+    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 137, ItemClassification.trap),
 }
 
 def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
