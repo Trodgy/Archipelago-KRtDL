@@ -2861,332 +2861,332 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
     SevenFourRooms = [world.get_region("Dangerous Dinner Stage 4 Room 1"),
                    world.get_region("Dangerous Dinner Stage 4 Room 2")]
     
-    OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 1 - Complete"]), KRtDLLocation)
-    OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 2 - Complete"]), KRtDLLocation)
-    OneThreeRooms[4].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 3 - Complete"]), KRtDLLocation)
-    OneFourRooms[4].add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 4 - Complete"]), KRtDLLocation)
-    OneFiveRegion.add_locations(get_stage_complete_location_names_with_ids(["Cookie Country Stage 5 - Complete"]), KRtDLLocation)
-    TwoOneRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 1 - Complete"]), KRtDLLocation)
-    TwoTwoRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 2 - Complete"]), KRtDLLocation)
-    TwoThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 3 - Complete"]), KRtDLLocation)
-    TwoFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 4 - Complete"]), KRtDLLocation)
-    TwoFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Raisin Ruins Stage 5 - Complete"]), KRtDLLocation)
-    ThreeOneRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 1 - Complete"]), KRtDLLocation)
-    ThreeTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 2 - Complete"]), KRtDLLocation)
-    ThreeThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 3 - Complete"]), KRtDLLocation)
-    ThreeFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 4 - Complete"]), KRtDLLocation)
-    ThreeFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Onion Ocean Stage 5 - Complete"]), KRtDLLocation)
-    FourOneRooms[4].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 1 - Complete"]), KRtDLLocation)
-    FourTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 2 - Complete"]), KRtDLLocation)
-    FourThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 3 - Complete"]), KRtDLLocation)
-    FourFourRooms[4].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 4 - Complete"]), KRtDLLocation)
-    FourFiveRooms[9].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 5 - Complete"]), KRtDLLocation)
-    FourSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["White Wafers Stage 6 - Complete"]), KRtDLLocation)
-    FiveOneRooms[8].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 1 - Complete"]), KRtDLLocation)
-    FiveTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 2 - Complete"]), KRtDLLocation)
-    FiveThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 3 - Complete"]), KRtDLLocation)
-    FiveFourRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 4 - Complete"]), KRtDLLocation)
-    FiveFiveGoalRegion.add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 5 - Complete"]), KRtDLLocation)
-    FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
-    SixOneRooms[8].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 1 - Complete"]), KRtDLLocation)
-    SixTwoRooms[12].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 2 - Complete"]), KRtDLLocation)
-    SixThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 3 - Complete"]), KRtDLLocation)
-    SixFourRooms[5].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 4 - Complete"]), KRtDLLocation)
-    SixFiveRooms[7].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 5 - Complete"]), KRtDLLocation)
-    SixSixRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Egg Engines Stage 6 - Complete"]), KRtDLLocation)
-    SevenOneRooms[6].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 1 - Complete"]), KRtDLLocation)
-    SevenTwoRooms[9].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 2 - Complete"]), KRtDLLocation)
-    SevenThreeRooms[11].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 3 - Complete"]), KRtDLLocation)
-    SevenFourRooms[1].add_locations(get_stage_complete_location_names_with_ids(["Dangerous Dinner Stage 4 - Complete"]), KRtDLLocation)
-    AnotherDimension.add_locations(get_stage_complete_location_names_with_ids(["Another Dimension Final Boss - Complete"]), KRtDLLocation)
+    OneOneRooms[2].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 1 - Complete"]), KRtDLLocation)
+    OneTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 2 - Complete"]), KRtDLLocation)
+    OneThreeRooms[4].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 3 - Complete"]), KRtDLLocation)
+    OneFourRooms[4].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 4 - Complete"]), KRtDLLocation)
+    OneFiveRegion.add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Cookie Country Stage 5 - Complete"]), KRtDLLocation)
+    TwoOneRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 - Complete"]), KRtDLLocation)
+    TwoTwoRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 - Complete"]), KRtDLLocation)
+    TwoThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 - Complete"]), KRtDLLocation)
+    TwoFourRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 - Complete"]), KRtDLLocation)
+    TwoFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Raisin Ruins Stage 5 - Complete"]), KRtDLLocation)
+    ThreeOneRooms[6].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 - Complete"]), KRtDLLocation)
+    ThreeTwoRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 - Complete"]), KRtDLLocation)
+    ThreeThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 - Complete"]), KRtDLLocation)
+    ThreeFourRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 - Complete"]), KRtDLLocation)
+    ThreeFiveRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Onion Ocean Stage 5 - Complete"]), KRtDLLocation)
+    FourOneRooms[4].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 1 - Complete"]), KRtDLLocation)
+    FourTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 2 - Complete"]), KRtDLLocation)
+    FourThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 3 - Complete"]), KRtDLLocation)
+    FourFourRooms[4].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 4 - Complete"]), KRtDLLocation)
+    FourFiveRooms[9].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 5 - Complete"]), KRtDLLocation)
+    FourSixRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "White Wafers Stage 6 - Complete"]), KRtDLLocation)
+    FiveOneRooms[8].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 - Complete"]), KRtDLLocation)
+    FiveTwoRooms[6].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 - Complete"]), KRtDLLocation)
+    FiveThreeRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 - Complete"]), KRtDLLocation)
+    FiveFourRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 - Complete"]), KRtDLLocation)
+    FiveFiveGoalRegion.add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 - Complete"]), KRtDLLocation)
+    FiveSixRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Nutty Noon Stage 6 - Complete"]), KRtDLLocation)
+    SixOneRooms[8].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 1 - Complete"]), KRtDLLocation)
+    SixTwoRooms[12].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 2 - Complete"]), KRtDLLocation)
+    SixThreeRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 3 - Complete"]), KRtDLLocation)
+    SixFourRooms[5].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 4 - Complete"]), KRtDLLocation)
+    SixFiveRooms[7].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 5 - Complete"]), KRtDLLocation)
+    SixSixRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Egg Engines Stage 6 - Complete"]), KRtDLLocation)
+    SevenOneRooms[6].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 - Complete"]), KRtDLLocation)
+    SevenTwoRooms[9].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 - Complete"]), KRtDLLocation)
+    SevenThreeRooms[11].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 - Complete"]), KRtDLLocation)
+    SevenFourRooms[1].add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 4 - Complete"]), KRtDLLocation)
+    AnotherDimension.add_locations(get_stage_complete_location_names_with_ids([EXStatus + "Another Dimension Final Boss - Complete"]), KRtDLLocation)
     
     
     if world.options.shuffle_energy_spheres:
-        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
+        OneOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
          
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 5 - Energy Sphere #1"]), KRtDLLocation)
          
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation) 
-         
-
-        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
-         
-        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
-         
-        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        OneOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 5 - Energy Sphere #2"]), KRtDLLocation) 
          
 
-        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+        OneTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
          
-        OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
-         
-
-        OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
-         
-        OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
-         
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
-         
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
+        OneTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation) 
          
 
-
-        TwoOneRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
          
-        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        OneThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation) 
-         
-
-        TwoTwoRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
-         
-        TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
-         
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
-         
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        OneThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
          
 
-        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+        OneFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
          
-        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        OneFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
+        OneFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
          
-        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
-         
-
-        TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
-         
-        TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
-         
-        TwoFourRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
-         
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
-         
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        OneFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
          
 
 
-        ThreeOneRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        TwoOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+        TwoOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
-         
-
-        ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
-         
-        ThreeTwoRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
-         
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #1"]), KRtDLLocation) 
-         
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation) 
+        TwoOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation) 
          
 
-        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+        TwoTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        TwoTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
          
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
          
 
-        ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeFourRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+        TwoThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Energy Sphere"]), KRtDLLocation) 
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
          
-        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+        TwoThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
          
-        ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Energy Sphere"]), KRtDLLocation)
 
-
-
-        FourOneRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 1 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
          
-        FourOneRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        FourOneRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation) 
-
-
-        FourTwoRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
          
-        FourTwoRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 5 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
          
-        FourTwoRooms[8].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 9 - Energy Sphere #1"]), KRtDLLocation) 
-
-        FourTwoRooms[8].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
-
-
-        FourThreeRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+        TwoFourRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
          
-        FourThreeRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+
+
+        ThreeOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
          
-        FourThreeRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
-
-        FourThreeRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
-
-
-        FourFourRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
          
-        FourFourRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
          
-        FourFourRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
 
-        FourFourRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
-
-
-        FourFiveRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 4 - Energy Sphere"]), KRtDLLocation)
+        ThreeTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
          
-        FourFiveRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 6 - Energy Sphere"]), KRtDLLocation)
+        ThreeTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
          
-        FourFiveRooms[8].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 9 - Energy Sphere"]), KRtDLLocation) 
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Energy Sphere #1"]), KRtDLLocation) 
+         
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Energy Sphere #2"]), KRtDLLocation) 
+         
 
-        FourFiveRooms[9].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 10 - Energy Sphere"]), KRtDLLocation) 
+        ThreeThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+         
+        ThreeThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+         
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 10 - Energy Sphere #1"]), KRtDLLocation) 
+         
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 10 - Energy Sphere #2"]), KRtDLLocation) 
+         
+
+        ThreeFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+         
+        ThreeFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+         
+        ThreeFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 6 - Energy Sphere"]), KRtDLLocation) 
+         
+        ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation) 
+         
+        ThreeFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 8 - Energy Sphere"]), KRtDLLocation)
+
+
+
+        FourOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 1 - Energy Sphere"]), KRtDLLocation)
+         
+        FourOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 3 - Energy Sphere"]), KRtDLLocation)
+         
+        FourOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation) 
+
+
+        FourTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
+         
+        FourTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 5 - Energy Sphere"]), KRtDLLocation)
+         
+        FourTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 9 - Energy Sphere #1"]), KRtDLLocation) 
+
+        FourTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 9 - Energy Sphere #2"]), KRtDLLocation) 
+
+
+        FourThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+         
+        FourThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+         
+        FourThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation) 
+
+        FourThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation) 
+
+
+        FourFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+         
+        FourFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+         
+        FourFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation) 
+
+        FourFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation) 
+
+
+        FourFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 4 - Energy Sphere"]), KRtDLLocation)
+         
+        FourFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 6 - Energy Sphere"]), KRtDLLocation)
+         
+        FourFiveRooms[8].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 9 - Energy Sphere"]), KRtDLLocation) 
+
+        FourFiveRooms[9].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 10 - Energy Sphere"]), KRtDLLocation) 
 
         
 
-        FiveOneRooms[4].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        FiveOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
 
-        FiveOneRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 7 - Energy Sphere"]), KRtDLLocation)
+        FiveOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 7 - Energy Sphere"]), KRtDLLocation)
 
-        FiveOneRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation)
+        FiveOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 8 - Energy Sphere"]), KRtDLLocation)
 
-        FiveOneRooms[8].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 9 - Energy Sphere"]), KRtDLLocation)
-
-
-        FiveTwoRooms[2].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
-
-        FiveTwoRooms[4].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 5 - Energy Sphere"]), KRtDLLocation)
-
-        FiveTwoRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 8 - Energy Sphere #1"]), KRtDLLocation)
-
-        FiveTwoRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 8 - Energy Sphere #2"]), KRtDLLocation)
+        FiveOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 9 - Energy Sphere"]), KRtDLLocation)
 
 
-        FiveThreeRooms[2].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+        FiveTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 3 - Energy Sphere"]), KRtDLLocation)
 
-        FiveThreeRooms[4].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+        FiveTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 5 - Energy Sphere"]), KRtDLLocation)
 
-        FiveThreeRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        FiveTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 8 - Energy Sphere #1"]), KRtDLLocation)
 
-        FiveThreeRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 8 - Energy Sphere"]), KRtDLLocation)
+        FiveTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 8 - Energy Sphere #2"]), KRtDLLocation)
+
+
+        FiveThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+
+        FiveThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 5 - Energy Sphere"]), KRtDLLocation)
+
+        FiveThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+
+        FiveThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 8 - Energy Sphere"]), KRtDLLocation)
         
 
-        FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
+        FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - Energy Sphere"]), KRtDLLocation)
 
-        FiveFourRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+        FiveFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
 
-        FiveFourRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation)
+        FiveFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 7 - Energy Sphere #1"]), KRtDLLocation)
 
-        FiveFourRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation)
+        FiveFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 7 - Energy Sphere #2"]), KRtDLLocation)
         
         
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1").add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 4/16 - Energy Sphere"]), KRtDLLocation)
+        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #1").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 4/16 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2").add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 7/20 - Energy Sphere"]), KRtDLLocation)
+        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #2").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7/20 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #3").add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 10/23 - Energy Sphere"]), KRtDLLocation)
+        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #3").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 10/23 - Energy Sphere"]), KRtDLLocation)
 
-        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4").add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 13/26 - Energy Sphere"]), KRtDLLocation)
+        world.get_region("Nutty Noon Stage 5 Energy Sphere Region #4").add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 13/26 - Energy Sphere"]), KRtDLLocation)
         
 
-        SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
+        SixOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 5 - Energy Sphere"]), KRtDLLocation)
 
-        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Energy Sphere #1"]), KRtDLLocation)
+        SixOneRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 11 - Energy Sphere #1"]), KRtDLLocation)
 
-        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Energy Sphere #2"]), KRtDLLocation)
-
-
-        SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
-
-        SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Energy Sphere"]), KRtDLLocation)
-
-        SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - Energy Sphere"]), KRtDLLocation)
-
-        SixTwoRooms[12].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 13 - Energy Sphere"]), KRtDLLocation)
+        SixOneRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 11 - Energy Sphere #2"]), KRtDLLocation)
 
 
-        SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
+        SixTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 6 - Energy Sphere"]), KRtDLLocation)
 
-        SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
+        SixTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 8 - Energy Sphere"]), KRtDLLocation)
 
-        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Energy Sphere #1"]), KRtDLLocation)
+        SixTwoRooms[11].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 12 - Energy Sphere"]), KRtDLLocation)
 
-        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Energy Sphere #2"]), KRtDLLocation)
+        SixTwoRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 13 - Energy Sphere"]), KRtDLLocation)
 
 
-        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+        SixThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 2 - Energy Sphere"]), KRtDLLocation)
 
-        SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+        SixThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 4 - Energy Sphere"]), KRtDLLocation)
 
-        SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+        SixThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 8 - Energy Sphere #1"]), KRtDLLocation)
 
-        SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
+        SixThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 8 - Energy Sphere #2"]), KRtDLLocation)
+
+
+        SixFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 2 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 3 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 4 - Energy Sphere"]), KRtDLLocation)
+
+        SixFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 5 - Energy Sphere"]), KRtDLLocation)
         
-        SixFourRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation)
+        SixFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 7 - Energy Sphere"]), KRtDLLocation)
 
 
-        SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - Energy Sphere"]), KRtDLLocation)
+        SixFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 2 - Energy Sphere"]), KRtDLLocation)
 
-        SixFiveRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 4 - Energy Sphere"]), KRtDLLocation)
+        SixFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 4 - Energy Sphere"]), KRtDLLocation)
 
-        SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Energy Sphere"]), KRtDLLocation)
+        SixFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 6 - Energy Sphere"]), KRtDLLocation)
 
-        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Energy Sphere"]), KRtDLLocation)
+        SixFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 7 - Energy Sphere"]), KRtDLLocation)
         
-        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Energy Sphere"]), KRtDLLocation)
+        SixFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 8 - Energy Sphere"]), KRtDLLocation)
 
 
-        SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
+        SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - Energy Sphere"]), KRtDLLocation)
 
-        SevenOneRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
+        SevenOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 4 - Energy Sphere"]), KRtDLLocation)
         
-        SevenOneRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 6 - Energy Sphere"]), KRtDLLocation)
+        SevenOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 6 - Energy Sphere"]), KRtDLLocation)
 
-        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+        SevenOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 9 - Energy Sphere #1"]), KRtDLLocation)
 
-        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation)
+        SevenOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 9 - Energy Sphere #2"]), KRtDLLocation)
 
 
-        SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Energy Sphere"]), KRtDLLocation)
+        SevenTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 1 - Energy Sphere"]), KRtDLLocation)
 
-        SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
+        SevenTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 2 - Energy Sphere"]), KRtDLLocation)
         
-        SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
+        SevenTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 4 - Energy Sphere"]), KRtDLLocation)
 
-        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Energy Sphere #1"]), KRtDLLocation)
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 9 - Energy Sphere #1"]), KRtDLLocation)
 
-        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Energy Sphere #2"]), KRtDLLocation)
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 9 - Energy Sphere #2"]), KRtDLLocation)
 
 
-        SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
+        SevenThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 3 - Energy Sphere"]), KRtDLLocation)
 
-        SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
+        SevenThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 6 - Energy Sphere"]), KRtDLLocation)
         
-        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Energy Sphere"]), KRtDLLocation)
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Energy Sphere"]), KRtDLLocation)
 
-        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Energy Sphere #1"]), KRtDLLocation)
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 11 - Energy Sphere #1"]), KRtDLLocation)
 
-        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Energy Sphere #2"]), KRtDLLocation)
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 11 - Energy Sphere #2"]), KRtDLLocation)
     
         
     
     if world.options.shuffle_part_spheres:
-        OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
+        OneFiveRegion.add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 5 Room 1 - Part Sphere"]), KRtDLLocation)
          
-        TwoFiveRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
+        TwoFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
          
-        ThreeFiveRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
+        ThreeFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 5 Room 2 - Part Sphere"]), KRtDLLocation)
 
-        FourSixRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 6 Room 2 - Part Sphere"]), KRtDLLocation)
+        FourSixRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 6 Room 2 - Part Sphere"]), KRtDLLocation)
 
-        FiveSixRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 6 Room 2 - Part Sphere"]), KRtDLLocation)
+        FiveSixRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 6 Room 2 - Part Sphere"]), KRtDLLocation)
          
 
    
@@ -3194,995 +3194,995 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
     
     if world.options.star_sanity:
         for i in range(1,13+1):
-            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,7+1):
-            OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,25+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,12+1):
-            OneOneRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)    
+            OneOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)    
              
 
         for i in range(1,3+1):
-            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,10+1):
-            OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,11+1):
-            OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,7+1):
-            OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
-        OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Gold Star"]), KRtDLLocation)
+        OneTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 6 - Gold Star"]), KRtDLLocation)
          
 
         for i in range(1,3+1):
-            OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,8+1):
-            OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,17+1):
-            OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,12+1):
-            OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,9+1):
-            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,4+1):
-            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,55+1):
-            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,5+1):
-            OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
 
         for i in range(1,12+1):
-            TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,10+1):
-            TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,5+1):
-            TwoOneRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,20+1):
-            TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,19+1):
-            TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,16+1):
-            TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            TwoTwoRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,41+1):
-            TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,35+1):
-            TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,9+1):
-            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,15+1):
-            TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,18+1):
-            TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,18+1):
-            TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,17+1):
-            TwoFourRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,6+1):
-            TwoFourRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,4+1):
-            TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,12+1):
-            TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,28+1):
-            TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,21+1):
-            TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
 
         for i in range(1,18+1):
-            ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,27+1):
-            ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,15+1):
-            ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,21+1):
-            ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,12+1):
-            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,19+1):
-            ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,12+1):
-            ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,7+1):
-            ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,15+1):
-            ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,28+1):
-            ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,45+1):
-            ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,4+1):
-            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,19+1):
-            ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,14+1):
-            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,16+1):
-            ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,69+1):
-            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,55+1):
-            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,23+1):
-            ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,12+1):
-            ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,11+1):
-            ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,10+1):
-            ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,21+1):
-            ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,15+1):
-            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,27+1):
-            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
 
         for i in range(1,8+1):
-            FourOneRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,6+1):
-            FourOneRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,10+1):
-            FourOneRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            FourOneRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourOneRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,10+1):
-            FourTwoRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,6+1):
-            FourTwoRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            FourTwoRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FourTwoRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            FourTwoRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,66+1):
-            FourTwoRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,17+1):
-            FourTwoRooms[7].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,5+1):
-            FourThreeRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            FourThreeRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            FourThreeRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,16+1):
-            FourThreeRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FourThreeRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            FourThreeRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,16+1):
-            FourFourRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)    
+            FourFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)    
 
         for i in range(1,23+1):
-            FourFourRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)   
+            FourFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)   
 
         for i in range(1,18+1):
-            FourFourRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation) 
+            FourFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation) 
 
         for i in range(1,2+1):
-            FourFourRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,27+1):
-            FourFourRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,30+1):
-            FourFourRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FourFiveRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            FourFiveRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            FourFiveRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourFiveRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFiveRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        FourFiveRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 7 - Gold Star"]), KRtDLLocation)
+        FourFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 7 - Gold Star"]), KRtDLLocation)
 
         for i in range(1,45+1):
-            FourFiveRooms[7].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourFiveRooms[9].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[9].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
 
         for i in range(1,14+1):
-            FiveOneRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,14+1):
-            FiveOneRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,15+1):
-            FiveOneRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,19+1):
-            FiveOneRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,16+1):
-            FiveOneRooms[8].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
         
 
         for i in range(1,17+1):
-            FiveTwoRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,9+1):
-            FiveTwoRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            FiveTwoRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,18+1):
-            FiveTwoRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,18+1):
-            FiveThreeRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,10+1):
-            FiveThreeRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            FiveThreeRooms[2].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            FiveThreeRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,13+1):
-            FiveThreeRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
-        FiveThreeRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 8 - Gold Star"]), KRtDLLocation)
+        FiveThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 8 - Gold Star"]), KRtDLLocation)
 
 
         for i in range(1,16+1):
-            FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            FiveFourRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,63+1):
-            FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            FiveFourRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FiveFourRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,4+1):
-            FiveFiveRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            FiveFiveRooms[12].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFiveRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveFiveRooms[25].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 26 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFiveRooms[25].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 26 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveFiveRooms[26].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 27 - Gold Star #" + str(i)]), KRtDLLocation)
+            FiveFiveRooms[26].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 27 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,20+1):
-            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,12+1):
-            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,15+1):
-            SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,13+1):
-            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,16+1):
-            SixOneRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixOneRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,69+1):
-            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,34+1):
-            SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
     
 
         for i in range(1,6+1):
-            SixTwoRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixTwoRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixTwoRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixTwoRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,6+1):
-            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,6+1):
-            SixTwoRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
         
         for i in range(1,9+1):
-            SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,17+1):
-            SixTwoRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[11].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 12 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SixTwoRooms[12].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
 
         for i in range(1,21+1):
-            SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,22+1):
-            SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,7+1):
-            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,39+1):
-            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,26+1):
-            SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,23+1):
-            SixFourRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,31+1):
-            SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,7+1):
-            SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,22+1):
-            SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,42+1):
-            SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,16+1):
-            SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,10+1):
-            SixFiveRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixFiveRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,44+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,6+1):
-            SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,18+1):
-            SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,6+1):
-            SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,16+1):
-            SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,7+1):
-            SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,37+1):
-            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,17+1):
-            SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,5+1):
-            SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 1 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,9+1):
-            SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,61+1):
-            SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,31+1):
-            SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,15+1):
-            SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,16+1):
-            SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 3 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SevenThreeRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 4 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,13+1):
-            SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 5 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,16+1):
-            SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 6 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenThreeRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 7 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,17+1):
-            SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,83+1):
-            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 9 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,29+1):
-            SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 10 - Gold Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,60+1):
-            SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - Gold Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,39+1):
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 2 - Gold Star #" + str(i)]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 2 - Gold Star #" + str(i)]), KRtDLLocation)
             
     
     
 
     
     if world.options.red_star_sanity:
-        OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        OneOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 1 - Red Star"]), KRtDLLocation)
          
         for i in range(1,3+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            OneOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
              
 
-        OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Red Star"]), KRtDLLocation)  
+        OneTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 2 - Red Star"]), KRtDLLocation)  
          
-        OneTwoRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 3 - Red Star"]), KRtDLLocation)  
+        OneTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 3 - Red Star"]), KRtDLLocation)  
          
 
-        OneThreeRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 2 - Red Star"]), KRtDLLocation) 
+        OneThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 2 - Red Star"]), KRtDLLocation) 
          
         for i in range(1,2+1):
-            OneThreeRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            OneThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
              
-        OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Red Star"]), KRtDLLocation)
+        OneThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 5 - Red Star"]), KRtDLLocation)
          
 
         for i in range(1,5+1):
-            OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            OneFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
              
-        OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Red Star"]), KRtDLLocation)
+        OneFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 5 - Red Star"]), KRtDLLocation)
          
 
         
-        TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        TwoOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 1 - Red Star"]), KRtDLLocation)
          
-        TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Red Star"]), KRtDLLocation)
+        TwoOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 3 - Red Star"]), KRtDLLocation)
          
 
-        TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Red Star"]), KRtDLLocation)
+        TwoTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 1 - Red Star"]), KRtDLLocation)
          
         for i in range(1,6+1):
-            TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,3+1):
-            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
              
-        TwoThreeRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Red Star"]), KRtDLLocation)
+        TwoThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 3 - Red Star"]), KRtDLLocation)
          
-        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Red Star"]), KRtDLLocation)
+        TwoThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 4 - Red Star"]), KRtDLLocation)
          
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Red Star"]), KRtDLLocation)
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - Red Star"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
              
 
-        TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Red Star"]), KRtDLLocation)
+        TwoFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 5 - Red Star"]), KRtDLLocation)
          
         for i in range(1,4+1):
-            TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
              
 
         
-        ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Red Star"]), KRtDLLocation)
+        ThreeOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 1 - Red Star"]), KRtDLLocation)
          
-        ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Red Star"]), KRtDLLocation)
+        ThreeOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 3 - Red Star"]), KRtDLLocation)
          
-        ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Red Star"]), KRtDLLocation)
+        ThreeOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 4 - Red Star"]), KRtDLLocation)
          
-        ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Red Star"]), KRtDLLocation)
+        ThreeOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 6 - Red Star"]), KRtDLLocation)
          
-        ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Red Star"]), KRtDLLocation)
-         
-
-        ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Red Star"]), KRtDLLocation)
-         
-        ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Red Star"]), KRtDLLocation)
+        ThreeOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 8 - Red Star"]), KRtDLLocation)
          
 
+        ThreeTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 3 - Red Star"]), KRtDLLocation)
+         
+        ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Red Star"]), KRtDLLocation)
+         
+
         for i in range(1,2+1):
-            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
              
-        ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Red Star"]), KRtDLLocation)
+        ThreeThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 2 - Red Star"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
              
-        ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Red Star"]), KRtDLLocation)
+        ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - Red Star"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,5+1):
-            ThreeThreeRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
              
 
-        ThreeFourRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 1 - Red Star"]), KRtDLLocation)
+        ThreeFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 1 - Red Star"]), KRtDLLocation)
          
-        ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Red Star"]), KRtDLLocation)
+        ThreeFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 4 - Red Star"]), KRtDLLocation)
          
-        ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Red Star"]), KRtDLLocation)
+        ThreeFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 6 - Red Star"]), KRtDLLocation)
          
         for i in range(1,4+1):
-            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
 
 
         
         for i in range(1,2+1):
-            FourOneRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            FourOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FourTwoRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourTwoRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,7+1):
-            FourTwoRooms[7].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(0,3):
-            FourThreeRooms[i].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room " + str(i + 1) + " - Red Star"]), KRtDLLocation)
+            FourThreeRooms[i].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room " + str(i + 1) + " - Red Star"]), KRtDLLocation)
 
 
-        FourFourRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 1 - Red Star"]), KRtDLLocation)
+        FourFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 1 - Red Star"]), KRtDLLocation)
 
-        FourFourRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 2 - Red Star"]), KRtDLLocation)
+        FourFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 2 - Red Star"]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourFourRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            FourFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FourFourRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+            FourFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
 
-        FourFourRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 6 - Red Star"]), KRtDLLocation)
+        FourFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 6 - Red Star"]), KRtDLLocation)
 
 
-        FourFiveRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 3 - Red Star"]), KRtDLLocation)
+        FourFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 3 - Red Star"]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourFiveRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
-        FourFiveRooms[7].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 8 - Red Star"]), KRtDLLocation)
+        FourFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 8 - Red Star"]), KRtDLLocation)
 
 
 
-        FiveOneRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 2 - Red Star"]), KRtDLLocation)
+        FiveOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 2 - Red Star"]), KRtDLLocation)
 
-        FiveOneRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 6 - Red Star"]), KRtDLLocation)
+        FiveOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 6 - Red Star"]), KRtDLLocation)
 
-        FiveOneRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 7 - Red Star"]), KRtDLLocation)
+        FiveOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 7 - Red Star"]), KRtDLLocation)
 
-        FiveOneRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 8 - Red Star"]), KRtDLLocation)
+        FiveOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 8 - Red Star"]), KRtDLLocation)
 
 
         for i in range(1,5+1):
-            FiveTwoRooms[0 ].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[0 ].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveTwoRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FiveThreeRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
-        FiveThreeRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 6 - Red Star"]), KRtDLLocation)
+        FiveThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 6 - Red Star"]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveFourRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
 
-        FiveFiveRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 7 - Red Star"]), KRtDLLocation)
+        FiveFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7 - Red Star"]), KRtDLLocation)
 
-        FiveFiveRooms[25].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 26 - Red Star"]), KRtDLLocation)
+        FiveFiveRooms[25].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 26 - Red Star"]), KRtDLLocation)
         
         for i in range(1,3+1):
-            FiveFiveRooms[27].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 28 - Red Star #" + str(i)]), KRtDLLocation) 
+            FiveFiveRooms[27].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 28 - Red Star #" + str(i)]), KRtDLLocation) 
 
 
 
-        SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - Red Star"]), KRtDLLocation)
+        SixOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 2 - Red Star"]), KRtDLLocation)
         
         for i in range(1,2+1):
-            SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Red Star"]), KRtDLLocation)
+        SixOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 6 - Red Star"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            SixOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Red Star"]), KRtDLLocation)
+        SixOneRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 10 - Red Star"]), KRtDLLocation)
 
 
         for i in range(1,3+1):
-            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixTwoRooms[12].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 13 - Red Star #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 13 - Red Star #" + str(i)]), KRtDLLocation)
 
 
-        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Red Star"]), KRtDLLocation)
+        SixThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 1 - Red Star"]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 3 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
 
 
-        SixFourRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 1 - Red Star"]), KRtDLLocation)
+        SixFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 1 - Red Star"]), KRtDLLocation)
 
-        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Red Star"]), KRtDLLocation)
+        SixFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 2 - Red Star"]), KRtDLLocation)
 
-        SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Red Star"]), KRtDLLocation)
+        SixFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 6 - Red Star"]), KRtDLLocation)
 
 
-        SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - Red Star"]), KRtDLLocation)
+        SixFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 1 - Red Star"]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,10+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - Red Star"]), KRtDLLocation)
+        SixFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 8 - Red Star"]), KRtDLLocation)
 
 
         for i in range(1,3+1):
-            SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Red Star"]), KRtDLLocation)
+        SevenOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 5 - Red Star"]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 7 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 2 - Red Star #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 4 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - Red Star"]), KRtDLLocation)
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 5 - Red Star"]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
         
         if world.options.hard_logic:
-            SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Red Star #4"]), KRtDLLocation)
+            SevenTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 6 - Red Star #4"]), KRtDLLocation)
 
-        SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Red Star"]), KRtDLLocation)
-
-        for i in range(1,5+1):
-            SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
-
-
-        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Red Star"]), KRtDLLocation)
-
-        SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Red Star"]), KRtDLLocation)
+        SevenTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 7 - Red Star"]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 8 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Red Star"]), KRtDLLocation)
+
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - Red Star"]), KRtDLLocation)
+
+        SevenThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 3 - Red Star"]), KRtDLLocation)
+
+        for i in range(1,5+1):
+            SevenThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 6 - Red Star #" + str(i)]), KRtDLLocation)
+
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Red Star"]), KRtDLLocation)
 
         for i in range(1,17+1):
-            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 9 - Red Star #" + str(i)]), KRtDLLocation)
 
-        SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Red Star"]), KRtDLLocation)
+        SevenThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 10 - Red Star"]), KRtDLLocation)
 
-        SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - Red Star"]), KRtDLLocation)
+        SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - Red Star"]), KRtDLLocation)
 
 
 
 
     
     if world.options.blue_star_sanity:
-        OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Blue Star"]), KRtDLLocation)
+        OneTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 2 - Blue Star"]), KRtDLLocation)
          
 
 
-        TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Blue Star"]), KRtDLLocation)
+        TwoOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 8 - Blue Star"]), KRtDLLocation)
          
 
-        TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Blue Star"]), KRtDLLocation)
+        TwoTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 8 - Blue Star"]), KRtDLLocation)
          
 
 
-        ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Blue Star"]), KRtDLLocation)
+        ThreeOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 2 - Blue Star"]), KRtDLLocation)
          
-        ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Blue Star"]), KRtDLLocation)
+        ThreeOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 7 - Blue Star"]), KRtDLLocation)
          
 
-        ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Blue Star"]), KRtDLLocation)
+        ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - Blue Star"]), KRtDLLocation)
 
 
 
-        FourOneRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 1 - Blue Star"]), KRtDLLocation)
+        FourOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 1 - Blue Star"]), KRtDLLocation)
 
-        FourOneRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 3 - Blue Star"]), KRtDLLocation)
+        FourOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 3 - Blue Star"]), KRtDLLocation)
 
 
         for i in range(1,7+1):
-            FourTwoRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 7 - Blue Star #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 7 - Blue Star #" + str(i)]), KRtDLLocation)
 
 
-        FourFourRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 3 - Blue Star"]), KRtDLLocation)
+        FourFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 3 - Blue Star"]), KRtDLLocation)
 
 
-        FourFiveRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 3 - Blue Star"]), KRtDLLocation)
+        FourFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 3 - Blue Star"]), KRtDLLocation)
 
 
         
-        FiveOneRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 1 - Blue Star"]), KRtDLLocation)
+        FiveOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 1 - Blue Star"]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FiveTwoRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 6 - Blue Star #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 6 - Blue Star #" + str(i)]), KRtDLLocation)
 
 
-        FiveThreeRooms[4].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 5 - Blue Star"]), KRtDLLocation)
+        FiveThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 5 - Blue Star"]), KRtDLLocation)
 
 
-        FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Blue Star"]), KRtDLLocation)
+        FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - Blue Star"]), KRtDLLocation)
 
-        FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - Blue Star"]), KRtDLLocation)
-
-
-
-        SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Blue Star"]), KRtDLLocation)
-
-        SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Blue Star"]), KRtDLLocation)
+        FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - Blue Star"]), KRtDLLocation)
 
 
-        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Blue Star"]), KRtDLLocation)
+
+        SixOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 3 - Blue Star"]), KRtDLLocation)
+
+        SixOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 6 - Blue Star"]), KRtDLLocation)
+
+
+        SixThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 1 - Blue Star"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Blue Star #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 5 - Blue Star #" + str(i)]), KRtDLLocation)
 
-        SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - Blue Star"]), KRtDLLocation)
-
-
-        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Blue Star"]), KRtDLLocation)
+        SixThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 6 - Blue Star"]), KRtDLLocation)
 
 
-        SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Blue Star"]), KRtDLLocation)
-
-        SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Blue Star"]), KRtDLLocation)
+        SixFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 7 - Blue Star"]), KRtDLLocation)
 
 
-        SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - Blue Star"]), KRtDLLocation)
+        SevenTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 1 - Blue Star"]), KRtDLLocation)
 
-        SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Blue Star"]), KRtDLLocation)
+        SevenTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 7 - Blue Star"]), KRtDLLocation)
 
-        SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Blue Star"]), KRtDLLocation)
 
-        SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - Blue Star"]), KRtDLLocation)
+        SevenThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 5 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 10 - Blue Star"]), KRtDLLocation)
+
+        SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - Blue Star"]), KRtDLLocation)
     
    
 
@@ -4190,986 +4190,986 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
     
     if world.options.flower_sanity:
         for i in range(1,6+1):
-            OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            OneOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
              
         for i in range(1,10+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            OneOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,4+1):
-            OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            OneTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,2+1):
-            OneThreeRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation)  
+            OneThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation)  
              
         for i in range(1,2+1):
-            OneThreeRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation)  
+            OneThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation)  
              
 
         for i in range(1,8+1):
-            OneFourRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            OneFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,15+1):
-            OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            OneFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,3+1):
-            OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            OneFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,7+1):
-            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            OneFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
              
 
 
         for i in range(1,2+1):
-            TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
              
-        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Flower"]), KRtDLLocation)
+        TwoOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 5 - Flower"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,7+1):
-            TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,4+1):
-            TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,2+1):
-            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            TwoThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
              
 
 
         for i in range(1,8+1):
-            ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,3+1):
-            ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,5+1):
-            ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,9+1):
-            ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 4 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,7+1):
-            ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,3+1):
-            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,2+1):
-            ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,7+1):
-            ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 3 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,13+1):
-            ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,8+1):
-            ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,8+1):
-            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 1 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,3+1):
-            ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation) 
              
-        ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Flower"]), KRtDLLocation)
+        ThreeThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 4 - Flower"]), KRtDLLocation)
          
         for i in range(1,9+1):
-            ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 5 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,2+1):
-            ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,4+1):
-            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - Flower #" + str(i)]), KRtDLLocation) 
              
 
         for i in range(1,3+1):
-            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 8 - Flower #" + str(i)]), KRtDLLocation) 
 
 
 
         for i in range(1,5+1):
-            FourOneRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            FourOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourOneRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            FourOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,11+1):
-            FourOneRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            FourOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourOneRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 5 - Flower #" + str(i)]), KRtDLLocation)
+            FourOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 5 - Flower #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,5+1):
-            FourTwoRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 1 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FourTwoRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourTwoRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 7 - Flower #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 7 - Flower #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,3+1):
-            FourThreeRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourThreeRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,3+1):
-            FourFourRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            FourFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFourRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+            FourFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 3 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            FourFourRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            FourFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FourFiveRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 1 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFiveRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFiveRooms[9].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 10 - Flower #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[9].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 10 - Flower #" + str(i)]), KRtDLLocation)
 
 
 
         for i in range(1,5+1):
-            FiveOneRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveOneRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 8 - Flower #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 8 - Flower #" + str(i)]), KRtDLLocation)
         
 
         for i in range(1,8+1):
-            FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - Flower #" + str(i)]), KRtDLLocation)
     
 
 
         for i in range(1,2+1):
-            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            SixOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+            SixOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)
         
-        SixOneRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 4 - Flower"]), KRtDLLocation)
+        SixOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 4 - Flower"]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation)
+            SixOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 6 - Flower #" + str(i)]), KRtDLLocation)
 
         
         for i in range(1,2+1):
-            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 3 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixThreeRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 4 - Flower #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 4 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 6 - Flower #" + str(i)]), KRtDLLocation)
         
 
         for i in range(1,5+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Flower #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - Flower #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,9+1):
-            SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 1 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 3 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,5+1):
-            SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Flower #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 5 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 7 - Flower #" + str(i)]), KRtDLLocation)
 
 
-        SevenTwoRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 10 - Flower"]), KRtDLLocation)
+        SevenTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 10 - Flower"]), KRtDLLocation)
 
 
         for i in range(1,4+1):
-            SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Flower #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 3 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Flower #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Flower #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 9 - Flower #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - Flower #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - Flower #" + str(i)]), KRtDLLocation)
 
 
 
 
     
     if world.options.one_up_sanity:
-        OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+        OneOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 2 - 1-up"]), KRtDLLocation)
          
 
-        OneThreeRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room 3 - 1-up"]), KRtDLLocation)
+        OneThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room 3 - 1-up"]), KRtDLLocation)
          
 
-        OneFourRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 6 - 1-up"]), KRtDLLocation)
-         
-
-
-        TwoOneRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 2 - 1-up"]), KRtDLLocation)
-         
-
-        TwoTwoRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 5 - 1-up"]), KRtDLLocation)
-         
-
-        TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - 1-up"]), KRtDLLocation)
-         
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - 1-up"]), KRtDLLocation)
-         
-
-        TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - 1-up"]), KRtDLLocation)
+        OneFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 6 - 1-up"]), KRtDLLocation)
          
 
 
-        ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - 1-up"]), KRtDLLocation)
-         
-        ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - 1-up"]), KRtDLLocation)
-         
-        ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - 1-up"]), KRtDLLocation)
+        TwoOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 2 - 1-up"]), KRtDLLocation)
          
 
-        ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - 1-up"]), KRtDLLocation)
+        TwoTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 5 - 1-up"]), KRtDLLocation)
          
 
-        ThreeThreeRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 3 - 1-up"]), KRtDLLocation)
+        TwoThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 2 - 1-up"]), KRtDLLocation)
+         
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - 1-up"]), KRtDLLocation)
          
 
-        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - 1-up"]), KRtDLLocation)
+        TwoFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 5 - 1-up"]), KRtDLLocation)
+         
+
+
+        ThreeOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 1 - 1-up"]), KRtDLLocation)
+         
+        ThreeOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 7 - 1-up"]), KRtDLLocation)
+         
+        ThreeOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 8 - 1-up"]), KRtDLLocation)
+         
+
+        ThreeTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 5 - 1-up"]), KRtDLLocation)
+         
+
+        ThreeThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 3 - 1-up"]), KRtDLLocation)
+         
+
+        ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - 1-up"]), KRtDLLocation)
 
 
 
-        FourOneRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+        FourOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 2 - 1-up"]), KRtDLLocation)
 
-        FourOneRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 5 - 1-up"]), KRtDLLocation)
-
-
-        FourTwoRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 1 - 1-up"]), KRtDLLocation)
+        FourOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 5 - 1-up"]), KRtDLLocation)
 
 
-        FourThreeRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 1 - 1-up"]), KRtDLLocation)
+        FourTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 1 - 1-up"]), KRtDLLocation)
 
 
-        FourFourRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 6 - 1-up"]), KRtDLLocation)  
+        FourThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 1 - 1-up"]), KRtDLLocation)
 
 
-        FourFiveRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 4 - 1-up"]), KRtDLLocation)
+        FourFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 6 - 1-up"]), KRtDLLocation)  
+
+
+        FourFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 4 - 1-up"]), KRtDLLocation)
     
 
 
-        FiveOneRooms[2].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 3 - 1-up"]), KRtDLLocation)
+        FiveOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 3 - 1-up"]), KRtDLLocation)
 
 
-        FiveThreeRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 1 - 1-up"]), KRtDLLocation)
+        FiveThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 1 - 1-up"]), KRtDLLocation)
 
 
-        FiveFourRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 1 - 1-up"]), KRtDLLocation)
+        FiveFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 1 - 1-up"]), KRtDLLocation)
 
-        FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - 1-up"]), KRtDLLocation)
+        FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - 1-up"]), KRtDLLocation)
 
 
         for i in range(1,4+1):
-            FiveFiveRooms[25].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 26 - 1-up #" + str(i)]), KRtDLLocation)
+            FiveFiveRooms[25].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 26 - 1-up #" + str(i)]), KRtDLLocation)
 
 
-        SixOneRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 2 - 1-up"]), KRtDLLocation)
+        SixOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 2 - 1-up"]), KRtDLLocation)
 
-        SixOneRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 5 - 1-up"]), KRtDLLocation)
+        SixOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 5 - 1-up"]), KRtDLLocation)
 
-        SixOneRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 8 - 1-up"]), KRtDLLocation)
-
-
-        SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - 1-up"]), KRtDLLocation)
+        SixOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 8 - 1-up"]), KRtDLLocation)
 
 
-        SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - 1-up"]), KRtDLLocation)
+        SixTwoRooms[11].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 12 - 1-up"]), KRtDLLocation)
+
+
+        SixFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 1 - 1-up"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - 1-up #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - 1-up #" + str(i)]), KRtDLLocation)
 
-        SixFiveRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 8 - 1-up"]), KRtDLLocation)
-
-
-        SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - 1-up"]), KRtDLLocation)
-
-        SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - 1-up"]), KRtDLLocation)
-
-        SevenOneRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 6 - 1-up"]), KRtDLLocation)
+        SixFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 8 - 1-up"]), KRtDLLocation)
 
 
-        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - 1-up"]), KRtDLLocation)
+        SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - 1-up"]), KRtDLLocation)
 
-        SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - 1-up"]), KRtDLLocation)
+        SevenOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 5 - 1-up"]), KRtDLLocation)
 
-        SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - 1-up"]), KRtDLLocation)
+        SevenOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 6 - 1-up"]), KRtDLLocation)
 
 
-        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - 1-up"]), KRtDLLocation)
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 5 - 1-up"]), KRtDLLocation)
 
-        SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - 1-up"]), KRtDLLocation)
+        SevenTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 7 - 1-up"]), KRtDLLocation)
 
-        SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - 1-up"]), KRtDLLocation)
+        SevenTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 8 - 1-up"]), KRtDLLocation)
+
+
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - 1-up"]), KRtDLLocation)
+
+        SevenThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 5 - 1-up"]), KRtDLLocation)
+
+        SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - 1-up"]), KRtDLLocation)
         
 
             
         
    
     if world.options.food_sanity:
-        OneOneRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 1 - Food"]), KRtDLLocation)
+        OneOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 1 - Food"]), KRtDLLocation)
          
         for i in range(1,4+1):
-            OneOneRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 2 - Food #" + str(i)]), KRtDLLocation) 
+            OneOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 2 - Food #" + str(i)]), KRtDLLocation) 
              
         for i in range(1,5+1):
-            OneOneRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation) 
+            OneOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation) 
              
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - Food"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 5 - Food"]), KRtDLLocation)
          
 
-        OneTwoRooms[0].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 1 - Food"]), KRtDLLocation)
+        OneTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 1 - Food"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            OneTwoRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation) 
+            OneTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation) 
              
-        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - Food"]), KRtDLLocation)
+        OneTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 4 - Food"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            OneTwoRooms[5].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            OneTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,5+1):
-            OneThreeRooms[i-1].add_locations(get_location_names_with_ids(["Cookie Country Stage 3 Room " + str(i) + " - Food"]), KRtDLLocation)
+            OneThreeRooms[i-1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 3 Room " + str(i) + " - Food"]), KRtDLLocation)
              
 
         for i in range(1,3+1):
-            OneFourRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            OneFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,5+1):
-            OneFourRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            OneFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
              
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - Food"]), KRtDLLocation)
+        OneFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 7 - Food"]), KRtDLLocation)
          
 
 
         for i in range(1,2+1):
-            TwoOneRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
              
-        TwoOneRooms[2].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 3 - Food"]), KRtDLLocation)
+        TwoOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 3 - Food"]), KRtDLLocation)
          
-        TwoOneRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 5 - Food"]), KRtDLLocation)
+        TwoOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 5 - Food"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            TwoOneRooms[6].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            TwoOneRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 1 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            TwoOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 1 Room 8 - Food #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,2+1):
-            TwoTwoRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            TwoTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
              
-        TwoTwoRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 2 - Food"]), KRtDLLocation)
+        TwoTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 2 - Food"]), KRtDLLocation)
          
-        TwoTwoRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 4 - Food"]), KRtDLLocation)
+        TwoTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 4 - Food"]), KRtDLLocation)
          
-        TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - Food"]), KRtDLLocation)
+        TwoTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 8 - Food"]), KRtDLLocation)
          
-        TwoTwoRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 9 - Food"]), KRtDLLocation)
+        TwoTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 9 - Food"]), KRtDLLocation)
          
 
-        TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 1 - Food"]), KRtDLLocation)
+        TwoThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 1 - Food"]), KRtDLLocation)
          
-        TwoThreeRooms[1].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 2 - Food"]), KRtDLLocation)
+        TwoThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 2 - Food"]), KRtDLLocation)
          
         for i in range(1,3+1):
-            TwoThreeRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            TwoThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
              
-        TwoThreeRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 4 - Food"]), KRtDLLocation)
+        TwoThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 4 - Food"]), KRtDLLocation)
          
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - Food"]), KRtDLLocation)
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - Food"]), KRtDLLocation)
          
-        TwoThreeRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 6 - Food"]), KRtDLLocation)
+        TwoThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 6 - Food"]), KRtDLLocation)
          
 
         for i in range(1,2+1):
-            TwoFourRooms[3].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,4+1):
-            TwoFourRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            TwoFourRooms[5].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,4+1):
-            TwoFourRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            TwoFourRooms[8].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 9 - Food #" + str(i)]), KRtDLLocation)
+            TwoFourRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 9 - Food #" + str(i)]), KRtDLLocation)
              
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - Food"]), KRtDLLocation)
+        TwoFourRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 10 - Food"]), KRtDLLocation)
          
 
 
         for i in range(1,3+1):
-            ThreeOneRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeOneRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 2 - Food"]), KRtDLLocation)
+        ThreeOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 2 - Food"]), KRtDLLocation)
          
-        ThreeOneRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 3 - Food"]), KRtDLLocation)
+        ThreeOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 3 - Food"]), KRtDLLocation)
          
-        ThreeOneRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 4 - Food"]), KRtDLLocation)
+        ThreeOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 4 - Food"]), KRtDLLocation)
          
         for i in range(1,3+1):
-            ThreeOneRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            ThreeOneRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            ThreeOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeOneRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 8 - Food"]), KRtDLLocation)
+        ThreeOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 8 - Food"]), KRtDLLocation)
          
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - Food"]), KRtDLLocation)
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 9 - Food"]), KRtDLLocation)
          
 
         for i in range(1,2+1):
-            ThreeTwoRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            ThreeTwoRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            ThreeTwoRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 3 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeTwoRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 5 - Food"]), KRtDLLocation)
+        ThreeTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 5 - Food"]), KRtDLLocation)
          
         for i in range(1,4+1):
-            ThreeTwoRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            ThreeTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
              
 
         for i in range(1,2+1):
-            ThreeThreeRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 1 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeThreeRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 2 - Food"]), KRtDLLocation)
+        ThreeThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 2 - Food"]), KRtDLLocation)
          
         for i in range(1,2+1):
-            ThreeThreeRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - Food"]), KRtDLLocation)
+        ThreeThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 5 - Food"]), KRtDLLocation)
          
-        ThreeThreeRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 6 - Food"]), KRtDLLocation)
+        ThreeThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 6 - Food"]), KRtDLLocation)
          
         for i in range(1,4+1):
-            ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,9+1):
-            ThreeThreeRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            ThreeThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
              
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - Food"]), KRtDLLocation)
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 10 - Food"]), KRtDLLocation)
          
 
         for i in range(1,2+1):
-            ThreeFourRooms[1].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,2+1):
-            ThreeFourRooms[2].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            ThreeFourRooms[3].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,4+1):
-            ThreeFourRooms[5].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,3+1):
-            ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - Food #" + str(i)]), KRtDLLocation)
              
         for i in range(1,5+1):
-            ThreeFourRooms[7].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            ThreeFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
 
 
         for i in range(1,2+1):
-            FourOneRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            FourOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourOneRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FourOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            FourOneRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            FourOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation)
             
         for i in range(1,4+1):
-            FourOneRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FourOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 4 - Food #" + str(i)]), KRtDLLocation)
             
         for i in range(1,2+1):
-            FourOneRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 1 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            FourOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 1 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,4+1):
-            FourTwoRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourTwoRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourTwoRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourTwoRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourTwoRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,10+1):
-            FourTwoRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            FourTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
-        FourTwoRooms[8].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 9 - Food"]), KRtDLLocation)
+        FourTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 9 - Food"]), KRtDLLocation)
 
 
-        FourThreeRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 1 - Food"]), KRtDLLocation)
+        FourThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 1 - Food"]), KRtDLLocation)
         
         for i in range(1,2+1):
-            FourThreeRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourThreeRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
-        FourThreeRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 4 - Food"]), KRtDLLocation)
-
-        for i in range(1,2+1):
-            FourThreeRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 6 - Food #" + str(i)]), KRtDLLocation)
-
+        FourThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 4 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFourRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            FourThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 6 - Food #" + str(i)]), KRtDLLocation)
+
 
         for i in range(1,2+1):
-            FourFourRooms[1].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FourFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 1 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            FourFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FourFourRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            FourFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFourRooms[3].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FourFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FourFourRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            FourFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFourRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            FourFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
 
-        FourFourRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 7 - Food"]), KRtDLLocation)
+        FourFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 7 - Food"]), KRtDLLocation)
 
-
-        for i in range(1,2+1):
-            FourFiveRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFiveRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FourFiveRooms[4].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            FourFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
-        FourFiveRooms[7].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 8 - Food"]), KRtDLLocation)
+        for i in range(1,2+1):
+            FourFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
-        FourFiveRooms[9].add_locations(get_location_names_with_ids(["White Wafers Stage 5 Room 10 - Food"]), KRtDLLocation)
+        FourFiveRooms[7].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 8 - Food"]), KRtDLLocation)
+
+        FourFiveRooms[9].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 5 Room 10 - Food"]), KRtDLLocation)
 
 
         
-        FiveOneRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 2 - Food"]), KRtDLLocation)
+        FiveOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 2 - Food"]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveOneRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveOneRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            FiveOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
         
-        FiveOneRooms[8].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 9 - Food"]), KRtDLLocation)
+        FiveOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 9 - Food"]), KRtDLLocation)
 
 
-        FiveTwoRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 1 - Food"]), KRtDLLocation)
-
-        for i in range(1,2+1):
-            FiveTwoRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
-
-        FiveTwoRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 4 - Food"]), KRtDLLocation)
+        FiveTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 1 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveTwoRooms[4].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 2 - Food #" + str(i)]), KRtDLLocation)
+
+        FiveTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 4 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            FiveTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveTwoRooms[5].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            FiveTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
         
-        FiveTwoRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 8 - Food"]), KRtDLLocation)
+        FiveTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 8 - Food"]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            FiveThreeRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            FiveThreeRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveThreeRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            FiveThreeRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveThreeRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            FiveThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,3+1):
-            FiveFourRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 2 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
-        FiveFourRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 7 - Food"]), KRtDLLocation)
+        FiveFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 7 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            FiveFourRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            FiveFourRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
 
-        FiveFiveRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 4 - Food"]), KRtDLLocation)
+        FiveFiveRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 4 - Food"]), KRtDLLocation)
 
-        FiveFiveRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 7 - Food"]), KRtDLLocation)
+        FiveFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 7 - Food"]), KRtDLLocation)
 
-        FiveFiveRooms[9].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 10 - Food"]), KRtDLLocation)
+        FiveFiveRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 10 - Food"]), KRtDLLocation)
 
-        FiveFiveRooms[15].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 16 - Food"]), KRtDLLocation)
+        FiveFiveRooms[15].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 16 - Food"]), KRtDLLocation)
 
-        FiveFiveRooms[19].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 20 - Food"]), KRtDLLocation)
+        FiveFiveRooms[19].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 20 - Food"]), KRtDLLocation)
 
-        FiveFiveRooms[22].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 23 - Food"]), KRtDLLocation)
+        FiveFiveRooms[22].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 23 - Food"]), KRtDLLocation)
 
 
 
         for i in range(1,3+1):
-            SixOneRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            SixOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixOneRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            SixOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixOneRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            SixOneRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 6 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            SixOneRooms[8].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 9 - Food #" + str(i)]), KRtDLLocation)
+            SixOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 9 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixOneRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 10 - Food #" + str(i)]), KRtDLLocation)
+            SixOneRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 10 - Food #" + str(i)]), KRtDLLocation)
             
-        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - Food"]), KRtDLLocation)
+        SixOneRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 11 - Food"]), KRtDLLocation)
         
         
-        SixTwoRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 3 - Food"]), KRtDLLocation)
+        SixTwoRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 3 - Food"]), KRtDLLocation)
 
-        SixTwoRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 5 - Food"]), KRtDLLocation)
-
-        for i in range(1,2+1):
-            SixTwoRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
-
-        SixTwoRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 8 - Food"]), KRtDLLocation)
-
-        SixTwoRooms[9].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 10 - Food"]), KRtDLLocation)
-
-        SixTwoRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
-
-
-        SixThreeRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
-
-        SixThreeRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 2 - Food"]), KRtDLLocation)
+        SixTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 5 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            SixTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 6 - Food #" + str(i)]), KRtDLLocation)
+
+        SixTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 8 - Food"]), KRtDLLocation)
+
+        SixTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 10 - Food"]), KRtDLLocation)
+
+        SixTwoRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 11 - Food"]), KRtDLLocation)
+
+
+        SixThreeRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 1 - Food"]), KRtDLLocation)
+
+        SixThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 2 - Food"]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixThreeRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixThreeRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            SixThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
-        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - Food"]), KRtDLLocation)
+        SixThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 8 - Food"]), KRtDLLocation)
 
 
-        SixFourRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 2 - Food"]), KRtDLLocation)
-
-        for i in range(1,2+1):
-            SixFourRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
+        SixFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 2 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixFourRooms[3].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SixFourRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 4 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SixFourRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SixFourRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
+            SixFourRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 4 Room 6 - Food #" + str(i)]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            SixFiveRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 1 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixFiveRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 3 - Food #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 3 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
-        SixFiveRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 6 - Food"]), KRtDLLocation)
+        SixFiveRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 6 - Food"]), KRtDLLocation)
 
-        SixFiveRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 7 - Food"]), KRtDLLocation)
+        SixFiveRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 7 - Food"]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            SevenOneRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 1 - Food #" + str(i)]), KRtDLLocation)
         
-        SevenOneRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 3 - Food"]), KRtDLLocation)
+        SevenOneRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 3 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenOneRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,8+1):
-            SevenOneRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            SevenOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
-        SevenOneRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 8 - Food"]), KRtDLLocation)
+        SevenOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 8 - Food"]), KRtDLLocation)
 
-        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - Food"]), KRtDLLocation)
+        SevenOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 9 - Food"]), KRtDLLocation)
 
 
         for i in range(1,2+1):
-            SevenTwoRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 1 - Food #" + str(i)]), KRtDLLocation)
         
-        SevenTwoRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 2 - Food"]), KRtDLLocation)
+        SevenTwoRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 2 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenTwoRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
-        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - Food"]), KRtDLLocation)
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 5 - Food"]), KRtDLLocation)
 
-        SevenTwoRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 6 - Food"]), KRtDLLocation)
+        SevenTwoRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 6 - Food"]), KRtDLLocation)
 
         for i in range(1,14+1):
-            SevenTwoRooms[6].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 7 - Food #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 7 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenTwoRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            SevenTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
-        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - Food"]), KRtDLLocation)
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 9 - Food"]), KRtDLLocation)
 
 
-        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - Food"]), KRtDLLocation)
-
-        for i in range(1,2+1):
-            SevenThreeRooms[2].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 3 - Food #" + str(i)]), KRtDLLocation)
+
+        for i in range(1,2+1):
+            SevenThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 4 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenThreeRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 5 - Food #" + str(i)]), KRtDLLocation)
 
-        SevenThreeRooms[5].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 6 - Food"]), KRtDLLocation)
+        SevenThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 6 - Food"]), KRtDLLocation)
 
         for i in range(1,2+1):
-            SevenThreeRooms[7].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 8 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,7+1):
-            SevenThreeRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 9 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 9 - Food #" + str(i)]), KRtDLLocation)
 
         for i in range(1,3+1):
-            SevenThreeRooms[9].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 10 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 10 - Food #" + str(i)]), KRtDLLocation)
 
-        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - Food"]), KRtDLLocation)
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 11 - Food"]), KRtDLLocation)
 
         for i in range(1,4+1):
-            SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - Food #" + str(i)]), KRtDLLocation)
+            SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - Food #" + str(i)]), KRtDLLocation)
         
         
         for i in range(1,7+1):
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 2 - Food #" + str(i)]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 2 - Food #" + str(i)]), KRtDLLocation)
         
             
     
 
    
     if world.options.maxim_sanity:
-        OneOneRooms[4].add_locations(get_location_names_with_ids(["Cookie Country Stage 1 Room 5 - M-Tomato"]), KRtDLLocation)
+        OneOneRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 1 Room 5 - M-Tomato"]), KRtDLLocation)
          
 
-        OneTwoRooms[3].add_locations(get_location_names_with_ids(["Cookie Country Stage 2 Room 4 - M-Tomato"]), KRtDLLocation)
+        OneTwoRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 2 Room 4 - M-Tomato"]), KRtDLLocation)
          
 
-        OneFourRooms[1].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 2 - M-Tomato"]), KRtDLLocation)
+        OneFourRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 2 - M-Tomato"]), KRtDLLocation)
          
-        OneFourRooms[2].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 3 - M-Tomato"]), KRtDLLocation)
+        OneFourRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 3 - M-Tomato"]), KRtDLLocation)
          
-        OneFourRooms[6].add_locations(get_location_names_with_ids(["Cookie Country Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
-         
-
-        OneFiveRegion.add_locations(get_location_names_with_ids(["Cookie Country Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        OneFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
          
 
-
-        TwoTwoRooms[7].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 8 - M-Tomato"]), KRtDLLocation)
-         
-        TwoTwoRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 2 Room 10 - M-Tomato"]), KRtDLLocation)
-         
-
-        TwoThreeRooms[4].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
-         
-
-        TwoFourRooms[9].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 4 Room 10 - M-Tomato"]), KRtDLLocation)
-         
-
-        TwoFiveRooms[0].add_locations(get_location_names_with_ids(["Raisin Ruins Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        OneFiveRegion.add_locations(get_location_names_with_ids([EXStatus + "Cookie Country Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
          
 
 
-        ThreeOneRooms[8].add_locations(get_location_names_with_ids(["Onion Ocean Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
+        TwoTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 8 - M-Tomato"]), KRtDLLocation)
          
-        
-        ThreeThreeRooms[4].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
-         
-        ThreeThreeRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 7 - M-Tomato"]), KRtDLLocation)
-         
-        ThreeThreeRooms[9].add_locations(get_location_names_with_ids(["Onion Ocean Stage 3 Room 10 - M-Tomato"]), KRtDLLocation)
+        TwoTwoRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 2 Room 10 - M-Tomato"]), KRtDLLocation)
          
 
-        ThreeFourRooms[6].add_locations(get_location_names_with_ids(["Onion Ocean Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+        TwoThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
+         
+
+        TwoFourRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 4 Room 10 - M-Tomato"]), KRtDLLocation)
+         
+
+        TwoFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Raisin Ruins Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+         
+
+
+        ThreeOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
          
         
-        ThreeFiveRooms[0].add_locations(get_location_names_with_ids(["Onion Ocean Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
+        ThreeThreeRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 5 - M-Tomato"]), KRtDLLocation)
+         
+        ThreeThreeRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 7 - M-Tomato"]), KRtDLLocation)
+         
+        ThreeThreeRooms[9].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 3 Room 10 - M-Tomato"]), KRtDLLocation)
+         
+
+        ThreeFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+         
+        
+        ThreeFiveRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Onion Ocean Stage 5 Room 1 - M-Tomato"]), KRtDLLocation)
 
 
 
-        FourTwoRooms[8].add_locations(get_location_names_with_ids(["White Wafers Stage 2 Room 9 - M-Tomato"]), KRtDLLocation)
+        FourTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 2 Room 9 - M-Tomato"]), KRtDLLocation)
 
 
-        FourThreeRooms[2].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 3 - M-Tomato"]), KRtDLLocation)
+        FourThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 3 - M-Tomato"]), KRtDLLocation)
 
-        FourThreeRooms[5].add_locations(get_location_names_with_ids(["White Wafers Stage 3 Room 6 - M-Tomato"]), KRtDLLocation)
-
-
-        FourFourRooms[6].add_locations(get_location_names_with_ids(["White Wafers Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+        FourThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 3 Room 6 - M-Tomato"]), KRtDLLocation)
 
 
-        FourSixRooms[0].add_locations(get_location_names_with_ids(["White Wafers Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
+        FourFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
+
+
+        FourSixRooms[0].add_locations(get_location_names_with_ids([EXStatus + "White Wafers Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
 
 
 
-        FiveOneRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 1 Room 8 - M-Tomato"]), KRtDLLocation)
+        FiveOneRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 1 Room 8 - M-Tomato"]), KRtDLLocation)
 
 
-        FiveTwoRooms[7].add_locations(get_location_names_with_ids(["Nutty Noon Stage 2 Room 8 - M-Tomato"]), KRtDLLocation)
+        FiveTwoRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 2 Room 8 - M-Tomato"]), KRtDLLocation)
 
 
-        FiveFourRooms[3].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 4 - M-Tomato"]), KRtDLLocation)
+        FiveFourRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 4 - M-Tomato"]), KRtDLLocation)
 
-        FiveFourRooms[6].add_locations(get_location_names_with_ids(["Nutty Noon Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
-
-
-        FiveFiveRooms[1].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 2 - M-Tomato"]), KRtDLLocation)
-
-        FiveFiveRooms[13].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 14 - M-Tomato"]), KRtDLLocation)
-
-        FiveFiveRooms[26].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 27 - M-Tomato"]), KRtDLLocation)
-
-        FiveFiveRooms[27].add_locations(get_location_names_with_ids(["Nutty Noon Stage 5 Room 28 - M-Tomato"]), KRtDLLocation)
+        FiveFourRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 4 Room 7 - M-Tomato"]), KRtDLLocation)
 
 
-        FiveSixRooms[0].add_locations(get_location_names_with_ids(["Nutty Noon Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
+        FiveFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 2 - M-Tomato"]), KRtDLLocation)
+
+        FiveFiveRooms[13].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 14 - M-Tomato"]), KRtDLLocation)
+
+        FiveFiveRooms[26].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 27 - M-Tomato"]), KRtDLLocation)
+
+        FiveFiveRooms[27].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 5 Room 28 - M-Tomato"]), KRtDLLocation)
+
+
+        FiveSixRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Nutty Noon Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
 
     
 
-        SixOneRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 7 - M-Tomato"]), KRtDLLocation)
+        SixOneRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 7 - M-Tomato"]), KRtDLLocation)
         
-        SixOneRooms[10].add_locations(get_location_names_with_ids(["Egg Engines Stage 1 Room 11 - M-Tomato"]), KRtDLLocation)
+        SixOneRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 1 Room 11 - M-Tomato"]), KRtDLLocation)
 
 
-        SixTwoRooms[6].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 7 - M-Tomato"]), KRtDLLocation)
+        SixTwoRooms[6].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 7 - M-Tomato"]), KRtDLLocation)
         
-        SixTwoRooms[11].add_locations(get_location_names_with_ids(["Egg Engines Stage 2 Room 12 - M-Tomato"]), KRtDLLocation)
+        SixTwoRooms[11].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 2 Room 12 - M-Tomato"]), KRtDLLocation)
 
 
-        SixThreeRooms[2].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 3 - M-Tomato"]), KRtDLLocation)
+        SixThreeRooms[2].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 3 - M-Tomato"]), KRtDLLocation)
         
-        SixThreeRooms[5].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 6 - M-Tomato"]), KRtDLLocation)
+        SixThreeRooms[5].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 6 - M-Tomato"]), KRtDLLocation)
 
-        SixThreeRooms[7].add_locations(get_location_names_with_ids(["Egg Engines Stage 3 Room 8 - M-Tomato"]), KRtDLLocation)
+        SixThreeRooms[7].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 3 Room 8 - M-Tomato"]), KRtDLLocation)
 
 
-        SixFiveRooms[1].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 2 - M-Tomato"]), KRtDLLocation)
+        SixFiveRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 2 - M-Tomato"]), KRtDLLocation)
         
-        SixFiveRooms[4].add_locations(get_location_names_with_ids(["Egg Engines Stage 5 Room 5 - M-Tomato"]), KRtDLLocation)
+        SixFiveRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 5 Room 5 - M-Tomato"]), KRtDLLocation)
 
 
-        SixSixRooms[0].add_locations(get_location_names_with_ids(["Egg Engines Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
+        SixSixRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Egg Engines Stage 6 Room 1 - M-Tomato"]), KRtDLLocation)
 
 
-        SevenOneRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 2 - M-Tomato"]), KRtDLLocation)
+        SevenOneRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 2 - M-Tomato"]), KRtDLLocation)
 
-        SevenOneRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 4 - M-Tomato"]), KRtDLLocation)
+        SevenOneRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 4 - M-Tomato"]), KRtDLLocation)
 
-        SevenOneRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
+        SevenOneRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 1 Room 9 - M-Tomato"]), KRtDLLocation)
 
 
-        SevenTwoRooms[4].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 5 - M-Tomato"]), KRtDLLocation)
+        SevenTwoRooms[4].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 5 - M-Tomato"]), KRtDLLocation)
 
-        SevenTwoRooms[8].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 2 Room 9 - M-Tomato"]), KRtDLLocation)
+        SevenTwoRooms[8].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 2 Room 9 - M-Tomato"]), KRtDLLocation)
 
         
-        SevenThreeRooms[1].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 2 - M-Tomato"]), KRtDLLocation)
+        SevenThreeRooms[1].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 2 - M-Tomato"]), KRtDLLocation)
 
-        SevenThreeRooms[3].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 4 - M-Tomato"]), KRtDLLocation)
+        SevenThreeRooms[3].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 4 - M-Tomato"]), KRtDLLocation)
 
-        SevenThreeRooms[10].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 11 - M-Tomato"]), KRtDLLocation)
+        SevenThreeRooms[10].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 11 - M-Tomato"]), KRtDLLocation)
 
-        SevenThreeRooms[12].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 3 Room 13 - M-Tomato"]), KRtDLLocation)
+        SevenThreeRooms[12].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 3 Room 13 - M-Tomato"]), KRtDLLocation)
 
 
-        SevenFourRooms[0].add_locations(get_location_names_with_ids(["Dangerous Dinner Stage 4 Room 1 - M-Tomato"]), KRtDLLocation)
+        SevenFourRooms[0].add_locations(get_location_names_with_ids([EXStatus + "Dangerous Dinner Stage 4 Room 1 - M-Tomato"]), KRtDLLocation)
 
 
     
@@ -5917,92 +5917,92 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     if world.options.extra_sanity:
         if world.options.star_sanity:
             for i in range(1,26+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
             for i in range(1,15+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Red Star"]), KRtDLLocation)
             for i in range(1,3+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,5+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
             for i in range(1,7+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,5+1):
-                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
                 for i in range(1,3+1):
-                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - 1-up"]), KRtDLLocation)
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
             for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,12+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
             for i in range(1,14+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
     elif world.options.start_in_extra_game:
         if world.options.star_sanity:
             for i in range(1,15+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
             for i in range(1,3+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,7+1):
-                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+                 AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,3+1):
-                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,14+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
     else:
         if world.options.star_sanity:
             for i in range(1,26+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Red Star"]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,5+1):
-                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,5+1):
-                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,12+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)  
+                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)  
     
     if world.options.shuffle_subgames:
         for i in range(1,3+1):
-            NinjaDojoRegion.add_locations(get_location_names_with_ids(["Ninja Dojo - Level " + str(i)]), KRtDLLocation)
+            NinjaDojoRegion.add_locations(get_location_names_with_ids([EXStatus + "Ninja Dojo - Level " + str(i)]), KRtDLLocation)
         for i in range(1,3+1):
-            ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
+            ScopeShotRegion.add_locations(get_location_names_with_ids([EXStatus + "Scope Shot - Level " + str(i)]), KRtDLLocation)
 
     if world.options.shuffle_arena or world.options.goal == 3 or world.options.goal == 4:
         if world.options.extra_sanity:
-            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation)
-            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation)
+            TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Complete"]), KRtDLLocation)
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Complete"]), KRtDLLocation)
         elif world.options.start_in_extra_game:
-            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation) 
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Complete"]), KRtDLLocation) 
         else:
-            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation) 
+            TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Complete"]), KRtDLLocation) 
 
     #need to gather all of the unique checks and put them here instead of in that function since it's gonna be called twice
     #should also really just make a separate function to declare the rooms so it doesn't do that twice too
