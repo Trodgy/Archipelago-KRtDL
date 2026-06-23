@@ -939,18 +939,17 @@ for i in range(1,29+1):
 for i in range(1,60+1):
     gold_star_table[StageNames[35] + "Room 13 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+
+extra_excluded_gold_star_table = {}
 #Another Dimension
 for i in range(1,26+1):
-    gold_star_table[StageNames[37] + "Section 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_gold_star_table[StageNames[37] + "Section 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    
-extra_excluded_gold_star_table = {}
 for i in range(1,39+1):
-    extra_excluded_gold_star_table[StageNames[37] + "Section 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    gold_star_table[StageNames[37] + "Section 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
-    
 for i in range(1,15+1):
-    gold_star_table[StageNames[37] + "Section 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_gold_star_table[StageNames[37] + "Section 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 #print(len(gold_star_table))
