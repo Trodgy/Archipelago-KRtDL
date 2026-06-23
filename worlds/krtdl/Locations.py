@@ -5222,19 +5222,19 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     MenuRegion.connect(PopstarMapRegion, "Menu To " + EXStatus + "Popstar Map")
     MenuRegion.connect(HalcandraMapRegion, "Menu To " + EXStatus + "Halcandra Map")
     
-    PopstarMapRegion.connect(HalcandraMapRegion, "Popstar Map To " + EXStatus + "Halcandra Map")
-    PopstarMapRegion.connect(LorStarcutterRegion, "Popstar Map To Lor Starcutter")
-    HalcandraMapRegion.connect(PopstarMapRegion, "Halcandra Map To " + EXStatus + "Popstar Map")
-    HalcandraMapRegion.connect(LorStarcutterRegion, "Halcandra Map To Lor Starcutter")
+    PopstarMapRegion.connect(HalcandraMapRegion, EXStatus + "Popstar Map To " + EXStatus + "Halcandra Map")
+    PopstarMapRegion.connect(LorStarcutterRegion, EXStatus + "Popstar Map To Lor Starcutter")
+    HalcandraMapRegion.connect(PopstarMapRegion, EXStatus + "Halcandra Map To " + EXStatus + "Popstar Map")
+    HalcandraMapRegion.connect(LorStarcutterRegion, EXStatus + "Halcandra Map To Lor Starcutter")
     
-    PopstarMapRegion.connect(CookieCountryHub, "Popstar Map To " + EXStatus + "Cookie Country Hub")
-    PopstarMapRegion.connect(RaisinRuinsHub, "Popstar Map To " + EXStatus + "Raisin Ruins Hub")
-    PopstarMapRegion.connect(OnionOceanHub, "Popstar Map To " + EXStatus + "Onion Ocean Hub")
-    PopstarMapRegion.connect(WhiteWafersHub, "Popstar Map To " + EXStatus + "White Wafers Hub")
-    PopstarMapRegion.connect(NuttyNoonHub, "Popstar Map To " + EXStatus + "Nutty Noon Hub")
+    PopstarMapRegion.connect(CookieCountryHub, EXStatus + "Popstar Map To " + EXStatus + "Cookie Country Hub")
+    PopstarMapRegion.connect(RaisinRuinsHub, EXStatus + "Popstar Map To " + EXStatus + "Raisin Ruins Hub")
+    PopstarMapRegion.connect(OnionOceanHub, EXStatus + "Popstar Map To " + EXStatus + "Onion Ocean Hub")
+    PopstarMapRegion.connect(WhiteWafersHub, EXStatus + "Popstar Map To " + EXStatus + "White Wafers Hub")
+    PopstarMapRegion.connect(NuttyNoonHub, EXStatus + "Popstar Map To " + EXStatus + "Nutty Noon Hub")
 
-    HalcandraMapRegion.connect(EggEnginesHub, "Halcandra Map To " + EXStatus + "Egg Engines Hub")
-    HalcandraMapRegion.connect(DangerousDinnerHub, "Halcandra Map To " + EXStatus + "Dangerous Dinner Hub")
+    HalcandraMapRegion.connect(EggEnginesHub, EXStatus + "Halcandra Map To " + EXStatus + "Egg Engines Hub")
+    HalcandraMapRegion.connect(DangerousDinnerHub, EXStatus + "Halcandra Map To " + EXStatus + "Dangerous Dinner Hub")
     
     OneOneRooms = [world.get_region(EXStatus + "Cookie Country Stage 1 Room 1"),
                    world.get_region(EXStatus + "Cookie Country Stage 1 Room 2"),
