@@ -253,6 +253,46 @@ class KRtDLWorld(World):
             new_map[ItemNames.arena_completion.value] = ItemNames.arena_completion.value
         if self.options.goal == 4 or (self.options.shuffle_arena and (self.options.extra_sanity or self.options.start_in_extra_game)):
             new_map[ItemNames.true_arena_completion.value] = ItemNames.true_arena_completion.value
+
+        if self.options.extra_sanity:
+            new_map["EX " + ItemNames.stage1_1.value] = "EX " + ItemNames.stage1_1.value
+            new_map["EX " + ItemNames.stage1_2.value] = "EX " + ItemNames.stage1_2.value
+            new_map["EX " + ItemNames.stage1_3.value] = "EX " + ItemNames.stage1_3.value
+            new_map["EX " + ItemNames.stage1_4.value] = "EX " + ItemNames.stage1_4.value
+            new_map["EX " + ItemNames.stage1_5.value] = "EX " + ItemNames.stage1_5.value
+            new_map["EX " + ItemNames.stage2_1.value] = "EX " + ItemNames.stage2_1.value
+            new_map["EX " + ItemNames.stage2_2.value] = "EX " + ItemNames.stage2_2.value
+            new_map["EX " + ItemNames.stage2_3.value] = "EX " + ItemNames.stage2_3.value
+            new_map["EX " + ItemNames.stage2_4.value] = "EX " + ItemNames.stage2_4.value
+            new_map["EX " + ItemNames.stage2_5.value] = "EX " + ItemNames.stage2_5.value
+            new_map["EX " + ItemNames.stage3_1.value] = "EX " + ItemNames.stage3_1.value
+            new_map["EX " + ItemNames.stage3_2.value] = "EX " + ItemNames.stage3_2.value
+            new_map["EX " + ItemNames.stage3_3.value] = "EX " + ItemNames.stage3_3.value
+            new_map["EX " + ItemNames.stage3_4.value] = "EX " + ItemNames.stage3_4.value
+            new_map["EX " + ItemNames.stage3_5.value] = "EX " + ItemNames.stage3_5.value
+            new_map["EX " + ItemNames.stage4_1.value] = "EX " + ItemNames.stage4_1.value
+            new_map["EX " + ItemNames.stage4_2.value] = "EX " + ItemNames.stage4_2.value
+            new_map["EX " + ItemNames.stage4_3.value] = "EX " + ItemNames.stage4_3.value
+            new_map["EX " + ItemNames.stage4_4.value] = "EX " + ItemNames.stage4_4.value
+            new_map["EX " + ItemNames.stage4_5.value] = "EX " + ItemNames.stage4_5.value
+            new_map["EX " + ItemNames.stage4_6.value] = "EX " + ItemNames.stage4_6.value
+            new_map["EX " + ItemNames.stage5_1.value] = "EX " + ItemNames.stage5_1.value
+            new_map["EX " + ItemNames.stage5_2.value] = "EX " + ItemNames.stage5_2.value
+            new_map["EX " + ItemNames.stage5_3.value] = "EX " + ItemNames.stage5_3.value
+            new_map["EX " + ItemNames.stage5_4.value] = "EX " + ItemNames.stage5_4.value
+            new_map["EX " + ItemNames.stage5_5.value] = "EX " + ItemNames.stage5_5.value
+            new_map["EX " + ItemNames.stage5_6.value] = "EX " + ItemNames.stage5_6.value
+            new_map["EX " + ItemNames.stage6_1.value] = "EX " + ItemNames.stage6_1.value
+            new_map["EX " + ItemNames.stage6_2.value] = "EX " + ItemNames.stage6_2.value
+            new_map["EX " + ItemNames.stage6_3.value] = "EX " + ItemNames.stage6_3.value
+            new_map["EX " + ItemNames.stage6_4.value] = "EX " + ItemNames.stage6_4.value
+            new_map["EX " + ItemNames.stage6_5.value] = "EX " + ItemNames.stage6_5.value
+            new_map["EX " + ItemNames.stage6_6.value] = "EX " + ItemNames.stage6_6.value
+            new_map["EX " + ItemNames.stage7_1.value] = "EX " + ItemNames.stage7_1.value
+            new_map["EX " + ItemNames.stage7_2.value] = "EX " + ItemNames.stage7_2.value
+            new_map["EX " + ItemNames.stage7_3.value] = "EX " + ItemNames.stage7_3.value
+            new_map["EX " + ItemNames.stage7_4.value] = "EX " + ItemNames.stage7_4.value
+            new_map["EX " + ItemNames.stage8_4.value] = "EX " + ItemNames.stage8_4.value
         
         self.prefilled_item_map = new_map
 
