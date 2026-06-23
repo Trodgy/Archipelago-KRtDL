@@ -2353,8 +2353,8 @@ stage_completion_table["The Arena - Complete"] = BaseLocationID + locationincrem
 locationincrement += 1
 stage_completion_table["The True Arena - Complete"] = BaseLocationID + locationincrement
 locationincrement += 1
-compound_stage_completion_table += stage_completion_table
-compound_stage_completion_table += extra_sanity_table
+compound_stage_completion_table.append(stage_completion_table)
+compound_stage_completion_table.append(extra_sanity_table)
 
 for i in energy_sphere_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
