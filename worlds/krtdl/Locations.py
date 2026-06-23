@@ -2315,13 +2315,13 @@ for i in range(1,3+1):
 ChallengeNames = ["Sword Challenge ","Whip Challenge ","Hi-Jump Challenge ","Bomb Challenge ","Water Challenge ","Wing Challenge ","Item Challenge "]
 challenge_table = {}
 for i in ChallengeNames:
-    challenge_table[i + "- Bronze"] = BaseLocationID + locationincrement
+    challenge_table[i + "- Bronze Medal"] = BaseLocationID + locationincrement
     locationincrement += 1
-    challenge_table[i + "- Silver"] = BaseLocationID + locationincrement
+    challenge_table[i + "- Silver Medal"] = BaseLocationID + locationincrement
     locationincrement += 1
-    challenge_table[i + "- Gold"] = BaseLocationID + locationincrement
+    challenge_table[i + "- Gold Medal"] = BaseLocationID + locationincrement
     locationincrement += 1
-    challenge_table[i + "- Platinum"] = BaseLocationID + locationincrement
+    challenge_table[i + "- Platinum Medal"] = BaseLocationID + locationincrement
     locationincrement += 1
     
 SubgameNames = ["Ninja Dojo ","Scope Shot "]
@@ -2417,7 +2417,7 @@ def AllRegionsWhichCanBeSplitForEXtraSanityMoreEasily(world: "KRtDLWorld", EXSta
     regions.append(Region(EXStatus + "Popstar Map", world.player, world.multiworld))
     regions.append(Region(EXStatus + "Halcandra Map", world.player, world.multiworld))
 
-    regions.append(Region(EXStatus + "Lor Starcutter", world.player, world.multiworld))
+    regions.append(Region("Lor Starcutter", world.player, world.multiworld))
 
     regions.append(Region(EXStatus + "Cookie Country Hub", world.player, world.multiworld))
     regions.append(Region(EXStatus + "Raisin Ruins Hub", world.player, world.multiworld))
@@ -2556,7 +2556,7 @@ def AddLocationsButAMoreCallableFunctionSoEXtraSanityCanWork(world: "KRtDLWorld"
     MenuRegion = world.get_region("Menu")
     PopstarMapRegion = world.get_region(EXStatus + "Popstar Map")
     HalcandraMapRegion = world.get_region(EXStatus + "Halcandra Map")
-    LorStarcutterRegion = world.get_region(EXStatus + "Lor Starcutter")
+    LorStarcutterRegion = world.get_region("Lor Starcutter")
     
     CookieCountryHub = world.get_region(EXStatus + "Cookie Country Hub")
     RaisinRuinsHub = world.get_region(EXStatus + "Raisin Ruins Hub")
@@ -5208,7 +5208,7 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     MenuRegion = world.get_region("Menu")
     PopstarMapRegion = world.get_region(EXStatus + "Popstar Map")
     HalcandraMapRegion = world.get_region(EXStatus + "Halcandra Map")
-    LorStarcutterRegion = world.get_region(EXStatus + "Lor Starcutter")
+    LorStarcutterRegion = world.get_region("Lor Starcutter")
     
     CookieCountryHub = world.get_region(EXStatus + "Cookie Country Hub")
     RaisinRuinsHub = world.get_region(EXStatus + "Raisin Ruins Hub")
@@ -5914,6 +5914,8 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     world.multiworld.regions += NonRepeatableRegions
     
     MenuRegion = world.get_region("Menu")
+
+    LorStarcutterRegion = world.get_region("Lor Starcutter")
     
     NinjaDojoRegion = world.get_region("Ninja Dojo")
     ScopeShotRegion = world.get_region("Scope Shot")
@@ -6019,6 +6021,14 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
         for i in range(1,3+1):
             ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
 
+    if world.options.shuffle_challenges == 1 or world.options.shuffle_challenges == 2:
+        for i in range(1,7+1):
+            LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Bronze Medal"]), KRtDLLocation)
+            LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Silver Medal"]), KRtDLLocation)
+            LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Gold Medal"]), KRtDLLocation)
+            if world.options.shuffle_challenges == 2:
+                LorStarcutterRegion.add_locations(get_location_names_with_ids([i + "- Platinum Medal"]), KRtDLLocation)
+
     if world.options.shuffle_arena or world.options.goal == 3 or world.options.goal == 4:
         if world.options.extra_sanity:
             TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation)
@@ -6027,8 +6037,3 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
             TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation) 
         else:
             TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation) 
-
-    #need to gather all of the unique checks and put them here instead of in that function since it's gonna be called twice
-    #should also really just make a separate function to declare the rooms so it doesn't do that twice too
-    #maybe also figure out a way to organise all of this more neatly so it doesn't require 10 bagillion little loops and individual calls for each location cuz god this would take an eternity-
-    #-to edit to be EX compatible properly
