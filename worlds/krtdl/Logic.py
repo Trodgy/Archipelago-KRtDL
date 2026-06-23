@@ -30,7 +30,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     world.set_rule(OneThreeEntrance, Has("Cookie Country Stage 2 - Complete"))
     OneFourEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 4 Room 1")
     world.set_rule(OneFourEntrance, Has("Cookie Country Stage 3 - Complete"))
-    OneFiveEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 5 Room 1")
+    OneFiveEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 5)
     world.set_rule(OneFiveEntrance, Has("Cookie Country Stage 4 - Complete"))
     
     TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
