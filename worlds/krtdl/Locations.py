@@ -5941,92 +5941,92 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
     if world.options.extra_sanity:
         if world.options.star_sanity:
             for i in range(1,26+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
             for i in range(1,15+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Red Star"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
             for i in range(1,3+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,5+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
             for i in range(1,7+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,5+1):
-                    TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
                 for i in range(1,3+1):
-                    TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - 1-up"]), KRtDLLocation)
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
             for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,12+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
             for i in range(1,14+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation) 
     elif world.options.start_in_extra_game:
         if world.options.star_sanity:
             for i in range(1,15+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
             for i in range(1,3+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Red Star #" + str(i)]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,7+1):
-                 AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
+                 AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,3+1):
-                    TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 3 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 3 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,3+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,14+1):
-                TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
+                TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Round " + str(i) + " Clear"]), KRtDLLocation)
     else:
         if world.options.star_sanity:
             for i in range(1,26+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Gold Star #" + str(i)]), KRtDLLocation)
         if world.options.red_star_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Red Star"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Red Star"]), KRtDLLocation)
         if world.options.food_sanity:
             for i in range(1,5+1):
-                AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
+                AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - Food #" + str(i)]), KRtDLLocation)
             if world.options.shuffle_arena:
                 for i in range(1,5+1):
-                    TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
+                    TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - Food #" + str(i)]), KRtDLLocation)
         if world.options.one_up_sanity:
-            AnotherDimension.add_locations(get_location_names_with_ids([EXStatus + "Another Dimension Section 1 - 1-up"]), KRtDLLocation)
+            AnotherDimension.add_locations(get_location_names_with_ids(["Another Dimension Section 1 - 1-up"]), KRtDLLocation)
         if world.options.maxim_sanity and world.options.shuffle_arena:
             for i in range(1,5+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena Intermission Room - M-Tomato #" + str(i)]), KRtDLLocation)
         if world.options.shuffle_arena:
             for i in range(1,12+1):
-                TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)  
+                TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Round " + str(i) + " Clear"]), KRtDLLocation)  
     
     if world.options.shuffle_subgames:
         for i in range(1,3+1):
-            NinjaDojoRegion.add_locations(get_location_names_with_ids([EXStatus + "Ninja Dojo - Level " + str(i)]), KRtDLLocation)
+            NinjaDojoRegion.add_locations(get_location_names_with_ids(["Ninja Dojo - Level " + str(i)]), KRtDLLocation)
         for i in range(1,3+1):
-            ScopeShotRegion.add_locations(get_location_names_with_ids([EXStatus + "Scope Shot - Level " + str(i)]), KRtDLLocation)
+            ScopeShotRegion.add_locations(get_location_names_with_ids(["Scope Shot - Level " + str(i)]), KRtDLLocation)
 
     if world.options.shuffle_arena or world.options.goal == 3 or world.options.goal == 4:
         if world.options.extra_sanity:
-            TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Complete"]), KRtDLLocation)
-            TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Complete"]), KRtDLLocation)
+            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation)
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation)
         elif world.options.start_in_extra_game:
-            TheTrueArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The True Arena - Complete"]), KRtDLLocation) 
+            TheTrueArenaRegion.add_locations(get_location_names_with_ids(["The True Arena - Complete"]), KRtDLLocation) 
         else:
-            TheArenaRegion.add_locations(get_location_names_with_ids([EXStatus + "The Arena - Complete"]), KRtDLLocation) 
+            TheArenaRegion.add_locations(get_location_names_with_ids(["The Arena - Complete"]), KRtDLLocation) 
 
     #need to gather all of the unique checks and put them here instead of in that function since it's gonna be called twice
     #should also really just make a separate function to declare the rooms so it doesn't do that twice too
