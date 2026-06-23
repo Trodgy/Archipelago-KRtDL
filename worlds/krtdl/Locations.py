@@ -2369,7 +2369,11 @@ for i in challenge_table.keys():
 for i in subgame_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
-    
+
+#still need to separate the unique checks from the extra pool so it doesn't make dupes!!!
+
+
+
 composite_location: dict[str, int] = {
     **stage_completion_table,
     **energy_sphere_table,
