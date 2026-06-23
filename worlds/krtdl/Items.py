@@ -166,11 +166,13 @@ item_table: dict[str, ItemData] = {
 
     ItemNames.arena_completion.value: ItemData(ItemNames.arena_completion.value, 133, ItemClassification.progression, 1),
     ItemNames.true_arena_completion.value: ItemData(ItemNames.true_arena_completion.value, 134, ItemClassification.progression, 1),
+
+    ItemNames.three_up.value: ItemData(ItemNames.three_up.value, 135, ItemClassification.useful),
     
     # trap items
-    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 135, ItemClassification.trap),
-    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 136, ItemClassification.trap),
-    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 137, ItemClassification.trap),
+    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 136, ItemClassification.trap),
+    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 137, ItemClassification.trap),
+    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 138, ItemClassification.trap),
 }
 
 def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
@@ -316,6 +318,17 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     if world.options.shuffle_subgames:
         for i in range(0,6):
             items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+
+    if world.options.shuffle_challenges == 1 or world.options.shuffle_challenges == 2:
+        for i in range(0,7):
+            items.append(world.create_item(ItemNames.red_star.value, ItemClassification.filler))
+        for i in range(0,7):
+            items.append(world.create_item(ItemNames.blue_star.value, ItemClassification.filler))
+        for i in range(0,7):
+            items.append(world.create_item(ItemNames.one_up.value, ItemClassification.useful))
+        if world.options.shuffle_challenges == 2:
+            for i in range(0,7):
+                items.append(world.create_item(ItemNames.three_up.value, ItemClassification.useful))
     
     if world.options.shuffle_arena:
         if world.options.extra_sanity:
