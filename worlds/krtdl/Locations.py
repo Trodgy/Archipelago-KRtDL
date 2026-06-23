@@ -2348,6 +2348,9 @@ for i in range(1,14+1):
 
 
 extra_sanity_table = {}
+for i in stage_completion_table.keys():
+    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
+    locationincrement += 1
 for i in energy_sphere_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
