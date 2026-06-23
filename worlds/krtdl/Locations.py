@@ -944,9 +944,12 @@ for i in range(1,60+1):
 for i in range(1,26+1):
     gold_star_table[StageNames[37] + "Section 1 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+    
+extra_excluded_gold_star_table = {}
 for i in range(1,39+1):
-    gold_star_table[StageNames[37] + "Section 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_gold_star_table[StageNames[37] + "Section 2 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+    
 for i in range(1,15+1):
     gold_star_table[StageNames[37] + "Section 3 - Gold Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
@@ -1245,11 +1248,13 @@ red_star_table[StageNames[35] + "Room 10 - Red Star"] = BaseLocationID + locatio
 locationincrement += 1
 red_star_table[StageNames[35] + "Room 13 - Red Star"] = BaseLocationID + locationincrement
 locationincrement += 1
+
+extra_excluded_red_star_table = {}
 #Another Dimension
-red_star_table[StageNames[37] + "Section 1 - Red Star"] = BaseLocationID + locationincrement
+extra_excluded_red_star_table[StageNames[37] + "Section 1 - Red Star"] = BaseLocationID + locationincrement
 locationincrement += 1
 for i in range(1,3+1):
-    red_star_table[StageNames[37] + "Section 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_red_star_table[StageNames[37] + "Section 3 - Red Star #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 #print(len(red_star_table))
@@ -1676,10 +1681,12 @@ one_up_table[StageNames[35] + "Room 5 - 1-up"] = BaseLocationID + locationincrem
 locationincrement += 1
 one_up_table[StageNames[35] + "Room 13 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
+
+extra_excluded_one_up_table = {}
 #Another Dimension
-one_up_table[StageNames[37] + "Section 1 - 1-up"] = BaseLocationID + locationincrement
+extra_excluded_one_up_table[StageNames[37] + "Section 1 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
-one_up_table[StageNames[37] + "Section 3 - 1-up"] = BaseLocationID + locationincrement
+extra_excluded_one_up_table[StageNames[37] + "Section 3 - 1-up"] = BaseLocationID + locationincrement
 locationincrement += 1
 
 #print(len(one_up_table))
@@ -2150,19 +2157,22 @@ for i in range(1,4+1):
 for i in range(1,5+1):
     health_pickup_table[StageNames[37] + "Section 1 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+
+extra_excluded_health_pickup_table = {}
 for i in range(1,7+1):
-    health_pickup_table[StageNames[37] + "Section 2 - Food #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_health_pickup_table[StageNames[37] + "Section 2 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
+    
 for i in range(1,7+1):
     health_pickup_table[StageNames[37] + "Section 3 - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #The Arena
 for i in range(1,5+1):
-    health_pickup_table[NonStageNames[0] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_health_pickup_table[NonStageNames[0] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #The True Arena
 for i in range(1,3+1):
-    health_pickup_table[NonStageNames[1] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_health_pickup_table[NonStageNames[1] + "Intermission Room - Food #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
     
 #health_pickup_table[StageNames[16] + "Room 2 - Food"] = BaseLocationID + locationincrement
@@ -2291,13 +2301,15 @@ locationincrement += 1
 #Dangerous Dinner 4
 maxim_tomato_table[StageNames[36] + "Room 1 - M-Tomato"] = BaseLocationID + locationincrement
 locationincrement += 1
+
+extra_excluded_maxim_tomato_table = {}
 #The Arena
 for i in range(1,5+1):
-    maxim_tomato_table[NonStageNames[0] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_maxim_tomato_table[NonStageNames[0] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 #The True Arena
 for i in range(1,3+1):
-    maxim_tomato_table[NonStageNames[1] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
+    extra_excluded_maxim_tomato_table[NonStageNames[1] + "Intermission Room - M-Tomato #" + str(i)] = BaseLocationID + locationincrement
     locationincrement += 1
 
 
@@ -2363,12 +2375,6 @@ for i in health_pickup_table.keys():
 for i in maxim_tomato_table.keys():
     extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
     locationincrement += 1
-for i in challenge_table.keys():
-    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
-    locationincrement += 1
-for i in subgame_table.keys():
-    extra_sanity_table["EX " + i] = BaseLocationID + locationincrement
-    locationincrement += 1
 
 #still need to separate the unique checks from the extra pool so it doesn't make dupes!!!
 
@@ -2379,12 +2385,17 @@ composite_location: dict[str, int] = {
     **energy_sphere_table,
     **part_sphere_table,
     **gold_star_table,
+    **extra_excluded_gold_star_table,
     **red_star_table,
+    **extra_excluded_red_star_table,
     **blue_star_table,
     **flower_table,
     **one_up_table,
+    **extra_excluded_one_up_table,
     **health_pickup_table,
+    **extra_excluded_health_pickup_table,
     **maxim_tomato_table,
+    **extra_excluded_maxim_tomato_table,
     **challenge_table,
     **subgame_table,
     **arenas_table,
