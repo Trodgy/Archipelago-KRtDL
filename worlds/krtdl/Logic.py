@@ -25,7 +25,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     #"Popstar Map To Cookie Country Hub")
 
 
-    print(str(world.random))
+    print(str(world.random.randrange(0,6)))
     
     
     OneTwoEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 2 Room 1")
