@@ -2417,8 +2417,6 @@ def AllRegionsWhichCanBeSplitForEXtraSanityMoreEasily(world: "KRtDLWorld", EXSta
     regions.append(Region(EXStatus + "Popstar Map", world.player, world.multiworld))
     regions.append(Region(EXStatus + "Halcandra Map", world.player, world.multiworld))
 
-    regions.append(Region("Lor Starcutter", world.player, world.multiworld))
-
     regions.append(Region(EXStatus + "Cookie Country Hub", world.player, world.multiworld))
     regions.append(Region(EXStatus + "Raisin Ruins Hub", world.player, world.multiworld))
     regions.append(Region(EXStatus + "Onion Ocean Hub", world.player, world.multiworld))
@@ -5899,6 +5897,7 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
 
 def create_regular_locations(world: "KRtDLWorld") -> None:
     world.multiworld.regions.append(Region("Menu", world.player, world.multiworld))
+    world.multiworld.regions.append(Region("Lor Starcutter", world.player, world.multiworld))
     
     if world.options.extra_sanity:
         CreateTheRegionConnectionsAndExtraRegions(world, "EX ")
