@@ -23,6 +23,10 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.set_completion_rule(Has("The True Arena - Complete"))
     
     #"Popstar Map To Cookie Country Hub")
+
+
+    print(str(world.random))
+    
     
     OneTwoEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 2 Room 1")
     world.set_rule(OneTwoEntrance, Has("Cookie Country Stage 1 - Complete"))
