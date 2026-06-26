@@ -5291,7 +5291,7 @@ def CreateTheRegionConnectionsAndExtraRegions(world: "KRtDLWorld", EXStatus: str
     
     OneFiveRegion = world.get_region(EXStatus + "Cookie Country Stage 5 Room 1")
 
-    CookieCountryHub.connect(OneFiveRegion, "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 5")
+    CookieCountryHub.connect(OneFiveRegion, EXStatus + "Cookie Country Hub To " + EXStatus + "Cookie Country Stage 5")
 
     
     TwoOneRooms = [world.get_region(EXStatus + "Raisin Ruins Stage 1 Room 1"),
