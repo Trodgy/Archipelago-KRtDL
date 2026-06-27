@@ -83,13 +83,14 @@ class StartingWorld(Choice):
     """Determines the first world of your run. Default is Cookie Country."""
     display_name = "Starting World"
     default = 0
-    option_cookie_country = 0
-    option_raisin_ruins = 1
-    option_onion_ocean = 2
-    option_white_wafers = 3
-    option_nutty_noon = 4
-    option_egg_engines = 5
-    option_dangerous_dinner = 6
+    option_any = 0
+    option_cookie_country = 1
+    option_raisin_ruins = 2
+    option_onion_ocean = 3
+    option_white_wafers = 4
+    option_nutty_noon = 5
+    option_egg_engines = 6
+    option_dangerous_dinner = 7
 
 class StartWithAllWorlds(Toggle):
     """Unlocks all of the worlds and their Stage 1s from the start.
