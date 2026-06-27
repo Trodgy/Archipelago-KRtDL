@@ -32,10 +32,10 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     if world.options.shuffle_dangerous_dinner:
         ShuffleableWorlds.append(6)
 
-    if ShuffleableWorlds.count() > 1:
-        for i in range(0,ShuffleableWorlds.count()-1):
+    if ShuffleableWorlds.len() > 1:
+        for i in range(0,ShuffleableWorlds.len()-1):
             ArrayIndex = ShuffleableWorlds[0]
-            WorldsDef[ArrayIndex] = ShuffleableWorlds[world.random.randrange(0,ShuffleableWorlds.count()-1)]
+            WorldsDef[ArrayIndex] = ShuffleableWorlds[world.random.randrange(0,ShuffleableWorlds.len()-1)]
             ShuffleableWorlds.pop(0)
         print(WorldsDef)
 
