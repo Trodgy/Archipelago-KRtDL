@@ -10,6 +10,35 @@ from .Options import Goal
 if TYPE_CHECKING:
     from . import KRtDLWorld
 
+WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
+WorldOrderDefinitionEX = [0, 1, 2, 3, 4, 5, 6] #EX Cookie Country to EX Dangerous Dinner
+
+def DefineWorldOrder() -> None:
+    WorldsDef = WorldOrderDefinition
+    print(WorldsDef)
+    ShuffleableWorlds = []
+    if world.options.shuffle_cookie_country:
+        ShuffleableWorlds.append(0)
+    if world.options.shuffle_raisin_ruins:
+        ShuffleableWorlds.append(1)
+    if world.options.shuffle_onion_ocean:
+        ShuffleableWorlds.append(2)
+    if world.options.shuffle_white_wafers:
+        ShuffleableWorlds.append(3)
+    if world.options.shuffle_nutty_noon:
+        ShuffleableWorlds.append(4)
+    if world.options.shuffle_egg_engines:
+        ShuffleableWorlds.append(5)
+    if world.options.shuffle_dangerous_dinner:
+        ShuffleableWorlds.append(6)
+
+    if ShuffleableWorlds.count > 1:
+        for i in range(0,ShuffleableWorlds.count-1):
+            ArrayIndex = ShuffleableWorlds[0]
+            WorldsDef[ArrayIndex] = ShuffleableWorlds[world.random.randrange(0,ShuffleableWorlds.count-1)]
+            ShuffleableWorlds.pop(0)
+        print(WorldsDef)
+
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
         world.set_completion_rule(Has("Another Dimension Final Boss - Complete"))
@@ -22,12 +51,10 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     elif world.options.goal == Goal.option_the_true_arena:
         world.set_completion_rule(Has("The True Arena - Complete"))
     
+    DefineWorldOrder()
+    
     #"Popstar Map To Cookie Country Hub")
 
-
-    print(str(world.random.randrange(0,6)))
-    
-    
     OneTwoEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 2 Room 1")
     world.set_rule(OneTwoEntrance, Has("Cookie Country Stage 1 - Complete"))
     OneThreeEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 3 Room 1")
