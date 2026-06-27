@@ -13,7 +13,7 @@ if TYPE_CHECKING:
 WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
 WorldOrderDefinitionEX = [0, 1, 2, 3, 4, 5, 6] #EX Cookie Country to EX Dangerous Dinner
 
-def DefineWorldOrder() -> None:
+def DefineWorldOrder(world: "KRtDLWorld") -> None:
     WorldsDef = WorldOrderDefinition
     print(WorldsDef)
     ShuffleableWorlds = []
@@ -51,7 +51,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     elif world.options.goal == Goal.option_the_true_arena:
         world.set_completion_rule(Has("The True Arena - Complete"))
     
-    DefineWorldOrder()
+    DefineWorldOrder(world)
     
     #"Popstar Map To Cookie Country Hub")
 
