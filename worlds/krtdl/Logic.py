@@ -34,26 +34,16 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     if world.options.shuffle_dangerous_dinner:
         ShuffleableWorlds.append(6)
 
-    print(ShuffleableWorlds)
-
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     
     if len(ShuffleableWorlds) > 1:
         for i in range(0,7):
             if i in ExtraCheckingShuffleableWorlds:
                 RandomIndex = world.random.randrange(0,len(ShuffleableWorlds))
-                print(RandomIndex)
-                print(ShuffleableWorlds[RandomIndex])
                 WorldsDef[i] = ShuffleableWorlds[RandomIndex]
                 ShuffleableWorlds.pop(RandomIndex)
-            else:
-                print("there is no")
-                print(i)
-                print("in the thing")
         print(WorldsDef)
 
-    #if world.options.shuffle_cookie_country:
-        #ShuffleableWorlds.index(200)
 
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
