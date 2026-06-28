@@ -35,10 +35,12 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
         ShuffleableWorlds.append(6)
 
     print(ShuffleableWorlds)
+
+    ExtraCheckingShuffleableWorlds = ShuffleableWorlds
     
     if len(ShuffleableWorlds) > 1:
         for i in range(0,7):
-            if i in ShuffleableWorlds:
+            if i in ExtraCheckingShuffleableWorlds:
                 print("new set")
                 print(i)
                 print(ShuffleableWorlds.index(i))
