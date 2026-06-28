@@ -38,6 +38,7 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
         for i in range(0,len(ShuffleableWorlds)-1):
             ArrayIndex = ShuffleableWorlds[0]
             RandomIndex = world.random.randrange(0,len(ShuffleableWorlds)-1)
+            print(RandomIndex)
             WorldsDef[ArrayIndex] = ShuffleableWorlds[RandomIndex]
             ShuffleableWorlds.remove(ShuffleableWorlds[RandomIndex])
         print(WorldsDef)
