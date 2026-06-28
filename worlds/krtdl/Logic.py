@@ -53,6 +53,9 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
                 print("in the thing")
         print(WorldsDef)
 
+    if world.options.shuffle_cookie_country:
+        ShuffleableWorlds.index(200)
+
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
         world.set_completion_rule(Has("Another Dimension Final Boss - Complete"))
