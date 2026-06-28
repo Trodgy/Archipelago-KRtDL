@@ -47,7 +47,7 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
                 print(ShuffleableWorlds[RandomIndex])
                 WorldsDef[i] = ShuffleableWorlds[RandomIndex]
                 ShuffleableWorlds.pop(RandomIndex)
-            else
+            else:
                 print("there is no")
                 print(i)
                 print("in the thing")
