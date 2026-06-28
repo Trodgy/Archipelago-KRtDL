@@ -37,7 +37,7 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     print(ShuffleableWorlds)
     
     if len(ShuffleableWorlds) > 1:
-        for i in range(0,6):
+        for i in range(0,7):
             if i in ShuffleableWorlds:
                 print(i)
                 print(ShuffleableWorlds.index(i))
