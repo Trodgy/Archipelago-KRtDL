@@ -52,8 +52,8 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
                 print("in the thing")
         print(WorldsDef)
 
-    if world.options.shuffle_cookie_country:
-        ShuffleableWorlds.index(200)
+    #if world.options.shuffle_cookie_country:
+        #ShuffleableWorlds.index(200)
 
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
