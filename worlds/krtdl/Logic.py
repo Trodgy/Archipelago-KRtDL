@@ -39,7 +39,7 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
             ArrayIndex = ShuffleableWorlds[0]
             RandomIndex = world.random.randrange(0,len(ShuffleableWorlds)-1)
             WorldsDef[ArrayIndex] = ShuffleableWorlds[RandomIndex]
-            ShuffleableWorlds.pop(RandomIndex)
+            ShuffleableWorlds.remove(ShuffleableWorlds[RandomIndex])
         print(WorldsDef)
 
 def InitiateRules(world: "KRtDLWorld") -> None:
