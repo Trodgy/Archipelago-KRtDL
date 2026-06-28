@@ -16,7 +16,7 @@ WorldOrderDefinitionEX = [0, 1, 2, 3, 4, 5, 6] #EX Cookie Country to EX Dangerou
 #need to make this function return stuff instead of defining the bits above ^
 #as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
 def DefineWorldOrder(world: "KRtDLWorld") -> None:
-    WorldsDef = WorldOrderDefinition
+    WorldsDef = WorldOrderDefinition.copy()
     #print(WorldsDef)
     ShuffleableWorlds = []
     if world.options.shuffle_cookie_country:
@@ -36,12 +36,11 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
 
     print(ShuffleableWorlds)
 
-    ExtraCheckingShuffleableWorlds = ShuffleableWorlds
+    ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     
     if len(ShuffleableWorlds) > 1:
         for i in range(0,7):
             if i in ExtraCheckingShuffleableWorlds:
-                print(ExtraCheckingShuffleableWorlds)
                 print("new set")
                 print(i)
                 print(ShuffleableWorlds.index(i))
