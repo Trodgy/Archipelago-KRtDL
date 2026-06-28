@@ -17,7 +17,7 @@ WorldOrderDefinitionEX = [0, 1, 2, 3, 4, 5, 6] #EX Cookie Country to EX Dangerou
 #as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
 def DefineWorldOrder(world: "KRtDLWorld") -> None:
     WorldsDef = WorldOrderDefinition
-    print(WorldsDef)
+    #print(WorldsDef)
     ShuffleableWorlds = []
     if world.options.shuffle_cookie_country:
         ShuffleableWorlds.append(0)
@@ -34,6 +34,8 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     if world.options.shuffle_dangerous_dinner:
         ShuffleableWorlds.append(6)
 
+    print(ShuffleableWorlds)
+    
     if len(ShuffleableWorlds) > 1:
         for i in range(0,6):
             if i in ShuffleableWorlds:
