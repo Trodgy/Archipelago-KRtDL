@@ -11,12 +11,12 @@ if TYPE_CHECKING:
     from . import KRtDLWorld
 
 WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
-WorldOrderDefinitionEX = [0, 1, 2, 3, 4, 5, 6] #EX Cookie Country to EX Dangerous Dinner
 
 #need to make this function return stuff instead of defining the bits above ^
 #as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
 def DefineWorldOrder(world: "KRtDLWorld") -> None:
     WorldsDef = WorldOrderDefinition.copy()
+    WorldsDefEX = WorldOrderDefinition.copy()
     #print(WorldsDef)
     ShuffleableWorlds = []
     if world.options.shuffle_cookie_country:
@@ -35,6 +35,7 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
         ShuffleableWorlds.append(6)
 
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
+    EXShuffleableWorlds = ShuffleableWorlds.copy()
     
     if len(ShuffleableWorlds) > 1:
         for i in range(0,7):
@@ -42,7 +43,14 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
                 RandomIndex = world.random.randrange(0,len(ShuffleableWorlds))
                 WorldsDef[i] = ShuffleableWorlds[RandomIndex]
                 ShuffleableWorlds.pop(RandomIndex)
-        print(WorldsDef)
+    if len(EXShuffleableWorlds) > 1:
+        for i in range(0,7):
+            if i in ExtraCheckingShuffleableWorlds:
+                RandomIndex = world.random.randrange(0,len(EXShuffleableWorlds))
+                WorldsDefEX[i] = EXShuffleableWorlds[RandomIndex]
+                EXShuffleableWorlds.pop(RandomIndex)
+    print(WorldsDef)
+    print(WorldsDefEX)
 
 
 def InitiateRules(world: "KRtDLWorld") -> None:
