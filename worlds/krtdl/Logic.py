@@ -36,6 +36,12 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
 
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     EXShuffleableWorlds = ShuffleableWorlds.copy()
+
+    #should handle starting_world setting here
+    #world.options.starting_world
+
+    #if starting world isn't 0
+    #make it force WorldsDef[0] to starting world ID then set the range of the loops below to (1,7) so it skips over
     
     if len(ShuffleableWorlds) > 1:
         for i in range(0,7):
@@ -55,6 +61,11 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     OneOneEntrance = world.get_entrance("Popstar Map To Cookie Country Hub")
     if WorldsDef[0] != 0:
         world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+
+    TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
+    #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
+    if WorldsDef[0] != 1:
+        world.set_rule(TwoOneEntrance, Has("World Unlock - Raisin Ruins"))
 
 
 def InitiateRules(world: "KRtDLWorld") -> None:
