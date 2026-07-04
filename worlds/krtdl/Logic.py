@@ -52,6 +52,10 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     print(WorldsDef)
     print(WorldsDefEX)
 
+    OneOneEntrance = world.get_entrance("Popstar Map To Cookie Country Hub")
+    if WorldsDef[0] != 0:
+        world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+
 
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
