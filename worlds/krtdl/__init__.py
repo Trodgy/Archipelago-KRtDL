@@ -133,6 +133,8 @@ class KRtDLWorld(World):
     def generate_early(self) -> None:
         if hasattr(self.multiworld, "re_gen_passthrough"):
             self.init_tracker_data()
+
+        print("order test 1")
             
         # Select Start Room
        # init_starting_room_data(self)
@@ -181,11 +183,13 @@ class KRtDLWorld(World):
             #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
 
     def create_regions(self) -> None:
+        print("order test 2")
         #print("test")
         create_all_regions(self)
         create_regular_locations(self)
 
     def set_rules(self) -> None:
+        print("order test 3")
         InitiateRules(self)
     
     def create_item(self, name: str, override: Optional[ItemClassification] = None) -> "KRtDLItem":
@@ -199,6 +203,7 @@ class KRtDLWorld(World):
         return KRtDLItem(name, createdthing.classification, createdthing.code, self.player)
 
     def create_items(self) -> None:
+        print("order test 4")
         precollected_item_names = [
             item.name for item in self.multiworld.precollected_items[self.player]
         ]
@@ -300,6 +305,7 @@ class KRtDLWorld(World):
         self.multiworld.itempool += item_pool
 
     def pre_fill(self) -> None:
+        print("order test 5")
         for location_name, item_name in self.prefilled_item_map.items():
             self.multiworld.get_location(location_name, self.player).place_locked_item(self.create_item(item_name))
     
