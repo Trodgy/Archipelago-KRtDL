@@ -67,6 +67,26 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     if WorldsDef[0] != 1:
         world.set_rule(TwoOneEntrance, Has("World Unlock - Raisin Ruins"))
 
+    ThreeOneEntrance = world.get_entrance("Popstar Map To Onion Ocean Hub")
+    if WorldsDef[0] != 2:
+        world.set_rule(ThreeOneEntrance, Has("World Unlock - Onion Ocean"))
+
+    FourOneEntrance = world.get_entrance("Popstar Map To White Wafers Hub")
+    if WorldsDef[0] != 3:
+        world.set_rule(FourOneEntrance, Has("World Unlock - White Wafers"))
+
+    FiveOneEntrance = world.get_entrance("Popstar Map To Nutty Noon Hub")
+    if WorldsDef[0] != 4:
+        world.set_rule(FiveOneEntrance, Has("World Unlock - Nutty Noon"))
+
+    SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
+    if WorldsDef[0] != 5:
+        world.set_rule(SixOneEntrance, Has("World Unlock - Egg Engines"))
+
+    SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
+    if WorldsDef[0] != 6:
+        world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
+
 
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
