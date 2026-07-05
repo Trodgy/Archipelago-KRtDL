@@ -167,12 +167,15 @@ item_table: dict[str, ItemData] = {
     ItemNames.arena_completion.value: ItemData(ItemNames.arena_completion.value, 133, ItemClassification.progression, 1),
     ItemNames.true_arena_completion.value: ItemData(ItemNames.true_arena_completion.value, 134, ItemClassification.progression, 1),
 
-    ItemNames.three_up.value: ItemData(ItemNames.three_up.value, 135, ItemClassification.useful),
+    ItemNames.cookie_country_unlock.value: ItemData(ItemNames.cookie_country_unlock.value, 135, ItemClassification.progression, 1),
+    ItemNames.ex_cookie_country_unlock.value: ItemData(ItemNames.ex_cookie_country_unlock.value, 136, ItemClassification.progression, 1),
+
+    ItemNames.three_up.value: ItemData(ItemNames.three_up.value, 137, ItemClassification.useful),
     
     # trap items
-    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 136, ItemClassification.trap),
-    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 137, ItemClassification.trap),
-    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 138, ItemClassification.trap),
+    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 138, ItemClassification.trap),
+    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 139, ItemClassification.trap),
+    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 140, ItemClassification.trap),
 }
 
 def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
