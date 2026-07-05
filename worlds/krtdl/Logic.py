@@ -42,15 +42,24 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
 
     #if starting world isn't 0
     #make it force WorldsDef[0] to starting world ID then set the range of the loops below to (1,7) so it skips over
+
+    ShufflingIndex = 0
+    if world.options.starting_world != 0:
+        WorldsDef[0] = world.options.starting_world - 1
+        WorldsDef[world.options.starting_world - 1] = 0
+        WorldsDefEX[0] = world.options.starting_world - 1
+        WorldsDefEX[world.options.starting_world - 1] = 0
+        ShufflingIndex = 1
+    
     
     if len(ShuffleableWorlds) > 1:
-        for i in range(0,7):
+        for i in range(ShufflingIndex,7):
             if i in ExtraCheckingShuffleableWorlds:
                 RandomIndex = world.random.randrange(0,len(ShuffleableWorlds))
                 WorldsDef[i] = ShuffleableWorlds[RandomIndex]
                 ShuffleableWorlds.pop(RandomIndex)
     if len(EXShuffleableWorlds) > 1:
-        for i in range(0,7):
+        for i in range(ShufflingIndex,7):
             if i in ExtraCheckingShuffleableWorlds:
                 RandomIndex = world.random.randrange(0,len(EXShuffleableWorlds))
                 WorldsDefEX[i] = EXShuffleableWorlds[RandomIndex]
