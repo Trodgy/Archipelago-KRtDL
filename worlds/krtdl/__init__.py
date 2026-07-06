@@ -133,54 +133,10 @@ class KRtDLWorld(World):
     def generate_early(self) -> None:
         if hasattr(self.multiworld, "re_gen_passthrough"):
             self.init_tracker_data()
-
+        
         print("order test 1")
-            
-        # Select Start Room
-       # init_starting_room_data(self)
-
-        # Randomize Door Colors
-        #if (
-        #    self.options.door_color_randomization != DoorColorRandomization.option_none
-        #    and not self.door_color_mapping
-        #):
-        #    self.door_color_mapping = get_world_door_mapping(self)
-
-        #init_starting_beam(self)
-
-        # Reconcile starting beam with door color mapping, if applicable
-        #remap_doors_to_power_beam_if_necessary(self)
-
-        # Set starting loadout
-        #init_starting_loadout(self)
-
-        # Randomize Blast Shields
-        #if (
-        #    self.options.blast_shield_randomization.value
-        #    != BlastShieldRandomization.option_none
-        #    or self.options.locked_door_count > 0
-        #) and not self.blast_shield_mapping:
-        #    self.blast_shield_mapping = get_world_blast_shield_mapping(self)
-
-        #if self.blast_shield_mapping:
-        #    apply_blast_shield_mapping(self)
-
-        # Randomize Elevators
-        #if self.options.elevator_randomization:
-        #    if not len(self.elevator_mapping):
-        #       self.elevator_mapping = get_random_elevator_mapping(self)
-        #else:
-        #    self.elevator_mapping = default_elevator_mappings
-
-        # Init starting inventory
-        #starting_items = generate_base_start_inventory(self)
-        #option_filled_items = [
-        #    *[item for item in self.options.start_inventory.value.keys()],
-        #    *[item for item in self.options.start_inventory_from_pool.value.keys()],
-        #]
-
-        #for item in [item for item in starting_items if item not in option_filled_items]:
-            #self.multiworld.push_precollected(self.create_item(item, ItemClassification.progression))
+        
+        
 
     def create_regions(self) -> None:
         print("order test 2")
@@ -219,39 +175,34 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage1_2.value] = ItemNames.stage1_2.value
         new_map[ItemNames.stage1_3.value] = ItemNames.stage1_3.value
         new_map[ItemNames.stage1_4.value] = ItemNames.stage1_4.value
-        new_map[ItemNames.stage1_5.value] = ItemNames.stage1_5.value
         new_map[ItemNames.stage2_1.value] = ItemNames.stage2_1.value
         new_map[ItemNames.stage2_2.value] = ItemNames.stage2_2.value
         new_map[ItemNames.stage2_3.value] = ItemNames.stage2_3.value
         new_map[ItemNames.stage2_4.value] = ItemNames.stage2_4.value
-        new_map[ItemNames.stage2_5.value] = ItemNames.stage2_5.value
         new_map[ItemNames.stage3_1.value] = ItemNames.stage3_1.value
         new_map[ItemNames.stage3_2.value] = ItemNames.stage3_2.value
         new_map[ItemNames.stage3_3.value] = ItemNames.stage3_3.value
         new_map[ItemNames.stage3_4.value] = ItemNames.stage3_4.value
-        new_map[ItemNames.stage3_5.value] = ItemNames.stage3_5.value
         new_map[ItemNames.stage4_1.value] = ItemNames.stage4_1.value
         new_map[ItemNames.stage4_2.value] = ItemNames.stage4_2.value
         new_map[ItemNames.stage4_3.value] = ItemNames.stage4_3.value
         new_map[ItemNames.stage4_4.value] = ItemNames.stage4_4.value
         new_map[ItemNames.stage4_5.value] = ItemNames.stage4_5.value
-        new_map[ItemNames.stage4_6.value] = ItemNames.stage4_6.value
         new_map[ItemNames.stage5_1.value] = ItemNames.stage5_1.value
         new_map[ItemNames.stage5_2.value] = ItemNames.stage5_2.value
         new_map[ItemNames.stage5_3.value] = ItemNames.stage5_3.value
         new_map[ItemNames.stage5_4.value] = ItemNames.stage5_4.value
         new_map[ItemNames.stage5_5.value] = ItemNames.stage5_5.value
-        new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
+        #new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
         new_map[ItemNames.stage6_1.value] = ItemNames.stage6_1.value
         new_map[ItemNames.stage6_2.value] = ItemNames.stage6_2.value
         new_map[ItemNames.stage6_3.value] = ItemNames.stage6_3.value
         new_map[ItemNames.stage6_4.value] = ItemNames.stage6_4.value
         new_map[ItemNames.stage6_5.value] = ItemNames.stage6_5.value
-        new_map[ItemNames.stage6_6.value] = ItemNames.stage6_6.value
         new_map[ItemNames.stage7_1.value] = ItemNames.stage7_1.value
         new_map[ItemNames.stage7_2.value] = ItemNames.stage7_2.value
         new_map[ItemNames.stage7_3.value] = ItemNames.stage7_3.value
-        new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
+        #new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
         new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
 
         if self.options.goal == 3 or (self.options.shuffle_arena and (self.options.extra_sanity or not self.options.start_in_extra_game)):
@@ -264,39 +215,34 @@ class KRtDLWorld(World):
             new_map[ItemNames.ex_stage1_2.value] = ItemNames.ex_stage1_2.value
             new_map[ItemNames.ex_stage1_3.value] = ItemNames.ex_stage1_3.value
             new_map[ItemNames.ex_stage1_4.value] = ItemNames.ex_stage1_4.value
-            new_map[ItemNames.ex_stage1_5.value] = ItemNames.ex_stage1_5.value
             new_map[ItemNames.ex_stage2_1.value] = ItemNames.ex_stage2_1.value
             new_map[ItemNames.ex_stage2_2.value] = ItemNames.ex_stage2_2.value
             new_map[ItemNames.ex_stage2_3.value] = ItemNames.ex_stage2_3.value
             new_map[ItemNames.ex_stage2_4.value] = ItemNames.ex_stage2_4.value
-            new_map[ItemNames.ex_stage2_5.value] = ItemNames.ex_stage2_5.value
             new_map[ItemNames.ex_stage3_1.value] = ItemNames.ex_stage3_1.value
             new_map[ItemNames.ex_stage3_2.value] = ItemNames.ex_stage3_2.value
             new_map[ItemNames.ex_stage3_3.value] = ItemNames.ex_stage3_3.value
             new_map[ItemNames.ex_stage3_4.value] = ItemNames.ex_stage3_4.value
-            new_map[ItemNames.ex_stage3_5.value] = ItemNames.ex_stage3_5.value
             new_map[ItemNames.ex_stage4_1.value] = ItemNames.ex_stage4_1.value
             new_map[ItemNames.ex_stage4_2.value] = ItemNames.ex_stage4_2.value
             new_map[ItemNames.ex_stage4_3.value] = ItemNames.ex_stage4_3.value
             new_map[ItemNames.ex_stage4_4.value] = ItemNames.ex_stage4_4.value
             new_map[ItemNames.ex_stage4_5.value] = ItemNames.ex_stage4_5.value
-            new_map[ItemNames.ex_stage4_6.value] = ItemNames.ex_stage4_6.value
             new_map[ItemNames.ex_stage5_1.value] = ItemNames.ex_stage5_1.value
             new_map[ItemNames.ex_stage5_2.value] = ItemNames.ex_stage5_2.value
             new_map[ItemNames.ex_stage5_3.value] = ItemNames.ex_stage5_3.value
             new_map[ItemNames.ex_stage5_4.value] = ItemNames.ex_stage5_4.value
             new_map[ItemNames.ex_stage5_5.value] = ItemNames.ex_stage5_5.value
-            new_map[ItemNames.ex_stage5_6.value] = ItemNames.ex_stage5_6.value
+            #new_map[ItemNames.ex_stage5_6.value] = ItemNames.ex_stage5_6.value
             new_map[ItemNames.ex_stage6_1.value] = ItemNames.ex_stage6_1.value
             new_map[ItemNames.ex_stage6_2.value] = ItemNames.ex_stage6_2.value
             new_map[ItemNames.ex_stage6_3.value] = ItemNames.ex_stage6_3.value
             new_map[ItemNames.ex_stage6_4.value] = ItemNames.ex_stage6_4.value
             new_map[ItemNames.ex_stage6_5.value] = ItemNames.ex_stage6_5.value
-            new_map[ItemNames.ex_stage6_6.value] = ItemNames.ex_stage6_6.value
             new_map[ItemNames.ex_stage7_1.value] = ItemNames.ex_stage7_1.value
             new_map[ItemNames.ex_stage7_2.value] = ItemNames.ex_stage7_2.value
             new_map[ItemNames.ex_stage7_3.value] = ItemNames.ex_stage7_3.value
-            new_map[ItemNames.ex_stage7_4.value] = ItemNames.ex_stage7_4.value
+            #new_map[ItemNames.ex_stage7_4.value] = ItemNames.ex_stage7_4.value
             new_map[ItemNames.ex_stage8_4.value] = ItemNames.ex_stage8_4.value
         
         self.prefilled_item_map = new_map
