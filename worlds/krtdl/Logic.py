@@ -37,12 +37,6 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     EXShuffleableWorlds = ShuffleableWorlds.copy()
 
-    #should handle starting_world setting here
-    #world.options.starting_world
-
-    #if starting world isn't 0
-    #make it force WorldsDef[0] to starting world ID then set the range of the loops below to (1,7) so it skips over
-
     ShufflingIndex = 0
     if world.options.starting_world != 0:
         WorldsDef[0] = world.options.starting_world - 1
@@ -50,7 +44,6 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
         WorldsDefEX[0] = world.options.starting_world - 1
         WorldsDefEX[world.options.starting_world - 1] = 0
         ShufflingIndex = 1
-    
     
     if len(ShuffleableWorlds) > 1:
         for i in range(ShufflingIndex,7):
