@@ -60,7 +60,12 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
                 EXShuffleableWorlds.pop(RandomIndex)
     print(WorldsDef)
     print(WorldsDefEX)
+    
+    world.world_gen.WorldDef = WorldsDef
+    world.world_gen.EXWorldDef = WorldsDefEX
+    
 
 @dataclass
 class KRtDLWorldGen():
-    SomethingIDK: Dict[str, str] = {}
+    WorldDef = WorldOrderDefinition.copy()
+    EXWorldDef = WorldOrderDefinition.copy()
