@@ -10,86 +10,6 @@ from .Options import Goal
 if TYPE_CHECKING:
     from . import KRtDLWorld
 
-WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
-
-#need to make this function return stuff instead of defining the bits above ^
-#as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
-def DefineWorldOrder(world: "KRtDLWorld") -> None:
-    WorldsDef = WorldOrderDefinition.copy()
-    WorldsDefEX = WorldOrderDefinition.copy()
-    #print(WorldsDef)
-    ShuffleableWorlds = []
-    if world.options.shuffle_cookie_country:
-        ShuffleableWorlds.append(0)
-    if world.options.shuffle_raisin_ruins:
-        ShuffleableWorlds.append(1)
-    if world.options.shuffle_onion_ocean:
-        ShuffleableWorlds.append(2)
-    if world.options.shuffle_white_wafers:
-        ShuffleableWorlds.append(3)
-    if world.options.shuffle_nutty_noon:
-        ShuffleableWorlds.append(4)
-    if world.options.shuffle_egg_engines:
-        ShuffleableWorlds.append(5)
-    if world.options.shuffle_dangerous_dinner:
-        ShuffleableWorlds.append(6)
-
-    ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
-    EXShuffleableWorlds = ShuffleableWorlds.copy()
-
-    ShufflingIndex = 0
-    if world.options.starting_world != 0:
-        WorldsDef[0] = world.options.starting_world - 1
-        WorldsDef[world.options.starting_world - 1] = 0
-        WorldsDefEX[0] = world.options.starting_world - 1
-        WorldsDefEX[world.options.starting_world - 1] = 0
-        ShufflingIndex = 1
-    
-    if len(ShuffleableWorlds) > 1:
-        for i in range(ShufflingIndex,7):
-            if i in ExtraCheckingShuffleableWorlds:
-                RandomIndex = world.random.randrange(0,len(ShuffleableWorlds))
-                WorldsDef[i] = ShuffleableWorlds[RandomIndex]
-                ShuffleableWorlds.pop(RandomIndex)
-    if len(EXShuffleableWorlds) > 1:
-        for i in range(ShufflingIndex,7):
-            if i in ExtraCheckingShuffleableWorlds:
-                RandomIndex = world.random.randrange(0,len(EXShuffleableWorlds))
-                WorldsDefEX[i] = EXShuffleableWorlds[RandomIndex]
-                EXShuffleableWorlds.pop(RandomIndex)
-    print(WorldsDef)
-    print(WorldsDefEX)
-
-    OneOneEntrance = world.get_entrance("Popstar Map To Cookie Country Hub")
-    if WorldsDef[0] != 0:
-        world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
-
-    TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
-    #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
-    if WorldsDef[0] != 1:
-        world.set_rule(TwoOneEntrance, Has("World Unlock - Raisin Ruins"))
-
-    ThreeOneEntrance = world.get_entrance("Popstar Map To Onion Ocean Hub")
-    if WorldsDef[0] != 2:
-        world.set_rule(ThreeOneEntrance, Has("World Unlock - Onion Ocean"))
-
-    FourOneEntrance = world.get_entrance("Popstar Map To White Wafers Hub")
-    if WorldsDef[0] != 3:
-        world.set_rule(FourOneEntrance, Has("World Unlock - White Wafers"))
-
-    FiveOneEntrance = world.get_entrance("Popstar Map To Nutty Noon Hub")
-    if WorldsDef[0] != 4:
-        world.set_rule(FiveOneEntrance, Has("World Unlock - Nutty Noon"))
-
-    SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
-    if WorldsDef[0] != 5:
-        world.set_rule(SixOneEntrance, Has("World Unlock - Egg Engines"))
-
-    SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
-    if WorldsDef[0] != 6:
-        world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
-
-
 def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.goal == Goal.option_magolor:
         world.set_completion_rule(Has("Another Dimension Final Boss - Complete"))
@@ -102,7 +22,11 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     elif world.options.goal == Goal.option_the_true_arena:
         world.set_completion_rule(Has("The True Arena - Complete"))
     
-    DefineWorldOrder(world)
+    #DefineWorldOrder(world)
+
+    #get this from WorldGen now
+
+
     
     #"Popstar Map To Cookie Country Hub")
 
