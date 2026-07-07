@@ -169,18 +169,45 @@ item_table: dict[str, ItemData] = {
 
     ItemNames.cookie_country_unlock.value: ItemData(ItemNames.cookie_country_unlock.value, 135, ItemClassification.progression, 1),
     ItemNames.ex_cookie_country_unlock.value: ItemData(ItemNames.ex_cookie_country_unlock.value, 136, ItemClassification.progression, 1),
+    ItemNames.egg_engines_unlock.value: ItemData(ItemNames.egg_engines_unlock.value, 137, ItemClassification.progression, 1),
+    ItemNames.ex_egg_engines_unlock.value: ItemData(ItemNames.ex_egg_engines_unlock.value, 138, ItemClassification.progression, 1),
+    ItemNames.another_dimension_unlock.value: ItemData(ItemNames.another_dimension_unlock.value, 139, ItemClassification.progression, 1),
+    ItemNames.ex_another_dimension_unlock.value: ItemData(ItemNames.ex_another_dimension_unlock.value, 140, ItemClassification.progression, 1),
 
-    ItemNames.three_up.value: ItemData(ItemNames.three_up.value, 137, ItemClassification.useful),
+    ItemNames.three_up.value: ItemData(ItemNames.three_up.value, 141, ItemClassification.useful),
     
     # trap items
-    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 138, ItemClassification.trap),
-    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 139, ItemClassification.trap),
-    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 140, ItemClassification.trap),
+    ItemNames.sleep_trap.value: ItemData(ItemNames.sleep_trap.value, 142, ItemClassification.trap),
+    ItemNames.eject_trap.value: ItemData(ItemNames.eject_trap.value, 143, ItemClassification.trap),
+    ItemNames.mouthful_trap.value: ItemData(ItemNames.mouthful_trap.value, 144, ItemClassification.trap),
 }
 
 def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     # These are items that are only added if certain options are set
     items: List[KRtDLItem] = []
+
+    if world.world_gen.WorldsShuffled > 1:
+        if world.world_gen.WorldDef[0] != 0:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 1:
+            items.append(world.create_item(ItemNames.stage1_5.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 2:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 3:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 4:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 5:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        if world.world_gen.WorldDef[0] != 6:
+            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+        #"World Unlock - Cookie Country"
+        #"World Unlock - Raisin Ruins"
+        #"World Unlock - Onion Ocean"
+        #"World Unlock - White Wafers"
+        #"World Unlock - Nutty Noon"
+        #"World Unlock - Egg Engines"
+        #"World Unlock - Dangerous Dinner"
 
     if world.options.shuffle_energy_spheres:
         #this one generates all 240 spheres
