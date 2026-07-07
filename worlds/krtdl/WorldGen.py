@@ -31,6 +31,9 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     EXShuffleableWorlds = ShuffleableWorlds.copy()
 
+    world.world_gen.WorldsShuffled = len(ShuffleableWorlds)
+    world.world_gen.EXWorldsShuffled = len(EXShuffleableWorlds)
+
     ShufflingIndex = 0
     if world.options.starting_world != 0:
         WorldsDef[0] = world.options.starting_world - 1
@@ -62,3 +65,5 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
 class KRtDLWorldGen():
     WorldDef = WorldOrderDefinition.copy()
     EXWorldDef = WorldOrderDefinition.copy()
+    WorldsShuffled = 0
+    EXWorldsShuffled = 0
