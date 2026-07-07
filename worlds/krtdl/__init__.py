@@ -126,6 +126,8 @@ class KRtDLWorld(World):
     origin_region_name = "Menu"
     settings_key = "krtdl_settings"
     settings: ClassVar[KRtDLSettings]
+    world_gen_dataclass = KRtDLWorldGen
+    world_gen: KRtDLWorldGen
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
