@@ -30,6 +30,38 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     
     #"Popstar Map To Cookie Country Hub")
 
+
+    OneOneEntrance = world.get_entrance("Popstar Map To Cookie Country Hub")
+    #if WorldsDef[0] != 0:
+        world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+
+    TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
+    #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
+    #if WorldsDef[0] != 1:
+        world.set_rule(TwoOneEntrance, Has("World Unlock - Raisin Ruins"))
+
+    ThreeOneEntrance = world.get_entrance("Popstar Map To Onion Ocean Hub")
+    #if WorldsDef[0] != 2:
+        world.set_rule(ThreeOneEntrance, Has("World Unlock - Onion Ocean"))
+
+    FourOneEntrance = world.get_entrance("Popstar Map To White Wafers Hub")
+    #if WorldsDef[0] != 3:
+        world.set_rule(FourOneEntrance, Has("World Unlock - White Wafers"))
+
+    FiveOneEntrance = world.get_entrance("Popstar Map To Nutty Noon Hub")
+    #if WorldsDef[0] != 4:
+        world.set_rule(FiveOneEntrance, Has("World Unlock - Nutty Noon"))
+
+    SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
+    #if WorldsDef[0] != 5:
+        world.set_rule(SixOneEntrance, Has("World Unlock - Egg Engines"))
+
+    SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
+    #if WorldsDef[0] != 6:
+        world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
+
+    
+
     OneTwoEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 2 Room 1")
     world.set_rule(OneTwoEntrance, Has("Cookie Country Stage 1 - Complete"))
     OneThreeEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 3 Room 1")
