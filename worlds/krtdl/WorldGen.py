@@ -1,13 +1,6 @@
 from typing import TYPE_CHECKING
 from dataclasses import dataclass
 
-from BaseClasses import CollectionState
-
-from rule_builder.options import OptionFilter
-from rule_builder.rules import Has, HasAll, Rule
-
-from .Options import Goal
-
 if TYPE_CHECKING:
     from . import KRtDLWorld
 
