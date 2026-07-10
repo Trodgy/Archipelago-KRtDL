@@ -106,6 +106,11 @@ class StartWithLor(Toggle):
     """Unlocks the Lor Starcutter from the start (all 5 parts), allowing you to travel between Popstar and Halcandra immediately."""
     display_name = "Start with Lor Starcutter" 
 
+class StartOnHalcandra(Toggle):
+    """Choose whether or not the run will start on Halcandra.
+    This limits you to 2 possible worlds without the Lor Starcutter and 5 after."""
+    display_name = "Start on Halcandra"
+
 class StartInExtraGame(Toggle):
     """Choose whether or not the run will be in Extra Mode.
     Impacts most sanity options a bit due to some checks being unique/missing in EX."""
@@ -113,10 +118,10 @@ class StartInExtraGame(Toggle):
 
 class HardLogic(Toggle):
     """Adds extra logic to Shuffle Moves and Shuffle Copy Abilities that allow for additional, way harder solutions to some blockades they cause.
-    These solutions require more advanced knowledge of the game's movement mechanics. They do not make use of glitches.
+    These extra solutions test your knowledge of more niche quirks about the game's movement mechanics. They do not make use of glitches.
     
     [WARNING: CAN LEAD TO SOME VERY HARD SITUATIONS, ONLY ENABLE IF YOU ARE UP FOR THE CHALLENGE!]
-    [Also adds an extra check if Red Star Sanity is on because of one red star in 7-2 being too hard for regular generation]"""
+    [Also adds an extra check if Red Star Sanity is on because of one red star in 7-2 being too hard for casual runs]"""
     display_name = "Hard Logic"
 
 
@@ -385,12 +390,14 @@ class KRtDLOptions(PerGameCommonOptions):
     shuffle_enemies: ShuffleEnemies
     randomize_enemy_abilities: RandomizeEnemyAbilities
     shuffle_bosses: ShuffleBosses
+    hard_logic: HardLogic
+    
     starting_world: StartingWorld
     start_with_all_worlds: StartWithAllWorlds
     start_with_all_stages: StartWithAllStages
     start_with_lor: StartWithLor
+    start_on_halcandra: StartOnHalcandra
     start_in_extra_game: StartInExtraGame
-    hard_logic: HardLogic
 
     shuffle_stages: ShuffleStages
     shuffle_boss_stages: ShuffleBossStages
@@ -449,12 +456,17 @@ krtdl_option_groups = [
          ShuffleEnemies,
          RandomizeEnemyAbilities,
          ShuffleBosses,
-         StartingWorld, 
+         HardLogic],
+    ),
+
+    OptionGroup(
+        "Start Options", 
+        [StartingWorld, 
          StartWithAllWorlds,
          StartWithAllStages,
          StartWithLor,
-         StartInExtraGame,
-         HardLogic],
+         StartOnHalcandra,
+         StartInExtraGame],
     ),
     
     OptionGroup(
