@@ -5913,7 +5913,6 @@ def create_regular_locations(world: "KRtDLWorld") -> None:
 
     MenuRegion.connect(NinjaDojoRegion, "Menu To Ninja Dojo")
     MenuRegion.connect(ScopeShotRegion, "Menu To Scope Shot")
-
     MenuRegion.connect(TheArenaRegion, "Menu To The Arena")
     MenuRegion.connect(TheTrueArenaRegion, "Menu To The True Arena")
 
