@@ -30,33 +30,49 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     
     #"Popstar Map To Cookie Country Hub")
 
+    HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
+    HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
 
-    OneOneEntrance = world.get_entrance("Popstar Map To Cookie Country Hub")
+
+    OneOneEntrance = world.get_entrance("Map To Cookie Country Hub")
     if world.world_gen.WorldDef[0] != 0:
-        world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+        if not world.options.start_in_halcandra:
+            if world.world_gen.WorldDef[5] == 0:
+                world.set_rule(OneOneEntrance, HasStarcutterAccess)
+            elif world.world_gen.WorldDef[6] == 0:
+                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
+            else:
+                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+        else:
+            if world.world_gen.WorldDef[2] == 0:
+                world.set_rule(OneOneEntrance, HasStarcutterAccess)
+            elif world.world_gen.WorldDef[1] == 0:
+                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+            else:
+                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
 
-    TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
+    TwoOneEntrance = world.get_entrance("Map To Raisin Ruins Hub")
     #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
     if world.world_gen.WorldDef[0] != 1:
         world.set_rule(TwoOneEntrance, Has("World Unlock - Raisin Ruins"))
 
-    ThreeOneEntrance = world.get_entrance("Popstar Map To Onion Ocean Hub")
+    ThreeOneEntrance = world.get_entrance("Map To Onion Ocean Hub")
     if world.world_gen.WorldDef[0] != 2:
         world.set_rule(ThreeOneEntrance, Has("World Unlock - Onion Ocean"))
 
-    FourOneEntrance = world.get_entrance("Popstar Map To White Wafers Hub")
+    FourOneEntrance = world.get_entrance("Map To White Wafers Hub")
     if world.world_gen.WorldDef[0] != 3:
         world.set_rule(FourOneEntrance, Has("World Unlock - White Wafers"))
 
-    FiveOneEntrance = world.get_entrance("Popstar Map To Nutty Noon Hub")
+    FiveOneEntrance = world.get_entrance("Map To Nutty Noon Hub")
     if world.world_gen.WorldDef[0] != 4:
         world.set_rule(FiveOneEntrance, Has("World Unlock - Nutty Noon"))
 
-    SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
+    SixOneEntrance = world.get_entrance("Map To Egg Engines Hub")
     if world.world_gen.WorldDef[0] != 5:
         world.set_rule(SixOneEntrance, Has("World Unlock - Egg Engines"))
 
-    SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
+    SevenOneEntrance = world.get_entrance("Map To Dangerous Dinner Hub")
     if world.world_gen.WorldDef[0] != 6:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
