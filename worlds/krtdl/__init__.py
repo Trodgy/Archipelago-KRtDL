@@ -196,7 +196,10 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage5_3.value] = ItemNames.stage5_3.value
         new_map[ItemNames.stage5_4.value] = ItemNames.stage5_4.value
         new_map[ItemNames.stage5_5.value] = ItemNames.stage5_5.value
-        #new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
+
+        if self.options.goal == 2:
+            new_map[ItemNames.stage5_6.value] = ItemNames.stage5_6.value
+        
         new_map[ItemNames.stage6_1.value] = ItemNames.stage6_1.value
         new_map[ItemNames.stage6_2.value] = ItemNames.stage6_2.value
         new_map[ItemNames.stage6_3.value] = ItemNames.stage6_3.value
@@ -205,7 +208,10 @@ class KRtDLWorld(World):
         new_map[ItemNames.stage7_1.value] = ItemNames.stage7_1.value
         new_map[ItemNames.stage7_2.value] = ItemNames.stage7_2.value
         new_map[ItemNames.stage7_3.value] = ItemNames.stage7_3.value
-        #new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
+        
+        if self.options.goal == 1:
+            new_map[ItemNames.stage7_4.value] = ItemNames.stage7_4.value
+        
         new_map[ItemNames.stage8_4.value] = ItemNames.stage8_4.value
 
         if self.options.goal == 3 or (self.options.shuffle_arena and (self.options.extra_sanity or not self.options.start_in_extra_game)):
@@ -236,7 +242,10 @@ class KRtDLWorld(World):
             new_map[ItemNames.ex_stage5_3.value] = ItemNames.ex_stage5_3.value
             new_map[ItemNames.ex_stage5_4.value] = ItemNames.ex_stage5_4.value
             new_map[ItemNames.ex_stage5_5.value] = ItemNames.ex_stage5_5.value
-            #new_map[ItemNames.ex_stage5_6.value] = ItemNames.ex_stage5_6.value
+
+            if self.options.goal == 2:
+                new_map[ItemNames.ex_stage5_6.value] = ItemNames.ex_stage5_6.value
+            
             new_map[ItemNames.ex_stage6_1.value] = ItemNames.ex_stage6_1.value
             new_map[ItemNames.ex_stage6_2.value] = ItemNames.ex_stage6_2.value
             new_map[ItemNames.ex_stage6_3.value] = ItemNames.ex_stage6_3.value
@@ -245,7 +254,10 @@ class KRtDLWorld(World):
             new_map[ItemNames.ex_stage7_1.value] = ItemNames.ex_stage7_1.value
             new_map[ItemNames.ex_stage7_2.value] = ItemNames.ex_stage7_2.value
             new_map[ItemNames.ex_stage7_3.value] = ItemNames.ex_stage7_3.value
-            #new_map[ItemNames.ex_stage7_4.value] = ItemNames.ex_stage7_4.value
+
+            if self.options.goal == 1:
+                new_map[ItemNames.ex_stage7_4.value] = ItemNames.ex_stage7_4.value
+                
             new_map[ItemNames.ex_stage8_4.value] = ItemNames.ex_stage8_4.value
         
         self.prefilled_item_map = new_map
