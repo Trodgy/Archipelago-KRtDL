@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 from BaseClasses import CollectionState
 
 from rule_builder.options import OptionFilter
-from rule_builder.rules import Has, HasAll, Rule
+from rule_builder.rules import Has, HasAll, HasAny, Rule
 
 from .Options import Goal
 
@@ -33,23 +33,34 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
     HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
 
+    HasLandia = True
+    if world.options.shuffle_landia:
+        HasLandia = Has("Landia")
 
-    OneOneEntrance = world.get_entrance("Map To Cookie Country Hub")
+    CanFightBosses = True
+    if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
+        CanFightBosses = Has("Progressive Inhale")
+    elif world.options.shuffle_copy_abilities:
+        CanFightBosses = HasAny("Sword","Cutter","Leaf","Whip","Fire","Needle","Beam","Spark","Stone","Parasol","Water","Hi-Jump","Tornado","Bomb","Spear","Hammer","Ice","Wing","Ninja","Fighter")
+        if world.options.shuffle_moves:
+            CanFightBosses = CanFightBosses | Has("Progressive Inhale")
+
+    CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
     if world.world_gen.WorldDef[0] != 0:
         if not world.options.start_in_halcandra:
             if world.world_gen.WorldDef[5] == 0:
-                world.set_rule(OneOneEntrance, HasStarcutterAccess)
+                world.set_rule(CookieCountryHubEntrance, HasStarcutterAccess)
             elif world.world_gen.WorldDef[6] == 0:
-                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
+                world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
             else:
-                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+                world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country"))
         else:
             if world.world_gen.WorldDef[2] == 0:
-                world.set_rule(OneOneEntrance, HasStarcutterAccess)
+                world.set_rule(CookieCountryHubEntrance, HasStarcutterAccess)
             elif world.world_gen.WorldDef[1] == 0:
-                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country"))
+                world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country"))
             else:
-                world.set_rule(OneOneEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
+                world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
 
     TwoOneEntrance = world.get_entrance("Map To Raisin Ruins Hub")
     #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
@@ -75,6 +86,39 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     SevenOneEntrance = world.get_entrance("Map To Dangerous Dinner Hub")
     if world.world_gen.WorldDef[0] != 6:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
+
+    AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
+    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia)
+
+    #these only account for non-plando'd spheres through Shuffle Part Spheres, need to write more logic for this elsewhere
+    OneFivePartSphere = world.get_location("Cookie Country Stage 5 Room 1 - Part Sphere")
+    TwoFivePartSphere = world.get_location("Raisin Ruins Stage 5 Room 2 - Part Sphere")
+    ThreeFivePartSphere = world.get_location("Onion Ocean Stage 5 Room 2 - Part Sphere")
+    FourSixPartSphere = world.get_location("White Wafers Stage 6 Room 2 - Part Sphere")
+    FiveSixPartSphere = world.get_location("Nutty Noon Stage 6 Room 2 - Part Sphere")
+    world.set_rule(OneFivePartSphere, CanFightBosses)
+    world.set_rule(TwoFivePartSphere, CanFightBosses)
+    world.set_rule(ThreeFivePartSphere, CanFightBosses)
+    world.set_rule(FourSixPartSphere, CanFightBosses)
+    world.set_rule(FiveSixPartSphere, CanFightBosses)
+    
+    OneFiveComplete = world.get_location("Cookie Country Stage 5 - Complete")
+    world.set_rule(OneFiveComplete, CanFightBosses)
+    TwoFiveComplete = world.get_location("Raisin Ruins Stage 5 - Complete")
+    world.set_rule(TwoFiveComplete, CanFightBosses)
+    ThreeFiveComplete = world.get_location("Onion Ocean Stage 5 - Complete")
+    world.set_rule(ThreeFiveComplete, CanFightBosses)
+    FourSixComplete = world.get_location("White Wafers Stage 6 - Complete")
+    world.set_rule(FourSixComplete, CanFightBosses)
+    FiveSixComplete = world.get_location("Nutty Noon Stage 6 - Complete")
+    world.set_rule(FiveSixComplete, CanFightBosses)
+    SixSixComplete = world.get_location("Egg Engines Stage 6 - Complete")
+    world.set_rule(SixSixComplete, CanFightBosses)
+    SevenFourComplete = world.get_location("Dangerous Dinner Stage 4 - Complete")
+    world.set_rule(SevenFourComplete, CanFightBosses)
+
+
+
 
     
 
@@ -156,9 +200,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     world.set_rule(SevenThreeEntrance, Has("Dangerous Dinner Stage 2 - Complete"))
     SevenFourEntrance = world.get_entrance("Dangerous Dinner Hub To Dangerous Dinner Stage 4 Room 1")
     world.set_rule(SevenFourEntrance, Has("Dangerous Dinner Stage 3 - Complete"))
-    
-    AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete"))
     
     if world.options.extra_sanity:
         OneTwoEntrance = world.get_entrance("EX Cookie Country Hub To EX Cookie Country Stage 2 Room 1")
