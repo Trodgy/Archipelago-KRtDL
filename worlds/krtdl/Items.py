@@ -192,22 +192,31 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
         if world.world_gen.WorldDef[0] != 1:
             items.append(world.create_item(ItemNames.stage1_5.value, ItemClassification.progression))
         if world.world_gen.WorldDef[0] != 2:
-            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.stage2_5.value, ItemClassification.progression))
         if world.world_gen.WorldDef[0] != 3:
-            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.stage3_5.value, ItemClassification.progression))
         if world.world_gen.WorldDef[0] != 4:
-            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.stage4_6.value, ItemClassification.progression))
         if world.world_gen.WorldDef[0] != 5:
-            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+            items.append(world.create_item(ItemNames.egg_engines_unlock.value, ItemClassification.progression))
         if world.world_gen.WorldDef[0] != 6:
-            items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
-        #"World Unlock - Cookie Country"
-        #"World Unlock - Raisin Ruins"
-        #"World Unlock - Onion Ocean"
-        #"World Unlock - White Wafers"
-        #"World Unlock - Nutty Noon"
-        #"World Unlock - Egg Engines"
-        #"World Unlock - Dangerous Dinner"
+            items.append(world.create_item(ItemNames.stage6_6.value, ItemClassification.progression))
+    if world.options.extra_sanity:
+        if world.world_gen.EXWorldsShuffled > 1:
+            if world.world_gen.WorldsDefEX[0] != 0:
+                items.append(world.create_item(ItemNames.ex_cookie_country_unlock.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 1:
+                items.append(world.create_item(ItemNames.ex_stage1_5.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 2:
+                items.append(world.create_item(ItemNames.ex_stage2_5.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 3:
+                items.append(world.create_item(ItemNames.ex_stage3_5.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 4:
+                items.append(world.create_item(ItemNames.ex_stage4_6.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 5:
+                items.append(world.create_item(ItemNames.ex_egg_engines_unlock.value, ItemClassification.progression))
+            if world.world_gen.WorldsDefEX[0] != 6:
+                items.append(world.create_item(ItemNames.ex_stage6_6.value, ItemClassification.progression))
 
     if world.options.shuffle_energy_spheres:
         #this one generates all 240 spheres
