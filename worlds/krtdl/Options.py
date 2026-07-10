@@ -119,7 +119,7 @@ class StartInExtraGame(Choice):
     Extra - The run will start in extra mode and have some altered checks for specific sanity options.
     Both Modes - Both modes are playable from the start. They both share checks and all their unique checks are present.
     
-    [NOTE: EXtrasanity auto toggles Both Modes and makes all checks unique between them. See that option for more info.]"""
+    [NOTE: EX-tra Sanity auto toggles Both Modes and makes all checks unique between them. See that option for more info.]"""
     display_name = "Extra Mode"
     default = 0
     option_disabled = 0
@@ -175,7 +175,7 @@ class ShuffleSubgames(Toggle):
 class ShuffleArena(Toggle):
     """Turns each round completion in The Arena into a check.
     If Extra Mode is on, this instead enables each round for The True Arena.
-    If EX-trasanity is on, this enables checks in both The Arena and The True Arena.
+    If EX-tra Sanity is on, this enables checks in both The Arena and The True Arena.
     
     Enables additional checks for Food Sanity and Maxim Sanity."""  
     display_name = "Shuffle Arena"
@@ -356,10 +356,10 @@ class MaximSanity(Toggle):
 
 class ExtraSanity(Toggle):
     """Effectively doubles the number of checks by making all pickups in Extra Mode have unique checks to Normal Mode.
-    Also causes checks that are only in Normal or EX to be added to the whole pool.
-    [WARNING: ADDS AN OBSCENE NUMBER OF EXTRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
+    Also causes checks that are only in Normal or  to be added to the whole pool.
+    [WARNING: ADDS AN OBSCENE NUMBER OF TRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
-    display_name = "EX-tra Sanity"
+    display_name = "-tra Sanity"
 
 
 
