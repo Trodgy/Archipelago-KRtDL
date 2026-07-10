@@ -28,10 +28,11 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
 
     
-    #"Popstar Map To Cookie Country Hub")
-
-    HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
-    HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
+    HasStarcutterAccess = True
+    HasStarcutterAccessEX = True
+    if not start_with_lor:
+        HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
+        HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
 
     HasLandia = True
     if world.options.shuffle_landia:
