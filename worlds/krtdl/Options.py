@@ -111,10 +111,30 @@ class StartOnHalcandra(Toggle):
     This limits you to 2 possible worlds without the Lor Starcutter and 5 after."""
     display_name = "Start on Halcandra"
 
-class StartInExtraGame(Toggle):
-    """Choose whether or not the run will be in Extra Mode.
-    Impacts most sanity options a bit due to some checks being unique/missing in EX."""
+class StartInExtraGame(Choice):
+    """Choose how Extra Mode will be handled in the run.
+    Impacts most sanity options a bit due to some checks being unique/missing in EX.
+    
+    Disabled - Extra mode unlocks like vanilla, no added content.
+    Extra - The run will start in extra mode and have some altered checks for specific sanity options.
+    Both Modes - Both modes are playable from the start. They both share checks and all their unique checks are present.
+    
+    [NOTE: EXtrasanity auto toggles Both Modes and makes all checks unique between them. See that option for more info.]"""
     display_name = "Extra Mode"
+    default = 0
+    option_disabled = 0
+    option_extra = 1
+    option_both_modes = 2
+
+class DoubleGoal(Toggle):
+    """If Both Modes is picked in the Extra Mode setting, turning this on means that both the normal and extra mode versions of a goal condition boss must be defeated in order to goal.
+    If off, defeating either the normal or extra mode version of the goal condition boss will count as goal.
+    
+    This impacts:
+    - Magolor/Magolor EX
+    - Landia/Landia EX
+    - Grand Doomer/Grand Doomer EX"""
+    display_name = "Double Goal"
 
 class HardLogic(Toggle):
     """Adds extra logic to Shuffle Moves and Shuffle Copy Abilities that allow for additional, way harder solutions to some blockades they cause.
@@ -398,6 +418,7 @@ class KRtDLOptions(PerGameCommonOptions):
     start_with_lor: StartWithLor
     start_on_halcandra: StartOnHalcandra
     start_in_extra_game: StartInExtraGame
+    double_goal: DoubleGoal
 
     shuffle_stages: ShuffleStages
     shuffle_boss_stages: ShuffleBossStages
@@ -466,7 +487,8 @@ krtdl_option_groups = [
          StartWithAllStages,
          StartWithLor,
          StartOnHalcandra,
-         StartInExtraGame],
+         StartInExtraGame,
+         DoubleGoal],
     ),
     
     OptionGroup(
