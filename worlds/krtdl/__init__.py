@@ -14,7 +14,7 @@ from .GameNames import ItemNames
 from .Items import KRtDLItem, item_table, generate_item_pool
 from .Locations import KRtDLLocation, composite_location, create_all_regions, create_regular_locations, gold_star_table, get_stage_complete_location_names_with_ids, stage_completion_table
 from .Options import KRtDLOptions, krtdl_option_groups
-from .WorldGen import KRtDLWorldGen, DefineWorldOrder
+from .WorldGen import DefineWorldOrder
 from .Logic import InitiateRules
 from worlds.AutoWorld import World, WebWorld
 from worlds.Files import APPlayerContainer
@@ -127,8 +127,7 @@ class KRtDLWorld(World):
     origin_region_name = "Menu"
     settings_key = "krtdl_settings"
     settings: ClassVar[KRtDLSettings]
-    world_gen_dataclass = KRtDLWorldGen
-    world_gen: KRtDLWorldGen
+    world_gen: Dict[str, str] = {}
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
