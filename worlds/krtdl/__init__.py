@@ -136,14 +136,11 @@ class KRtDLWorld(World):
     def generate_early(self) -> None:
         if hasattr(self.multiworld, "re_gen_passthrough"):
             self.init_tracker_data()
-            
-        print("order test 1")
-        
-        DefineWorldOrder(self)
 
     def create_regions(self) -> None:
         print("order test 2")
         #print("test")
+        DefineWorldOrder(self)
         create_all_regions(self)
         create_regular_locations(self)
 
