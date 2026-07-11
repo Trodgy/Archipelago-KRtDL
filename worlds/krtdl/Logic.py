@@ -56,12 +56,12 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     CanAccessNinja = True
     CanAccessFighter = True
     #if world.options.shuffle_copy_abilities:
-    
-    HasStarcutterAccess = True
-    HasStarcutterAccessEX = True
-    if not start_with_lor:
-        HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
-        HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
+
+    HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
+    HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
+    if world.options.start_with_lor:
+        HasStarcutterAccess = True
+        HasStarcutterAccessEX = True
 
     HasLandia = True
     if world.options.shuffle_landia:
