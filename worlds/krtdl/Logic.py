@@ -91,6 +91,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
                 world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country"))
             else:
                 world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
+    world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
 
     TwoOneEntrance = world.get_entrance("Map To Raisin Ruins Hub")
     #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
@@ -117,8 +118,8 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.world_gen["WorldDef"][0] != 6:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
-    AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
+    #AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
+    #world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
 
     #extra conditions needed for this
     #EX Dangerous Dinner needs to only connect to Another Dimension/EX when Extra Sanity is enabled
