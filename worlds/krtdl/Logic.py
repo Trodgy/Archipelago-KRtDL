@@ -77,7 +77,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
     if world.world_gen["WorldDef"][0] != 0:
-        if not world.options.start_in_halcandra:
+        if not world.options.start_on_halcandra:
             if world.world_gen["WorldDef"][5] == 0:
                 world.set_rule(CookieCountryHubEntrance, HasStarcutterAccess)
             elif world.world_gen["WorldDef"][6] == 0:
