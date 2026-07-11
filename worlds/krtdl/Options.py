@@ -28,8 +28,9 @@ class Goal(Choice):
 
 class EnergySphereHuntRequirement(Range):
     """Determines how many Energy Spheres are necessary to achieve the Energy Sphere Hunt goal.
-    [Note that setting the goal over 120 will require playing through Extra Mode]
-    [Will force Energy Spheres in Extra Mode to become checks if over 120 regardless of Extrasanity status if this is the case]"""
+    Adds additional Energy Spheres to the item pool if Both Modes is disabled on the Extra Mode setting.
+
+    If Shuffle Energy Spheres is off, setting a value higher than 120 will force on Both Modes on the Extra Mode setting to allow there to be enough checks to goal."""
     display_name = "Energy Sphere Hunt Requirement"
     range_start = 1
     range_end = 240
