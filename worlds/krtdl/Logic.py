@@ -65,7 +65,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     HasLandia = True
     if world.options.shuffle_landia:
-        HasLandia = Has("Landia")
+        HasLandia = False
 
     CanFightBosses = True
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
@@ -118,7 +118,10 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
+    if HasLandia == False:
+        world.set_rule(AnotherDimensionEntrance, HasAll("Dangerous Dinner Stage 4 - Complete", "Landia")) 
+    else:
+        world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete")) 
 
     #extra conditions needed for this
     #EX Dangerous Dinner needs to only connect to Another Dimension/EX when Extra Sanity is enabled
