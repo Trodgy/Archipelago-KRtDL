@@ -118,7 +118,8 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
+    AnotherDimensionCompound = Has("Dangerous Dinner Stage 4 - Complete") & HasLandia
+    world.set_rule(AnotherDimensionEntrance, AnotherDimensionCompound) 
 
     #extra conditions needed for this
     #EX Dangerous Dinner needs to only connect to Another Dimension/EX when Extra Sanity is enabled
