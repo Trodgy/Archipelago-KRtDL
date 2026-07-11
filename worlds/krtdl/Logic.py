@@ -21,11 +21,19 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.set_completion_rule(Has("The Arena - Complete"))
     elif world.options.goal == Goal.option_the_true_arena:
         world.set_completion_rule(Has("The True Arena - Complete"))
+
+    CanHover = True
+    CanSlide = True
+    CanSwim = True
+    CanInhale = True
+    CanSuperInhale = True
+    if world.options.shuffle_moves:
+        CanHover = Has("Hover")
+        CanSlide = Has("Slide")
+        CanSlide = Has("Swim")
+        CanInhale = Has("Progressive Inhale")
+        CanSuperInhale = Has("Progressive Inhale", count=2)
     
-    #DefineWorldOrder(world)
-
-    #get this from WorldGen now
-
     #this gets INSANELY complicated, for simplicity's sake these will be True for now
     CanAccessSword = True
     CanAccessCutter = True
