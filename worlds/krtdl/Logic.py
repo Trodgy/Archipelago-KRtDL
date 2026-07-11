@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 from BaseClasses import CollectionState
 
 from rule_builder.options import OptionFilter
-from rule_builder.rules import Has, HasAll, HasAny, Rule
+from rule_builder.rules import Has, HasAll, HasAny, Rule, True_, False_
 
 from .Options import Goal
 
@@ -35,26 +35,26 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         CanSuperInhale = Has("Progressive Inhale", count=2)
     
     #this gets INSANELY complicated, for simplicity's sake these will be True for now
-    CanAccessSword = True
-    CanAccessCutter = True
-    CanAccessLeaf = True
-    CanAccessWhip = True
-    CanAccessFire = True
-    CanAccessNeedle = True
-    CanAccessBeam = True
-    CanAccessSpark = True
-    CanAccessStone = True
-    CanAccessParasol = True
-    CanAccessWater = True
-    CanAccessHiJump = True
-    CanAccessTornado = True
-    CanAccessBomb = True
-    CanAccessSpear = True
-    CanAccessHammer = True
-    CanAccessIce = True
-    CanAccessWing = True
-    CanAccessNinja = True
-    CanAccessFighter = True
+    CanAccessSword = True_
+    CanAccessCutter = True_
+    CanAccessLeaf = True_
+    CanAccessWhip = True_
+    CanAccessFire = True_
+    CanAccessNeedle = True_
+    CanAccessBeam = True_
+    CanAccessSpark = True_
+    CanAccessStone = True_
+    CanAccessParasol = True_
+    CanAccessWater = True_
+    CanAccessHiJump = True_
+    CanAccessTornado = True_
+    CanAccessBomb = True_
+    CanAccessSpear = True_
+    CanAccessHammer = True_
+    CanAccessIce = True_
+    CanAccessWing = True_
+    CanAccessNinja = True_
+    CanAccessFighter = True_()
     #if world.options.shuffle_copy_abilities:
 
     HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
