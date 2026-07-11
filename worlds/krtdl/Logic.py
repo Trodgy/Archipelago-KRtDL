@@ -3,7 +3,7 @@ from typing import TYPE_CHECKING
 from BaseClasses import CollectionState
 
 from rule_builder.options import OptionFilter
-from rule_builder.rules import Has, HasAll, HasAny, Rule, True_, False_
+from rule_builder.rules import Has, HasAll, HasAny, Rule, True_, False_, And, Or
 
 from .Options import Goal
 
@@ -73,8 +73,8 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         CanFightBosses = Has("Progressive Inhale")
     elif world.options.shuffle_copy_abilities:
         CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
-        if world.options.shuffle_moves:
-            CanFightBosses = CanFightBosses | Has("Progressive Inhale")
+        #if world.options.shuffle_moves:
+            #CanFightBosses = CanFightBosses | Has("Progressive Inhale")
     print(CanFightBosses)
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
