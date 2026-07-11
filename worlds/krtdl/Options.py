@@ -362,7 +362,7 @@ class ExtraSanity(Toggle):
     Also causes checks that are only in Normal or  to be added to the whole pool.
     [WARNING: ADDS AN OBSCENE NUMBER OF TRA CHECKS AND WILL LIKELY REQUIRE TWO FULL PLAYTHROUGHS OF THE GAME]
     [MAY RESULT IN A GRUELING ENDURANCE TEST]"""
-    display_name = "-tra Sanity"
+    display_name = "EX-tra Sanity"
 
 
 
