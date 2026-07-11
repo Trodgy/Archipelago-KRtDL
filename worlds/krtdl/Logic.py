@@ -26,7 +26,28 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     #get this from WorldGen now
 
-
+    #this gets INSANELY complicated, for simplicity's sake these will be True for now
+    CanAccessSword = True
+    CanAccessCutter = True
+    CanAccessLeaf = True
+    CanAccessWhip = True
+    CanAccessFire = True
+    CanAccessNeedle = True
+    CanAccessBeam = True
+    CanAccessSpark = True
+    CanAccessStone = True
+    CanAccessParasol = True
+    CanAccessWater = True
+    CanAccessHiJump = True
+    CanAccessTornado = True
+    CanAccessBomb = True
+    CanAccessSpear = True
+    CanAccessHammer = True
+    CanAccessIce = True
+    CanAccessWing = True
+    CanAccessNinja = True
+    CanAccessFighter = True
+    #if world.options.shuffle_copy_abilities:
     
     HasStarcutterAccess = True
     HasStarcutterAccessEX = True
@@ -42,7 +63,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
         CanFightBosses = Has("Progressive Inhale")
     elif world.options.shuffle_copy_abilities:
-        CanFightBosses = HasAny("Sword","Cutter","Leaf","Whip","Fire","Needle","Beam","Spark","Stone","Parasol","Water","Hi-Jump","Tornado","Bomb","Spear","Hammer","Ice","Wing","Ninja","Fighter")
+        CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
         if world.options.shuffle_moves:
             CanFightBosses = CanFightBosses | Has("Progressive Inhale")
 
@@ -89,7 +110,11 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia)
+    EXAnotherDimensionEntranceOne = world.get_entrance("EX Dangerous Dinner Stage 4 To Another Dimension")
+    EXAnotherDimensionEntranceTwo = world.get_entrance("EX Dangerous Dinner Stage 4 To EX Another Dimension") 
+    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia)   
+    world.set_rule(EXAnotherDimensionEntranceOne, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
+    world.set_rule(EXAnotherDimensionEntranceTwo, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
 
     #these only account for non-plando'd spheres through Shuffle Part Spheres, need to write more logic for this elsewhere
     OneFivePartSphere = world.get_location("Cookie Country Stage 5 Room 1 - Part Sphere")
@@ -132,8 +157,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     OneFiveEntrance = world.get_entrance("Cookie Country Hub To Cookie Country Stage 5")
     world.set_rule(OneFiveEntrance, Has("Cookie Country Stage 4 - Complete"))
     
-    TwoOneEntrance = world.get_entrance("Popstar Map To Raisin Ruins Hub")
-    world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
     TwoTwoEntrance = world.get_entrance("Raisin Ruins Hub To Raisin Ruins Stage 2 Room 1")
     world.set_rule(TwoTwoEntrance, Has("Raisin Ruins Stage 1 - Complete"))
     TwoThreeEntrance = world.get_entrance("Raisin Ruins Hub To Raisin Ruins Stage 3 Room 1")
@@ -143,8 +166,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     TwoFiveEntrance = world.get_entrance("Raisin Ruins Hub To Raisin Ruins Stage 5 Room 1")
     world.set_rule(TwoFiveEntrance, Has("Raisin Ruins Stage 4 - Complete"))
     
-    ThreeOneEntrance = world.get_entrance("Popstar Map To Onion Ocean Hub")
-    world.set_rule(ThreeOneEntrance, Has("Raisin Ruins Stage 5 - Complete"))
     ThreeTwoEntrance = world.get_entrance("Onion Ocean Hub To Onion Ocean Stage 2 Room 1")
     world.set_rule(ThreeTwoEntrance, Has("Onion Ocean Stage 1 - Complete"))
     ThreeThreeEntrance = world.get_entrance("Onion Ocean Hub To Onion Ocean Stage 3 Room 1")
@@ -154,8 +175,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     ThreeFiveEntrance = world.get_entrance("Onion Ocean Hub To Onion Ocean Stage 5 Room 1")
     world.set_rule(ThreeFiveEntrance, Has("Onion Ocean Stage 4 - Complete"))
     
-    FourOneEntrance = world.get_entrance("Popstar Map To White Wafers Hub")
-    world.set_rule(FourOneEntrance, Has("Onion Ocean Stage 5 - Complete"))
     FourTwoEntrance = world.get_entrance("White Wafers Hub To White Wafers Stage 2 Room 1")
     world.set_rule(FourTwoEntrance, Has("White Wafers Stage 1 - Complete"))
     FourThreeEntrance = world.get_entrance("White Wafers Hub To White Wafers Stage 3 Room 1")
@@ -167,8 +186,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     FourSixEntrance = world.get_entrance("White Wafers Hub To White Wafers Stage 6 Room 1")
     world.set_rule(FourSixEntrance, Has("White Wafers Stage 5 - Complete"))
     
-    FiveOneEntrance = world.get_entrance("Popstar Map To Nutty Noon Hub")
-    world.set_rule(FiveOneEntrance, Has("White Wafers Stage 6 - Complete"))
     FiveTwoEntrance = world.get_entrance("Nutty Noon Hub To Nutty Noon Stage 2 Room 1")
     world.set_rule(FiveTwoEntrance, Has("Nutty Noon Stage 1 - Complete"))
     FiveThreeEntrance = world.get_entrance("Nutty Noon Hub To Nutty Noon Stage 3 Room 1")
@@ -180,8 +197,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     FiveSixEntrance = world.get_entrance("Nutty Noon Hub To Nutty Noon Stage 6 Room 1")
     world.set_rule(FiveSixEntrance, Has("Nutty Noon Stage 5 - Complete"))
     
-    SixOneEntrance = world.get_entrance("Halcandra Map To Egg Engines Hub")
-    world.set_rule(SixOneEntrance, Has("Nutty Noon Stage 6 - Complete"))
     SixTwoEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 2 Room 1")
     world.set_rule(SixTwoEntrance, Has("Egg Engines Stage 1 - Complete"))
     SixThreeEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 3 Room 1")
@@ -193,8 +208,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     SixSixEntrance = world.get_entrance("Egg Engines Hub To Egg Engines Stage 6 Room 1")
     world.set_rule(SixSixEntrance, Has("Egg Engines Stage 5 - Complete"))
     
-    SevenOneEntrance = world.get_entrance("Halcandra Map To Dangerous Dinner Hub")
-    world.set_rule(SevenOneEntrance, Has("Egg Engines Stage 6 - Complete"))
     SevenTwoEntrance = world.get_entrance("Dangerous Dinner Hub To Dangerous Dinner Stage 2 Room 1")
     world.set_rule(SevenTwoEntrance, Has("Dangerous Dinner Stage 1 - Complete"))
     SevenThreeEntrance = world.get_entrance("Dangerous Dinner Hub To Dangerous Dinner Stage 3 Room 1")
@@ -212,8 +225,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         OneFiveEntrance = world.get_entrance("EX Cookie Country Hub To EX Cookie Country Stage 5")
         world.set_rule(OneFiveEntrance, Has("EX Cookie Country Stage 4 - Complete"))
         
-        TwoOneEntrance = world.get_entrance("EX Popstar Map To EX Raisin Ruins Hub")
-        world.set_rule(TwoOneEntrance, Has("EX Cookie Country Stage 5 - Complete"))
         TwoTwoEntrance = world.get_entrance("EX Raisin Ruins Hub To EX Raisin Ruins Stage 2 Room 1")
         world.set_rule(TwoTwoEntrance, Has("EX Raisin Ruins Stage 1 - Complete"))
         TwoThreeEntrance = world.get_entrance("EX Raisin Ruins Hub To EX Raisin Ruins Stage 3 Room 1")
@@ -223,8 +234,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         TwoFiveEntrance = world.get_entrance("EX Raisin Ruins Hub To EX Raisin Ruins Stage 5 Room 1")
         world.set_rule(TwoFiveEntrance, Has("EX Raisin Ruins Stage 4 - Complete"))
         
-        ThreeOneEntrance = world.get_entrance("EX Popstar Map To EX Onion Ocean Hub")
-        world.set_rule(ThreeOneEntrance, Has("EX Raisin Ruins Stage 5 - Complete"))
         ThreeTwoEntrance = world.get_entrance("EX Onion Ocean Hub To EX Onion Ocean Stage 2 Room 1")
         world.set_rule(ThreeTwoEntrance, Has("EX Onion Ocean Stage 1 - Complete"))
         ThreeThreeEntrance = world.get_entrance("EX Onion Ocean Hub To EX Onion Ocean Stage 3 Room 1")
@@ -234,8 +243,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         ThreeFiveEntrance = world.get_entrance("EX Onion Ocean Hub To EX Onion Ocean Stage 5 Room 1")
         world.set_rule(ThreeFiveEntrance, Has("EX Onion Ocean Stage 4 - Complete"))
         
-        FourOneEntrance = world.get_entrance("EX Popstar Map To EX White Wafers Hub")
-        world.set_rule(FourOneEntrance, Has("EX Onion Ocean Stage 5 - Complete"))
         FourTwoEntrance = world.get_entrance("EX White Wafers Hub To EX White Wafers Stage 2 Room 1")
         world.set_rule(FourTwoEntrance, Has("EX White Wafers Stage 1 - Complete"))
         FourThreeEntrance = world.get_entrance("EX White Wafers Hub To EX White Wafers Stage 3 Room 1")
@@ -247,8 +254,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         FourSixEntrance = world.get_entrance("EX White Wafers Hub To EX White Wafers Stage 6 Room 1")
         world.set_rule(FourSixEntrance, Has("EX White Wafers Stage 5 - Complete"))
         
-        FiveOneEntrance = world.get_entrance("EX Popstar Map To EX Nutty Noon Hub")
-        world.set_rule(FiveOneEntrance, Has("EX White Wafers Stage 6 - Complete"))
         FiveTwoEntrance = world.get_entrance("EX Nutty Noon Hub To EX Nutty Noon Stage 2 Room 1")
         world.set_rule(FiveTwoEntrance, Has("EX Nutty Noon Stage 1 - Complete"))
         FiveThreeEntrance = world.get_entrance("EX Nutty Noon Hub To EX Nutty Noon Stage 3 Room 1")
@@ -260,8 +265,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         FiveSixEntrance = world.get_entrance("EX Nutty Noon Hub To EX Nutty Noon Stage 6 Room 1")
         world.set_rule(FiveSixEntrance, Has("EX Nutty Noon Stage 5 - Complete"))
         
-        SixOneEntrance = world.get_entrance("EX Halcandra Map To EX Egg Engines Hub")
-        world.set_rule(SixOneEntrance, Has("EX Nutty Noon Stage 6 - Complete"))
         SixTwoEntrance = world.get_entrance("EX Egg Engines Hub To EX Egg Engines Stage 2 Room 1")
         world.set_rule(SixTwoEntrance, Has("EX Egg Engines Stage 1 - Complete"))
         SixThreeEntrance = world.get_entrance("EX Egg Engines Hub To EX Egg Engines Stage 3 Room 1")
@@ -273,8 +276,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         SixSixEntrance = world.get_entrance("EX Egg Engines Hub To EX Egg Engines Stage 6 Room 1")
         world.set_rule(SixSixEntrance, Has("EX Egg Engines Stage 5 - Complete"))
         
-        SevenOneEntrance = world.get_entrance("EX Halcandra Map To EX Dangerous Dinner Hub")
-        world.set_rule(SevenOneEntrance, Has("EX Egg Engines Stage 6 - Complete"))
         SevenTwoEntrance = world.get_entrance("EX Dangerous Dinner Hub To EX Dangerous Dinner Stage 2 Room 1")
         world.set_rule(SevenTwoEntrance, Has("EX Dangerous Dinner Stage 1 - Complete"))
         SevenThreeEntrance = world.get_entrance("EX Dangerous Dinner Hub To EX Dangerous Dinner Stage 3 Room 1")
