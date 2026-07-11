@@ -203,19 +203,19 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
             items.append(world.create_item(ItemNames.stage6_6.value, ItemClassification.progression))
     if world.options.extra_sanity:
         if world.world_gen["EXWorldsShuffled"] > 1:
-            if world.world_gen["WorldsDefEX"][0] != 0:
+            if world.world_gen["EXWorldDef"][0] != 0:
                 items.append(world.create_item(ItemNames.ex_cookie_country_unlock.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 1:
+            if world.world_gen["EXWorldDef"][0] != 1:
                 items.append(world.create_item(ItemNames.ex_stage1_5.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 2:
+            if world.world_gen["EXWorldDef"][0] != 2:
                 items.append(world.create_item(ItemNames.ex_stage2_5.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 3:
+            if world.world_gen["EXWorldDef"][0] != 3:
                 items.append(world.create_item(ItemNames.ex_stage3_5.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 4:
+            if world.world_gen["EXWorldDef"][0] != 4:
                 items.append(world.create_item(ItemNames.ex_stage4_6.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 5:
+            if world.world_gen["EXWorldDef"][0] != 5:
                 items.append(world.create_item(ItemNames.ex_egg_engines_unlock.value, ItemClassification.progression))
-            if world.world_gen["WorldsDefEX"][0] != 6:
+            if world.world_gen["EXWorldDef"][0] != 6:
                 items.append(world.create_item(ItemNames.ex_stage6_6.value, ItemClassification.progression))
 
     if world.options.shuffle_energy_spheres:
