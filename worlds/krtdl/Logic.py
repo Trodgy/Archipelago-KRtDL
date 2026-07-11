@@ -72,9 +72,10 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
         CanFightBosses = Has("Progressive Inhale")
     elif world.options.shuffle_copy_abilities:
-        CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
-        #if world.options.shuffle_moves:
-            #CanFightBosses = CanFightBosses | Has("Progressive Inhale")
+        if world.options.shuffle_moves:
+            CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
+        else:
+            CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
     print(CanFightBosses)
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
@@ -120,8 +121,8 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.world_gen["WorldDef"][0] != 6:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
-    #AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
-    #world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
+    AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
+    world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
 
     #extra conditions needed for this
     #EX Dangerous Dinner needs to only connect to Another Dimension/EX when Extra Sanity is enabled
