@@ -65,7 +65,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     HasLandia = True_
     if world.options.shuffle_landia:
-        HasLandia = False_
+        HasLandia = Has("Landia")
 
     CanFightBosses = True_
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
