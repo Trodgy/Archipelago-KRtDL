@@ -238,8 +238,7 @@ class ShuffleStages(Choice):
 
 class ShuffleBossStages(Toggle):
     """Shuffles the game's boss stages around.
-    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]
-    [If a world has no boss, clearing all stages will unlock the next world]"""
+    [If Shuffle Stages is turned on to Intense then worlds may have no or multiple boss stages]"""
     display_name = "Shuffle Boss Stages"
 
 class LockBossStages(Toggle):
@@ -310,6 +309,10 @@ class ShuffleMoves(Toggle):
     """If enabled, requires most of Kirby's basic moves to be unlocked to be able to use them.
     This includes: Hover, Inhaling, Super Inhaling, Sliding, Swimming"""
     display_name = "Shuffle Moves"
+
+class ShuffleStageUnlocks(Toggle):
+    """Requires you to find your stage unlocks rather than always getting them when reaching the end of stages."""
+    display_name = "Shuffle Stage Unlocks"
 
 class ShuffleLevelItems(DefaultOnToggle):
     """Requires objects such as Buttons, Invincibility Candy or Crackler to be unlocked to be able to find them in levels."""
@@ -441,6 +444,7 @@ class KRtDLOptions(PerGameCommonOptions):
     shuffle_copy_abilities: ShuffleCopyAbilities
     shuffle_landia: ShuffleLandia
     shuffle_moves: ShuffleMoves
+    shuffle_stage_unlocks: ShuffleStageUnlocks
     shuffle_level_items: ShuffleLevelItems
 
     shuffle_arena: ShuffleArena
@@ -517,6 +521,7 @@ krtdl_option_groups = [
         [ShuffleCopyAbilities, 
          ShuffleMoves, 
          ShuffleLandia, 
+         ShuffleStageUnlocks,
          ShuffleLevelItems],
     ),
 
