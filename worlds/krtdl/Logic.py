@@ -119,12 +119,18 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
     world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
-    if world.options.start_in_extra_game != 0:
-        EXAnotherDimensionEntranceOne = world.get_entrance("EX Dangerous Dinner Stage 4 To Another Dimension")
-        EXAnotherDimensionEntranceTwo = world.get_entrance("EX Dangerous Dinner Stage 4 To EX Another Dimension")   
-        world.set_rule(EXAnotherDimensionEntranceOne, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
-        world.set_rule(EXAnotherDimensionEntranceTwo, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
 
+    #extra conditions needed for this
+    #EX Dangerous Dinner needs to only connect to Another Dimension/EX when Extra Sanity is enabled
+    #Dangerous Dinner should connect to Another Dimension/EX if Extra/Both Modes is on
+    
+    #if world.options.start_in_extra_game != 0:
+        #EXAnotherDimensionEntranceOne = world.get_entrance("EX Dangerous Dinner Stage 4 To Another Dimension")
+        #EXAnotherDimensionEntranceTwo = world.get_entrance("EX Dangerous Dinner Stage 4 To EX Another Dimension")   
+        #world.set_rule(EXAnotherDimensionEntranceOne, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
+        #world.set_rule(EXAnotherDimensionEntranceTwo, Has("EX Dangerous Dinner Stage 4 - Complete") & HasLandia)
+
+    
     #these only account for non-plando'd spheres through Shuffle Part Spheres, need to write more logic for this elsewhere
     OneFivePartSphere = world.get_location("Cookie Country Stage 5 Room 1 - Part Sphere")
     TwoFivePartSphere = world.get_location("Raisin Ruins Stage 5 Room 2 - Part Sphere")
