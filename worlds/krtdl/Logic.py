@@ -62,6 +62,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.start_with_lor:
         HasStarcutterAccess = True_
         HasStarcutterAccessEX = True_
+    print(HasStarcutterAccess)
 
     HasLandia = True_
     if world.options.shuffle_landia:
@@ -74,6 +75,7 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
         if world.options.shuffle_moves:
             CanFightBosses = CanFightBosses | Has("Progressive Inhale")
+    print(CanFightBosses)
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
     if world.world_gen["WorldDef"][0] != 0:
@@ -133,16 +135,16 @@ def InitiateRules(world: "KRtDLWorld") -> None:
 
     
     #these only account for non-plando'd spheres through Shuffle Part Spheres, need to write more logic for this elsewhere
-    OneFivePartSphere = world.get_location("Cookie Country Stage 5 Room 1 - Part Sphere")
-    TwoFivePartSphere = world.get_location("Raisin Ruins Stage 5 Room 2 - Part Sphere")
-    ThreeFivePartSphere = world.get_location("Onion Ocean Stage 5 Room 2 - Part Sphere")
-    FourSixPartSphere = world.get_location("White Wafers Stage 6 Room 2 - Part Sphere")
-    FiveSixPartSphere = world.get_location("Nutty Noon Stage 6 Room 2 - Part Sphere")
-    world.set_rule(OneFivePartSphere, CanFightBosses)
-    world.set_rule(TwoFivePartSphere, CanFightBosses)
-    world.set_rule(ThreeFivePartSphere, CanFightBosses)
-    world.set_rule(FourSixPartSphere, CanFightBosses)
-    world.set_rule(FiveSixPartSphere, CanFightBosses)
+    #OneFivePartSphere = world.get_location("Cookie Country Stage 5 Room 1 - Part Sphere")
+    #TwoFivePartSphere = world.get_location("Raisin Ruins Stage 5 Room 2 - Part Sphere")
+    #ThreeFivePartSphere = world.get_location("Onion Ocean Stage 5 Room 2 - Part Sphere")
+    #FourSixPartSphere = world.get_location("White Wafers Stage 6 Room 2 - Part Sphere")
+    #FiveSixPartSphere = world.get_location("Nutty Noon Stage 6 Room 2 - Part Sphere")
+    #world.set_rule(OneFivePartSphere, CanFightBosses)
+    #world.set_rule(TwoFivePartSphere, CanFightBosses)
+    #world.set_rule(ThreeFivePartSphere, CanFightBosses)
+    #world.set_rule(FourSixPartSphere, CanFightBosses)
+    #world.set_rule(FiveSixPartSphere, CanFightBosses)
     
     OneFiveComplete = world.get_location("Cookie Country Stage 5 - Complete")
     world.set_rule(OneFiveComplete, CanFightBosses)
