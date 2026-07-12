@@ -93,7 +93,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
                 world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country"))
             else:
                 world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
-    world.set_rule(CookieCountryHubEntrance, Has("World Unlock - Cookie Country") & HasStarcutterAccess)
 
     TwoOneEntrance = world.get_entrance("Map To Raisin Ruins Hub")
     #world.set_rule(TwoOneEntrance, Has("Cookie Country Stage 5 - Complete"))
