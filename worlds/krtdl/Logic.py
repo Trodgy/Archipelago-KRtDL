@@ -68,14 +68,15 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.shuffle_landia:
         HasLandia = Has("Landia")
 
-    CanFightBosses = True_
+    #CanFightBosses = True_
+    CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
         CanFightBosses = Has("Progressive Inhale")
     elif world.options.shuffle_copy_abilities:
         if world.options.shuffle_moves:
-            CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
+            #CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
         else:
-            CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
+            #CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
     print(CanFightBosses)
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
@@ -121,6 +122,21 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.world_gen["WorldDef"][0] != 6:
         world.set_rule(SevenOneEntrance, Has("World Unlock - Dangerous Dinner"))
 
+    OneFiveComplete = world.get_location("Cookie Country Stage 5 - Complete")
+    TwoFiveComplete = world.get_location("Raisin Ruins Stage 5 - Complete")
+    ThreeFiveComplete = world.get_location("Onion Ocean Stage 5 - Complete")
+    FourSixComplete = world.get_location("White Wafers Stage 6 - Complete")
+    FiveSixComplete = world.get_location("Nutty Noon Stage 6 - Complete")
+    SixSixComplete = world.get_location("Egg Engines Stage 6 - Complete")
+    SevenFourComplete = world.get_location("Dangerous Dinner Stage 4 - Complete")
+    world.set_rule(OneFiveComplete, CanFightBosses)
+    world.set_rule(TwoFiveComplete, CanFightBosses)
+    world.set_rule(ThreeFiveComplete, CanFightBosses)
+    world.set_rule(FourSixComplete, CanFightBosses)
+    world.set_rule(FiveSixComplete, CanFightBosses)
+    world.set_rule(SixSixComplete, CanFightBosses)
+    world.set_rule(SevenFourComplete, CanFightBosses)
+    
     AnotherDimensionEntrance = world.get_entrance("Dangerous Dinner Stage 4 To Another Dimension")
     world.set_rule(AnotherDimensionEntrance, Has("Dangerous Dinner Stage 4 - Complete") & HasLandia) 
 
@@ -146,21 +162,6 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     #world.set_rule(ThreeFivePartSphere, CanFightBosses)
     #world.set_rule(FourSixPartSphere, CanFightBosses)
     #world.set_rule(FiveSixPartSphere, CanFightBosses)
-    
-    OneFiveComplete = world.get_location("Cookie Country Stage 5 - Complete")
-    TwoFiveComplete = world.get_location("Raisin Ruins Stage 5 - Complete")
-    ThreeFiveComplete = world.get_location("Onion Ocean Stage 5 - Complete")
-    FourSixComplete = world.get_location("White Wafers Stage 6 - Complete")
-    FiveSixComplete = world.get_location("Nutty Noon Stage 6 - Complete")
-    SixSixComplete = world.get_location("Egg Engines Stage 6 - Complete")
-    SevenFourComplete = world.get_location("Dangerous Dinner Stage 4 - Complete")
-    world.set_rule(OneFiveComplete, CanFightBosses)
-    world.set_rule(TwoFiveComplete, CanFightBosses)
-    world.set_rule(ThreeFiveComplete, CanFightBosses)
-    world.set_rule(FourSixComplete, CanFightBosses)
-    world.set_rule(FiveSixComplete, CanFightBosses)
-    world.set_rule(SixSixComplete, CanFightBosses)
-    world.set_rule(SevenFourComplete, CanFightBosses)
 
 
 
