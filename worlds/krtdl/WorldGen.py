@@ -9,7 +9,7 @@ WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
 #need to make this function return stuff instead of defining the bits above ^
 #as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
 def DefineWorldOrder(world: "KRtDLWorld") -> None:
-    FinalGenExport = Dict[str, Any] = {}
+    FinalGenExport: Dict[str, Any] = {}
     
     WorldsDef = WorldOrderDefinition.copy()
     WorldsDefEX = WorldOrderDefinition.copy()
