@@ -22,11 +22,11 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     elif world.options.goal == Goal.option_the_true_arena:
         world.set_completion_rule(Has("The True Arena - Complete"))
 
-    CanHover = True
-    CanSlide = True
-    CanSwim = True
-    CanInhale = True
-    CanSuperInhale = True
+    CanHover = True_()
+    CanSlide = True_()
+    CanSwim = True_()
+    CanInhale = True_()
+    CanSuperInhale = True_()
     if world.options.shuffle_moves:
         CanHover = Has("Hover")
         CanSlide = Has("Slide")
@@ -35,36 +35,36 @@ def InitiateRules(world: "KRtDLWorld") -> None:
         CanSuperInhale = Has("Progressive Inhale", count=2)
     
     #this gets INSANELY complicated, for simplicity's sake these will be True for now
-    CanAccessSword = True_
-    CanAccessCutter = True_
-    CanAccessLeaf = True_
-    CanAccessWhip = True_
-    CanAccessFire = True_
-    CanAccessNeedle = True_
-    CanAccessBeam = True_
-    CanAccessSpark = True_
-    CanAccessStone = True_
-    CanAccessParasol = True_
-    CanAccessWater = True_
-    CanAccessHiJump = True_
-    CanAccessTornado = True_
-    CanAccessBomb = True_
-    CanAccessSpear = True_
-    CanAccessHammer = True_
-    CanAccessIce = True_
-    CanAccessWing = True_
-    CanAccessNinja = True_
-    CanAccessFighter = True_
+    CanAccessSword = True_()
+    CanAccessCutter = True_()
+    CanAccessLeaf = True_()
+    CanAccessWhip = True_()
+    CanAccessFire = True_()
+    CanAccessNeedle = True_()
+    CanAccessBeam = True_()
+    CanAccessSpark = True_()
+    CanAccessStone = True_()
+    CanAccessParasol = True_()
+    CanAccessWater = True_()
+    CanAccessHiJump = True_()
+    CanAccessTornado = True_()
+    CanAccessBomb = True_()
+    CanAccessSpear = True_()
+    CanAccessHammer = True_()
+    CanAccessIce = True_()
+    CanAccessWing = True_()
+    CanAccessNinja = True_()
+    CanAccessFighter = True_()
     #if world.options.shuffle_copy_abilities:
 
     HasStarcutterAccess = HasAll("Lor Starcutter Oars", "Lor Starcutter Right Wing", "Lor Starcutter Left Wing", "Lor Starcutter Emblem", "Lor Starcutter Mast")
     HasStarcutterAccessEX = HasAll("EX Lor Starcutter Oars", "EX Lor Starcutter Right Wing", "EX Lor Starcutter Left Wing", "EX Lor Starcutter Emblem", "EX Lor Starcutter Mast")
     if world.options.start_with_lor:
-        HasStarcutterAccess = True_
-        HasStarcutterAccessEX = True_
+        HasStarcutterAccess = True_()
+        HasStarcutterAccessEX = True_()
     print(HasStarcutterAccess)
 
-    HasLandia = True_
+    HasLandia = True_()
     if world.options.shuffle_landia:
         HasLandia = Has("Landia")
 
