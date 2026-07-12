@@ -57,5 +57,5 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     print(WorldsDef)
     print(WorldsDefEX)
     
-    world.world_gen["WorldDef"] = WorldsDef
-    world.world_gen["EXWorldDef"] = WorldsDefEX
+    world.world_gen["WorldDef"] = WorldsDef.copy()
+    world.world_gen["EXWorldDef"] = WorldsDefEX.copy()
