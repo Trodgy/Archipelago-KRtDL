@@ -68,15 +68,13 @@ def InitiateRules(world: "KRtDLWorld") -> None:
     if world.options.shuffle_landia:
         HasLandia = Has("Landia")
 
-    #CanFightBosses = True_
-    CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
+    CanFightBosses = True_()
     if world.options.shuffle_moves and not world.options.shuffle_copy_abilities:
         CanFightBosses = Has("Progressive Inhale")
-    #elif world.options.shuffle_copy_abilities:
-        #if world.options.shuffle_moves:
-            #CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter | Has("Progressive Inhale")
-        #else:
-            #CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
+    elif world.options.shuffle_copy_abilities:
+        CanFightBosses = CanAccessSword | CanAccessCutter | CanAccessLeaf | CanAccessWhip | CanAccessFire | CanAccessNeedle | CanAccessBeam | CanAccessSpark | CanAccessStone | CanAccessParasol | CanAccessWater | CanAccessHiJump | CanAccessTornado | CanAccessBomb | CanAccessSpear | CanAccessHammer | CanAccessIce | CanAccessWing | CanAccessNinja | CanAccessFighter
+        if world.options.shuffle_moves:
+            CanFightBosses = CanFightBosses | Has("Progressive Inhale")
     print(CanFightBosses)
 
     CookieCountryHubEntrance = world.get_entrance("Map To Cookie Country Hub")
