@@ -189,18 +189,25 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     if world.world_gen["WorldsShuffled"] > 1:
         if world.world_gen["WorldDef"][0] != 0:
             items.append(world.create_item(ItemNames.cookie_country_unlock.value, ItemClassification.progression))
+            print("created 1")
         if world.world_gen["WorldDef"][0] != 1:
             items.append(world.create_item(ItemNames.stage1_5.value, ItemClassification.progression))
+            print("created 2")
         if world.world_gen["WorldDef"][0] != 2:
             items.append(world.create_item(ItemNames.stage2_5.value, ItemClassification.progression))
+            print("created 3")
         if world.world_gen["WorldDef"][0] != 3:
             items.append(world.create_item(ItemNames.stage3_5.value, ItemClassification.progression))
+            print("created 4")
         if world.world_gen["WorldDef"][0] != 4:
             items.append(world.create_item(ItemNames.stage4_6.value, ItemClassification.progression))
+            print("created 5")
         if world.world_gen["WorldDef"][0] != 5:
             items.append(world.create_item(ItemNames.egg_engines_unlock.value, ItemClassification.progression))
+            print("created 6")
         if world.world_gen["WorldDef"][0] != 6:
             items.append(world.create_item(ItemNames.stage6_6.value, ItemClassification.progression))
+            print("created 7")
     if world.options.extra_sanity:
         if world.world_gen["EXWorldsShuffled"] > 1:
             if world.world_gen["EXWorldDef"][0] != 0:
