@@ -9,8 +9,6 @@ WorldOrderDefinition = [0, 1, 2, 3, 4, 5, 6] #Cookie Country to Dangerous Dinner
 #need to make this function return stuff instead of defining the bits above ^
 #as if there are multiple slots with the game they end up inheriting the previous one's world shuffles which is not right
 def DefineWorldOrder(world: "KRtDLWorld") -> None:
-    FinalGenExport: Dict[str, Any] = {}
-    
     WorldsDef = WorldOrderDefinition.copy()
     WorldsDefEX = WorldOrderDefinition.copy()
     #print(WorldsDef)
@@ -33,8 +31,8 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     ExtraCheckingShuffleableWorlds = ShuffleableWorlds.copy()
     EXShuffleableWorlds = ShuffleableWorlds.copy()
     
-    FinalGenExport["WorldsShuffled"] = len(ShuffleableWorlds)
-    FinalGenExport["EXWorldsShuffled"] = len(EXShuffleableWorlds)
+    world.world_gen["WorldsShuffled"] = len(ShuffleableWorlds)
+    world.world_gen["EXWorldsShuffled"] = len(EXShuffleableWorlds)
     
     ShufflingIndex = 0
     if world.options.starting_world != 0:
@@ -67,7 +65,5 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     #there is really no rhyme or reason I can see that this shouldn't just work as intended given other variables like this can be set individually from other slots in basically this same manner
     #strange
     
-    FinalGenExport["WorldDef"] = WorldsDef
-    FinalGenExport["EXWorldDef"] = WorldsDefEX
-    
-    return FinalGenExport.copy()
+    world.world_gen["WorldDef"] = WorldsDef
+    world.world_gen["EXWorldDef"] = WorldsDefEX
