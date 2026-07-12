@@ -127,7 +127,7 @@ class KRtDLWorld(World):
     origin_region_name = "Menu"
     settings_key = "krtdl_settings"
     settings: ClassVar[KRtDLSettings]
-    world_gen: Dict[str, Any] = {}
+    world_gen: None
 
     def __init__(self, multiworld: MultiWorld, player: int):
         super().__init__(multiworld, player)
@@ -139,7 +139,7 @@ class KRtDLWorld(World):
     def create_regions(self) -> None:
         print("order test 2")
         #print("test")
-        DefineWorldOrder(self)
+        world_gen = DefineWorldOrder(self)
         create_all_regions(self)
         create_regular_locations(self)
 
