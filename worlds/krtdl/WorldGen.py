@@ -70,4 +70,4 @@ def DefineWorldOrder(world: "KRtDLWorld") -> None:
     FinalGenExport["WorldDef"] = WorldsDef
     FinalGenExport["EXWorldDef"] = WorldsDefEX
     
-    return FinalGenExport
+    return FinalGenExport.copy()
