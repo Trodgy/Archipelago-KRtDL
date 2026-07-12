@@ -57,7 +57,7 @@ class ShuffleEnemies(Choice):
     
     Light - Enemies will be shuffled with eachother within a given stage's pool.
     Intense - Enemies will be shuffled with eachother within the entire game's pool.
-    Anomalous - Randomizes enemies out of the game's possible ones. [CREATES HARDER SEEDS]"""
+    Anomalous - Fully randomizes enemies out of the game's possible ones, meaning there may be more or less of most enemy types. [CREATES HARDER SEEDS]"""
     display_name = "Shuffle Enemies"
     default = 0
     option_off = 0
