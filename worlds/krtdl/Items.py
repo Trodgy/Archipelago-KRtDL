@@ -186,6 +186,7 @@ def generate_item_pool(world: "KRtDLWorld") -> List[KRtDLItem]:
     # These are items that are only added if certain options are set
     items: List[KRtDLItem] = []
 
+    print(world.player)
     print(world.world_gen["WorldDef"])
     if world.world_gen["WorldsShuffled"] > 1:
         if world.world_gen["WorldDef"][0] != 0:
